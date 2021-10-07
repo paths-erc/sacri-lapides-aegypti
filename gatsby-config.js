@@ -12,6 +12,8 @@ module.exports = {
     "gatsby-transformer-remark",
     `gatsby-plugin-emotion`,
     `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -29,23 +31,9 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: `${__dirname}/static/images`,
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
         path: `${__dirname}/src/images/`,
       },
       __key: "images",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "assets",
-        path: "./src/assets/",
-      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -72,14 +60,5 @@ module.exports = {
         linkStyles: true,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images/`,
-      },
-    },
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
   ],
 };

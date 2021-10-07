@@ -1,7 +1,7 @@
 import * as React from "react";
 import { graphql } from "gatsby";
-import "../styles/site.css";
-import { Container, Col, Row } from "react-bootstrap";
+import "../styles/style.css";
+import { Container } from "react-bootstrap";
 import Layout from "../components/Layout";
 import Slider from "../components/Slider";
 import About from "../components/Home/About";

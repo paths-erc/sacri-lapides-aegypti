@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import "../styles/site.css";
+import "../styles/style.css";
 import Picture from "../components/Picture";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
