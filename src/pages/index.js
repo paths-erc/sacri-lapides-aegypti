@@ -1,7 +1,7 @@
 import * as React from "react";
 import { graphql } from "gatsby";
 import "../styles/style.css";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 import Slider from "../components/Slider";
 import About from "../components/Home/About";
@@ -20,16 +20,20 @@ export default ({ data }) => {
       <section className="section bottom-slant-gray">
         <Container>
           <TitleR title="our sites" />
+          <Row>
+            {data.allMarkdownRemark.nodes.map((node) => (
+              <Col xs={6} md={4}>
+                <OurSites
+                  img={node.frontmatter.img}
+                  title={node.frontmatter.title}
+                  typology={node.frontmatter.typology}
+                  excerpt={node.excerpt}
+                  readMore={node.fields.slug}
+                />
+              </Col>
+            ))}
+          </Row>
         </Container>
-        {data.allMarkdownRemark.nodes.map((node) => (
-          <OurSites
-            img={node.frontmatter.img}
-            title={node.frontmatter.title}
-            typology={node.frontmatter.typology}
-            excerpt={node.excerpt}
-            readMore={node.fields.slug}
-          />
-        ))}
       </section>
     </Layout>
   );
@@ -45,7 +49,7 @@ export const query = graphql`
           paths_id
           img
         }
-        excerpt(pruneLength: 800)
+        excerpt(pruneLength: 400)
         fields {
           slug
         }

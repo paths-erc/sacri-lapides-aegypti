@@ -16,8 +16,8 @@ region: Aegyptus
 area:
 episcopal_see_from_year: 325 CE (cf. Timm 1984, p. 222)
 typology: Settlement
-date_from: Old-Middle Kingdom
-date_to:
+year_from: Old-Middle Kingdom
+year_to:
 dating_criteria: Archaeological, epigraphical, literary, papyrological sources
 editors: Name Surname
 date: 02/11/2021

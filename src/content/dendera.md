@@ -17,15 +17,15 @@ region: Aegyptus
 area:
 episcopal_see_from_year:
 typology:
-date_from: 2575 BCE (IV dynasty)
-date_to:
+year_from: 2575 BCE (IV dynasty)
+year_to:
 dating_criteria: Archaeological and epigraphic data
 editors: Name Surname
 date: 02/11/2021
 status: completed
 
-lng: 32.6700972222
-lat: 26.141775
+lng: 26.141775
+lat: 32.6700972222
 zoom: 13
 popup: Elephantine
 ---

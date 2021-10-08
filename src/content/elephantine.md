@@ -16,8 +16,8 @@ region: Aegyptus
 area: Southern upper Egypt
 episcopal_see_from_year:
 typology: Settlement
-date_from: 300
-date_to: 1300
+year_from: "300"
+year_to: "1300"
 dating_criteria: Textual sources (both literary and documentary) and archaeological evidence
 editors: Name Surname
 date: 02/11/2021
@@ -25,7 +25,7 @@ status: completed
 
 lng: 32.889
 lat: 24.09
-zoom: 13
+zoom: 8
 popup: Elephantine
 ---
 

@@ -16,8 +16,8 @@ region: Aegyptus
 area:
 episcopal_see_from_year:
 typology: Harbour; settlement
-date_from: II c. BCE (199-100 BCE)
-date_to: VI c. (500-599 CE), beginning of VII c. CE.
+year_from: II c. BCE (199-100 BCE)
+year_to: VI c. (500-599 CE), beginning of VII c. CE.
 dating_criteria: Archaeology; Literary sources; Epigraphic sources
 editors: Name Surname
 date: 02/11/2021

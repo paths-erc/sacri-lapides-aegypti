@@ -16,7 +16,7 @@ const Wrapper = styled.section`
     position: absolute;
     text-align: center;
     top: 30%;
-    padding-top: 10%;
+    padding-top: 10;
     width: 100%;
 
     font-family: "Raleway", sans-serif;

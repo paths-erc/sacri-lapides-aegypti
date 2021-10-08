@@ -14,12 +14,15 @@ const ContentTab = (props) => {
           <Container className="content-tab">
             <Row>
               <Col sm={4}>
+                ciao
                 <Nav variant="pills" className="flex-column">
-                  <Nav.Item>
-                    <Nav.Link eventKey="first">
-                      {props.tableOfContents}
-                    </Nav.Link>
-                  </Nav.Item>
+                  {props.siteHeadings.map((h) => {
+                    return (
+                      <Nav.Item>
+                        <Nav.Link eventKey="first">{h.value}</Nav.Link>
+                      </Nav.Item>
+                    );
+                  })}
                 </Nav>
               </Col>
               <Col sm={7}>

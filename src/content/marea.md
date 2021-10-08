@@ -16,8 +16,8 @@ region: Aegyptus
 area:
 episcopal_see_from_year:
 typology:
-date_from:
-date_to:
+year_from:
+year_to:
 dating_criteria:
 editors: Name Surname
 date: 02/11/2021

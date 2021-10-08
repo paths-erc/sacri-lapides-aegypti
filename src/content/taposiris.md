@@ -13,8 +13,8 @@ pleiades_id: 272741
 region: Aegyptus
 area: Western Coast
 typology: Settlement, Harbour
-date_from: Early Hellenistic period
-date_to: VII c. CE (601-700 CE)
+year_from: Early Hellenistic period
+year_to: VII c. CE (601-700 CE)
 editors: Name Surname
 last_modified: 11/02/2021
 status: completed

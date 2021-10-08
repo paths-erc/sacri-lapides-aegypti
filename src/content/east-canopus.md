@@ -16,15 +16,15 @@ region: Aegyptus
 area:
 episcopal_see_from_year:
 typology: Settlement
-date_from:
-date_to:
+year_from:
+year_to:
 dating_criteria:
 editors: Name Surname
 date: 02/11/2021
 status: completed
 
-lng:
-lat:
+lng: 30.0580595
+lat: 31.313404
 zoom: 13
 popup: East Canopus
 ---

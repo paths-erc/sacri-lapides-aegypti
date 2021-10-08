@@ -1,6 +1,5 @@
 import React from "react";
 import TitleR from "../Title/TitleR";
-import { graphql, useStaticQuery } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 
@@ -83,12 +82,12 @@ const Info = (props) => {
             <p>
               DATE FROM
               <br />
-              {props.date_from}
+              {props.year_from}
             </p>
             <p>
               DATE TO
               <br />
-              {props.date_to}
+              {props.year_to}
             </p>
             <p>
               DATING CRITERIA
@@ -133,12 +132,18 @@ const Info = (props) => {
 
 const Wrapper = styled.section`
   h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: swap;
     text-align: right;
     font-weight: bolder;
-    display: swap;
     padding-bottom: 4%;
+    color: #777777;
   }
   p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
     text-align: right;
     font-weight: 200;
     display: swap;

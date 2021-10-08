@@ -28,12 +28,6 @@
 }
 
 /***** Sections *****/
-
-section {
-  padding: 0;
-  position: relative;
-  z-index: 2;
-}
 .bottom-slant-gray {
   position: relative;
   padding-bottom: 10%;
