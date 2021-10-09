@@ -17,21 +17,24 @@ exports.createPages = ({ graphql, actions }) => {
   return graphql(`
     {
       allMarkdownRemark {
-        nodes {
-          fileAbsolutePath
-          fields {
-            slug
+        edges {
+          node {
+            fileAbsolutePath
+            fields {
+              slug
+            }
           }
         }
       }
     }
   `).then((result) => {
-    result.data.allMarkdownRemark.nodes.forEach((node) => {
+    result.data.allMarkdownRemark.edges.forEach((edge) => {
       createPage({
-        path: node.fields.slug,
+        path: edge.node.fields.slug,
         component: path.resolve("./src/templates/SitesLayout.js"),
         context: {
-          slug: node.fields.slug,
+          slug: edge.node.fields.slug,
+          absolutePathRegex: `/^${path.dirname(edge.node.fileAbsolutePath)}/`,
         },
       });
     });

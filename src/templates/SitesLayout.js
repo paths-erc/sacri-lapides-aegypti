@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import "../styles/style.css";
+import Img from "gatsby-image";
 import Picture from "../components/Picture";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -8,10 +9,12 @@ import Info from "../components/Sites/Info";
 import Map from "../components/Map";
 import HomeSliderImage1 from "../images/1-home/home-slider-1.jpg";
 import { Container, Col, Row } from "react-bootstrap";
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import styled from "styled-components";
 
 const SitesLayout = ({ data }) => {
   const content = data.markdownRemark;
+  const images = data.allFile.edges;
   return (
     <>
       <Header />
@@ -76,7 +79,27 @@ const SitesLayout = ({ data }) => {
           </Container>
         </section>
       </Wrapper>
-
+      <section className="section bottom-slant-gray">
+        <SimpleReactLightbox>
+          <SRLWrapper>
+            <Container>
+              <Row>
+                {images.map((image) => (
+                  <Col xs={6} md={4}>
+                    <Img
+                      key={image.node.childImageSharp.fluid}
+                      fluid={image.node.childImageSharp.fluid}
+                      style={{ margin: "3rem 0", height: "300px" }}
+                      imgStyle={{ objectFit: "cover" }}
+                      alt={image.node.base}
+                    />
+                  </Col>
+                ))}
+              </Row>
+            </Container>
+          </SRLWrapper>
+        </SimpleReactLightbox>
+      </section>
       <Footer />
     </>
   );
@@ -156,7 +179,25 @@ const Wrapper = styled.section`
 export default SitesLayout;
 
 export const query = graphql`
-  query ($slug: String!) {
+  query ($slug: String!, $absolutePathRegex: String!) {
+    allFile(
+      filter: {
+        absolutePath: { regex: $absolutePathRegex }
+        extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
+      }
+      sort: { fields: name, order: ASC }
+    ) {
+      edges {
+        node {
+          base
+          childImageSharp {
+            fluid(maxWidth: 2000, quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       headings {
