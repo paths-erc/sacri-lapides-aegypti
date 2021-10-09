@@ -11,7 +11,6 @@ import TitleR from "../components/Title/TitleR";
 
 // markup
 export default ({ data }) => {
-  console.log(data);
   return (
     <Layout>
       <Slider />

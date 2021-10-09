@@ -39,20 +39,26 @@ const Header = () => {
             </Nav.Link>
 
             <NavDropdown style={navLink} title="PLACES" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/alexandria">Alexandria</NavDropdown.Item>
-              <NavDropdown.Item href="/aswan">Aswan</NavDropdown.Item>
-              <NavDropdown.Item href="/dendera">Dendera</NavDropdown.Item>
-              <NavDropdown.Item href="/east-canopus">
+              <NavDropdown.Item href="alexandria/alexandria">
+                Alexandria
+              </NavDropdown.Item>
+              <NavDropdown.Item href="aswan/aswan">Aswan</NavDropdown.Item>
+              <NavDropdown.Item href="/dendera/dendera">
+                Dendera
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/east-canopus/east-canopus">
                 Canopus East
               </NavDropdown.Item>
-              <NavDropdown.Item href="/elephantine">
+              <NavDropdown.Item href="/elephantine/elephantine">
                 Elephantine
               </NavDropdown.Item>
-              <NavDropdown.Item href="/marina">
+              <NavDropdown.Item href="/marina/marina">
                 Marina el-Amein
               </NavDropdown.Item>
-              <NavDropdown.Item href="/marea">Marea</NavDropdown.Item>
-              <NavDropdown.Item href="/taposiris">Taposiris</NavDropdown.Item>
+              <NavDropdown.Item href="/marea/marea">Marea</NavDropdown.Item>
+              <NavDropdown.Item href="/taposiris/taposiris">
+                Taposiris
+              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link style={navLink} href="/team">

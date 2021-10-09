@@ -18,6 +18,7 @@ exports.createPages = ({ graphql, actions }) => {
     {
       allMarkdownRemark {
         nodes {
+          fileAbsolutePath
           fields {
             slug
           }
