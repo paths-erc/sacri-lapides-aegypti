@@ -132,7 +132,6 @@ const Info = (props) => {
 
 const Wrapper = styled.section`
   h5 {
-    font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
     line-height: 2rem;
     display: swap;
@@ -142,7 +141,6 @@ const Wrapper = styled.section`
     color: #777777;
   }
   p {
-    font-family: "Raleway", sans-serif;
     font-size: 1rem;
     text-align: right;
     font-weight: 200;

@@ -15,7 +15,7 @@ pleiades_id: 727153
 region: Aegyptus
 area:
 episcopal_see_from_year:
-typology:
+typology: Settlement
 year_from:
 year_to:
 dating_criteria:

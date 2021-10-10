@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
+import { Container } from "react-bootstrap";
 import TitleP from "./Title/TitleP";
 
 //markup
@@ -11,8 +12,8 @@ const Picture = (props) => {
   return (
     <Wrapper>
       <div className="section-one">
+        <Image className="d-block w-100" src={src} alt="Background" fluid />
         <TitleP title={[title]} />
-        <Image className="d-block w-100" src={src} alt="Background" />
       </div>
     </Wrapper>
   );
@@ -51,6 +52,12 @@ const Wrapper = styled.section`
     -ms-transform-origin: top left;
     transform-origin: top left;
     background-color: #f8f9fa;
+  }
+  .title {
+    position: absolute;
+    top: 30%;
+    padding-top: 10;
+    width: 100%;
   }
 `;
 export default Picture;

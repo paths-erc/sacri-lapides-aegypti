@@ -62,7 +62,6 @@ const Wrapper = styled.section`
     transform-style: preserve-3d;
   }
   h3 {
-    font-family: "Raleway", sans-serif;
     font-weight: 200;
     display: swap;
     font-size: 300%;
@@ -79,7 +78,6 @@ const Wrapper = styled.section`
     position: relative;
   }
   p {
-    font-family: "Raleway", sans-serif;
     font-weight: 200;
     display: swap;
   }

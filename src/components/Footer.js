@@ -137,13 +137,11 @@ const Wrapper = styled.section`
     margin: 0;
   }
   h3 {
-    font-family: "Raleway", sans-serif;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 1%;
   }
   h6 {
-    font-family: "Raleway", sans-serif;
     font-weight: 400;
   }
   .icon a {
@@ -161,7 +159,6 @@ const Wrapper = styled.section`
     height: 75%;
   }
   p {
-    font-family: "Raleway", sans-serif;
     font-size: 1rem;
   }
 `;

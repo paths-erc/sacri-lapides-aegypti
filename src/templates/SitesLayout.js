@@ -7,6 +7,9 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Sites/Info";
 import Map from "../components/Map";
+import TitleR from "../components/Title/TitleR";
+import TitleL from "../components/Title/TitleL";
+import Scroll from "../components/Scroll";
 import HomeSliderImage1 from "../images/1-home/home-slider-1.jpg";
 import { Container, Col, Row } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
@@ -19,7 +22,6 @@ const SitesLayout = ({ data }) => {
     <>
       <Header />
       <Picture title={content.frontmatter.title} src={HomeSliderImage1} />
-
       <section className="section map">
         <Info
           other_names={content.frontmatter.other_names}
@@ -55,6 +57,9 @@ const SitesLayout = ({ data }) => {
       <Wrapper>
         <section className="section methods">
           <Container>
+            <Container className="title">
+              <TitleL title="About the site"></TitleL>
+            </Container>
             <Row>
               <Col xs={4}>
                 <ol>
@@ -80,6 +85,9 @@ const SitesLayout = ({ data }) => {
         </section>
       </Wrapper>
       <section className="section bottom-slant-gray">
+        <Container className="title">
+          <TitleR title="Gallery"></TitleR>
+        </Container>
         <SimpleReactLightbox>
           <SRLWrapper>
             <Container>
@@ -93,6 +101,7 @@ const SitesLayout = ({ data }) => {
                       imgStyle={{ objectFit: "cover" }}
                       alt={image.node.base}
                     />
+                    <p>{image.node.base}</p>
                   </Col>
                 ))}
               </Row>
@@ -100,6 +109,7 @@ const SitesLayout = ({ data }) => {
           </SRLWrapper>
         </SimpleReactLightbox>
       </section>
+      <Scroll showBelow={250} />
       <Footer />
     </>
   );
@@ -110,7 +120,6 @@ const Wrapper = styled.section`
   .indice-2,
   .indice-3,
   .indice-4 {
-    font-family: "Raleway", sans-serif;
     font-size: 1.2rem;
     line-height: 2;
     display: swap;
@@ -121,7 +130,6 @@ const Wrapper = styled.section`
   .indice-2:hover,
   .indice-3:hover,
   .indice-4:hover {
-    font-family: "Raleway", sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
     display: swap;
@@ -167,12 +175,14 @@ const Wrapper = styled.section`
     transform-origin: top left;
   }
   .text {
-    font-family: "Raleway", sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
     display: swap;
     padding-top: 5%;
     color: #777777;
+  }
+  .title {
+    margin-bottom: 5%;
   }
 `;
 

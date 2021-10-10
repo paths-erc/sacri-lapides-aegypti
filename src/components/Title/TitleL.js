@@ -13,7 +13,6 @@ const TitleR = ({ title }) => {
 
 const Wrapper = styled.section`
   .section-title {
-    font-family: "Raleway", sans-serif;
     font-weight: bolder;
     letter-spacing: 0.1em;
     display: swap;

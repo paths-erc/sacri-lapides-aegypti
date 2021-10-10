@@ -78,7 +78,7 @@ const Methods = () => {
 const Wrapper = styled.section`
   a {
     color: rgb(130, 36, 51);
-    font-family: "Raleway", sans-serif;
+
     font-weight: bolder;
     font-size: 0.8rem;
     line-height: 1rem;
@@ -88,7 +88,7 @@ const Wrapper = styled.section`
   }
   a:hover {
     color: rgb(130, 36, 51);
-    font-family: "Raleway", sans-serif;
+
     font-weight: bolder;
     font-size: 0.8rem;
     line-height: 1rem;
@@ -134,7 +134,7 @@ const Wrapper = styled.section`
   }
   .card-body {
     text-align: left;
-    font-family: "Raleway", sans-serif;
+
     font-size: 1rem;
     line-height: 1.7rem;
     display: swap;

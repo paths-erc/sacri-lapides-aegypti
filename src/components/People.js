@@ -82,7 +82,6 @@ const Wrapper = styled.section`
     z-index: 2;
   }
   p {
-    font-family: "Raleway", sans-serif;
     font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
@@ -148,8 +147,7 @@ const Wrapper = styled.section`
   }
   .container-one p {
     text-align: left !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.7rem;
     display: swap;
     color: #777777;
@@ -158,14 +156,19 @@ const Wrapper = styled.section`
     padding-top: 15%;
     padding-bottom: 15%;
   }
+  .container-two p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    display: swap;
+    color: #777777;
+  }
   .container-three {
     padding-top: 3%;
     padding-bottom: 15%;
   }
   .container-three p {
     text-align: left !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.7rem;
     display: swap;
     color: #777777;
