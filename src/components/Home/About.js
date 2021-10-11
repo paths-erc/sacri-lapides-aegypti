@@ -42,26 +42,6 @@ const About = () => {
   );
 };
 
-/*<Wrapper>
-      <section className="section-three">
-        <Title title="methodology" />
-        <div>
-          {homepage.map((homepage) => {
-            const { id, title, text } = homepage;
-            return (
-              <article key={id}>
-                <h4>{title}</h4>
-                <div className="underline"></div>
-                <p>{text}</p>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-    </Wrapper>
-  );
-};*/
-
 const Wrapper = styled.section`
   section {
     padding: 0;
@@ -76,6 +56,7 @@ const Wrapper = styled.section`
     display: swap;
     text-align: right;
     color: #777777;
+    padding-top: 3rem;
   }
   .col {
     margin-bottom: 3rem;

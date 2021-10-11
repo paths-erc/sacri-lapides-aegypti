@@ -115,7 +115,6 @@ const Wrapper = styled.section`
   .section {
     position: relative;
     z-index: 2;
-    padding-top: 10%;
   }
   .methods:after {
     content: "";
@@ -158,7 +157,8 @@ const Wrapper = styled.section`
     text-transform: uppercase;
   }
   .container {
-    padding-top: 5%;
+    padding-top: 240px;
+    padding-bottom: 240px;
   }
 `;
 

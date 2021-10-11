@@ -1,7 +1,7 @@
 import * as React from "react";
 import { graphql } from "gatsby";
-import "../styles/style.css";
 import { Container, Row, Col } from "react-bootstrap";
+import styled from "styled-components";
 import Layout from "../components/Layout";
 import Slider from "../components/Slider";
 import About from "../components/Home/About";
@@ -16,29 +16,64 @@ const Index = ({ data }) => {
       <Slider />
       <About />
       <Methods />
-      <section className="section bottom-slant-gray">
-        <Container>
-          <TitleR title="our sites" />
-          <Row xs={1} md={2}>
-            {data.allMarkdownRemark.nodes.map((node) => (
-              <Col>
-                <OurSites
-                  img={node.frontmatter.img}
-                  title={node.frontmatter.title}
-                  typology={node.frontmatter.typology}
-                  excerpt={node.excerpt}
-                  readMore={node.fields.slug}
-                />
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </section>
+      <Wrapper>
+        <section className="section bottom-slant-gray">
+          <Container>
+            <TitleR title="our sites" />
+
+            <Row xs={1} md={2}>
+              {data.allMarkdownRemark.nodes.map((node) => (
+                <Col>
+                  <OurSites
+                    img={node.frontmatter.img}
+                    title={node.frontmatter.title}
+                    typology={node.frontmatter.typology}
+                    excerpt={node.excerpt}
+                    readMore={node.fields.slug}
+                  />
+                </Col>
+              ))}
+            </Row>
+          </Container>
+        </section>
+      </Wrapper>
     </Layout>
   );
 };
 
 export default Index;
+
+const Wrapper = styled.section`
+  section {
+    position: relative;
+    z-index: 2;
+  }
+  .bottom-slant-gray {
+    position: relative;
+    padding-bottom: 10%;
+    background-color: #f8f9fa;
+  }
+  .bottom-slant-gray:before {
+    content: "";
+    width: 100%;
+    height: 240px;
+    background: #f8f9fa;
+    z-index: -1;
+    top: 0px;
+    background-color: #f8f9fa;
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+  }
+  .row {
+    padding-top: 30px;
+  }
+`;
 
 export const query = graphql`
   {

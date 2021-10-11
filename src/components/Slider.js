@@ -90,10 +90,10 @@ const Wrapper = styled.section`
   .slider-wrap:after {
     content: "";
     width: 100%;
-    height: 220px;
+    height: 240px;
     background: #fff;
     z-index: 1;
-    bottom: -210px;
+    bottom: -240px;
     left: 0;
     position: absolute;
     -webkit-transform: skewY(-6deg);

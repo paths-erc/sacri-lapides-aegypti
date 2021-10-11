@@ -9,8 +9,9 @@ const Info = (props) => {
       <Container>
         <TitleR title="general information"></TitleR>
       </Container>
+
       <Container>
-        <Row className="info">
+        <Row className="info" xs={1} md={4}>
           <Col>
             <h5>PLACE NAMES</h5>
             <p>
@@ -149,9 +150,8 @@ const Wrapper = styled.section`
     text-align: right;
     color: #777777;
   }
-  .info {
-    margin-bottom: 5%;
-    margin-top: 5%;
+  .row {
+    padding-top: 50px;
   }
 `;
 export default Info;

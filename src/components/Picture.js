@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Image from "react-bootstrap/Image";
 import TitleP from "./Title/TitleP";
 
 //markup
@@ -11,7 +10,8 @@ const Picture = (props) => {
   return (
     <Wrapper>
       <div className="section-one">
-        <Image className="d-block w-100" src={src} alt="Background" fluid />
+        <img src={src} alt="picture"></img>
+        {/* <Image className="d-block w-100" src={src} alt="Background" fluid /> */}
         <TitleP title={[title]} />
       </div>
     </Wrapper>
@@ -22,6 +22,12 @@ const Picture = (props) => {
 const Wrapper = styled.section`
   img {
     filter: brightness(75%);
+    height: calc(50vh);
+    width: calc(300vh);
+    object-fit: cover;
+  }
+  /* img {
+    filter: brightness(75%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -29,7 +35,7 @@ const Wrapper = styled.section`
     object-fit: cover;
     height: calc(50vh);
     position: relative;
-  }
+  } */
   .section-one {
     position: relative;
     background-color: #f8f9fa;

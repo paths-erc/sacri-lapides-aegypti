@@ -19,7 +19,6 @@ const Wrapper = styled.section`
     display: swap;
     text-transform: capitalize;
     text-align: right;
-    padding-bottom: 2%;
     color: #777777;
     text-decoration: underline;
     text-decoration-color: rgb(130, 36, 51, 0.6);

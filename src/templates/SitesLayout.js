@@ -1,6 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
-import "../styles/style.css";
+import { graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import Picture from "../components/Picture";
 import Footer from "../components/Footer";
@@ -22,46 +21,46 @@ const SitesLayout = ({ data }) => {
     <>
       <Header />
       <Picture title={content.frontmatter.title} src={HomeSliderImage1} />
-      <section className="section map">
-        <Info
-          other_names={content.frontmatter.other_names}
-          egyptian_name={content.frontmatter.egyptian_name}
-          greek_name={content.frontmatter.greek_name}
-          coptic_name={content.frontmatter.coptic_name}
-          arabic_name={content.frontmatter.arabic_name}
-          arabic_transl={content.frontmatter.arabic_transl}
-          area={content.frontmatter.area}
-          region={content.frontmatter.region}
-          paths_id={content.frontmatter.paths_id}
-          pleiades_id={content.frontmatter.pleiades_id}
-          tm_id={content.frontmatter.tm_id}
-          typology={content.frontmatter.typology}
-          dating_criteria={content.frontmatter.dating_criteria}
-          year_from={content.frontmatter.year_from}
-          year_to={content.frontmatter.year_to}
-          episcopal_see_from_year={content.frontmatter.episcopal_see_from_year}
-          timm_ref={content.frontmatter.timm_ref}
-          status={content.frontmatter.status}
-          editors={content.frontmatter.editors}
-          date={content.frontmatter.date}
-        />
-        <Map
-          lng={content.frontmatter.lng}
-          lat={content.frontmatter.lat}
-          zoom={content.frontmatter.zoom}
-          popupHtml={content.frontmatter.popup}
-        />
-      </section>
-
-      {/* <Tab siteHeadings={content.headings} /> */}
       <Wrapper>
+        <section className="section map">
+          <Info
+            other_names={content.frontmatter.other_names}
+            egyptian_name={content.frontmatter.egyptian_name}
+            greek_name={content.frontmatter.greek_name}
+            coptic_name={content.frontmatter.coptic_name}
+            arabic_name={content.frontmatter.arabic_name}
+            arabic_transl={content.frontmatter.arabic_transl}
+            area={content.frontmatter.area}
+            region={content.frontmatter.region}
+            paths_id={content.frontmatter.paths_id}
+            pleiades_id={content.frontmatter.pleiades_id}
+            tm_id={content.frontmatter.tm_id}
+            typology={content.frontmatter.typology}
+            dating_criteria={content.frontmatter.dating_criteria}
+            year_from={content.frontmatter.year_from}
+            year_to={content.frontmatter.year_to}
+            episcopal_see_from_year={
+              content.frontmatter.episcopal_see_from_year
+            }
+            timm_ref={content.frontmatter.timm_ref}
+            status={content.frontmatter.status}
+            editors={content.frontmatter.editors}
+            date={content.frontmatter.date}
+          />
+          <Map
+            lng={content.frontmatter.lng}
+            lat={content.frontmatter.lat}
+            zoom={content.frontmatter.zoom}
+            popupHtml={content.frontmatter.popup}
+          />
+        </section>
+
         <section className="section methods">
-          <Container>
-            <Container className="title">
-              <TitleL title="About the site"></TitleL>
-            </Container>
-            <Row>
-              <Col xs={4}>
+          <Container className="about">
+            <TitleL title="About the site"></TitleL>
+
+            <Row xs={1}>
+              <Col sm={4}>
                 <ol>
                   {content.headings.map((h, i) => {
                     return (
@@ -74,7 +73,7 @@ const SitesLayout = ({ data }) => {
                   })}
                 </ol>
               </Col>
-              <Col xs={8}>
+              <Col sm={8}>
                 <div
                   className="text"
                   dangerouslySetInnerHTML={{ __html: content.html }}
@@ -83,40 +82,48 @@ const SitesLayout = ({ data }) => {
             </Row>
           </Container>
         </section>
+
+        <section className="section bottom-slant-gray">
+          <Container>
+            <TitleR title="Gallery"></TitleR>
+          </Container>
+          <SimpleReactLightbox>
+            <SRLWrapper>
+              <Container>
+                <Row>
+                  {images.map((image, key) => (
+                    <Col xs={6} md={4} key={key}>
+                      <a href={image.node.childImageSharp.fluid.src}>
+                        <Img
+                          fluid={image.node.childImageSharp.fluid}
+                          style={{ margin: "3rem 0", height: "300px" }}
+                          imgStyle={{ objectFit: "cover" }}
+                          alt={image.node.base
+                            .split(".")
+                            .slice(0, -1)
+                            .join(".")}
+                        />
+                        <p className="caption">
+                          {image.node.base.split(".").slice(0, -1).join(".")}
+                        </p>
+                      </a>
+                    </Col>
+                  ))}
+                </Row>
+              </Container>
+            </SRLWrapper>
+          </SimpleReactLightbox>
+        </section>
+        <Scroll showBelow={250} />
+        <Footer />
       </Wrapper>
-      <section className="section bottom-slant-gray">
-        <Container className="title">
-          <TitleR title="Gallery"></TitleR>
-        </Container>
-        <SimpleReactLightbox>
-          <SRLWrapper>
-            <Container>
-              <Row>
-                {images.map((image) => (
-                  <Col xs={6} md={4}>
-                    <Img
-                      key={image.node.childImageSharp.fluid}
-                      fluid={image.node.childImageSharp.fluid}
-                      style={{ margin: "3rem 0", height: "300px" }}
-                      imgStyle={{ objectFit: "cover" }}
-                      alt={image.node.base.split(".jpg").join(" ").split(",")}
-                    />
-                    <p className="caption">{image.node.base.split(".jpg")}</p>
-                  </Col>
-                ))}
-              </Row>
-            </Container>
-          </SRLWrapper>
-        </SimpleReactLightbox>
-      </section>
-      <Scroll showBelow={250} />
-      <Footer />
     </>
   );
 };
 
 const Wrapper = styled.section`
-  p .caption {
+  a {
+    text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 1.2rem;
@@ -125,6 +132,15 @@ const Wrapper = styled.section`
     text-align: right;
     color: #777777;
   }
+  /* a:hover {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    display: swap;
+    text-align: right;
+    color: #777777;
+  } */
   .indice-1,
   .indice-2,
   .indice-3,
@@ -167,19 +183,65 @@ const Wrapper = styled.section`
   li {
     padding-bottom: 2%;
   }
+  .row {
+    padding-bottom: 10px;
+  }
   section {
     position: relative;
     z-index: 2;
-    padding-top: 15%;
   }
-  .methods:after {
+  .section.map {
+    position: relative;
+    padding-top: 1rem;
+    background-color: #f8f9fa;
+  }
+  .section.map:after {
+    content: "";
+    width: 100%;
+    height: 240px;
+    background: #fff;
+    z-index: -1;
+    bottom: -240px;
+    background-color: #f8f9fa;
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+  }
+  .section.methods:after {
     content: "";
     width: 100%;
     height: 260px;
     background: #fff;
     z-index: -1;
-    bottom: -200px;
+    bottom: -240px;
     background-color: #fff;
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+  }
+  .bottom-slant-gray {
+    position: relative;
+    padding-bottom: 10%;
+    background-color: #f8f9fa;
+  }
+  .bottom-slant-gray:before {
+    content: "";
+    width: 100%;
+    height: 240px;
+    background: #f8f9fa;
+    z-index: -1;
+    top: 0px;
+    background-color: #f8f9fa;
     left: 0;
     position: absolute;
     -webkit-transform: skewY(-6deg);
@@ -198,8 +260,9 @@ const Wrapper = styled.section`
     padding-top: 5%;
     color: #777777;
   }
-  .title {
-    margin-bottom: 5%;
+  .about {
+    margin-top: 300px;
+    margin-bottom: 200px;
   }
 `;
 
