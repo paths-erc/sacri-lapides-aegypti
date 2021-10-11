@@ -9,7 +9,7 @@ const About = () => {
     <Wrapper>
       <section className="section bottom-slant-gray">
         <Container>
-          <Row>
+          <Row xs={1} md={2}>
             <Col>
               <img
                 className="about-img"
@@ -69,11 +69,16 @@ const Wrapper = styled.section`
     z-index: 2;
   }
   p {
-    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
     line-height: 1.7rem;
     display: swap;
     text-align: right;
     color: #777777;
+  }
+  .col {
+    margin-bottom: 3rem;
   }
   .about-img {
     text-align: center;

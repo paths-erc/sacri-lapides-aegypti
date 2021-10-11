@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
-import { Container } from "react-bootstrap";
 import TitleP from "./Title/TitleP";
 
 //markup

@@ -19,8 +19,8 @@ typology: Settlement
 year_from:
 year_to:
 dating_criteria:
-editors: Name Surname
-date: 02/11/2021
+editors: Serena Guidone
+date: 21/01/2019
 status: completed
 
 lng: 30.99482

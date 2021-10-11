@@ -16,12 +16,12 @@ timm_ref: II, 543-548, s.v. Dandarā
 region: Aegyptus
 area:
 episcopal_see_from_year:
-typology:
+typology: Settlement
 year_from: 2575 BCE (IV dynasty)
 year_to:
 dating_criteria: Archaeological and epigraphic data
-editors: Name Surname
-date: 02/11/2021
+editors: Serena Guidone
+date: 10/06/2019
 status: completed
 
 lng: 26.141775
@@ -30,9 +30,7 @@ zoom: 13
 popup: Elephantine
 ---
 
-## About
-
-### About
+# About
 
 The site of Dendera is located 4 km south of the provincial capital at Qena, at the great bend in the Nile, and about 70 km north of Luxor, on the west side of the river. The site is known, above all, for the presence of a temple dedicated to the goddess Hathor located there since the Old Kingdom and a group of subsidiary temples stands within its enclosure wall. From several years the site is the subject of research by the IFAO (Institut Francaise d’Archéologie Orientale), which led to a better knowledge of the funerary and urban areas. Moreover, it aims to the integral architectural analysis of the monumental complex, together with the publication of the texts and depictions on the walls of the main temple and of the other buildings.
 The monumental complex roses up in the immediate vicinity of a town that has been the capital of the sixth Upper Egyptian nome.

@@ -15,8 +15,8 @@ area: Western Coast
 typology: Settlement, Harbour
 year_from: Early Hellenistic period
 year_to: VII c. CE (601-700 CE)
-editors: Name Surname
-last_modified: 11/02/2021
+editors: Valeria Parisi
+last_modified: 21/01/2019
 status: completed
 
 lng: 30.946236829182347

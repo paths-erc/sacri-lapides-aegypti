@@ -10,7 +10,7 @@ import OurSites from "../components/Home/OurSites";
 import TitleR from "../components/Title/TitleR";
 
 // markup
-export default ({ data }) => {
+const Index = ({ data }) => {
   return (
     <Layout>
       <Slider />
@@ -19,9 +19,9 @@ export default ({ data }) => {
       <section className="section bottom-slant-gray">
         <Container>
           <TitleR title="our sites" />
-          <Row>
+          <Row xs={1} md={2}>
             {data.allMarkdownRemark.nodes.map((node) => (
-              <Col xs={6} md={4}>
+              <Col>
                 <OurSites
                   img={node.frontmatter.img}
                   title={node.frontmatter.title}
@@ -37,6 +37,9 @@ export default ({ data }) => {
     </Layout>
   );
 };
+
+export default Index;
+
 export const query = graphql`
   {
     allMarkdownRemark(sort: { fields: frontmatter___title, order: ASC }) {

@@ -19,8 +19,8 @@ typology: Settlement
 year_from: "300"
 year_to: "1300"
 dating_criteria: Textual sources (both literary and documentary) and archaeological evidence
-editors: Name Surname
-date: 02/11/2021
+editors: Valeria Parisi
+date: 09/06/2019
 status: completed
 
 lng: 32.889

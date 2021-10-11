@@ -99,9 +99,9 @@ const SitesLayout = ({ data }) => {
                       fluid={image.node.childImageSharp.fluid}
                       style={{ margin: "3rem 0", height: "300px" }}
                       imgStyle={{ objectFit: "cover" }}
-                      alt={image.node.base}
+                      alt={image.node.base.split(".jpg").join(" ").split(",")}
                     />
-                    <p>{image.node.base}</p>
+                    <p className="caption">{image.node.base.split(".jpg")}</p>
                   </Col>
                 ))}
               </Row>
@@ -116,10 +116,21 @@ const SitesLayout = ({ data }) => {
 };
 
 const Wrapper = styled.section`
+  p .caption {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    display: swap;
+    text-align: right;
+    color: #777777;
+  }
   .indice-1,
   .indice-2,
   .indice-3,
   .indice-4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
     font-size: 1.2rem;
     line-height: 2;
     display: swap;
@@ -137,20 +148,24 @@ const Wrapper = styled.section`
     color: #822433;
   }
   .indice-1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 1.2em;
-    font-weight: bold;
   }
   .indice-2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
     margin-left: 1rem;
-    font-weight: bold;
   }
   .indice-3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
     margin-left: 2rem;
-  }
-  .indice-4 {
-    margin-left: 3rem;
     font-style: italic;
+  }
+  li {
+    padding-bottom: 2%;
   }
   section {
     position: relative;
@@ -175,6 +190,8 @@ const Wrapper = styled.section`
     transform-origin: top left;
   }
   .text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
     font-size: 1.2rem;
     line-height: 2rem;
     display: swap;

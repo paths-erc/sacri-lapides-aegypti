@@ -19,8 +19,8 @@ typology: Harbour; settlement
 year_from: II c. BCE (199-100 BCE)
 year_to: VI c. (500-599 CE), beginning of VII c. CE.
 dating_criteria: Archaeology; Literary sources; Epigraphic sources
-editors: Name Surname
-date: 02/11/2021
+editors: Valeria Parisi
+date: 21/01/2019
 status: completed
 
 lng: 30.823446

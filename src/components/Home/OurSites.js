@@ -12,7 +12,7 @@ const OurSites = (props) => {
           <Card.Img variant="top" fluid={true} src={props.img} />
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
-            <p>{props.typology}</p>
+            <p className="typology">{props.typology}</p>
             <Card.Text>{props.excerpt}</Card.Text>
           </Card.Body>
           <Button className="go-to" variant="primary" href={props.readMore}>
@@ -64,15 +64,24 @@ const Wrapper = styled.section`
     border: none;
   }
   .card-body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    display: swap;
     text-align: right;
+    color: #777777;
+
+    /*text-align: right;
 
     font-size: 1rem;
     line-height: 1.7rem;
-    display: swap;
+    display: swap;*/
   }
   .card-title {
     font-weight: bolder;
     text-transform: uppercase;
+    font-size: 1.5rem;
   }
   .container {
     padding-bottom: 5%;
@@ -93,6 +102,16 @@ const Wrapper = styled.section`
     background: linear-gradient(to bottom right, var(--clr-primary-5), #222);
     opacity: 0.85;
     transition: var(--transition);
+  }
+  .typology {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    display: swap;
+    text-align: right;
+    color: #777777;
+    font-style: italic;
   }
 `;
 export default OurSites;

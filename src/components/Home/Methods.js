@@ -78,7 +78,6 @@ const Methods = () => {
 const Wrapper = styled.section`
   a {
     color: rgb(130, 36, 51);
-
     font-weight: bolder;
     font-size: 0.8rem;
     line-height: 1rem;
@@ -97,6 +96,13 @@ const Wrapper = styled.section`
     text-decoration: none;
   }
   button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    display: swap;
+    text-align: right;
+    color: #777777;
     text-align: left;
     margin: 3% 0 3% 0;
     background: rgb(130, 36, 51, 0.2);
@@ -133,13 +139,21 @@ const Wrapper = styled.section`
     padding-top: 10%;
   }
   .card-body {
-    text-align: left;
-
-    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
     line-height: 1.7rem;
     display: swap;
+    text-align: right;
+    color: #777777;
   }
   .card-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.7rem;
+    display: swap;
+    text-align: right;
+    color: #777777;
     font-weight: bolder;
     text-transform: uppercase;
   }

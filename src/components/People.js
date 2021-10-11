@@ -13,13 +13,13 @@ const About = () => {
     <Wrapper>
       <section className="section bottom-slant-gray">
         <Container className="container-one">
-          <Row>
+          <Row xs={1} md={3}>
             <Col>
               <img className="img-left" src={PBuzi} alt="Paola Buzi" />
             </Col>
             <Col>
               <TitleL title="paola buzi" />
-              <p>
+              <p className="container-one">
                 Paola Buzi is full professor of Egyptology and Coptic
                 Civilization at the Sapienza University of Rome and honorary
                 professor of the same disciplines at the Universität Hamburg.
@@ -32,7 +32,7 @@ const About = () => {
       </section>
       <section className="section methods">
         <Container className="container-two">
-          <Row>
+          <Row xs={1} md={3}>
             <Col>
               <TitleR title="julian bogdani" />
               <p>
@@ -52,7 +52,7 @@ const About = () => {
       </section>
       <section className="section bottom-slant-gray">
         <Container className="container-three">
-          <Row>
+          <Row xs={1} md={3}>
             <Col>
               <img className="img-left" src={DDerasmo} alt="Domizia D'Erasmo" />
             </Col>
@@ -80,13 +80,6 @@ const Wrapper = styled.section`
     padding: 0;
     position: relative;
     z-index: 2;
-  }
-  p {
-    font-size: 1rem;
-    line-height: 1.7rem;
-    display: swap;
-    text-align: right;
-    color: #777777;
   }
   .img-left {
     text-align: center;
@@ -141,37 +134,36 @@ const Wrapper = styled.section`
     -ms-transform-origin: top left;
     transform-origin: top left;
   }
+  .container-one,
+  .container-two,
+  .container-three {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    display: swap;
+    text-align: right;
+    color: #777777;
+  }
+
   .container-one {
     padding-bottom: 0;
     padding-top: 3%;
   }
   .container-one p {
     text-align: left !important;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    display: swap;
-    color: #777777;
   }
   .container-two {
     padding-top: 15%;
     padding-bottom: 15%;
   }
-  .container-two p {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    display: swap;
-    color: #777777;
-  }
+
   .container-three {
     padding-top: 3%;
     padding-bottom: 15%;
   }
   .container-three p {
     text-align: left !important;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    display: swap;
-    color: #777777;
   }
   .section.methods {
     position: relative;

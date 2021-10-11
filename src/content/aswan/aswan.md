@@ -19,8 +19,8 @@ typology: Settlement
 year_from: Old-Middle Kingdom
 year_to:
 dating_criteria: Archaeological, epigraphical, literary, papyrological sources
-editors: Name Surname
-date: 02/11/2021
+editors: Valeria Parisi
+date: 09/06/2019
 status: completed
 
 lng: 24.081158

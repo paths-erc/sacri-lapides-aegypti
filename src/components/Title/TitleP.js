@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Container } from "react-bootstrap";
 
 const TitleP = ({ title }) => {
   return (
@@ -12,11 +11,13 @@ const TitleP = ({ title }) => {
 
 const Wrapper = styled.section`
   h2 {
+    font-family: "Open Sans", sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-weight: 200;
     font-size: 8rem;
   }
 `;

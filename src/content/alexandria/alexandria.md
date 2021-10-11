@@ -19,8 +19,8 @@ typology: Settlement
 year_from: 332-331 BC
 year_to: 642 CE
 dating_criteria: Written sources, Archaeological evidence.
-editors: Name Surname
-date: 02/11/2021
+editors: Serena Guidone
+date: 22/01/2019
 status: completed
 
 lng: 31.1982456667

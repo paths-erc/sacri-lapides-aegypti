@@ -19,8 +19,8 @@ typology: Settlement
 year_from:
 year_to:
 dating_criteria:
-editors: Name Surname
-date: 02/11/2021
+editors: Serena Guidone
+date: 22/01/2019
 status: completed
 
 lng: 30.0580595
@@ -29,7 +29,7 @@ zoom: 13
 popup: East Canopus
 ---
 
-## About
+# About
 
 The site of East Canopus was located in a submerged area 1,8 km from the modern port of Aboukir, placed in the region extended westward from the mouth of the western branch of Nile called Canopic or Heracleotic branch. The name Canopus appears as early as the first half of the sixth century BCE in a poem by Solon (638-558 BCE) and from then on, the nearby branch of Nile and the region around it acquired that toponym. Literary sources mention the existence of a city with the same name: in Classic Greek period, Aeschylus refers of a settlement located near the mouth of the Nile branch called Κάνωπος (Prometheus Bound, 846-847); in Roman times, Strabo informs that the distance of the town of Canopus from Alexandria was about 125 stades (24 km), while, according to Ammianus Marcellinus, it was about … from the capital (Amm. Marc., History, XXII,16). Strabo also reports that the city was famous for a temple of Serapis and public feast days that attracted people coming from Alexandria down to the canal (Strabo, Geogr. XVII, 1, 16-18). Late antique literary sources refer the presence of an ancient sanctuary in the village of Menouthis, situated near Canopus. This place, in particular, become important during Christian times, attracting pilgrim and visitor because of a monastery of the Evangelist had inherited the pagan divinity’s functions (Rethor Zacaria, Life of Severus; Sophronios Laudes in SS. Cyrum et Iohanmen, 29).
 Between eighteenth and twentieth centuries many explorations and discoveries of archaeological remains along the coastline of the region between Alexandria and Aboukir were attempted, inducting scholars to propose several hypothesis about the location of the places mentioned in the ancient texts (Goddio 2007, p. 3). In particular, in 1926 E. Breccia mentioned the discovery of several Greek inscriptions, architectural fragment and votive artifacts as testimonies of the existence of a Greek sanctuary of Serapis at Canopus and one dedicated to Isis at Menouthis, later replaced by the pagan cult site of which the late-ancient literary sources speak (Breccia 1926, pp. 21-33). In 1929, G. Daressy advanced the hypothesis that the distances indicated in the ancient texts had to be transferred in the extension of the side line from Alexandria to Aboukir and not following the actuarial shore of the bay (fig.1). On this base, in 1933 it started the excavations conducted by the Prince Omar Toussoun (Toussoun 1934). According to the results of the investigations, carried out between 1933 and 1940, part of the ancient site of Canopus-Menuthis had vanished beneath the sea (fig. 2).
@@ -52,7 +52,7 @@ The excavations carried out by the Institut Européen d’Archeologie Sous-Marin
 According to the research conducted by the Institut Européen d’Archeologie Sous-Marine (IEASM), the submerged site identified along the coastline in front of Aboukir could be identified as the site of East Canopus. The archaeological excavations bought to light a 101 m long wall that stretches for 38 m with a width of 3 m and it is than reduced of a width of 2,20 m for the remaining 63 m, pertaining to a monumental building (called TW4) (fig. 5). The wall is built of squared limestone block of which three or four rows constitute the thickness, with the lowest one resting on an apron of large limestone chips. At 34 m from the south corner of the wall there is a squared platform of 10x10 m made of flagstone that represent the main entrance of the building. The original ground was higher outside the building than inside it. According to F. Goddio, who directed the explorations, this monument corresponds to a building of pre-Ptolemaic or Ptolemaic period, as could testimony the wall’s masonry and the archaeological materials discovered. In particular, the ceramics found suggest an occupation of the site from the fourth century BCE to the fourth century CE. The French scholar thinks that the imposing remains of the TW4 building revel that the submerged site on the coastline of Aboukir correspond to the temenos of the temple of Serapis at Canopus. This hypothesis seems to be also supported by the findings, consisting in a large amount of statuary, including the colossal statue of cult of the Serapis of the second century BCE, and some inscriptions mentioning the god. The excavations also indicate that the building has been destroyed by men and used as a quarry to reuse part of its structures for the construction of the Christian buildings in the same area.
 To south-east of this building the archeologists identified some other structures (site TW0, TW3, TW5, TW6) (fig. 4), corresponding to parts of different buildings and segment of an hydraulic system. At the moment, it is not possible to have a specific chronology about their construction, but some data seem to attest a frequentation between second and first century BCE.
 
-### Architetonical Elements not in situ
+### Architetonical Elements not _in situ_
 
 Corinthian capital in gray and granite, worked on two faces, corresponding to the capital of an inset column (Goddio 2007, p. 43)
 

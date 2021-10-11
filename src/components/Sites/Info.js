@@ -132,19 +132,22 @@ const Info = (props) => {
 
 const Wrapper = styled.section`
   h5 {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
     display: swap;
     text-align: right;
-    font-weight: bolder;
-    padding-bottom: 4%;
     color: #777777;
   }
   p {
-    font-size: 1rem;
-    text-align: right;
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
     display: swap;
+    text-align: right;
+    color: #777777;
   }
   .info {
     margin-bottom: 5%;

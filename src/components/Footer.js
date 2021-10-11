@@ -82,11 +82,7 @@ const Footer = () => {
               </p>
             </Col>
           </Row>
-          <Row className="partners">
-            <Col>
-              <h3></h3>
-            </Col>
-          </Row>
+          <Row className="partners"></Row>
           <Row className="logos">
             <Col className="d-flex justify-content-center">
               <img src={FareLogo} alt="FARE MIUR Logo" />
@@ -109,9 +105,11 @@ const Footer = () => {
 
 //styles
 const Wrapper = styled.section`
-  position: relative;
-  z-index: 5;
-  padding: 5em 0;
+  footer {
+    position: relative;
+    z-index: 5;
+    padding: 5em 0;
+  }
   .footer:before {
     content: "";
     width: 100%;
@@ -136,14 +134,6 @@ const Wrapper = styled.section`
     font-weight: bold;
     margin: 0;
   }
-  h3 {
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 1%;
-  }
-  h6 {
-    font-weight: 400;
-  }
   .icon a {
     display: inline-grid;
     grid-template-columns: repeat(5, auto);
@@ -159,7 +149,8 @@ const Wrapper = styled.section`
     height: 75%;
   }
   p {
-    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
   }
 `;
 export default Footer;

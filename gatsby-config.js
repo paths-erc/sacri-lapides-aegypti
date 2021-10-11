@@ -51,7 +51,14 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
-      options: { fonts: [`Raleway:200`], display: "swap" },
+      options: {
+        fonts: [
+          `montserrat\:0,300;0,400;0,500;0,600;1,400;1,500`,
+          `open sans\:0,300;0,400;0,500;1,300;1,400`,
+          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+        ],
+        display: "swap",
+      },
     },
     {
       resolve: "gatsby-plugin-web-font-loader",
