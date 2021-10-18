@@ -8,8 +8,8 @@ const Layout = ({ children }) => {
     <>
       <Header />
       {children}
-      <Scroll showBelow={250} />
       <Footer />
+      <Scroll showBelow={250} />
     </>
   );
 };
