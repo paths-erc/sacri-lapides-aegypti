@@ -4,10 +4,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import Slider from "../components/Slider";
-import About from "../components/Home/About";
-import Methods from "../components/Home/Methods";
-import OurSites from "../components/Home/OurSites";
-import TitleR from "../components/Title/TitleR";
+import About from "../components/home/About";
+import Methods from "../components/home/Methods";
+import Places from "../components/home/Places";
+import TitleR from "../components/title/TitleR";
 
 // markup
 const Index = ({ data }) => {
@@ -24,7 +24,7 @@ const Index = ({ data }) => {
             <Row xs={1} md={2}>
               {data.allMarkdownRemark.nodes.map((node, i) => (
                 <Col key={i}>
-                  <OurSites
+                  <Places
                     img={node.frontmatter.img}
                     title={node.frontmatter.title}
                     typology={node.frontmatter.typology}

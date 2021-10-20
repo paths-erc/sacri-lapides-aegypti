@@ -1,9 +1,7 @@
 ---
-path: "/elephantine"
 id: 5
 title: Elephantine
-preview: This card has supporting text below as a natural lead-in to additional content.
-img: ./images/elephantine/elephantine.jpg
+img: elephantine.jpg
 coptic_name: (ⲧⲙⲟⲩ(ⲉ)ⲓ(ⲛ)) (ⲉ)ⲓⲏⲃ
 greek_name: Νῆσος Ἐλεφαντίνης; Ἰηβ
 arabic_name: جزيرة الفنتين

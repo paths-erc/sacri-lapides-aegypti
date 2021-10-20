@@ -1,5 +1,5 @@
 import React from "react";
-import TitleR from "../Title/TitleR";
+import TitleR from "../title/TitleR";
 import SlaLogo from "../../images/3-logos/sla.svg";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";

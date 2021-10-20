@@ -315,11 +315,9 @@ export const query = graphql`
         lat
         lng
         other_names
-        path
         paths_id
         pleiades_id
         popup
-        preview
         region
         year_from
         year_to

@@ -1,5 +1,5 @@
 import React from "react";
-import TitleR from "../Title/TitleR";
+import TitleR from "../title/TitleR";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 

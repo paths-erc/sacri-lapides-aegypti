@@ -1,9 +1,7 @@
 ---
-path: "/marea"
 id: 3
 title: Marea
-preview: This card has supporting text below as a natural lead-in to additional content.
-img: ./images/marea/marea.jpg
+img: marea.jpg
 coptic_name: ⲛⲓⲫⲁⲓⲁⲧ
 greek_name: Μαρεώτης, Μαρεώτος
 arabic_name: مريوط

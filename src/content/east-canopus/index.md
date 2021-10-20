@@ -1,9 +1,7 @@
 ---
-path: "/east-canopus"
 id: 4
 title: East Canopus
-preview: This card has supporting text below as a natural lead-in to additional content.
-img: ./images/canopus/canopus.jpg
+img: canopus.jpg
 coptic_name:
 greek_name:
 arabic_name:

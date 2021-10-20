@@ -1,9 +1,7 @@
 ---
-path: "/aswan"
 id: 2
 title: Aswan
-preview: This card has supporting text below as a natural lead-in to additional content.
-img: ./images/aswan/aswan.jpg
+img: aswan.jpg
 other_names: Syene; Aswan
 coptic_name: ⲥⲟⲩⲁⲛ
 greek_name: Συήνη Σήννη Σύνη Σηύνη Συίνη

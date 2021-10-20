@@ -1,9 +1,7 @@
 ---
-path: "/marina"
 id: 6
 title: Marina el-Amein
-preview: This card has supporting text below as a natural lead-in to additional content.
-img: ./images/marina/marina.jpg
+img: marina.jpg
 coptic_name:
 greek_name: Ἀντίφραι
 arabic_name: مارينا العلمين

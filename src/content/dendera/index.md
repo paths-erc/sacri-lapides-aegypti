@@ -1,9 +1,7 @@
 ---
-path: "/dendera"
 id: 3
 title: Dendera
-preview: This card has supporting text below as a natural lead-in to additional content.
-img: ./images/dendera/dendera.jpg
+img: dendera.jpg
 coptic_name: ⲧⲉⲛⲧⲱⲣⲓ; (reinserire_vedi PAth)
 greek_name:
 arabic_name: دندرة

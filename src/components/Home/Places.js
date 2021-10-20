@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-const OurSites = (props) => {
+const Places = (props) => {
   return (
     <Wrapper>
       <Container>
@@ -108,4 +108,4 @@ const Wrapper = styled.section`
     font-style: italic;
   }
 `;
-export default OurSites;
+export default Places;

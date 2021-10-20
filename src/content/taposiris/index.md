@@ -1,9 +1,7 @@
 ---
-path: "/taposiris"
 id: 8
 title: Taposiris
-preview: This card has supporting text below as a natural lead-in to additional content.
-img: ./images/taposiris/taposiris.jpg
+img: taposiris.jpg
 other_names: Abusir; Abousir; Abu Sir; Busiris, Busir; Taposiris; Taposiris Magna; Taposiris Megale; Taposeiris; Taphosiris
 greek_name: Ταποσιρις
 arabic_transl: Abūṣīr

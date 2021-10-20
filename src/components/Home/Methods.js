@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Card from "react-bootstrap/Card";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import TitleL from "../Title/TitleL";
+import TitleL from "../title/TitleL";
 import Card1 from "../..//images/1-home/1-card.jpg";
 import Card2 from "../../images/1-home/2-card.jpg";
 import Card3 from "../../images/1-home/3-card.jpg";
@@ -27,9 +27,9 @@ const Methods = () => {
                   </Button>
                   <Card.Text>
                     Collection and georeferencing on GIS platform of many
-                    historical cartographical sources of Egypt and stle-level 
-                    topographical surveys of the main
-                    temples, churches, basilicas and other religious complexes.
+                    historical cartographical sources of Egypt and stle-level
+                    topographical surveys of the main temples, churches,
+                    basilicas and other religious complexes.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -57,14 +57,12 @@ const Methods = () => {
                 <Card.Body>
                   <Card.Title>Third Step</Card.Title>
                   <Button variant="primary">
-                    <a href="https://docs.paths-erc.eu/data/demo/">
-                      Live demo
-                    </a>
+                    <a href="https://docs.paths-erc.eu/data/demo/">Live demo</a>
                   </Button>
                   <Card.Text>
                     Chronological phases, reconstruction hypothesis, etc., can
-                    be easily encoded with the help of minimal and higly intuitive
-                    vocabularies and visualised on the Web.
+                    be easily encoded with the help of minimal and higly
+                    intuitive vocabularies and visualised on the Web.
                   </Card.Text>
                 </Card.Body>
               </Card>
