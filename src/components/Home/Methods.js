@@ -22,13 +22,14 @@ const Methods = () => {
                   <Card.Title>First Step</Card.Title>
                   <Button variant="primary">
                     <a href="https://docs.paths-erc.eu/data/">
-                      go to paths repository
+                      PAThs data repository
                     </a>
                   </Button>
                   <Card.Text>
-                    Collection and georeferencing on GIS platform of most of the
-                    historical cartography of Egypt and plans of the main
-                    temple/church/basilica complexes
+                    Collection and georeferencing on GIS platform of many
+                    historical cartographical sources of Egypt and stle-level 
+                    topographical surveys of the main
+                    temples, churches, basilicas and other religious complexes.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -40,12 +41,12 @@ const Methods = () => {
                   <Card.Title>Second Step</Card.Title>
                   <Button variant="primary">
                     <a href="https://docs.paths-erc.eu/data/svp">
-                      go to spv protocol
+                      SVP protocol specifications
                     </a>
                   </Button>
                   <Card.Text>
                     Vectorization of geo-referenced plants on GIS platform using
-                    a protocol (SPV) developed by PAThs team members
+                    a protocol (SPV) developed by PAThs team members.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -56,14 +57,14 @@ const Methods = () => {
                 <Card.Body>
                   <Card.Title>Third Step</Card.Title>
                   <Button variant="primary">
-                    <a href="https://docs.paths-erc.eu/data/demo/#./paths.places.101-Tebtynis/BGQ6JNX2-47">
-                      go to live demo
+                    <a href="https://docs.paths-erc.eu/data/demo/">
+                      Live demo
                     </a>
                   </Button>
                   <Card.Text>
                     Chronological phases, reconstruction hypothesis, etc., can
-                    be easily endoded with a help of minimal and higly intuitive
-                    vocabularies
+                    be easily encoded with the help of minimal and higly intuitive
+                    vocabularies and visualised on the Web.
                   </Card.Text>
                 </Card.Body>
               </Card>
