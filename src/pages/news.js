@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../templates/IndexLayout";
 import Picture from "../components/Picture";
 
-import HomeSliderImage1 from "../images/1-home/home-slider-1.jpg";
+import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
 
 const News = () => {
   return (

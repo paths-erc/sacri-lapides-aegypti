@@ -8,11 +8,11 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
-import SlaLogo from "../images/3-logos/sla.svg";
-import FareLogo from "../images/3-logos/fare.jpeg";
-import SapienzaLogo from "../images/3-logos/sapienza.jpg";
-import BdusLogo from "../images/3-logos/bdus.svg";
-import PathsLogo from "../images/3-logos/paths.png";
+import SlaLogo from "../../static/images/logos/sla.svg";
+import FareLogo from "../../static/images/logos/fare.jpeg";
+import SapienzaLogo from "../../static/images/logos/sapienza.jpg";
+import BdusLogo from "../../static/images/logos/bdus.svg";
+import PathsLogo from "../../static/images/logos/paths.png";
 import styled from "styled-components";
 
 //markup

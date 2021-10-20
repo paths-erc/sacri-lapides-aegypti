@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import HomeSliderImage1 from "../images/1-home/home-slider-1.jpg";
-import HomeSliderImage2 from "../images/1-home/home-slider-2.jpg";
+import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
+import HomeSliderImage2 from "../../static/images/other/home-slider-2.jpg";
 import styled from "styled-components";
 
 //markup

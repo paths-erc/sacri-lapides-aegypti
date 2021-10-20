@@ -9,7 +9,7 @@ import Map from "../components/Map";
 import TitleR from "../components/Title/TitleR";
 import TitleL from "../components/Title/TitleL";
 import Scroll from "../components/Scroll";
-import HomeSliderImage1 from "../images/1-home/home-slider-1.jpg";
+import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
 import { Container, Col, Row } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import styled from "styled-components";

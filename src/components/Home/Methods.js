@@ -4,9 +4,9 @@ import Card from "react-bootstrap/Card";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import TitleL from "../title/TitleL";
-import Card1 from "../..//images/1-home/1-card.jpg";
-import Card2 from "../../images/1-home/2-card.jpg";
-import Card3 from "../../images/1-home/3-card.jpg";
+import Card1 from "../../../static/images/other/1-card.jpg";
+import Card2 from "../../../static/images/other/2-card.jpg";
+import Card3 from "../../../static/images/other/3-card.jpg";
 
 const Methods = () => {
   return (

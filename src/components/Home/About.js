@@ -1,6 +1,6 @@
 import React from "react";
 import TitleR from "../title/TitleR";
-import SlaLogo from "../../images/3-logos/sla.svg";
+import SlaLogo from "../../../static/images/logos/sla.svg";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 

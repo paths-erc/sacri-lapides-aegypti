@@ -1,16 +1,18 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../templates/IndexLayout";
+
 import Picture from "../components/Picture";
 import TitleR from "../components/Title/TitleR";
 import TitleL from "../components/Title/TitleL";
-import PBuzi from "../images/2-team/paola-buzi.jpeg";
-import JBogdani from "../images/2-team/julian-bogdani.jpg";
-import DDerasmo from "../images/2-team/domizia-d_erasmo.jpg";
-import VParisi from "../images/2-team/valeria-parisi.jpg";
+
+import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
+import PBuzi from "../../static/images/other/paola-buzi.jpeg";
+import JBogdani from "../../static/images/other/julian-bogdani.jpg";
+import DDerasmo from "../../static/images/other/domizia-d_erasmo.jpg";
+import VParisi from "../../static/images/other/valeria-parisi.jpg";
+
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
-
-import HomeSliderImage1 from "../images/1-home/home-slider-1.jpg";
 
 const Team = () => {
   return (
