@@ -57,7 +57,7 @@ const SitesLayout = ({ data }) => {
 
         <section className="section methods">
           <Container className="about">
-            <TitleL title="About the site"></TitleL>
+            <TitleL title={content.frontmatter.title}></TitleL>
 
             <Row xs={1}>
               <Col sm={4}>
