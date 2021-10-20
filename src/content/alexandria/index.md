@@ -2,7 +2,7 @@
 id: 1
 title: Alexandria
 preview: This card has supporting text below as a natural lead-in to additional content.
-img: ./images/alexandria/alexandria.jpg
+img: ./images/alexandria.jpg
 coptic_name: Ἀλεξάνδρεια
 greek_name: Συήνη Σήννη Σύνη Σηύνη Συίνη
 arabic_name: الإسكندرية
