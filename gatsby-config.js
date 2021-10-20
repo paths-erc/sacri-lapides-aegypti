@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    pathPrefix: "/sacri-lapides-aegypti",
     siteUrl: "https://www.yourdomain.tld",
     title: "Sacri Lapides Aegypti",
   },
