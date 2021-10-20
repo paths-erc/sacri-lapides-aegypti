@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "Test",
+    title: "Sacri Lapides Aegypti",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
