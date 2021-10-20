@@ -19,7 +19,7 @@ const Index = ({ data }) => {
       <Wrapper>
         <section className="section bottom-slant-gray">
           <Container>
-            <TitleR title="our sites" />
+            <TitleR title="Archaeological sites" />
 
             <Row xs={1} md={2}>
               {data.allMarkdownRemark.nodes.map((node, i) => (

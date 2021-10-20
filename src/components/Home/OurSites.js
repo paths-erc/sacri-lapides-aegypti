@@ -9,7 +9,7 @@ const OurSites = (props) => {
     <Wrapper>
       <Container>
         <Card>
-          <Card.Img variant="top" src={props.img} />
+          <Card.Img variant="top" src={`/images/${props.img}`} />
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <p className="typology">{props.typology}</p>
