@@ -10,9 +10,9 @@ const Picture = (props) => {
   return (
     <Wrapper>
       <div className="section-one">
-        <img src={src} alt="picture"></img>
+        <img src={src} alt={title}></img>
         {/* <Image className="d-block w-100" src={src} alt="Background" fluid /> */}
-        <TitleP title={[title]} />
+        <TitleP title={title} />
       </div>
     </Wrapper>
   );
