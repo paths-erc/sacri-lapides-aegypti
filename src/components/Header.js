@@ -6,16 +6,14 @@ import SlaLogo from "../images/3-logos/sla.svg";
 
 //styles
 const ImgLogo = {
-  width: 50,
-  height: 50,
+  width: "100px",
   marginLeft: 50,
 };
 
 const navLink = {
-  marginLeft: 30,
-  marginRight: 50,
+  marginLeft: "1rem",
+  marginRight: "1rem",
   fontWeight: 400,
-  color: 777777,
 };
 
 //markup
@@ -37,7 +35,6 @@ const Header = () => {
             <Nav.Link style={navLink} href="/">
               HOME
             </Nav.Link>
-
             <NavDropdown style={navLink} title="PLACES" id="basic-nav-dropdown">
               <NavDropdown.Item href="alexandria/alexandria">
                 Alexandria
@@ -77,7 +74,7 @@ const Header = () => {
 const Wrapper = styled.section`
   .navbar {
     background-color: rgb(255, 255, 255, 0.4) !important;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: bolder;
     color: #777777;
   }

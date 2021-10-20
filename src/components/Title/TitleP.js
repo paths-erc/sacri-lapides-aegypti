@@ -18,7 +18,7 @@ const Wrapper = styled.section`
     transform: translate(-50%, -50%);
     color: white;
     font-weight: 200;
-    font-size: 8rem;
+    font-size: 6rem;
   }
 `;
 

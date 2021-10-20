@@ -14,7 +14,7 @@ const TitleR = ({ title }) => {
 const Wrapper = styled.section`
   .section-title {
     font-family: "Open Sans", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
     display: swap;
     text-transform: capitalize;

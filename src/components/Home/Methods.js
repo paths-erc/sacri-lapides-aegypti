@@ -17,7 +17,7 @@ const Methods = () => {
           <Row xs={1} md={3}>
             <Col>
               <Card>
-                <Card.Img variant="top" fluid={true} src={Card1} />
+                <Card.Img variant="top" src={Card1} />
                 <Card.Body>
                   <Card.Title>First Step</Card.Title>
                   <Button variant="primary">
@@ -98,7 +98,7 @@ const Wrapper = styled.section`
   button {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
     text-align: right;
@@ -140,7 +140,7 @@ const Wrapper = styled.section`
   .card-body {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
     text-align: right;
@@ -148,7 +148,7 @@ const Wrapper = styled.section`
   }
   .card-title {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     line-height: 1.7rem;
     display: swap;
     text-align: right;

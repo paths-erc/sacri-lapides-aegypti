@@ -22,8 +22,8 @@ const Index = ({ data }) => {
             <TitleR title="our sites" />
 
             <Row xs={1} md={2}>
-              {data.allMarkdownRemark.nodes.map((node) => (
-                <Col>
+              {data.allMarkdownRemark.nodes.map((node, i) => (
+                <Col key={i}>
                   <OurSites
                     img={node.frontmatter.img}
                     title={node.frontmatter.title}

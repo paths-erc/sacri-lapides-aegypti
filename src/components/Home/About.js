@@ -51,7 +51,7 @@ const Wrapper = styled.section`
   p {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
     text-align: right;
@@ -63,6 +63,10 @@ const Wrapper = styled.section`
   }
   .about-img {
     text-align: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
   }
   .bottom-slant-gray {
     position: relative;

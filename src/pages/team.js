@@ -180,23 +180,6 @@ const Wrapper = styled.section`
     -ms-transform-origin: top left;
     transform-origin: top left;
   }
-  /*   .section.methods:after {
-    content: "";
-    width: 100%;
-    height: 240px;
-    background: #fff;
-    z-index: -1;
-    bottom: -240px;
-    background-color: #fff;
-    left: 0;
-    position: absolute;
-    -webkit-transform: skewY(-6deg);
-    -ms-transform: skewY(-6deg);
-    transform: skewY(-6deg);
-    -webkit-transform-origin: top left;
-    -ms-transform-origin: top left;
-    transform-origin: top left;
-  } */
   .img-left {
     text-align: center;
     float: right;
@@ -221,8 +204,8 @@ const Wrapper = styled.section`
   .container-three {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     display: swap;
     text-align: right;
     color: #777777;

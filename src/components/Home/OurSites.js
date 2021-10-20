@@ -9,7 +9,7 @@ const OurSites = (props) => {
     <Wrapper>
       <Container>
         <Card>
-          <Card.Img variant="top" fluid={true} src={props.img} />
+          <Card.Img variant="top" src={props.img} />
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <p className="typology">{props.typology}</p>
@@ -66,17 +66,11 @@ const Wrapper = styled.section`
   .card-body {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
     text-align: right;
     color: #777777;
-
-    /*text-align: right;
-
-    font-size: 1rem;
-    line-height: 1.7rem;
-    display: swap;*/
   }
   .card-title {
     font-weight: bolder;
@@ -106,7 +100,7 @@ const Wrapper = styled.section`
   .typology {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
     text-align: right;

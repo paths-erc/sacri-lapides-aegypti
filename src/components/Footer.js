@@ -150,7 +150,7 @@ const Wrapper = styled.section`
   }
   p {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 `;
 export default Footer;

@@ -14,116 +14,55 @@ const Info = (props) => {
         <Row className="info" xs={1} md={4}>
           <Col>
             <h5>PLACE NAMES</h5>
-            <p>
-              OTHER NAMES
-              <br />
-              {props.other_names}
-            </p>
-            <p>
-              EGYPTIAN NAMES
-              <br />
-              {props.egyptian_name}
-            </p>
-            <p>
-              COPTIC NAMES
-              <br />
-              {props.coptic_name}
-            </p>
-            <p>
-              GREEK NAMES
-              <br />
-              {props.greek_name}
-            </p>
-            <p>
-              ARABIC NAMES
-              <br />
-              {props.arabic_name}
-            </p>
-            <p>
-              ARABIC TRANSLATION
-              <br />
-              {props.arabic_transl}
-            </p>
+            <h6>OTHER NAMES</h6>
+            <p>{props.other_names}</p>
+            <h6>EGYPTIAN NAMES</h6>
+            <p>{props.egyptian_name}</p>
+            <h6>COPTIC NAMES</h6>
+            <p>{props.coptic_name}</p>
+            <h6>GREEK NAMES</h6>
+            <p>{props.greek_name}</p>
+            <h6> ARABIC NAMES</h6>
+            <p>{props.arabic_name}</p>
+            <h6> ARABIC TRANSLATION</h6>
+            <p>{props.arabic_transl}</p>
           </Col>
           <Col>
-            <h5>GEOGRAPHICAL INFO</h5>
-            <p>
-              AREA
-              <br />
-              {props.area}
-            </p>
-            <p>
-              REGION
-              <br />
-              {props.region}
-            </p>
-            <p>
-              PAThs ID
-              <br />
-              {props.paths_id}
-            </p>
-            <p>
-              PLEIADES ID
-              <br />
-              {props.pleiades_id}
-            </p>
-            <p>
-              TM ID
-              <br />
-              {props.tm_id}
-            </p>
+            <h5>GEO INFO</h5>
+            <h6>AREA</h6>
+            <p>{props.area}</p>
+            <h6>REGION</h6>
+            <p>{props.region}</p>
+            <h6>PAThs ID</h6>
+            <p>{props.paths_id}</p>
+            <h6>PLEIADES ID</h6>
+            <p>{props.pleiades_id}</p>
+            <h6>TM ID</h6>
+            <p>{props.tm_id}</p>
           </Col>
           <Col>
             <h5>SITE INFO</h5>
-            <p>
-              TYPOLOGY
-              <br />
-              {props.typology}
-            </p>
-            <p>
-              DATE FROM
-              <br />
-              {props.year_from}
-            </p>
-            <p>
-              DATE TO
-              <br />
-              {props.year_to}
-            </p>
-            <p>
-              DATING CRITERIA
-              <br />
-              {props.dating_criteria}
-            </p>
-            <p>
-              EPISCOPAL SEE FROM
-              <br />
-              {props.episcopal_see_from_year}
-            </p>
-            <p>
-              TIMM REF
-              <br />
-              {props.timm_ref}
-            </p>
+            <h6>TYPOLOGY</h6>
+            <p>{props.typology}</p>
+            <h6>DATE FROM</h6>
+            <p>{props.year_from}</p>
+            <h6>DATE TO</h6>
+            <p>{props.year_to}</p>
+            <h6>DATING CRITERIA</h6>
+            <p>{props.dating_criteria}</p>
+            <h6>EPISCOPAL SEE FROM</h6>
+            <p>{props.episcopal_see_from_year}</p>
+            <h6>TIMM REF</h6>
+            <p>{props.timm_ref}</p>
           </Col>
           <Col>
             <h5>ABOUT</h5>
-
-            <p>
-              STATUS
-              <br />
-              {props.status}
-            </p>
-            <p>
-              EDITOR
-              <br />
-              {props.editors}
-            </p>
-            <p>
-              LAST MODIFIED
-              <br />
-              {props.date}
-            </p>
+            <h6>STATUS</h6>
+            <p>{props.status}</p>
+            <h6>EDITOR</h6>
+            <p>{props.editors}</p>
+            <h6>LAST MODIFIED</h6>
+            <p>{props.date}</p>
           </Col>
         </Row>
       </Container>
@@ -135,8 +74,17 @@ const Wrapper = styled.section`
   h5 {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    display: swap;
+    text-align: right;
+    color: #777777;
+  }
+  h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 0.7rem;
+    line-height: 1rem;
     display: swap;
     text-align: right;
     color: #777777;
@@ -144,8 +92,8 @@ const Wrapper = styled.section`
   p {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
     display: swap;
     text-align: right;
     color: #777777;
