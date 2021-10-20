@@ -5,7 +5,7 @@ const TitleR = ({ title }) => {
   return (
     <Wrapper>
       <div className="section-title">
-        <h1>{title || "default title"}</h1>
+        <h1>{title}</h1>
       </div>
     </Wrapper>
   );
