@@ -65,7 +65,7 @@ const SitesLayout = ({ data }) => {
                   {content.headings.map((h, i) => {
                     return (
                       <li key={i}>
-                        <a href={`#${h.id}`} className={`indice-${h.depth}`}>
+                        <a href={`#${h.id}`} className={`indice-h${h.depth}`}>
                           {h.value}
                         </a>
                       </li>
@@ -129,7 +129,6 @@ const Wrapper = styled.section`
     font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
-    text-align: right;
     color: #777777;
   }
   a:hover {
@@ -164,20 +163,16 @@ const Wrapper = styled.section`
     text-decoration: none;
     color: #822433;
   }
-  .indice-1 {
-    font-family: "Open Sans", sans-serif;
+  .indice-h2 {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 1em;
   }
-  .indice-2 {
-    font-family: "Open Sans", sans-serif;
+  .indice-h3 {
     font-weight: 400;
     margin-left: 1rem;
   }
-  .indice-3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 100;
+  .indice-h4 {
     margin-left: 2rem;
     font-style: italic;
   }
@@ -258,7 +253,6 @@ const Wrapper = styled.section`
     font-weight: 200;
     font-size: 1rem;
     line-height: 1.5rem;
-    display: swap;
     padding-top: 5%;
     color: #777777;
   }
