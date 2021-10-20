@@ -138,7 +138,6 @@ const Wrapper = styled.section`
     font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
-    text-align: right;
     color: #822433;
   }
   .indice-1,
