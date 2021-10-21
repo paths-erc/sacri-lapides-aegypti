@@ -26,7 +26,7 @@ const Team = () => {
                 <img className="img-left" src={PBuzi} alt="Paola Buzi" />
               </Col>
               <Col sm={8}>
-                <TitleL title="paola buzi" />
+                <TitleL title="Paola Buzi" />
                 <p>
                   Paola Buzi is full professor of Egyptology and Coptic
                   Civilization at the Sapienza University of Rome and honorary
@@ -42,15 +42,14 @@ const Team = () => {
           <Container className="container-two">
             <Row>
               <Col sm={8}>
-                <TitleR title="julian bogdani" />
+                <TitleR title="Julian Bogdani" />
                 <p>
                   Julian Bogdani is a researcher of Metodologie della Ricerca
                   Archeologica (L-ANT/10) at Sapienza University of Rome where
-                  he also founded the Laboratory of Digital Archaeology (LAD).
-                  He also teaches, in the same university, Digital Humanities
-                  and Digital Archaeology. Since 2021, he has been director of
-                  the archaeological mission at the Çuka and Ajtoit site in
-                  Albania
+                  he also founded the <a href="https://purl.org/lad" target="_blank" rel="noreferrer" >Laboratory of Digital Archaeology (LAD)</a>.
+                  He teaches in Sapienza Digital Humanities and Digital Archaeology. 
+                  Since 2021, he has been director of the archaeological mission 
+                  at Çuka e Ajtoit, Albania.
                 </p>
               </Col>
               <Col sm={4}>
@@ -74,7 +73,7 @@ const Team = () => {
                 />
               </Col>
               <Col sm={8}>
-                <TitleL title="domizia d'Erasmo" />
+                <TitleL title="Domizia D'Erasmo" />
                 <p>
                   Domizia D'Erasmo is a research fellow in Metodologie della
                   Ricerca Archeologica (L-ANT/10) at Sapienza University of
@@ -92,7 +91,7 @@ const Team = () => {
           <Container className="container-two">
             <Row>
               <Col sm={8}>
-                <TitleR title="serena guidone" />
+                <TitleR title="Serena Guidone" />
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
@@ -118,7 +117,7 @@ const Team = () => {
                   />
                 </Col>
                 <Col sm={8}>
-                  <TitleL title="valeria parisi" />
+                  <TitleL title="Valeria Parisi" />
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
