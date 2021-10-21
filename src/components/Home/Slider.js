@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
-import HomeSliderImage2 from "../../static/images/other/home-slider-2.jpg";
-import SlaLogo from "../../static/images/logos/sla.svg";
+import HomeSliderImage1 from "../../../static/images/other/home-slider-1.jpg";
+import HomeSliderImage2 from "../../../static/images/other/home-slider-2.jpg";
+import SlaLogo from "../../../static/images/logos/sla.svg";
 import styled from "styled-components";
 
 //markup

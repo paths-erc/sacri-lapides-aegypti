@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import Layout from "../templates/IndexLayout";
-import Slider from "../components/Slider";
+import Slider from "../components/Home/Slider";
 import About from "../components/home/About";
 import Methods from "../components/home/Methods";
 import Places from "../components/home/Places";
