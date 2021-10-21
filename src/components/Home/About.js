@@ -1,5 +1,5 @@
 import React from "react";
-import TitleR from "../title/TitleR";
+import Title from "../title/Title";
 import SlaLogo from "../../../static/images/logos/sla.svg";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
@@ -18,7 +18,7 @@ const About = () => {
               />
             </Col>
             <Col>
-              <TitleR title="about" />
+              <Title title="About" align="right" />
               <p>
                 The <em>Sacri lapides Aegypti</em> project aims to study and
                 document the processes of transformation of sacred spaces for

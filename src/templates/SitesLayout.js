@@ -6,8 +6,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Sites/Info";
 import Map from "../components/Map";
-import TitleR from "../components/Title/TitleR";
-import TitleL from "../components/Title/TitleL";
+import Title from "../components/Title/Title";
 import Scroll from "../components/Scroll";
 import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
 import { Container, Col, Row } from "react-bootstrap";
@@ -57,7 +56,7 @@ const SitesLayout = ({ data }) => {
 
         <section className="section methods">
           <Container className="about">
-            <TitleL title={content.frontmatter.title}></TitleL>
+            <Title title={content.frontmatter.title} />
 
             <Row xs={1}>
               <Col sm={4}>
@@ -85,7 +84,7 @@ const SitesLayout = ({ data }) => {
 
         <section className="section bottom-slant-gray">
           <Container>
-            <TitleR title="Gallery"></TitleR>
+            <Title title="Gallery" align="right"/>
           </Container>
           <SimpleReactLightbox>
             <SRLWrapper>

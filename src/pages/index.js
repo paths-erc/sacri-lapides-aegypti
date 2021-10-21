@@ -7,7 +7,7 @@ import Slider from "../components/Slider";
 import About from "../components/home/About";
 import Methods from "../components/home/Methods";
 import Places from "../components/home/Places";
-import TitleR from "../components/title/TitleR";
+import Title from "../components/title/Title";
 
 // markup
 const Index = ({ data }) => {
@@ -19,7 +19,7 @@ const Index = ({ data }) => {
       <Wrapper>
         <section className="section bottom-slant-gray">
           <Container>
-            <TitleR title="Archaeological sites" />
+            <Title title="Archaeological sites" align="right" />
 
             <Row xs={1} md={2}>
               {data.allMarkdownRemark.nodes.map((node, i) => (

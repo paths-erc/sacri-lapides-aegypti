@@ -1,5 +1,5 @@
 import React from "react";
-import TitleR from "../title/TitleR";
+import Title from "../title/Title";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 
@@ -7,7 +7,7 @@ const Info = (props) => {
   return (
     <Wrapper>
       <Container>
-        <TitleR title="general information"></TitleR>
+        <Title title="general information" align="right" />
       </Container>
 
       <Container>

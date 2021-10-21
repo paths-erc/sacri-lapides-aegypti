@@ -2,8 +2,7 @@ import React from "react";
 import Layout from "../templates/IndexLayout";
 
 import HeaderImage from "../components/HeaderImage";
-import TitleR from "../components/Title/TitleR";
-import TitleL from "../components/Title/TitleL";
+import Title from "../components/Title/Title";
 
 import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
 import PBuzi from "../../static/images/other/paola-buzi.jpeg";
@@ -26,7 +25,7 @@ const Team = () => {
                 <img className="img-left" src={PBuzi} alt="Paola Buzi" />
               </Col>
               <Col sm={8}>
-                <TitleL title="Paola Buzi" />
+                <Title title="Paola Buzi" />
                 <p>
                   Paola Buzi is full professor of Egyptology and Coptic
                   Civilization at the Sapienza University of Rome and honorary
@@ -42,7 +41,7 @@ const Team = () => {
           <Container className="container-two">
             <Row>
               <Col sm={8}>
-                <TitleR title="Julian Bogdani" />
+                <Title title="Julian Bogdani" align="right"/>
                 <p>
                   Julian Bogdani is a researcher of Metodologie della Ricerca
                   Archeologica (L-ANT/10) at Sapienza University of Rome where
@@ -73,7 +72,7 @@ const Team = () => {
                 />
               </Col>
               <Col sm={8}>
-                <TitleL title="Domizia D'Erasmo" />
+                <Title title="Domizia D'Erasmo" />
                 <p>
                   Domizia D'Erasmo is a research fellow in Metodologie della
                   Ricerca Archeologica (L-ANT/10) at Sapienza University of
@@ -91,7 +90,7 @@ const Team = () => {
           <Container className="container-two">
             <Row>
               <Col sm={8}>
-                <TitleR title="Serena Guidone" />
+                <Title title="Serena Guidone" align="right" />
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
@@ -117,7 +116,7 @@ const Team = () => {
                   />
                 </Col>
                 <Col sm={8}>
-                  <TitleL title="Valeria Parisi" />
+                  <Title title="Valeria Parisi" />
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum pulvinar velit a lorem bibendum venenatis. Sed

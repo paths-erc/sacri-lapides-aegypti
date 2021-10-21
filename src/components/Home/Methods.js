@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Card from "react-bootstrap/Card";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import TitleL from "../title/TitleL";
+import Title from "../title/Title";
 import Card1 from "../../../static/images/other/1-card.jpg";
 import Card2 from "../../../static/images/other/2-card.jpg";
 import Card3 from "../../../static/images/other/3-card.jpg";
@@ -13,7 +13,7 @@ const Methods = () => {
     <Wrapper>
       <section className="section methods">
         <Container>
-          <TitleL title="methodology" />
+          <Title title="Methodology" />
           <Row xs={1} md={3}>
             <Col>
               <Card>
