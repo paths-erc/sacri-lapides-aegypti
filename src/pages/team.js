@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../templates/IndexLayout";
 
-import Picture from "../components/Picture";
+import HeaderImage from "../components/HeaderImage";
 import TitleR from "../components/Title/TitleR";
 import TitleL from "../components/Title/TitleL";
 
@@ -17,7 +17,7 @@ import styled from "styled-components";
 const Team = () => {
   return (
     <Layout>
-      <Picture title="Team" src={HomeSliderImage1} />
+      <HeaderImage title="Team" src={HomeSliderImage1} />
       <Wrapper>
         <section className="section bottom-slant-gray">
           <Container className="container-one">

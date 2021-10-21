@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
-import Picture from "../components/Picture";
+import HeaderImage from "../components/HeaderImage";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Sites/Info";
@@ -20,7 +20,7 @@ const SitesLayout = ({ data }) => {
   return (
     <>
       <Header />
-      <Picture title={content.frontmatter.title} src={HomeSliderImage1} />
+      <HeaderImage title={content.frontmatter.title} src={HomeSliderImage1} />
       <Wrapper>
         <section className="section map">
           <Info

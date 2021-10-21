@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import TitleP from "./Title/TitleP";
 
 //markup
-const Picture = (props) => {
+const HeaderImage = (props) => {
   const src = props.src;
   const title = props.title;
 
@@ -11,8 +10,7 @@ const Picture = (props) => {
     <Wrapper>
       <div className="section-one">
         <img src={src} alt={title}></img>
-        {/* <Image className="d-block w-100" src={src} alt="Background" fluid /> */}
-        <TitleP title={title} />
+        <h1>{title}</h1>
       </div>
     </Wrapper>
   );
@@ -26,16 +24,6 @@ const Wrapper = styled.section`
     width: calc(300vh);
     object-fit: cover;
   }
-  /* img {
-    filter: brightness(75%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: calc(100vh);
-    object-fit: cover;
-    height: calc(50vh);
-    position: relative;
-  } */
   .section-one {
     position: relative;
     background-color: #f8f9fa;
@@ -58,11 +46,15 @@ const Wrapper = styled.section`
     transform-origin: top left;
     background-color: #f8f9fa;
   }
-  .title {
+  h1 {
+    font-family: "Open Sans", sans-serif;
     position: absolute;
-    top: 30%;
-    padding-top: 10;
-    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 200;
+    font-size: 6rem;
   }
 `;
-export default Picture;
+export default HeaderImage;
