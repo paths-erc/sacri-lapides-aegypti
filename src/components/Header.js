@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { withPrefix } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import SlaLogo from "../../static/images/logos/sla.svg";
@@ -32,32 +33,40 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav>
-            <Nav.Link style={navLink} href="/">
+            <Nav.Link style={navLink} href={withPrefix(`/`)}>
               HOME
             </Nav.Link>
             <NavDropdown style={navLink} title="PLACES" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/alexandria/">
+              <NavDropdown.Item href={withPrefix(`/alexandria/`)}>
                 Alexandria
               </NavDropdown.Item>
-              <NavDropdown.Item href="/aswan/">Aswan</NavDropdown.Item>
-              <NavDropdown.Item href="/dendera/">Dendera</NavDropdown.Item>
-              <NavDropdown.Item href="/east-canopus/">
+              <NavDropdown.Item href={withPrefix(`/aswan/`)}>
+                Aswan
+              </NavDropdown.Item>
+              <NavDropdown.Item href={withPrefix(`/dendera/`)}>
+                Dendera
+              </NavDropdown.Item>
+              <NavDropdown.Item href={withPrefix(`/east-canopus/`)}>
                 Canopus East
               </NavDropdown.Item>
-              <NavDropdown.Item href="/elephantine/">
+              <NavDropdown.Item href={withPrefix(`/elephantine/`)}>
                 Elephantine
               </NavDropdown.Item>
-              <NavDropdown.Item href="/marea/">Marea</NavDropdown.Item>
-              <NavDropdown.Item href="/marina/">
+              <NavDropdown.Item href={withPrefix(`/marea/`)}>
+                Marea
+              </NavDropdown.Item>
+              <NavDropdown.Item href={withPrefix(`/marina/`)}>
                 Marina el-Amein
               </NavDropdown.Item>
-              <NavDropdown.Item href="/taposiris/">Taposiris</NavDropdown.Item>
+              <NavDropdown.Item href={withPrefix(`/taposiris/`)}>
+                Taposiris
+              </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link style={navLink} href="/team">
+            <Nav.Link style={navLink} href={withPrefix(`/team/`)}>
               TEAM
             </Nav.Link>
-            <Nav.Link style={navLink} href="/news">
+            <Nav.Link style={navLink} href={withPrefix(`/news/`)}>
               NEWS
             </Nav.Link>
           </Nav>
