@@ -3,19 +3,20 @@ import styled from "styled-components";
 import Card from "react-bootstrap/Card";
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import { withPrefix } from "gatsby";
 
 const Places = (props) => {
   return (
     <Wrapper>
       <Container>
         <Card>
-          <Card.Img variant="top" src={`/images/${props.img}`} />
+          <Card.Img variant="top" src={withPrefix(`/images/${props.img}`)} />
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <p className="typology">{props.typology}</p>
             <Card.Text>{props.excerpt}</Card.Text>
           </Card.Body>
-          <Button className="go-to" variant="primary" href={props.readMore}>
+          <Button className="go-to" variant="primary" href={withPrefix(props.readMore)}>
             Read More...
           </Button>
         </Card>
