@@ -1,8 +1,9 @@
 import React from "react";
+import { withPrefix } from "gatsby";
 import Carousel from "react-bootstrap/Carousel";
 import HomeSliderImage1 from "../../../static/images/other/home-slider-1.jpg";
 import HomeSliderImage2 from "../../../static/images/other/home-slider-2.jpg";
-import SlaLogo from "../../../static/images/logos/sla.svg";
+import SlaLogo from "../../../static/images/logos/sla-animal.svg";
 import styled from "styled-components";
 
 //markup
@@ -15,11 +16,15 @@ const Slider = () => {
             <Carousel.Item interval={9000}>
               <img
                 className="d-block w-100"
-                src={HomeSliderImage1}
+                src={withPrefix(`${HomeSliderImage1}`)}
                 alt="First slide"
               />
               <Carousel.Caption>
-                <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
+                <img
+                  className="logo"
+                  src={withPrefix(`${SlaLogo}`)}
+                  alt="sacri-lapides"
+                ></img>
                 <h3>Sacri Lapides Aegypti</h3>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
                 <div
@@ -32,11 +37,15 @@ const Slider = () => {
             <Carousel.Item interval={9000}>
               <img
                 className="d-block w-100"
-                src={HomeSliderImage2}
+                src={withPrefix(`${HomeSliderImage2}`)}
                 alt="Second slide"
               />
               <Carousel.Caption>
-                <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
+                <img
+                  className="logo"
+                  src={withPrefix(`${SlaLogo}`)}
+                  alt="sacri-lapides"
+                ></img>
                 <h3>Sacri Lapides Aegypti</h3>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
               </Carousel.Caption>
