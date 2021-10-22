@@ -9,7 +9,7 @@ import { Container, Row, Col } from "react-bootstrap";
 //Component
 import Layout from "../templates/IndexLayout";
 import HeaderImage from "../components/HeaderImage";
-import Title from "../components/Title/Title";
+import Title from "../components/Title";
 
 //Images
 import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
@@ -57,7 +57,7 @@ const Team = () => {
                   Archeologica (L-ANT/10) at Sapienza University of Rome where
                   he also founded the{" "}
                   <a
-                    href="https://purl.org/lad"
+                    href="http://purl.org/lad"
                     target="_blank"
                     rel="noreferrer"
                   >

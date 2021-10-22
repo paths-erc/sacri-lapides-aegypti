@@ -33,7 +33,7 @@ const Places = (props) => {
   );
 };
 
-//styles
+//style
 const Wrapper = styled.section`
   a {
     color: rgb(130, 36, 51);

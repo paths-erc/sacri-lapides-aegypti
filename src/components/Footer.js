@@ -2,6 +2,8 @@
 import React from "react";
 import { withPrefix } from "gatsby";
 import styled from "styled-components";
+import { StaticImage } from "gatsby-plugin-image";
+import { css } from "styled-components";
 
 //FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,7 +19,6 @@ import {
 import { Container, Row, Col } from "react-bootstrap";
 
 //Images
-import SlaLogo from "../../static/images/logos/sla.svg";
 import FareLogo from "../../static/images/logos/fare.jpeg";
 import SapienzaLogo from "../../static/images/logos/sapienza.jpg";
 import BdusLogo from "../../static/images/logos/bdus.svg";
@@ -31,9 +32,10 @@ const Footer = () => {
         <Container>
           <Row className="d-flex justify-content-center">
             <Col className="d-flex justify-content-center" md={3} sm={6} xs={6}>
-              <img
-                src={withPrefix(`${SlaLogo}`)}
-                alt="Sacri Lapides Aegypti Logo"
+              <StaticImage
+                src="../../static/images/logos/sla.svg"
+                width={500}
+                objectFit="scale-down"
               />
             </Col>
             <Col md={3} sm={6} xs={6}>
@@ -96,16 +98,32 @@ const Footer = () => {
           <Row className="partners"></Row>
           <Row className="logos">
             <Col className="d-flex justify-content-center">
-              <img src={withPrefix(`${FareLogo}`)} alt="FARE MIUR Logo" />
+              <StaticImage
+                src="../../static/images/logos/fare.jpeg"
+                width={400}
+                objectFit="scale-down"
+              />
             </Col>
             <Col className="d-flex justify-content-center">
-              <img src={withPrefix(`${SapienzaLogo}`)} alt="Sapienza Logo" />
+              <StaticImage
+                src="../../static/images/logos/sapienza.jpg"
+                width={400}
+                objectFit="scale-down"
+              />
             </Col>
             <Col className="d-flex justify-content-center">
-              <img src={withPrefix(`${BdusLogo}`)} alt="BraDypUS Logo" />
+              <StaticImage
+                src="../../static/images/logos/lad-blue.png"
+                width={400}
+                objectFit="scale-down"
+              />
             </Col>
             <Col className="d-flex justify-content-center">
-              <img src={withPrefix(`${PathsLogo}`)} alt="PAThs Logo" />
+              <StaticImage
+                src="../../static/images/logos/paths.png"
+                width={400}
+                objectFit="scale-down"
+              />
             </Col>
           </Row>
         </Container>
@@ -162,6 +180,9 @@ const Wrapper = styled.section`
   p {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
+  }
+  .row {
+    margin-top: 1rem;
   }
 `;
 export default Footer;

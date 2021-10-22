@@ -6,7 +6,7 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 //Component
-import Title from "../Title/Title";
+import Title from "../Title";
 
 //markup
 const Info = (props) => {

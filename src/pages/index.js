@@ -12,7 +12,7 @@ import Slider from "../components/Home/Slider";
 import About from "../components/home/About";
 import Methods from "../components/home/Methods";
 import Places from "../components/home/Places";
-import Title from "../components/title/Title";
+import Title from "../components/Title";
 
 // markup
 const Index = ({ data }) => {

@@ -14,7 +14,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Sites/Info";
 import Map from "../components/Map";
-import Title from "../components/Title/Title";
+import Title from "../components/Title";
 import Scroll from "../components/Scroll";
 
 //Images

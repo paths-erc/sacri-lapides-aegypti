@@ -3,6 +3,25 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://paths-erc.eu",
     title: "Sacri Lapides Aegypti",
+    menuLinks: [
+      { link: "/", title: "home", subMenu: null },
+      {
+        link: " ",
+        title: "places",
+        subMenu: [
+          { link: "/alexandria", title: "alexandria" },
+          { link: "/aswan", title: "aswan" },
+          { link: "/dendera", title: "dendera" },
+          { link: "/east-canopus", title: "esat-canopus" },
+          { link: "/elephantine", title: "elephantine" },
+          { link: "/marea", title: "marea" },
+          { link: "/marina", title: "marina" },
+          { link: "/taposiris", title: "taposiris" },
+        ],
+      },
+      { link: "/team/", title: "team", subMenu: null },
+      { link: "/news/", title: "news", subMenu: null },
+    ],
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
@@ -16,6 +35,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-transition-link`,
+    `babel-plugin-styled-components`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -34,6 +54,13 @@ module.exports = {
       options: {
         name: "images",
         path: `${__dirname}/src/content/`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/static/images`,
       },
     },
     {

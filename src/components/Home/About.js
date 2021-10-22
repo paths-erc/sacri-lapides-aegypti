@@ -1,16 +1,13 @@
 //Gatsby
 import React from "react";
 import styled from "styled-components";
-import { withPrefix } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 //Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
 //Component
-import Title from "../title/Title";
-
-//Images
-import SlaLogo from "../../../static/images/logos/sla.svg";
+import Title from "../Title";
 
 //markup
 const About = () => {
@@ -20,10 +17,10 @@ const About = () => {
         <Container>
           <Row xs={1} md={2}>
             <Col>
-              <img
-                className="about-img"
-                src={withPrefix(`${SlaLogo}`)}
-                alt="Sacri Lapides Aegypti Logo"
+              <StaticImage
+                src="../../static/images/logos/sla.svg"
+                width={500}
+                objectFit="scale-down"
               />
             </Col>
             <Col>
@@ -72,11 +69,11 @@ const Wrapper = styled.section`
     margin-bottom: 3rem;
   }
   .about-img {
-    text-align: center;
     max-width: 400px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
   .bottom-slant-gray {
     position: relative;
