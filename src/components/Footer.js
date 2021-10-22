@@ -1,4 +1,9 @@
+//Gatsby
 import React from "react";
+import { withPrefix } from "gatsby";
+import styled from "styled-components";
+
+//FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookSquare,
@@ -7,13 +12,16 @@ import {
   faGoogle,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+
+//Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
+
+//Images
 import SlaLogo from "../../static/images/logos/sla.svg";
 import FareLogo from "../../static/images/logos/fare.jpeg";
 import SapienzaLogo from "../../static/images/logos/sapienza.jpg";
 import BdusLogo from "../../static/images/logos/bdus.svg";
 import PathsLogo from "../../static/images/logos/paths.png";
-import styled from "styled-components";
 
 //markup
 const Footer = () => {
@@ -23,7 +31,10 @@ const Footer = () => {
         <Container>
           <Row className="d-flex justify-content-center">
             <Col className="d-flex justify-content-center" md={3} sm={6} xs={6}>
-              <img src={SlaLogo} alt="Sacri Lapides Aegypti Logo" />
+              <img
+                src={withPrefix(`${SlaLogo}`)}
+                alt="Sacri Lapides Aegypti Logo"
+              />
             </Col>
             <Col md={3} sm={6} xs={6}>
               <p>
@@ -85,16 +96,16 @@ const Footer = () => {
           <Row className="partners"></Row>
           <Row className="logos">
             <Col className="d-flex justify-content-center">
-              <img src={FareLogo} alt="FARE MIUR Logo" />
+              <img src={withPrefix(`${FareLogo}`)} alt="FARE MIUR Logo" />
             </Col>
             <Col className="d-flex justify-content-center">
-              <img src={SapienzaLogo} alt="Sapienza Logo" />
+              <img src={withPrefix(`${SapienzaLogo}`)} alt="Sapienza Logo" />
             </Col>
             <Col className="d-flex justify-content-center">
-              <img src={BdusLogo} alt="BraDypUS Logo" />
+              <img src={withPrefix(`${BdusLogo}`)} alt="BraDypUS Logo" />
             </Col>
             <Col className="d-flex justify-content-center">
-              <img src={PathsLogo} alt="PAThs Logo" />
+              <img src={withPrefix(`${PathsLogo}`)} alt="PAThs Logo" />
             </Col>
           </Row>
         </Container>

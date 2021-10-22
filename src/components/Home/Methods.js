@@ -1,13 +1,22 @@
+//Gatsby
 import React from "react";
 import styled from "styled-components";
 import Card from "react-bootstrap/Card";
+import { withPrefix } from "gatsby-link";
+
+//Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+
+//Component
 import Title from "../title/Title";
+
+//Images
 import Card1 from "../../../static/images/other/1-card.jpg";
 import Card2 from "../../../static/images/other/2-card.jpg";
 import Card3 from "../../../static/images/other/3-card.jpg";
 
+//markup
 const Methods = () => {
   return (
     <Wrapper>
@@ -17,7 +26,7 @@ const Methods = () => {
           <Row xs={1} md={3}>
             <Col>
               <Card>
-                <Card.Img variant="top" src={Card1} />
+                <Card.Img variant="top" src={withPrefix(`${Card1}`)} />
                 <Card.Body>
                   <Card.Title>First Step</Card.Title>
                   <Button variant="primary">
@@ -36,7 +45,7 @@ const Methods = () => {
             </Col>
             <Col>
               <Card>
-                <Card.Img variant="top" src={Card2} />
+                <Card.Img variant="top" src={withPrefix(`${Card2}`)} />
                 <Card.Body>
                   <Card.Title>Second Step</Card.Title>
                   <Button variant="primary">
@@ -53,7 +62,7 @@ const Methods = () => {
             </Col>
             <Col>
               <Card>
-                <Card.Img variant="top" src={Card3} />
+                <Card.Img variant="top" src={withPrefix(`${Card3}`)} />
                 <Card.Body>
                   <Card.Title>Third Step</Card.Title>
                   <Button variant="primary">
@@ -74,6 +83,7 @@ const Methods = () => {
   );
 };
 
+//styles
 const Wrapper = styled.section`
   a {
     color: rgb(130, 36, 51);

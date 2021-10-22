@@ -1,10 +1,14 @@
+//Gatsby
 import React from "react";
+import { withPrefix } from "gatsby";
 import styled from "styled-components";
+
+//Bootstrap
 import Card from "react-bootstrap/Card";
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import { withPrefix } from "gatsby";
 
+//markup
 const Places = (props) => {
   return (
     <Wrapper>
@@ -16,7 +20,11 @@ const Places = (props) => {
             <p className="typology">{props.typology}</p>
             <Card.Text>{props.excerpt}</Card.Text>
           </Card.Body>
-          <Button className="go-to" variant="primary" href={withPrefix(props.readMore)}>
+          <Button
+            className="go-to"
+            variant="primary"
+            href={withPrefix(props.readMore)}
+          >
             Read More...
           </Button>
         </Card>
@@ -25,6 +33,7 @@ const Places = (props) => {
   );
 };
 
+//styles
 const Wrapper = styled.section`
   a {
     color: rgb(130, 36, 51);

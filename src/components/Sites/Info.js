@@ -1,8 +1,14 @@
+//Gatsby
 import React from "react";
-import Title from "../Title/Title";
-import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 
+//Bootstrap
+import { Container, Row, Col } from "react-bootstrap";
+
+//Component
+import Title from "../Title/Title";
+
+//markup
 const Info = (props) => {
   return (
     <Wrapper>
@@ -70,6 +76,7 @@ const Info = (props) => {
   );
 };
 
+//styled
 const Wrapper = styled.section`
   h5 {
     font-family: "Montserrat", sans-serif;

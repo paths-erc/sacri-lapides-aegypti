@@ -1,7 +1,12 @@
+//Gatsby
 import React from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { Container } from "react-bootstrap";
 import styled from "styled-components";
+
+//Leaflet
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+
+//Bootstrap
+import { Container } from "react-bootstrap";
 
 const Map = (props) => {
   const lng = props.lng;
@@ -34,6 +39,7 @@ const Map = (props) => {
   );
 };
 
+//styles
 const Wrapper = styled.section`
   .map {
     position: absolute;

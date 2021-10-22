@@ -1,6 +1,14 @@
+//Gatsby
 import React from "react";
 import { graphql } from "gatsby";
+import { withPrefix } from "gatsby";
+import styled from "styled-components";
 import Img from "gatsby-image";
+
+//Bootstrap
+import { Container, Col, Row } from "react-bootstrap";
+
+//Components
 import HeaderImage from "../components/HeaderImage";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -8,18 +16,24 @@ import Info from "../components/Sites/Info";
 import Map from "../components/Map";
 import Title from "../components/Title/Title";
 import Scroll from "../components/Scroll";
-import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
-import { Container, Col, Row } from "react-bootstrap";
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
-import styled from "styled-components";
 
+//Images
+import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
+
+//Lightbox
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+
+//markup
 const SitesLayout = ({ data }) => {
   const content = data.markdownRemark;
   const images = data.allFile.edges;
   return (
     <>
       <Header />
-      <HeaderImage title={content.frontmatter.title} src={HomeSliderImage1} />
+      <HeaderImage
+        title={content.frontmatter.title}
+        src={withPrefix(`${HomeSliderImage1}`)}
+      />
       <Wrapper>
         <section className="section map">
           <Info
@@ -84,7 +98,7 @@ const SitesLayout = ({ data }) => {
 
         <section className="section bottom-slant-gray">
           <Container>
-            <Title title="Gallery" align="right"/>
+            <Title title="Gallery" align="right" />
           </Container>
           <SimpleReactLightbox>
             <SRLWrapper>
@@ -92,7 +106,9 @@ const SitesLayout = ({ data }) => {
                 <Row>
                   {images.map((image, key) => (
                     <Col xs={6} md={4} key={key}>
-                      <a href={image.node.childImageSharp.fluid.src}>
+                      <a
+                        href={withPrefix(image.node.childImageSharp.fluid.src)}
+                      >
                         <Img
                           fluid={image.node.childImageSharp.fluid}
                           style={{ margin: "3rem 0", height: "300px" }}
@@ -120,6 +136,7 @@ const SitesLayout = ({ data }) => {
   );
 };
 
+//styles
 const Wrapper = styled.section`
   a {
     text-decoration: none;

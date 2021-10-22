@@ -1,28 +1,38 @@
+//Gatsby
 import React from "react";
-import Layout from "../templates/IndexLayout";
+import { withPrefix } from "gatsby";
+import styled from "styled-components";
 
+//Bootstrap
+import { Container, Row, Col } from "react-bootstrap";
+
+//Component
+import Layout from "../templates/IndexLayout";
 import HeaderImage from "../components/HeaderImage";
 import Title from "../components/Title/Title";
 
+//Images
 import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
 import PBuzi from "../../static/images/other/paola-buzi.jpeg";
 import JBogdani from "../../static/images/other/julian-bogdani.jpg";
 import DDerasmo from "../../static/images/other/domizia-d_erasmo.jpg";
 import VParisi from "../../static/images/other/valeria-parisi.jpg";
 
-import { Container, Row, Col } from "react-bootstrap";
-import styled from "styled-components";
-
+//markup
 const Team = () => {
   return (
     <Layout>
-      <HeaderImage title="Team" src={HomeSliderImage1} />
+      <HeaderImage title="Team" src={withPrefix(`${HomeSliderImage1}`)} />
       <Wrapper>
         <section className="section bottom-slant-gray">
           <Container className="container-one">
             <Row>
               <Col sm={4}>
-                <img className="img-left" src={PBuzi} alt="Paola Buzi" />
+                <img
+                  className="img-left"
+                  src={withPrefix(`${PBuzi}`)}
+                  alt="Paola Buzi"
+                />
               </Col>
               <Col sm={8}>
                 <Title title="Paola Buzi" />
@@ -41,20 +51,27 @@ const Team = () => {
           <Container className="container-two">
             <Row>
               <Col sm={8}>
-                <Title title="Julian Bogdani" align="right"/>
+                <Title title="Julian Bogdani" align="right" />
                 <p>
                   Julian Bogdani is a researcher of Metodologie della Ricerca
                   Archeologica (L-ANT/10) at Sapienza University of Rome where
-                  he also founded the <a href="https://purl.org/lad" target="_blank" rel="noreferrer" >Laboratory of Digital Archaeology (LAD)</a>.
-                  He teaches in Sapienza Digital Humanities and Digital Archaeology. 
-                  Since 2021, he has been director of the archaeological mission 
-                  at Çuka e Ajtoit, Albania.
+                  he also founded the{" "}
+                  <a
+                    href="https://purl.org/lad"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Laboratory of Digital Archaeology (LAD)
+                  </a>
+                  . He teaches in Sapienza Digital Humanities and Digital
+                  Archaeology. Since 2021, he has been director of the
+                  archaeological mission at Çuka e Ajtoit, Albania.
                 </p>
               </Col>
               <Col sm={4}>
                 <img
                   className="img-right"
-                  src={JBogdani}
+                  src={withPrefix(`${JBogdani}`)}
                   alt="Julian Bogdani"
                 />
               </Col>
@@ -67,7 +84,7 @@ const Team = () => {
               <Col sm={4}>
                 <img
                   className="img-left"
-                  src={DDerasmo}
+                  src={withPrefix(`${DDerasmo}`)}
                   alt="Domizia D'Erasmo"
                 />
               </Col>
@@ -111,7 +128,7 @@ const Team = () => {
                 <Col sm={4}>
                   <img
                     className="img-left"
-                    src={VParisi}
+                    src={withPrefix(`${VParisi}`)}
                     alt="Valeria Parisi"
                   />
                 </Col>
@@ -137,6 +154,7 @@ const Team = () => {
   );
 };
 
+//styles
 const Wrapper = styled.section`
   section {
     position: relative;

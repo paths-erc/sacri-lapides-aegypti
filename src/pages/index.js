@@ -1,7 +1,12 @@
+//Gatsby
 import * as React from "react";
 import { graphql } from "gatsby";
-import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
+
+//Bootstap
+import { Container, Row, Col } from "react-bootstrap";
+
+//Components
 import Layout from "../templates/IndexLayout";
 import Slider from "../components/Home/Slider";
 import About from "../components/home/About";
@@ -43,6 +48,7 @@ const Index = ({ data }) => {
 
 export default Index;
 
+//styles
 const Wrapper = styled.section`
   section {
     position: relative;

@@ -1,9 +1,18 @@
+//Gatsby
 import React from "react";
-import Title from "../title/Title";
-import SlaLogo from "../../../static/images/logos/sla.svg";
-import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
+import { withPrefix } from "gatsby";
 
+//Bootstrap
+import { Container, Row, Col } from "react-bootstrap";
+
+//Component
+import Title from "../title/Title";
+
+//Images
+import SlaLogo from "../../../static/images/logos/sla.svg";
+
+//markup
 const About = () => {
   return (
     <Wrapper>
@@ -13,7 +22,7 @@ const About = () => {
             <Col>
               <img
                 className="about-img"
-                src={SlaLogo}
+                src={withPrefix(`${SlaLogo}`)}
                 alt="Sacri Lapides Aegypti Logo"
               />
             </Col>
@@ -42,6 +51,7 @@ const About = () => {
   );
 };
 
+//styles
 const Wrapper = styled.section`
   section {
     padding: 0;

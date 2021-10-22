@@ -1,8 +1,10 @@
+//Gatsby
 import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import IconButton from "@material-ui/core/IconButton";
 
+//styles
 const useStyles = makeStyles((theme) => ({
   toTop: {
     zIndex: 2,
@@ -25,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+//markup
 const Scroll = ({ showBelow }) => {
   const classes = useStyles();
 

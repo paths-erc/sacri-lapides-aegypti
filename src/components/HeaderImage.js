@@ -1,4 +1,6 @@
+//Gatsby
 import React from "react";
+import { withPrefix } from "gatsby";
 import styled from "styled-components";
 
 //markup
@@ -9,7 +11,7 @@ const HeaderImage = (props) => {
   return (
     <Wrapper>
       <div className="section-one">
-        <img src={src} alt={title}></img>
+        <img src={withPrefix(`${src}`)} alt={title}></img>
         <h1>{title}</h1>
       </div>
     </Wrapper>

@@ -1,10 +1,15 @@
+//Gatsby
 import React from "react";
 import { withPrefix } from "gatsby";
+import styled from "styled-components";
+
+//Bootstrap
 import Carousel from "react-bootstrap/Carousel";
+
+//Images
 import HomeSliderImage1 from "../../../static/images/other/home-slider-1.jpg";
 import HomeSliderImage2 from "../../../static/images/other/home-slider-2.jpg";
 import SlaLogo from "../../../static/images/logos/sla-animal.svg";
-import styled from "styled-components";
 
 //markup
 const Slider = () => {

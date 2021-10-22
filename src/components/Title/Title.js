@@ -1,9 +1,11 @@
+//Gatsby
 import React from "react";
 import styled from "styled-components";
 
+//markup
 const Title = (props) => {
   const title = props.title;
-  const align = props.align === 'right' ? 'right' : 'left';
+  const align = props.align === "right" ? "right" : "left";
 
   return (
     <Wrapper>
@@ -14,6 +16,7 @@ const Title = (props) => {
   );
 };
 
+//styles
 const Wrapper = styled.section`
   .section-title {
     font-family: "Open Sans", sans-serif;

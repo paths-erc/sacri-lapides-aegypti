@@ -1,9 +1,26 @@
+//Gatsby
 import React from "react";
 import styled from "styled-components";
 import { withPrefix } from "gatsby";
+
+//Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+
+//Images
 import SlaLogo from "../../static/images/logos/sla.svg";
+
+//styles
+const ImgLogo = {
+  width: "100px",
+  marginLeft: 50,
+};
+
+const navLink = {
+  marginLeft: "1rem",
+  marginRight: "1rem",
+  fontWeight: 400,
+};
 
 //markup
 const Header = () => {
@@ -12,7 +29,7 @@ const Header = () => {
       <Navbar fixed="top" expand="lg">
         <Navbar.Brand href={withPrefix(`/`)}>
           <img
-            className="logo"
+            style={ImgLogo}
             src={withPrefix(`${SlaLogo}`)}
             className="d-inline-block align-top"
             alt="Sacri Lapides Aegypti"
@@ -21,14 +38,10 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav>
-            <Nav.Link className="nav-link" href={withPrefix(`/`)}>
+            <Nav.Link style={navLink} href={withPrefix(`/`)}>
               HOME
             </Nav.Link>
-            <NavDropdown
-              className="nav-link"
-              title="PLACES"
-              id="basic-nav-dropdown"
-            >
+            <NavDropdown style={navLink} title="PLACES" id="basic-nav-dropdown">
               <NavDropdown.Item href={withPrefix(`/alexandria/`)}>
                 Alexandria
               </NavDropdown.Item>
@@ -55,10 +68,10 @@ const Header = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link className="nav-link" href={withPrefix(`/team/`)}>
+            <Nav.Link style={navLink} href={withPrefix(`/team/`)}>
               TEAM
             </Nav.Link>
-            <Nav.Link className="nav-link" href={withPrefix(`/news/`)}>
+            <Nav.Link style={navLink} href={withPrefix(`/news/`)}>
               NEWS
             </Nav.Link>
           </Nav>
@@ -75,15 +88,6 @@ const Wrapper = styled.section`
     font-size: 1rem;
     font-weight: bolder;
     color: #777777;
-  }
-  .logo {
-    width: "100px";
-    margin-left: 50;
-  }
-  .nav-link {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-weight: 400;
   }
 `;
 export default Header;
