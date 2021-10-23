@@ -1,6 +1,6 @@
 //Gatsby
 import React from "react";
-import { withPrefix } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 
 //Bootstrap
@@ -11,27 +11,20 @@ import Layout from "../templates/IndexLayout";
 import HeaderImage from "../components/HeaderImage";
 import Title from "../components/Title";
 
-//Images
-import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
-import PBuzi from "../../static/images/other/paola-buzi.jpeg";
-import JBogdani from "../../static/images/other/julian-bogdani.jpg";
-import DDerasmo from "../../static/images/other/domizia-d_erasmo.jpg";
-import VParisi from "../../static/images/other/valeria-parisi.jpg";
-
 //markup
 const Team = () => {
   return (
     <Layout>
-      <HeaderImage title="Team" src={withPrefix(`${HomeSliderImage1}`)} />
+      <HeaderImage title="Team" />
       <Wrapper>
         <section className="section bottom-slant-gray">
           <Container className="container-one">
             <Row>
               <Col sm={4}>
-                <img
-                  className="img-left"
-                  src={withPrefix(`${PBuzi}`)}
-                  alt="Paola Buzi"
+                <StaticImage
+                  src="../../static/images/other/paola-buzi.jpeg"
+                  width={300}
+                  objectFit="scale-down"
                 />
               </Col>
               <Col sm={8}>
@@ -52,7 +45,7 @@ const Team = () => {
             <Row>
               <Col sm={8}>
                 <Title title="Julian Bogdani" align="right" />
-                <p>
+                <p className="text-container">
                   Julian Bogdani is a researcher of Metodologie della Ricerca
                   Archeologica (L-ANT/10) at Sapienza University of Rome where
                   he also founded the{" "}
@@ -69,10 +62,10 @@ const Team = () => {
                 </p>
               </Col>
               <Col sm={4}>
-                <img
-                  className="img-right"
-                  src={withPrefix(`${JBogdani}`)}
-                  alt="Julian Bogdani"
+                <StaticImage
+                  src="../../static/images/other/jbogdani.jpg"
+                  width={300}
+                  objectFit="scale-down"
                 />
               </Col>
             </Row>
@@ -82,10 +75,10 @@ const Team = () => {
           <Container className="container-three">
             <Row>
               <Col sm={4}>
-                <img
-                  className="img-left"
-                  src={withPrefix(`${DDerasmo}`)}
-                  alt="Domizia D'Erasmo"
+                <StaticImage
+                  src="../../static/images/other/domizia-d_erasmo.jpg"
+                  width={300}
+                  objectFit="scale-down"
                 />
               </Col>
               <Col sm={8}>
@@ -96,7 +89,14 @@ const Team = () => {
                   Rome. She is a member of the archaeological mission at the
                   temple of Hugair Gubli, Sudan (PI: Paola Buzi) and of the one
                   at the site of Çuka e Ajtoit, Albania (PI: Julian Bogdani).
-                  She is tutor of the Laboratorio di Archeologia Digitale (LAD)
+                  She is tutor of the{" "}
+                  <a
+                    href="http://purl.org/lad"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Laboratory of Digital Archaeology (LAD)
+                  </a>
                   directed by Julian Bogdani
                 </p>
               </Col>
@@ -126,10 +126,10 @@ const Team = () => {
             <Container className="container-three">
               <Row>
                 <Col sm={4}>
-                  <img
-                    className="img-left"
-                    src={withPrefix(`${VParisi}`)}
-                    alt="Valeria Parisi"
+                  <StaticImage
+                    src="../../static/images/other/valeria-parisi.jpg"
+                    width={300}
+                    objectFit="scale-down"
                   />
                 </Col>
                 <Col sm={8}>

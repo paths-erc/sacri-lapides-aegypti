@@ -1,17 +1,20 @@
 //Gatsby
 import React from "react";
-import { withPrefix } from "gatsby";
 import styled from "styled-components";
+import { StaticImage } from "gatsby-plugin-image";
 
 //markup
 const HeaderImage = (props) => {
-  const src = props.src;
   const title = props.title;
 
   return (
     <Wrapper>
       <div className="section-one">
-        <img src={withPrefix(`${src}`)} alt={title}></img>
+        <StaticImage
+          src="../../../static/images/other/home-slider-1.jpg"
+          objectFit="cover"
+          alt={title}
+        />
         <h1>{title}</h1>
       </div>
     </Wrapper>

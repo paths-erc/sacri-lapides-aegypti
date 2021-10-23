@@ -17,9 +17,6 @@ import Map from "../components/Map";
 import Title from "../components/Title";
 import Scroll from "../components/Scroll";
 
-//Images
-import HomeSliderImage1 from "../../static/images/other/home-slider-1.jpg";
-
 //Lightbox
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 
@@ -30,10 +27,7 @@ const SitesLayout = ({ data }) => {
   return (
     <>
       <Header />
-      <HeaderImage
-        title={content.frontmatter.title}
-        src={withPrefix(`${HomeSliderImage1}`)}
-      />
+      <HeaderImage title={content.frontmatter.title} />
       <Wrapper>
         <section className="section map">
           <Info
