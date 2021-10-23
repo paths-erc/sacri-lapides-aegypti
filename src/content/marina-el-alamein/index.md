@@ -1,6 +1,6 @@
 ---
 id: 6
-title: Marina el-Amlaein
+title: Marina el-Alamein
 img: marina-el-alamein.jpg
 coptic_name:
 greek_name: Ἀντίφραι
