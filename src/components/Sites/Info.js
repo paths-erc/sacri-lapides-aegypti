@@ -57,7 +57,6 @@ const Info = (props) => {
             <h6>EPISCOPAL SEE FROM</h6>
             <p>{props.episcopal_see_from_year}</p>
             <h6>TIMM REF</h6>
-            <p>{props.timm_ref}</p>
           </Col>
           <Col>
             <h5>ABOUT</h5>

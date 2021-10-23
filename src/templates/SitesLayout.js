@@ -48,7 +48,6 @@ const SitesLayout = ({ data }) => {
             episcopal_see_from_year={
               content.frontmatter.episcopal_see_from_year
             }
-            timm_ref={content.frontmatter.timm_ref}
             status={content.frontmatter.status}
             editors={content.frontmatter.editors}
             date={content.frontmatter.date}
@@ -321,7 +320,6 @@ export const query = graphql`
         pleiades_id
         year_from
         year_to
-        timm_ref
         status
         title
         tm_id

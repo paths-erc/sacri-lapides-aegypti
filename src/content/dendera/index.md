@@ -10,7 +10,6 @@ egyptian_name: Ỉwn.t-n-Ptḥ; Ỉwn.t; Ỉwn; Ỉwn.t-tȝ-nṯr.t; Ỉwn.t-n-p
 paths_id: 21
 tm_id: 2312
 pleiades_id: 786127
-timm_ref: II, 543-548, s.v. Dandarā
 area:
 episcopal_see_from_year:
 typology: Settlement
