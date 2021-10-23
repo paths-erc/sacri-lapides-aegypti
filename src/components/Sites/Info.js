@@ -41,7 +41,7 @@ const Info = (props) => {
             <p>{props.paths_id}</p>
             <h6>PLEIADES ID</h6>
             <p>{props.pleiades_id}</p>
-            <h6>TM ID</h6>
+            <h6>TRISMEGISTOS GeoID</h6>
             <p>{props.tm_id}</p>
           </Col>
           <Col>
@@ -56,7 +56,6 @@ const Info = (props) => {
             <p>{props.dating_criteria}</p>
             <h6>EPISCOPAL SEE FROM</h6>
             <p>{props.episcopal_see_from_year}</p>
-            <h6>TIMM REF</h6>
           </Col>
           <Col>
             <h5>ABOUT</h5>
