@@ -98,7 +98,7 @@ It has been identified the remains of the apse of a first Christian basilica whi
 
 Two lateral doors, located to the north and south of the church, allow to access to the narthex; the bottom of the basilica is divided into three rooms. The baptistery could be identified in the environment to the south, where the niche is decorated with an eagle. It is difficult to understand the function of the central chapel. A nave of five bays is delimited by red granite columns supported the wooden frame. The side walls are pierced with niches. The bottom of the basilica, oriented to the east, includes three apses
 
-### Bibliography
+## Bibliography
 
 - Aimé-Giron 1926 = N. Aimé-Giron, Réfection du mur d’enceinte du grande temple de Dendérah sous Tibère, ASAE, 26, 1926, pp. 109-112.
 

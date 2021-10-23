@@ -1,6 +1,5 @@
 //Gatsby
 import React from "react";
-import { withPrefix } from "gatsby";
 
 //Component
 import Layout from "../templates/IndexLayout";

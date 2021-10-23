@@ -55,7 +55,7 @@ Traces of a rectangular altar were found in the middle of the central nave. The 
 
 The church is dated to the end of the 4th or early 5th century CE, also thanks to numismatic sources. Later, a necropolis of child tombs placed in amphorae was located to the northwest of the church, whilst other graves were placed inside, in the northern aisle. From an architectural point of view, this basilica has a parallel in the church of Abu Mina and, outside Egypt, in Syria and Cyrenaica, as suggested by Daszewski 2011, p. 434.
 
-### Bibliography
+## Bibliography
 
 - Annual Report Marina el-Alamein: Marina el-Alamein, Polish Archaeology in the Mediterranean II, 1989/1990-XXVI.1 (Annual Reports 1988-2016), Warsaw.
 

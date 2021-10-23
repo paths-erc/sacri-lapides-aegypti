@@ -56,7 +56,7 @@ During excavations two phases of the sanctuary have been identified, based on th
 
 Marble column shafts of different diameter (c. 60, 30, 35, 24, 22, 8,4 cm); Attic and polygonal bases (Szymanska, Babraj 2010, fig. 6 and fig. 4); Corinthian capitals of three types: the first one, in marble, has two collars of acanthus leaves, and corner volutes springing from the upper collar of leaves; the second one, in marble, presents two collar of four acanthus leaves, corner volutes springing from the upper collar of leave; the third one, in limestone, is characterized by two collars of plain leaves and corner volute (Szymanska, Babraj 2010, p. 313, fig. 5, fig 10, fig. 2). A Ionian capital has been found outside the wall of the apse; it is characterized by eggs and darts carved between two half palmettes, typical of Ptolemaic period and probably imported at Marea from Alexandria (Szymanska, Babraj 2010, p. 313, figg. 12-13), screens of cancelli decorated with cross in a bejeweled wreath and with palmettes on either side (Szymanska, Babraj 2010, p. 309, fig. 8).
 
-### Bibliography
+## Bibliography
 
 - Barbraj, Kogut 2015 = Barbraj K., Kogut J.P., Late Roman and Early-Bizantyne analogues of structures in Marea/Philoxenite, in Materialy and archeologiczne, XL, 2015, pp. 87-90.
 

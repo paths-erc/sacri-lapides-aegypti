@@ -1,9 +1,7 @@
 //Gatsby
 import React from "react";
-import { withPrefix } from "gatsby";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
-import { css } from "styled-components";
 
 //FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,12 +15,6 @@ import {
 
 //Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
-
-//Images
-import FareLogo from "../../static/images/logos/fare.jpeg";
-import SapienzaLogo from "../../static/images/logos/sapienza.jpg";
-import BdusLogo from "../../static/images/logos/bdus.svg";
-import PathsLogo from "../../static/images/logos/paths.png";
 
 //markup
 const Footer = () => {

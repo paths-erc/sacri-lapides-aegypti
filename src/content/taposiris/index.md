@@ -155,7 +155,7 @@ A building north-south oriented, with a south facing apse and several rooms on t
 
 A fragment of a small Corinthian crystalline marble capitell (height 32 cm; lower diameter 24 cm; upper width 37 cm) has been found few steps southwest of the apse. Because of its small size, it probably belongs to the ciborium.
 
-### Bibliography
+## Bibliography
 
 - Adriani 1938: A. Adriani, Abousir (Mareotide), in Chronique d’Égypte, 25, 1938, pp. 74-77.
 

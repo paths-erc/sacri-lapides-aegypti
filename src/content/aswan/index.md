@@ -104,7 +104,7 @@ Three Egyptian stelae, one with the inscription visible, were reused as pavement
 
 An emergency excavation in area 6 (Kasr el-Hagar Street), in a site north of the wall that probably in Late Antiquity divided Syene in a northern and southern sector, brought to light the foundation of two structures built with reused block from a Ptolemaic temple. A baptistery was built at a later stage along the same street as the two buildings. It was equipped with a cross-shaped baptesimal font, accessible by three steps. In front of the baptistery, a paved area with Egyptian stelae of granite reused, leads to a vaulted martyr’s tomb. At the end of VII c. CE the site changed its function and became a residential area until the 14th c. (Dijkstra 2008, pp. 109-110; Von Pilgrim et alii 2004, pp. 143-148; Von Pilgrim et alii 2006, pp. 253-264)
 
-### Bibliography
+## Bibliography
 
 - Bernard, A. 1989. _De Thèbes à Syène_, Paris.
 
