@@ -10,7 +10,6 @@ egyptian_name: Rʿ-qd (Rʿ-qt) - Pȝ-ʿ.wy-n-ȝlgsȝntrs - Pȝ-sbt-n-Ỉrgsndrs
 paths_id: 38
 tm_id: 100
 pleiades_id: 727070
-region: Aegyptus
 area:
 episcopal_see_from_year: Maximus (262-280 CE)
 typology: Settlement

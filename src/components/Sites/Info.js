@@ -37,8 +37,6 @@ const Info = (props) => {
             <h5>GEO INFO</h5>
             <h6>AREA</h6>
             <p>{props.area}</p>
-            <h6>REGION</h6>
-            <p>{props.region}</p>
             <h6>PAThs ID</h6>
             <p>{props.paths_id}</p>
             <h6>PLEIADES ID</h6>

@@ -10,7 +10,6 @@ egyptian_name: snw; swnw
 paths_id: 128
 tm_id: 2207
 pleiades_id: 786123
-region: Aegyptus
 area:
 episcopal_see_from_year: 325 CE (cf. Timm 1984, p. 222)
 typology: Settlement

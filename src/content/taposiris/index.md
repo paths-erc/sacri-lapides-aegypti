@@ -8,7 +8,6 @@ arabic_transl: Abūṣīr
 paths_id: 338
 tm_id: 2260
 pleiades_id: 272741
-region: Aegyptus
 area: Western Coast
 typology: Settlement, Harbour
 year_from: Early Hellenistic period

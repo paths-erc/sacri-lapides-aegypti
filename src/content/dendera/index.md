@@ -11,7 +11,6 @@ paths_id: 21
 tm_id: 2312
 pleiades_id: 786127
 timm_ref: II, 543-548, s.v. Dandarā
-region: Aegyptus
 area:
 episcopal_see_from_year:
 typology: Settlement

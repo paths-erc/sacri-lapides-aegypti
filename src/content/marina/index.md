@@ -10,7 +10,6 @@ egyptian_name:
 paths_id: 117
 tm_id: 8554
 pleiades_id: 716524
-region: Aegyptus
 area:
 episcopal_see_from_year:
 typology: Harbour; settlement

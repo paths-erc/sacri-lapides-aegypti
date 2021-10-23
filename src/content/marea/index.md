@@ -11,7 +11,6 @@ paths_id: 143
 tm_id: 2718
 pleiades_id: 727153
 timm_ref: Timm 1984-1992 (IV, 1593-1603, s.v. Maryūṭ).
-region: Aegyptus
 area:
 episcopal_see_from_year:
 typology: Settlement

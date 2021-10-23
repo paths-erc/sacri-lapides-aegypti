@@ -10,7 +10,6 @@ egyptian_name: Ybȝ; ȝbw; Ỉȝbw; Ỉb
 paths_id: 16
 tm_id: 621
 pleiades_id: 786021
-region: Aegyptus
 area: Southern upper Egypt
 episcopal_see_from_year:
 typology: Settlement

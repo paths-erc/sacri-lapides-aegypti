@@ -10,7 +10,6 @@ egyptian_name:
 paths_id:
 tm_id:
 pleiades_id:
-region: Aegyptus
 area:
 episcopal_see_from_year:
 typology: Settlement

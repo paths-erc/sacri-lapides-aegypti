@@ -38,7 +38,6 @@ const SitesLayout = ({ data }) => {
             arabic_name={content.frontmatter.arabic_name}
             arabic_transl={content.frontmatter.arabic_transl}
             area={content.frontmatter.area}
-            region={content.frontmatter.region}
             paths_id={content.frontmatter.paths_id}
             pleiades_id={content.frontmatter.pleiades_id}
             tm_id={content.frontmatter.tm_id}
@@ -321,7 +320,6 @@ export const query = graphql`
         paths_id
         pleiades_id
         popup
-        region
         year_from
         year_to
         timm_ref
