@@ -27,7 +27,9 @@ zoom: 13
 popup: Aswan
 ---
 
-Aswan (Syene) is located on the east bank of the Nile, at the First Cataract, so it can be considered a frontier town that nowadays, as in antiquity, marks the southern border of Egypt. The history of the site, the southernmost city of the Roman Empire, is strictly linked to that of Elephantine, the small isle in the Nile in front of Aswan, that was a military, religious and economic centre. Aswan, on the other hand, famous in antiquity for its granite deposits, functioned mainly as a trading centre, a garrison town and an important episcopal see, from the IVth c. CE.  
+## About
+
+Aswan (Syene) is located on the east bank of the Nile, at the First Cataract, so it can be considered a frontier town that nowadays, as in antiquity, marks the southern border of Egypt. The history of the site, the southernmost city of the Roman Empire, is strictly linked to that of Elephantine, the small isle in the Nile in front of Aswan, that was a military, religious and economic centre. Aswan, on the other hand, famous in antiquity for its granite deposits, functioned mainly as a trading centre, a garrison town and an important episcopal see, from the IVth c. CE.
 
 The history of the excavations in Aswan was conditioned by the partial overlap between the southern part of the modern town and the ancient one, so that few monuments are visible today. The two main buildings are the Ptolemaic temple of Isis, converted into a church, and the Domitian temple, found in 1921. Three main phases, all rather recent, can be identified in the systematic archaeological researches at the site: in the 1970s an Italian equipe led by Edda Bresciani worked in the area of the temple of Isis; between the 1970s and the 1990s started the project supervised by the director of the Swiss Institute, Horst Jaritz, which expanded the excavations to other areas, such as the temple of Domitian and the church of St. Psoti and deepened the investigations around the temple of Isis (1987-1993); since 2000 has been underway a joint project of the Swiss Institute and Supreme Council of Antiquities, led by the current Director of the Swiss Institute, Cornelius von Pilgrim. The Swiss-Egyptian mission is conducting large-scale researches which has brought to light a number of archaeological sites, sometimes explored in emergency conditions, as well as a further deepening of the areas around the temple of Isis and Domitian.
 
@@ -83,7 +85,7 @@ A different hypothesis regarding the pagan building conversion has been later pr
 
 As the different reconstructions were only assumed but never proved by systematic studies, in 2000-2003 a meticulous analysis of the testimonies and data from the building has been conducted by the Swiss-Egyptian mission that work at the site. On the basis of the analysis on the fresco fragments preserved on the pillars, the scholars believe that no more specific date can be given for their creation than between the sixth and the ninth centuries. Assuming that these murals belong to the original decoration of the church, the date of its foundation should be placed within this period (Dijkstra, Van Loon 2010). In particular, thanks to the archaeological investigation and the study of the graffiti in their architectural and archaeological context, it has been possible to better determinate the different life stage of the building. In the first phase, starting in the Late Antique period, probably in the sixth century, the temple functioned as church. This use seems to continue also during the second phase, almost up to the ninth or tenth century, when some houses to the south of the temple started to occupied part of the space around and in front of the main entrance of the building. In the last period of life of the church, when the ground level was raised respect to the origins, a breach was opened on the façade of the building as provisional entrance. These researches have confirmed that the space of the Late Antique church was the pillared hall, where the Greek altars were moved to be used during the cultic celebration. The area where the main altar stood, the presbyterium, was closed off by screens (cancelli), maybe not more than a meter high, as usual (Dijkstra 2008, pp. 99-106).
 
-#### Architectural elements non in situ
+#### Architectural elements not _in situ_
 
 Decorative Coptic Fragments (Bresciani, Pernigotti 1978, pp. 302-303, n. 1-10); Christian stelae to Jacob Patriarch with Greek inscription (Bresciani, Pernigotti 1978, p. 303, n. 11); Fragment of Christian stelae (Bresciani, Pernigotti 1978, p. 304, n. 12).
 
@@ -102,20 +104,33 @@ Three Egyptian stelae, one with the inscription visible, were reused as pavement
 
 An emergency excavation in area 6 (Kasr el-Hagar Street), in a site north of the wall that probably in Late Antiquity divided Syene in a northern and southern sector, brought to light the foundation of two structures built with reused block from a Ptolemaic temple. A baptistery was built at a later stage along the same street as the two buildings. It was equipped with a cross-shaped baptesimal font, accessible by three steps. In front of the baptistery, a paved area with Egyptian stelae of granite reused, leads to a vaulted martyr’s tomb. At the end of VII c. CE the site changed its function and became a residential area until the 14th c. (Dijkstra 2008, pp. 109-110; Von Pilgrim et alii 2004, pp. 143-148; Von Pilgrim et alii 2006, pp. 253-264)
 
-#### Bibliography
+### Bibliography
 
-- Bernard, A. 1989. *De Thèbes à Syène*, Paris.
-- E. Bresciani, e and S. Pernigotti. 1978. *Assuan. Il tempio tolemaico di Isi*, Pisa.
-- Dijkstra, J.F.H. 2008. *Philae and the end of ancient Egyptian religion. A religious study of religion transformation (298-642 CE)*, Leuven.
-- Dijkstra, J. F.H. 2009 “Structuring Graffiti: The case of the temple of Isis at Aswan”, in *Ägyptologische Tempeltagung: Structuring Religion (Leuven 28 Sept. – 1 Okt. 2005)* edited by H. von Renè Preys, 77-93.Wiesbaden: Harrassowitz Verlag.
-- Dijkstra, J.F.H. 2011. “The Fate of the temple in Late Antique Egypt”, in *The Archaeology of Late Antique Paganism* edite by L. Lavan and M. Mulryan, 389-436. Leiden.
-- Dijkstra, J.F.H. 2012. *Syene I: The Figural and Textual Graffiti from the Temple of Isis at Aswan*. Mainz am Rhein.
-- Dijkstra, J.F.H. 2013. Dijkstra, “The Christian Wall Paintings from the Temple of Isis at Aswan Revisited”, in *Christianity and Monasticism in Aswan and Nubia* e,dired by G. Gabra and H. Tekla, 137-156. Cairo.
-- Dijkstra, J.F.H., and G.J.M. Van Loon. 2010. “A Church dedicated to the Virgin Mary in the Temple of Isis at Aswan?”, in *ECA*, 7, 10: 1-16.
-- Grossmann, P. 1994. ‘Tempel als ort des konflikts in christlicher zeit”, in *Le temple, lieu de conflict* edited by P. Borgeaud *et alii*, 184-201. Leuven.
-- Jaritz, H. 1985. *Die Kirche des Heiligen Psoti vor der Stadtmauer von Assuan*, Le Caire.
-- Mariette, M. 1872. *Monuments divers recueillis en Egypte et en Nubie*, Paris.
-- Müller, W. 2013. “Hellenistic Aswan”, in *The First Cataract of the Nile. One Region - Diverse Perspectives*, SDAIK 36, edited by D. Raue, S. Seidlmayer, and P. Speiser,123-135. Mainz 2013. 
-- PSBA 30. 1908. “Recent discoveries in Egypt”, in *Proceedings of the Society of Biblical Archaeology*, 30, 1908, 78.
-- Von Pilgrim, C., K.C. Bruhn, and A. Kelany. 2004. “The town of Syene. Preliminary report on the 1st and 2nd season in Aswan”, in *MDIK* 60: 119-48.
-- Von Pilgrim, C., K.C. Bruhn, J.H.F. Dijkstra, and J. Wininger. 2006. “The town of Syene. Preliminary report on the 3st and 4nd season in Aswan”, in *MDIK* 62: 215-277.
+- Bernard, A. 1989. _De Thèbes à Syène_, Paris.
+
+- E. Bresciani, e and S. Pernigotti. 1978. _Assuan. Il tempio tolemaico di Isi_, Pisa.
+
+- Dijkstra, J.F.H. 2008. _Philae and the end of ancient Egyptian religion. A religious study of religion transformation (298-642 CE)_, Leuven.
+
+- Dijkstra, J. F.H. 2009 “Structuring Graffiti: The case of the temple of Isis at Aswan”, in _Ägyptologische Tempeltagung: Structuring Religion (Leuven 28 Sept. – 1 Okt. 2005)_ edited by H. von Renè Preys, 77-93.Wiesbaden: Harrassowitz Verlag.
+
+- Dijkstra, J.F.H. 2011. “The Fate of the temple in Late Antique Egypt”, in _The Archaeology of Late Antique Paganism_ edite by L. Lavan and M. Mulryan, 389-436. Leiden.
+
+- Dijkstra, J.F.H. 2012. _Syene I: The Figural and Textual Graffiti from the Temple of Isis at Aswan_. Mainz am Rhein.
+
+- Dijkstra, J.F.H. 2013. Dijkstra, “The Christian Wall Paintings from the Temple of Isis at Aswan Revisited”, in _Christianity and Monasticism in Aswan and Nubia_ e,dired by G. Gabra and H. Tekla, 137-156. Cairo.
+
+- Dijkstra, J.F.H., and G.J.M. Van Loon. 2010. “A Church dedicated to the Virgin Mary in the Temple of Isis at Aswan?”, in _ECA_, 7, 10: 1-16.
+
+- Grossmann, P. 1994. ‘Tempel als ort des konflikts in christlicher zeit”, in _Le temple, lieu de conflict_ edited by P. Borgeaud _et alii_, 184-201. Leuven.
+
+- Jaritz, H. 1985. _Die Kirche des Heiligen Psoti vor der Stadtmauer von Assuan_, Le Caire.
+- Mariette, M. 1872. _Monuments divers recueillis en Egypte et en Nubie_, Paris.
+
+- Müller, W. 2013. “Hellenistic Aswan”, in _The First Cataract of the Nile. One Region - Diverse Perspectives_, SDAIK 36, edited by D. Raue, S. Seidlmayer, and P. Speiser,123-135. Mainz 2013.
+
+- PSBA 30. 1908. “Recent discoveries in Egypt”, in _Proceedings of the Society of Biblical Archaeology_, 30, 1908, 78.
+
+- Von Pilgrim, C., K.C. Bruhn, and A. Kelany. 2004. “The town of Syene. Preliminary report on the 1st and 2nd season in Aswan”, in _MDIK_ 60: 119-48.
+
+- Von Pilgrim, C., K.C. Bruhn, J.H.F. Dijkstra, and J. Wininger. 2006. “The town of Syene. Preliminary report on the 3st and 4nd season in Aswan”, in _MDIK_ 62: 215-277.

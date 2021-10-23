@@ -27,6 +27,8 @@ zoom: 13
 popup: Alexandria
 ---
 
+## About
+
 The site is located at the western edge of Nile River delta, along the coast of the Mediterranean sea, extending about 32 km. It was connected to the Lake Mareotis (Maryut Lake) though a navigable canal that debouched at the city's western harbor. According to written sources, the city has been founded in 332-331 BCE by Alexander the Great, built on an existing settlement with the Egyptian name of Rakothis (Strabo, Geogr. XVII, 1, 6; Pliny the Elder, Nat. Hist., 5, 11, 62). The Greek city developed along the coastline with two natural harbors: the Great Harbor to the east and the Eunostus to the west, connected with a smaller port artificially excavated to its rear (Kibotos). The two main harbors were divided in Hellenistic period by a dyke (the Heptastadion) which linked the mainland to the Island of Pharos.
 
 Today the ancient city is covered and overbuilt by the modern urban development and only a small part of the archaeological evidence has been identified and properly excavated. Therefore, for the reconstruction of the development of the city and its buildings much of the evidence is provided by written sources, although sometimes supplemented by in situ archaeological remains (Tkaczow 1993).
@@ -97,7 +99,6 @@ Final destruction in 912 AD: Eutychius, Annales 501-503; Epiphane, Pan., 69, 2, 
 
 - Tkackzow 1993 = Tkackzow B., The topography of ancient Alexandria. An archaeological map, Varsovie 1993.
 
-
 ## Serapeum
 
 ### Pharaonic Period
@@ -117,7 +118,8 @@ The main temple, dedicated to Serapis, was located at the north side of the encl
 
 To the west of the temple of Serapis there was the so-called Stoa-like structure, a secondary building (c. m 19,15 wide) with three or four rooms on the west side connected with a front colonnade. According to A. Rowe, this building was dedicated to Isis, but this interpretation remains uncertain. Within the court of the sanctuary there were other buildings of unknown function. In particular, in front of the Stoa-like building it has been found the foundations of a T-shaped plan building. Considering its position respect to the other buildings, J. McKenzie suggests that the so-called T-shaped Building could be built during the reign of Ptolemy I Soter (305-285 BCE) or that of Ptolemy II Philadelphus (285-246 BCE), and so before the temple of Serapis and the colonnaded court of Ptolemy III Euergetes. The building was connected through an underground passage with a rectangular building located to the south, most likely built at the same time. This building, measuring m 24,60x27,50, has U-shaped foundations inside the rectangular plan of m 4,40 wide and 2,50 deep. This led scholars to identify it in different ways, as Ptolemaic mausoleum, altar or Egyptian temple built before the Serapeum (Botti, 1897, p.122-124;Rowe 1946, p. 31).
 
-Other underground corridors were identified during the excavation over the court flour (fig. 9); they are featured by many wall recesses of uncertain function, probably used as shrine or for religious practices. Each niche had originally a rectangular coffer of limestone and a sloping-libation table with a groove in it.<br/>
+Other underground corridors were identified during the excavation over the court flour (fig. 9); they are featured by many wall recesses of uncertain function, probably used as shrine or for religious practices. Each niche had originally a rectangular coffer of limestone and a sloping-libation table with a groove in it.
+
 As supported by bilingual foundation plaques found during the Rowe’s excavations (Rowe 1946, pp. 97-112) (fig. 10), during the reign of Ptolemy IV Philopator (244-204 BCE) a small temple (m 8,80x5,00) dedicated to Harpocrates-Horus was placed against the east side of the temple of Serapis. Some scholars believe that it possibly functioned as birth house (mammisi) to celebrate the dynastic cult (McKenzie 2004).
 
 #### Literary sources
@@ -145,7 +147,7 @@ Arsinoe and Ptolomy II Philadelphus's altar: : A Greek inscription dedicated to 
 Other inscriptions: Marble bases for holding statue (Rowe 1946, pp. 32-33); See also: Botti 1897, p. 117; Breccia 1911,p. 7, n. 13(32); p, 98, n 168 (28); Tkazkow 1993, p. 200, nn. 35-36.
 Graffiti along the undergound passages: Botti 1895, pp. 24-25).
 
-#### Architectonical elements _in situ_
+#### Architectonical elements not _in situ_
 
 Fragment of White marble Ionic capital (Rowe 1946, p. 19; Tkazkow 1993, p. 208, n. 54A); Two fragment of limestone Corinthian capitals of Ptolemaic Type (Botti 1897, p. 124; Tkazkow 1993, p. 208, n. 54). For other erratic fragments and discussion, see McKenzie 2004, pp. 115-120.
 
@@ -157,11 +159,15 @@ Fragment of White marble Ionic capital (Rowe 1946, p. 19; Tkazkow 1993, p. 208, 
 ### Roman Period
 
 Scholars do not agree the attribution of reconstruction of the sanctuary to Emperor Hadrian or to Severian age. A. Rowe thought that the Hellenistic Serapeum might have been destroyed during the Jewish riot of Trajan’s reign, in 114-115 CE., and that it was restored during the reign of Hadrian. After all, important evidence about the reconstruction are provided by ancient authors that do speak of a fire, probably during the reign of Commodus. The only evidence from the site itself comes from the coins found in the four foundation corners of the pool built on the east of the Roman temple, dated from Trajan trough Septimius Severus and Geta.
+
 The Roman imperial design of the Serapeum was larger than the one that had been used at least until the beginning of the second century. The archaeological excavations have ascertained that thanks to the roman renovation the colonnade court was enlarged certainly on north and east side, where it included the north-south street that ran along the temenos. A central propylon took place of the two Hellenistic entrances along the east side of the enclosure. The temple of Serapis was reconstructed completely, using a large scale of the same spot, while the small temple of Arpocrate-Horus was dismissed and covered by new structures belonging to the main temple. The other buildings within the court, in particular T-shape Building and the South Building, were still in use as well as the underground passage between them and the underground corridors. Other new structures were joined in the court of the sanctuary.
 
 Compared to the previous architectonical phase, Roman imperial structures have been recognized for the use of rock-cut foundations trenches filled up of concrete, made up of small irregular pieces of limestone bonded with cement.
+
 The main entrance of the Serapeum was situated on the east side of the hill, featured by a monumental propylon of which some red granite architectural fragments are preserved at the site (figg. 11-12). A monumental staircase of about one hundred steps approached it, as Late Antique written sources describe. A second entrance was placed to the north, in correspondence with one of the north-south street of the city’s grid plan (Street R8). Late Antique writers mention bronze gate at the main entrance, where there were a tetrastyle propylon covered with a dome. The colonnade court was c. m 105,55 wide and m 205,70 long, with a double sequence of grey granite columns (c. m 7 high) along north, east and south side, while at west side the row of rooms built in Hellenistic period was incorporated in the new design. Apparently, this part of the sanctuary continued to the used as library, whose existence during the second century CE seems to be proved by Tertullianus (Tert., Apologeticum, 18.8).
+
 The main temple was located on lengthwise axis of the court (c. m 21x 31). A monumental access staircase approached the podium. The temple had six red granite columns across the front and eight on the other sides, with Attic base and Corinthian capitals. However, the state of preservation of the structures on the back on the temple does not allow the reconstruction of the entire layout of the building.
+
 Recent archaeological excavation have brought in light al large cistern built during second century CE located to the east side of the sanctuary, not far from the podium of the temple of Serapis (Ebd el-Fattah 2001). The cistern, along with a second one discovered by A. Rowe, is probably connected to the square pool (m 10.58x10,42) arranged in front at the main entrance of the sanctuary. According to A. Rowe it may be associated to the cult of Isis (Rowe 1946, p. 34). It was built at the beginning of third century CE, as have been demonstrated by the coins found in the building’s foundation deposit.
 At the end of the same century, in 298 CE, not far from the pool was erected the Diocletian’s Column (called also Pompey’s Pillar) (fig. 13-14). The Aswan granite pillar, dedicated in honor of the Emperor Diocletianus, was 26,85 m high and probably supported a statue of the Emperor on the top of a Corinthian capital (Pensabene 1993, cat. n. 39-40, fig. 127-129).
 
@@ -188,7 +194,7 @@ At the end of the same century, in 298 CE, not far from the pool was erected the
 - Dedication: Statue pedestal dedicated to C Minicius Italus, praefetus of Egypt during Trajan’s reign (Botti 1900, p. 485, n. 5).
 - Other roman inscription: Breccia 1911, p. 88, n. 150 (241); Inscribed slabs (Tkazkow 1993, p. 263, n. 212; p. 264 n. 213); Fragment of inscribed slab mentioning Emperor Caracalla (Tkazkow 1993, p. 263, n, 211);
 
-#### Architectionical elements non in situ
+#### Architectionical elements not _in situ_
 
 Three huge fragments of Aswuan granite (Botti 1897, p. 146; p. 98; Pensabene 1993, fig. 126, tav. 6; Tkazkow 1993, p. 276, n. 242); Two fragments of red granite column c. m 9 high (Rowe 1946, p. 23; Pensabene 1993, cat. 31); Red granite column bases (Rowe 1946, pp. 23-24;Pensabene 1993, cat. 30); Other Aswan granite fragments (Pensabene 1993, cat. 33-35); Frieze fragments from Diocletian’s column (Pensabene 1993, cat. 38). Architectonic fragment with vegetal volutes and flower relief decoration, with Greek inscription (Breccia 1911, p. 90, n. 155 (3820)). Pink granite semi-column door (Hairy 2001, p. 88); pink granite column shaft (Hairy 2001, p. 89); Bases of column (Hairy 2001, p. 89); Pink granite blocks (Hairy 2001, 90-92). For other erratic fragments and discussion see Hairy 2001 and McKenzie 2004, p. 120.
 
@@ -217,32 +223,53 @@ Archaeological excavation brought to light very poor remains of Late Antique bui
 
 - Church: A papyrus codex of The Alexandrian World Chronical mention the erection of a church.
 
-#### Architectonical Elements non in situ
+#### Architectonical Elements not _in situ_
 
 - Chancel screen: Some fragments of Byzantine buildings discovered at the site include part of a white marble chancel screen or related structure. They have been found c. 50 m south-west of Diocletian's Column. They were carved from a re-used block which had a dedication of the period of Septimius Severus or Caracalla, mentioning Serapis
 - Capital: A small Byzantine capital, such as used on chancel screens, was found in the excavations of the Serapeum in c. 1900 (Pensabene 1997, cat. n. 483; McKenzie 2004, p. 120).
 
 ### Bibliography
 
-- Adriani 1963 = Adriani A., Repertorio d’Arte dell’Egitto Greco-Romano, serie C., Vol. I-II, Palermo 1963. (Serapeo: nn. 54-55, pp. 90- 100 and pp. 240-242; Cesareo n. 12, pp. 64-66)
+- Adriani 1963 = Adriani A., Repertorio d’Arte dell’Egitto Greco-Romano, serie C., Vol. I-II, Palermo 1963. (Serapeo: nn. 54-55, pp. 90- 100 and pp. 240-242; Cesareo n. 12, pp. 64-66).
+
 - Atiya 1991 = Atiya A. S., Alexandria, Historic church in, in Atiya A. S. (ed.), Coptic Encyclopedia, vol. 1, New York 1991, pp. 92- 95.
+
 - Botti 1985 = Botti G., L’acropole d’Alexandrie et le Serapeum d’apres Aphtonius et les fouilles, Alexandrie 1985.
+
 - Botti 1897 = Botti G., Fouilles a la colonne Theodosienne (1986), Alexandrie 1897.
+
 - Botti 1900 = Botti G., Calatogue des Monuments exposes au Musée Gréco-Romain d’Alexandrie, Alexandrie 1900.
+
 - Breccia 1911 = Catalogue Général des Antiquités Egyptienne du Musée D’Alexandrie. Iscrizioni greche e latine, Le Caire 1911.
+
 - De Lacy O’Leary 1938 = De Lacy O’Leary, The destruction of temples in Egypt, in Bullettin de la societé d’archeologie copte, 1938, pp. 51-57.
+
 - Ebd el-Fattah 2001 = Ebd el-Fattah A., Une fouille récente au Serapéoin de Alexandrie, in J. Y Empereur (éditè par), Alexandrina 2, Études alexandrines 6, 2001, pp. 25-97.
+
 - Fraser 1973 = Fraser M. P., Ptolemaic Alexandria, Oxford 1973.
+
 - Fraser 1991 = Fraser M. P., Alexandria Christian and medieval, in Atiya A. S. (ed.), Coptic Encyclopedia, vol. 1, New York 1991, pp. 88-92.
+
 - Grimm 1993 = Grimm G., Alexandria. Die erste Konigsstadt der hellenistischen Welt, Mainz Am Rhein 1993.
+
 - Haas 1997 = Haas C., Alexandria in Late Antiquity, Baltimore 1997.
+
 - Hairy 2001 = Hairy I., Analysis de pièces architecturales de un colonnade sur le site du Serapeum, in J. Y Empereur (éditè par), Alexandrina 2, Études alexandrines 6, 2001, pp. 85-92.
+
 - Handler 1971 = Handler S., Architecture on the Roman coins of Alexandria, in AJA, 75, 1971, pp. 57-74.
+
 - Heinen 1991 = Heinen H., Alexandria in Late Antiquity, in Atiya A. S. (ed.), Coptic Encyclopedia, vol. 1, New York 1991, pp. 95-103.
+
 - McKenzie 2004 = McKenzie J. S., Gibson S., Reyes T., Reconstructing the Serapeum in Alexandria from the Archaeological Evidence, in JRS, vol. 94, 2004, pp. 73-121.
+
 - McKenzie 2007 = McKenzie J., The architecture of Alexandria and Egypt. 300 BC-AD 700, Yale University Press, 2007.
+
 - Pensabene 1993 = Pensabene P., Elementi architettonici di Alessandria e di altri siti egizi, Roma 1993.
+
 - Rowe 1946 = Rowe A., Discovery of the famous temple and enclosure of Serapis at Alexandria, Suppl. Annales du Service des Antiquites de l’Egypte, II, Le Caire, 1946.
+
 - Tkackzow 1984 = Tkackow B., Remarques sur la topographie et l’architecture de l’ancienne Alexandrie dans le textes antiques, in Archeologia, XXXV, 1984, pp. 1-25.
+
 - Tkackzow 1990 = Tkackow B., Archaeological source from the earliest churches in Alexandria, in Coptic Studies (Act of the Third International Congress of Coptic Studies (Warsaw, 20-25 August 1984), Varsowe 1990, pp. 431-435.
+
 - Tkackzow 1993 = Tkackzow B., The topography of ancient Alexandria. An archaeological map, Varsovie 1993.
