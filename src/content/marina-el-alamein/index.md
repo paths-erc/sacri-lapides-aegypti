@@ -1,7 +1,7 @@
 ---
 id: 6
-title: Marina el-Amein
-img: marina.jpg
+title: Marina el-Amlaein
+img: marina-el-alamein.jpg
 coptic_name:
 greek_name: Ἀντίφραι
 arabic_name: مارينا العلمين

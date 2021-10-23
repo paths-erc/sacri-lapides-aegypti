@@ -15,7 +15,7 @@ module.exports = {
           { link: "/east-canopus", title: "esat-canopus" },
           { link: "/elephantine", title: "elephantine" },
           { link: "/marea", title: "marea" },
-          { link: "/marina", title: "marina" },
+          { link: "/marina-el-alamein", title: "marina-el-alamein" },
           { link: "/taposiris", title: "taposiris" },
         ],
       },

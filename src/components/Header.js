@@ -60,7 +60,7 @@ const Header = () => {
               <NavDropdown.Item href={withPrefix(`/marea/`)}>
                 Marea
               </NavDropdown.Item>
-              <NavDropdown.Item href={withPrefix(`/marina/`)}>
+              <NavDropdown.Item href={withPrefix(`/marina-el-alamein/`)}>
                 Marina el-Amein
               </NavDropdown.Item>
               <NavDropdown.Item href={withPrefix(`/taposiris/`)}>
