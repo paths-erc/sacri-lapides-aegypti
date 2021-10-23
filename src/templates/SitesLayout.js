@@ -319,7 +319,6 @@ export const query = graphql`
         other_names
         paths_id
         pleiades_id
-        popup
         year_from
         year_to
         timm_ref
