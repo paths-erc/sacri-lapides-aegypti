@@ -28,8 +28,6 @@ zoom: 13
 popup: Elephantine
 ---
 
-## About
-
 The site of Dendera is located 4 km south of the provincial capital at Qena, at the great bend in the Nile, and about 70 km north of Luxor, on the west side of the river. The site is known, above all, for the presence of a temple dedicated to the goddess Hathor located there since the Old Kingdom and a group of subsidiary temples stands within its enclosure wall. From several years the site is the subject of research by the IFAO (Institut Francaise d’Archéologie Orientale), which led to a better knowledge of the funerary and urban areas. Moreover, it aims to the integral architectural analysis of the monumental complex, together with the publication of the texts and depictions on the walls of the main temple and of the other buildings.
 
 The monumental complex roses up in the immediate vicinity of a town that has been the capital of the sixth Upper Egyptian nome.
@@ -100,14 +98,9 @@ Two lateral doors, located to the north and south of the church, allow to access
 
 ## Bibliography
 
-- Aimé-Giron 1926 = N. Aimé-Giron, Réfection du mur d’enceinte du grande temple de Dendérah sous Tibère, ASAE, 26, 1926, pp. 109-112.
-
-- Bernard 1984 = A. Bernard, Le porte du désert. Recueil des inscription greques d’Antinooupulis, Tentyris, Koptos, Apollonopolis Parva et Apollonopolis Magna, Paris 1984.
-
-- Cauville 1990 = S. Cauville, Le Temple de Dendera. Guide archéologique, Le Caire 1990.
-
-- Cauville 2007 = S. Cauville, Dendara. Le temple d’Isis, Le Caire 2007.
-
-- Leclant 1954 = J. Leclant, Enquetes sur les sacerdoces et les sanctuaires égyptiens à l’époque dite ethiopienne (XXV dynastie), BdE 17, Le caire 1954, pp. 31-42.
-
-- Marchand 2004 = S. Marchand, Fouilles récentes dans la zone urbaine de Dendera: la céramique de la fin de l’ancien Empire au début de la XIIe dynastie, CCE 7, Le Caire 2004, pp. 211-238.
+- Aimé-Giron, N. 1926. “Réfection du mur d’enceinte du grande temple de Dendérah sous Tibère”, *ASAE*, 26: 109-112.
+- Bernard, A. 1984. *Le porte du désert. Recueil des inscription greques d’Antinooupulis, Tentyris, Koptos, Apollonopolis Parva et Apollonopolis Magna*, Paris.
+- Cauville, S. 1990. *Cauville, Le Temple de Dendera. Guide archéologique*, Le Caire.
+- Cauville, S. 2007. *Dendara. Le temple d’Isis*, Le Caire.
+- Leclant, J. 1954. “Enquetes sur les sacerdoces et les sanctuaires égyptiens à l’époque dite ethiopienne (XXV dynastie)”, *BdE* 17, Le Caire: 31-42.
+- Marchand, S. 2004. “Fouilles récentes dans la zone urbaine de Dendera: la céramique de la fin de l’ancien Empire au début de la XIIe dynastie”, *CCE*, 7: 211-238.
