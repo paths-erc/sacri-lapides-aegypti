@@ -30,7 +30,7 @@ const Header = () => {
         <Navbar.Brand href={withPrefix(`/`)}>
           <img
             style={ImgLogo}
-            src={withPrefix(`${SlaLogo}`)}
+            src={SlaLogo}
             className="d-inline-block align-top"
             alt="Sacri Lapides Aegypti"
           />
