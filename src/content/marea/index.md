@@ -25,7 +25,6 @@ status: completed
 lng: 29.656394
 lat: 30.99482
 zoom: 13
-popup: Marea
 ---
 
 ## About

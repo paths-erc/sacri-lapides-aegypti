@@ -24,7 +24,6 @@ status: completed
 lng: 24.081158
 lat: 32.89804
 zoom: 13
-popup: Aswan
 ---
 
 ## About

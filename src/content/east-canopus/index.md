@@ -24,7 +24,6 @@ status: completed
 lng: 30.0580595
 lat: 31.313404
 zoom: 13
-popup: East Canopus
 ---
 
 ## About

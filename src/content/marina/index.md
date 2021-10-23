@@ -24,7 +24,6 @@ status: completed
 lng: 30.823446
 lat: 29.012034
 zoom: 13
-popup: Marina el-Amein
 ---
 
 ## About

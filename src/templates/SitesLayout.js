@@ -58,7 +58,7 @@ const SitesLayout = ({ data }) => {
             lng={content.frontmatter.lng}
             lat={content.frontmatter.lat}
             zoom={content.frontmatter.zoom}
-            popupHtml={content.frontmatter.popup}
+            popupHtml={content.frontmatter.title}
           />
         </section>
 

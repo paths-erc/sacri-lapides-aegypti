@@ -20,7 +20,6 @@ status: completed
 lng: 30.946236829182347
 lat: 29.518675804138184
 zoom: 13
-popup: Taposiris
 ---
 
 ## About

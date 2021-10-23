@@ -24,7 +24,6 @@ status: completed
 lng: 31.1982456667
 lat: 29.9079146667
 zoom: 13
-popup: Alexandria
 ---
 
 ## About

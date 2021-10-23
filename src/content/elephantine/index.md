@@ -24,7 +24,6 @@ status: completed
 lng: 32.889
 lat: 24.09
 zoom: 8
-popup: Elephantine
 ---
 
 ## About
