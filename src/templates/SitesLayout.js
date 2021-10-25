@@ -2,6 +2,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 //Bootstrap
@@ -25,6 +26,14 @@ const SitesLayout = ({ data }) => {
   const images = data.allFile.edges;
   return (
     <>
+      <Helmet>
+        <title>SLA-{content.frontmatter.title}</title>
+        <meta
+          name="keywords"
+          content="egypt, egyptology, archaeology, late antique egypt, egyptian topography"
+        ></meta>
+        <meta name="robots" description="index" />
+      </Helmet>
       <Header />
       <HeaderImage title={content.frontmatter.title} />
       <Wrapper>

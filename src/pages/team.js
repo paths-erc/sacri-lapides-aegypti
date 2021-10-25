@@ -2,6 +2,7 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
+import Helmet from "react-helmet";
 
 //Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
@@ -15,6 +16,14 @@ import Title from "../components/Title";
 const Team = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Team</title>
+        <meta
+          name="keywords"
+          content="team, sapienza università di roma, egyptology, archaeology, late antique egypt, egyptian topography"
+        ></meta>
+        <meta name="robots" description="index" />
+      </Helmet>
       <HeaderImage title="Team" />
       <Wrapper>
         <section className="section bottom-slant-gray">
