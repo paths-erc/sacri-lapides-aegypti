@@ -13,21 +13,21 @@ const Places = (props) => {
     <Wrapper>
       <Container>
         <Card>
-          <Link
-            to={withPrefix(`${props.path}`)}
+          <a
+            href={withPrefix(props.readMore)}
             title={props.title}
             alt={props.title}
           >
             <Card.Img variant="top" src={withPrefix(`/images/${props.img}`)} />
-          </Link>
+          </a>
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <p className="typology">{props.typology}</p>
             <Card.Text>{props.excerpt}</Card.Text>
           </Card.Body>
-          <Link className="go-to" to={withPrefix(props.readMore)}>
+          <a className="go-to" href={withPrefix(props.readMore)}>
             Read More...
-          </Link>
+          </a>
         </Card>
       </Container>
     </Wrapper>
