@@ -2,6 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 //FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,11 +25,15 @@ const Footer = () => {
         <Container>
           <Row className="d-flex justify-content-center">
             <Col className="d-flex justify-content-center" md={3} sm={6} xs={6}>
-              <StaticImage
-                src="../../static/images/logos/sla.svg"
-                width={500}
-                objectFit="scale-down"
-              />
+              <Link to="https://paths-erc.eu/sacri-lapides-aegypti/">
+                <StaticImage
+                  src="../../static/images/logos/sla.svg"
+                  width={500}
+                  objectFit="scale-down"
+                  title="Sacri Lapides Aegypti"
+                  alt="Sacri Lapides Aegypti"
+                />
+              </Link>
             </Col>
             <Col md={3} sm={6} xs={6}>
               <p>
@@ -89,33 +94,49 @@ const Footer = () => {
           </Row>
           <Row className="partners"></Row>
           <Row className="logos">
-            <Col className="d-flex justify-content-center">
-              <StaticImage
-                src="../../static/images/logos/fare.jpeg"
-                width={400}
-                objectFit="scale-down"
-              />
+            <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
+              <Link to="https://fare.miur.it/app.php">
+                <StaticImage
+                  src="../../static/images/logos/fare.jpeg"
+                  width={400}
+                  objectFit="scale-down"
+                  alt="FARE Miur"
+                  title="FARE MIUR"
+                />
+              </Link>
             </Col>
-            <Col className="d-flex justify-content-center">
-              <StaticImage
-                src="../../static/images/logos/sapienza.jpg"
-                width={400}
-                objectFit="scale-down"
-              />
+            <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
+              <Link to="https://www.uniroma1.it/it/pagina-strutturale/home">
+                <StaticImage
+                  src="../../static/images/logos/sapienza.jpg"
+                  width={400}
+                  objectFit="scale-down"
+                  alt="Sapienza Università di Roma"
+                  title="Sapienza Università di Roma"
+                />
+              </Link>
             </Col>
-            <Col className="d-flex justify-content-center">
-              <StaticImage
-                src="../../static/images/logos/lad-blue.png"
-                width={400}
-                objectFit="scale-down"
-              />
+            <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
+              <Link to="https://sites.google.com/uniroma1.it/lad/">
+                <StaticImage
+                  src="../../static/images/logos/lad-blue.png"
+                  width={400}
+                  objectFit="scale-down"
+                  alt="Laboratorio di Archeologia Digitale"
+                  title="Laboratorio di Archeologia Digitale (LAD)"
+                />
+              </Link>
             </Col>
-            <Col className="d-flex justify-content-center">
-              <StaticImage
-                src="../../static/images/logos/paths.png"
-                width={400}
-                objectFit="scale-down"
-              />
+            <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
+              <Link to="https://atlas.paths-erc.eu/">
+                <StaticImage
+                  src="../../static/images/logos/paths.png"
+                  width={400}
+                  objectFit="scale-down"
+                  alt="ERC PAThs project"
+                  title="ERC PAThs project"
+                />
+              </Link>
             </Col>
           </Row>
         </Container>
