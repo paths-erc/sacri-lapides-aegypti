@@ -31,7 +31,7 @@ const Header = () => {
           <img
             style={ImgLogo}
             src={SlaLogo}
-            className="d-inline-block align-top"
+            className="d-md-inline-block align-top d-none"
             alt="Sacri Lapides Aegypti"
           />
         </Navbar.Brand>
@@ -88,6 +88,10 @@ const Wrapper = styled.section`
     font-size: 1rem;
     font-weight: bolder;
     color: #777777;
+  }
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
   }
 `;
 export default Header;

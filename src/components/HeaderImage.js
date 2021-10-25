@@ -59,7 +59,11 @@ const Wrapper = styled.section`
     transform: translate(-50%, -50%);
     color: white;
     font-weight: 200;
-    font-size: 6rem;
+    font-size: 3.5rem;
+    @media (min-width: 576px) {
+      font-size: 5.5rem;
+    }
   }
+  /* TO DO: media query schermi piccoli: 4rem */
 `;
 export default HeaderImage;

@@ -53,9 +53,12 @@ const Slider = () => {
 //styles
 const Wrapper = styled.section`
   .carousel-caption {
-    top: 50%;
     transform: translateY(-50%);
     bottom: initial;
+    top: 50%;
+    @media (min-width: 576px) {
+      top: 40%;
+    }
   }
   .carousel-indicators {
     margin-bottom: 10%;
@@ -70,7 +73,10 @@ const Wrapper = styled.section`
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
     display: swap;
-    font-size: 300%;
+    font-size: 1.5rem;
+    @media (min-width: 576px) {
+      font-size: 4rem;
+    }
   }
   img {
     filter: brightness(75%);
@@ -84,8 +90,8 @@ const Wrapper = styled.section`
     position: relative;
   }
   .logo {
-    height: 300px;
-    width: 500px;
+    max-width: 500px;
+    width: 50%;
     margin: auto;
     filter: invert(1);
   }
