@@ -11,7 +11,7 @@ const HeaderImage = (props) => {
     <Wrapper>
       <div className="section-one">
         <StaticImage
-          src="../../../static/images/other/home-slider-1.jpg"
+          src="../../static/images/other/home-slider-1.jpg"
           objectFit="cover"
           alt={title}
         />
