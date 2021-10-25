@@ -65,7 +65,7 @@ const SitesLayout = ({ data }) => {
 
             <Row xs={1}>
               <Col sm={4}>
-                <ol>
+                <ul className="ul-indice">
                   {content.headings.map((h, i) => {
                     return (
                       <li key={i}>
@@ -75,7 +75,7 @@ const SitesLayout = ({ data }) => {
                       </li>
                     );
                   })}
-                </ol>
+                </ul>
               </Col>
               <Col sm={8}>
                 <div
@@ -149,6 +149,9 @@ const Wrapper = styled.section`
     margin-top: 300px;
     margin-bottom: 200px;
   }
+  .ul-indice{
+    list-style: none;
+  }
   .indice-1,
   .indice-2,
   .indice-3,
@@ -187,7 +190,6 @@ const Wrapper = styled.section`
 
   li {
     padding-bottom: 2%;
-    /* list-style-type: decimal; */
   }
   .row {
     padding-bottom: 10px;

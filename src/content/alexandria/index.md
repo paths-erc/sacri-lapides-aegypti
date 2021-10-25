@@ -118,13 +118,9 @@ As supported by bilingual foundation plaques found during the Rowe’s excavatio
 #### Literary sources
 
 - Topographic references and Temple foundation: Tacitus records that the temples in Alexandria erected by Ptolemy I Soter (306/4-282 BCE) included a temple of Serapis. The Serapeum was erected in the place called Rhakotis, where there were previous shrine likewise dedicated to Serapis and Isis. (Tac. Hist., 4, 84)
-
 - Topographic references and Temple foundation and cult statue: The Christian philosopher Clement (c. 190 CE) refers the temple position at Rhakotis hill. He credits the temple foundation to Ptolemy II Philadelphus and gives a detailed description of the cult statue of Serapis, made by the Greek sculptor Bryaxis (Clement, Protr. 4.42-3).
-
 - Cult statue: Some sources give the date when the cult statue has been moved to the Serapeum during the very end of the reign of Ptolemy II: according to Jeronime’s version of Eusebius’s Chronical it occurred in 286 BCE, while following the Armenian version of Eusebius it happened in 278 B.C. According to Cyrill of Alexandria (Adv. Iulianum I, 13) the date is between 284 and 281 BCE.
-
 - Serapeum's Library: In the descriptions of fourth century CE of the Serapeum, Aphthonius says that books were stored and available for study in the rooms of the stoa of the court. Epiphanius, writing in the fourth century CE as well, mentions that after ‘the first library was built in the Brouchion district of Alexandria, while still later another library was built in the Serapeum, smaller than the first, which was called the daughter of the first one. (Epiphanius, On Weights and Measures II, PG 43, col. 256B).
-
 - Temple destruction: In the Eusebious’ Chronical of Jerome, the Christian scholar reports that the temple was burnt in 181 CE.
 
 #### Papyrological sources
