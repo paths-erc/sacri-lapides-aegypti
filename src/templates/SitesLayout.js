@@ -1,7 +1,6 @@
 //Gatsby
 import React from "react";
 import { graphql } from "gatsby";
-import { withPrefix } from "gatsby";
 import styled from "styled-components";
 import Img from "gatsby-image";
 
@@ -98,13 +97,11 @@ const SitesLayout = ({ data }) => {
                 <Row>
                   {images.map((image, key) => (
                     <Col xs={6} md={4} key={key}>
-                      <a
-                        href={withPrefix(image.node.childImageSharp.fluid.src)}
-                      >
+                      <a href={image.node.childImageSharp.fluid.src}>
                         <Img
                           fluid={image.node.childImageSharp.fluid}
                           style={{ margin: "3rem 0", height: "300px" }}
-                          imgStyle={{ objectFit: "cover" }}
+                          imgStyle={{ objectFit: "scale-down" }}
                           alt={image.node.base
                             .split(".")
                             .slice(0, -1)

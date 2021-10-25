@@ -76,7 +76,7 @@ const Footer = () => {
             <Col md={3} sm={6} xs={6}>
               <p>
                 Sapienza University of Rome<br></br>
-                Piazzale Aldo Moro 5 - 00185 Rome. Italy<br></br>
+                Piazzale Aldo Moro 5 - 00185 Rome Italy
               </p>
               <p>
                 <strong>Contact:</strong>
