@@ -186,6 +186,7 @@ const Wrapper = styled.section`
 
   li {
     padding-bottom: 2%;
+    list-style-type: decimal;
   }
   .row {
     padding-bottom: 10px;

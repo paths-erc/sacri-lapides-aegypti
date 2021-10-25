@@ -82,7 +82,7 @@ The only information about the conversation of the Caesareum in Christian church
 Athanasius cites the church as “megale ecclesia” (Athanasius, Hist Ar., 74,2)
 Final destruction in 912 AD: Eutychius, Annales 501-503; Epiphane, Pan., 69, 2, 2.
 
-### Bibliography
+## Bibliography
 
 - Arnaud, J.L. 2001. “Sources and méthodes de restitution. Les obélisques et le Césaréum d’Alexandrie”, in _Alexandrina 2_ edited by J.Y. Empereur, 177-189. Études alexandrines 6.
 - Empereur, J.Y. 2017. _Alexandrie, Césaréum: les fouilles du cinéma Majestic. La consummation céramique en milieu urbsain à la fin de l’époque hellènistique_, Centre d’Études alexandrines, 38.
