@@ -20,7 +20,7 @@ const Team = () => {
         <title>Team</title>
         <meta
           name="keywords"
-          content="team, sapienza università di roma, egyptology, archaeology, late antique egypt, egyptian topography"
+          content="sla, sacri lapides aegypti, team, sapienza università di roma, egyptology, archaeology, late antique egypt, egyptian topography"
         ></meta>
         <meta name="robots" description="index" />
       </Helmet>

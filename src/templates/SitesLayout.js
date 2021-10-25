@@ -27,10 +27,10 @@ const SitesLayout = ({ data }) => {
   return (
     <>
       <Helmet>
-        <title>SLA-{content.frontmatter.title}</title>
+        <title>{content.frontmatter.title}</title>
         <meta
           name="keywords"
-          content="egypt, egyptology, archaeology, late antique egypt, egyptian topography"
+          content="sla, sacri lapides aegypti, egypt, egyptology, archaeology, late antique egypt, egyptian topography"
         ></meta>
         <meta name="robots" description="index" />
       </Helmet>
