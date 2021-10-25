@@ -57,8 +57,7 @@
     "react-icons": "^4.2.0",
     "react-leaflet": "^3.2.1",
     "simple-react-lightbox": "^3.6.9-0",
-    "styled-components": "^5.3.1",
-    "tailwindcss": "^2.2.16"
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "@emotion/react": "^11.4.1",
