@@ -1,6 +1,7 @@
 //Gatsby
 import React from "react";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 import { StaticImage } from "gatsby-plugin-image";
 
 //Bootstrap
@@ -22,6 +23,21 @@ const Slider = () => {
                 objectFit="contain"
               />
               <Carousel.Caption>
+                <Helmet>
+                  <title>Sacri Lapides Aegypti</title>
+                  <meta
+                    name="description"
+                    content="The Sacri lapides Aegypti project aims to study and
+                document the processes of transformation of sacred spaces for
+                worship, identity and memory from Pharaonic and Ptolemaic-Roman
+                Egypt to Christian Egypt"
+                  />
+                  <meta
+                    name="keywords"
+                    content="egypt, egyptology, archaeology, late antique egypt, egyptian topography"
+                  ></meta>
+                  <meta name="robots" description="index" />
+                </Helmet>
                 <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
                 <h3>Sacri Lapides Aegypti</h3>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
