@@ -1,6 +1,6 @@
 //Gatsby
 import React from "react";
-import { withPrefix } from "gatsby";
+import { Link, withPrefix } from "gatsby";
 import styled from "styled-components";
 
 //Bootstrap
@@ -14,7 +14,9 @@ const Places = (props) => {
     <Wrapper>
       <Container>
         <Card>
-          <Card.Img variant="top" src={withPrefix(`/images/${props.img}`)} />
+          <Link to={withPrefix(`${props.path}`)}>
+            <Card.Img variant="top" src={withPrefix(`/images/${props.img}`)} />
+          </Link>
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <p className="typology">{props.typology}</p>

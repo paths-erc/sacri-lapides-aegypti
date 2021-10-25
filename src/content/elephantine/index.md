@@ -2,6 +2,7 @@
 id: 5
 title: Elephantine
 img: elephantine.jpg
+path: /elephantine/
 coptic_name: (ⲧⲙⲟⲩ(ⲉ)ⲓ(ⲛ)) (ⲉ)ⲓⲏⲃ
 greek_name: Νῆσος Ἐλεφαντίνης; Ἰηβ
 arabic_name: جزيرة الفنتين
@@ -102,20 +103,20 @@ In the harbor area of Elephantine, near a monumental staircase of Roman times, i
 
 ## Bibliography
 
-- Andriolo, D., and S. Curto. 1998. “Catalogo delle chiese dell’Egitto”. *Memorie della Accademia delle Scienze di Torino. 2. Classe di Scienze morali storiche e filologiche* 5, 22: 42-412.
-- Arnold, D. 2003. *Elephantine XXX. Die Nachnutzung des Chnumtempelbezirks: Wohnbebauung der Spätantike und des Frühmittelalters*, Mainz 2003.
-- Bagnall, R.S., and D. Ratbone. 2004. *Egypt: From Alexander to the Copts: An Archaeological and Historical Guide*, London 2004.
-- Dijkstra, J.H.F.  2008. *Philae and the end of ancient Egyptian religion: a regional study of religious transformation (298 - 642 CE)*, Leuven 2008.
-- Dijkstra, J.H.F.  2011. “The Fate of the Temples in Late Antique Egypt”, in *The archaeology of late antique "paganism"* edited by L. Lavan, and M. Mulryan, 389-436. Leiden-Boston.
+- Andriolo, D., and S. Curto. 1998. “Catalogo delle chiese dell’Egitto”. _Memorie della Accademia delle Scienze di Torino. 2. Classe di Scienze morali storiche e filologiche_ 5, 22: 42-412.
+- Arnold, D. 2003. _Elephantine XXX. Die Nachnutzung des Chnumtempelbezirks: Wohnbebauung der Spätantike und des Frühmittelalters_, Mainz 2003.
+- Bagnall, R.S., and D. Ratbone. 2004. _Egypt: From Alexander to the Copts: An Archaeological and Historical Guide_, London 2004.
+- Dijkstra, J.H.F. 2008. _Philae and the end of ancient Egyptian religion: a regional study of religious transformation (298 - 642 CE)_, Leuven 2008.
+- Dijkstra, J.H.F. 2011. “The Fate of the Temples in Late Antique Egypt”, in _The archaeology of late antique "paganism"_ edited by L. Lavan, and M. Mulryan, 389-436. Leiden-Boston.
 - Elephantine Guide 1998: Elephantine. The Ancient Town. Official Guidebook of the German Institute of Archaeology – Cairo, Cairo 1998.
-- Gempeler, R.D. 1992. *Gempeler, Elephantine X. Die Keramik römischer bis früharabischer Zeit*, Mainz.
-- Grossmann, P.  1980. *Elephantine II. Kirche und spätantike Hausanlagen im Chnumtempelhof: Beschreibung und typologische Untersuchung*, Mainz.
-- Grossmann. P. 2002. *Grossmann, Christliche Architektur in Ägypten*, Leiden.
-- Honroth, W., O. Rubensohn, and F. Zucker. 1910. “Bericht über die Ausgrabungen auf Elephantine in den Jahren 1906 – 1908”, in *ZÄS*, 46: 14-61.
-- Schweizerisches Institut für Ägyptische Bauforschung und Altertumskunde in Kairo. *Elephantine*. [http://www.swissinst.ch/html/elephantine.html](http://www.swissinst.ch/html/elephantine.html), accessed 23/10/2021.
-- Deutsches Archäologisches Institut. *Elephantine*. [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
-- Müller, M. 2016. “Among the Priests of Elephantine Island Elephantine Island Seen from Egyptian Sources”, in *WO*, 46: 213-243.
-- Raue, D., C. von Pilgrim, F. Arnold, M. Bommas, J. Budka, J. Gresky, A. Kozak, P. Kopp, E. Laskowska-Kusztal, M. Schultz, and S.J. Seidlmayer. 2007-2008. *Report on the 37th season of excavation and restoration on the island of Elephantine* [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
-- Seidlmayer, S.J., F. Arnold, J. Budka, R. Colman, J. Fayein, C. Jeuthe, E. Khalifa, F. Keshk, P. Kopp, W. Mayer, C. von Pilgrim, J. Sigl, M. Schröder, L.A. Warden, and N. Warner. 2014-2015. *Report on the Excavations at Elephantine by the German Archaeological Institute and the Swiss Institute from autumn 2014 to spring 2015* [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
-- Seidlmayer, S.J., F. Arnold, R. Bicker, R. Colman, D. Fritzsch, C. Jeuthe, E. Laskowska Krusztal, P. Kopp, M. Renzi, J.A. Roberson, J. Sigl, C. von Pilgrim, and L.A. Warden. 2015-2016. *Report on the Excavations at Elephantine by the German Archaeological Institute and the Swiss Institute from autumn 2015 to summer 2016* [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
-- Sigl, J., J. Budka, C. Jeuthe, E. Laskowska-Krusztal, P. Kopp, C. Malleson, M.K. Schröder, V. Steele, C. von Pilgrim, and L.A. Warden. 2016-2107. *Report on the Excavations at Elephantine by the German Archaeological Institute and the Swiss Institute from autumn 2016 to summer 2017* [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
+- Gempeler, R.D. 1992. _Gempeler, Elephantine X. Die Keramik römischer bis früharabischer Zeit_, Mainz.
+- Grossmann, P. 1980. _Elephantine II. Kirche und spätantike Hausanlagen im Chnumtempelhof: Beschreibung und typologische Untersuchung_, Mainz.
+- Grossmann. P. 2002. _Grossmann, Christliche Architektur in Ägypten_, Leiden.
+- Honroth, W., O. Rubensohn, and F. Zucker. 1910. “Bericht über die Ausgrabungen auf Elephantine in den Jahren 1906 – 1908”, in _ZÄS_, 46: 14-61.
+- Schweizerisches Institut für Ägyptische Bauforschung und Altertumskunde in Kairo. _Elephantine_. [http://www.swissinst.ch/html/elephantine.html](http://www.swissinst.ch/html/elephantine.html), accessed 23/10/2021.
+- Deutsches Archäologisches Institut. _Elephantine_. [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
+- Müller, M. 2016. “Among the Priests of Elephantine Island Elephantine Island Seen from Egyptian Sources”, in _WO_, 46: 213-243.
+- Raue, D., C. von Pilgrim, F. Arnold, M. Bommas, J. Budka, J. Gresky, A. Kozak, P. Kopp, E. Laskowska-Kusztal, M. Schultz, and S.J. Seidlmayer. 2007-2008. _Report on the 37th season of excavation and restoration on the island of Elephantine_ [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
+- Seidlmayer, S.J., F. Arnold, J. Budka, R. Colman, J. Fayein, C. Jeuthe, E. Khalifa, F. Keshk, P. Kopp, W. Mayer, C. von Pilgrim, J. Sigl, M. Schröder, L.A. Warden, and N. Warner. 2014-2015. _Report on the Excavations at Elephantine by the German Archaeological Institute and the Swiss Institute from autumn 2014 to spring 2015_ [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
+- Seidlmayer, S.J., F. Arnold, R. Bicker, R. Colman, D. Fritzsch, C. Jeuthe, E. Laskowska Krusztal, P. Kopp, M. Renzi, J.A. Roberson, J. Sigl, C. von Pilgrim, and L.A. Warden. 2015-2016. _Report on the Excavations at Elephantine by the German Archaeological Institute and the Swiss Institute from autumn 2015 to summer 2016_ [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.
+- Sigl, J., J. Budka, C. Jeuthe, E. Laskowska-Krusztal, P. Kopp, C. Malleson, M.K. Schröder, V. Steele, C. von Pilgrim, and L.A. Warden. 2016-2107. _Report on the Excavations at Elephantine by the German Archaeological Institute and the Swiss Institute from autumn 2016 to summer 2017_ [https://www.dainst.org/it/projekt/-/project-display/25953](https://www.dainst.org/it/projekt/-/project-display/25953), accessed 23/10/2021.

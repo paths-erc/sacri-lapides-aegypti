@@ -2,6 +2,7 @@
 id: 8
 title: Taposiris
 img: taposiris.jpg
+path: /taposiris/
 other_names: Abusir; Abousir; Abu Sir; Busiris, Busir; Taposiris; Taposiris Magna; Taposiris Megale; Taposeiris; Taphosiris
 greek_name: Ταποσιρις
 arabic_transl: Abūṣīr
@@ -154,39 +155,39 @@ A fragment of a small Corinthian crystalline marble capitell (height 32 cm; lowe
 
 ## Bibliography
 
-- Adriani, A. 1938. “Abousir (Mareotide)”, in *Chronique d’Égypte*, 25: 74-77.
-- Adriani, A. 1952. “Adriani, Travaux de Fouilles et de restaurations dans la région d’Abousir (Maréotis)”, in *Annuaire du Musée Grèco-Romain III*, 1940-50, 129-159. Alexandrie.
-- Andriolo, D., and D. Curto. 1998. “Catalogo delle chiese dell’Egitto”, in *Memorie della Accademia delle Scienze di Torino. 2. Classe di Scienze morali storiche e filologiche* 5, 22: 42-412.
-- Talbert R.J.A. (ed.). 2000. *The Barrington Atlas of the Greek and Roman World, with Map-by-Map Directory*, Princeton and Oxford.
-- Boussac, M.-F. 2001. “Deux villes de Maréotide: Taposiris et Plinthine”, in *BSFE* 150: 42-72.
-- Boussac, M.-F. 2009. “Recherches récentes à Taposiris Magna et Plinthine, Égypte (1998-2006)”, in *CRAI* 2007: 445-447.
-- Boussac: M.-F. 2009b. “Taposiris Magna: la création du port fermé”, in *Archéologie et Environnement dans la Méditerranée Antique* edited by F. Dumasy, and F. Queyrel, 123–142. Paris.
-- Boussac, M.-F. 2010. “À propos des divinités de Taposiris Magna à l’époque hellénistique”, in *Paysage et religion en Grece antique: melanges offerts à Madeleine Jost* edited by P. Carlier, and C. Lerouge-Cohen, 69-74. Paris.
-- Boussac, M.-F. 2015. “Recent Works at Taposiris and Plinthine”, in *BSAA* 49: 189-217.
-- Boussac, M.-F, and M. El-Amouri. 2010. “The lake structures at Taposiris”, in *Lake Mareotis: Reconstructing the Past (Proceedings of the International Conference on the Archaeology of the Mareotic Region Held at Alexandria University, Egypt, 5th–6th April 2008)* edited by L. Blue, and E. Khalil, 87-105. BAR International Series 2113, Oxford.
-- Breccia, E. 1906. “Note epigrafiche”, in *Annales du Service des antiquités de l’Égypte* 7: 145-149.
-- Breccia E. 1911. *Catalogue général des antiquités égyptiennes du Musée d'Alexandrie. Nos. 1 - 568. Iscrizioni greche e latine*, Le Caire.
-- Breccia E. 1922. *Alexandrea ad Aegyptum. A guide to the ancient and modern town, and to its Graeco-Roman Museum*, Bergamo.
-- Abdel Fattah, A. et alii (eds.). 2003. *Annibale Evaristo Breccia in Egitto: Mostra documentaria*, Biblioteca archeologica, 1. Il Cairo
-- Bricault, L.  1996. *Myrionymi. Les épiclèses grecques et latines d'Isis, de Sarapis et d'Anubis*, Beiträge zur Altertumskunde 82, Stuttgart.
-- Bricault, L., and E. Dionysopoulou. 2016: *Myrionimy 2016. Épithètes et épiclèses grecques et latines de la tétrade isiaque*. Toulouse.
-- Bricault, L., and R. Veymiers. 2014. (eds.). *Bibliotheca Isiaca III*, Bordeaux.
-- de Cosson, A. 1935. *Mareotis being a short account of the history and ancient monuments of the North-Western desert of Egypt and of Lake Mareotis*, London.
-- Fournet, T. 2011-12. “Trois curiosités architecturales des bains de Taposiris Magna (Égypte): voûte à crossettes, radiateur et dalle clavée”, in *RA*: 323-347.
-- Fournet, T. and B. Redon. 2009. “Les bains de Taposiris Magna et les bains de tradition hellénique en Égypte”, in *Le bain collectif en Égypte* edirted by M.-F. Boussac, Th. Fournet, and B. Redon, 113-137. EtudUrb 7.
-- Grossmann, P. 1982. “Die Kirche extra muros von Taposiris Magna”, in *MDAIK*, 38: 152-154.
-- Grossmann, P. 1992. “A New Church At Taposiris Magna-Abusîr”, in *Bulletin De La Société D'archéologie Copte*, 31: 25-30.
-- Grossmann, P. 1994. “Tempel als ort des konflikts in Christlicher Zeit”, in *Le Temple Lieu De Conflit. Actes du Colloque De Cartigny, 1991*, 181-195. Les cahiers du CEPOA 7, Leuven.
-- Grossmann, P. 2002. *Christliche Architektur in Ägypten*, Leiden.
-- Grossmann, P. 2005. “Zu Dem Spätrömischen Militärlager Im Tempelareal Von Taposiris Magna”, in *Bulletin de la société d'archéologie copte* 44: 11-27.
-- Hawass, Z. 2008. “In search of Cleopatra and Mark Anthony”, in *Horus*, august-september: 26-29.
-- Hawass, Z. and K. Martinez. 2013 “Preliminary Report on the Excavations at Taposiris Magna: 2005-2006”, in *Kleine Götter-Grosse Götter, Festchrift für D. Kessler zum 65. Geburtstag (Tuna el-Gebel 4)* edited by M.C. Flossmann et al., 235-251. Vaterstetten.
-- Hawass, Z. F. Goddio. 2010. *Cleopatra: The Search for the last Queen of Egypt*, Washington.
-- Khalil, E. 2010. “Waterfront Installations and Maritime Activitiesin the Mareotic Region”, in *Lake Mareotis: Reconstructing the Past (Proceedings of the International Conference on the Archaeology of the Mareotic Region Held at Alexandria University, Egypt, 5th–6th April 2008)* edited by L. Blue, and E. Khalil, 135-145. BAR International Series 2113, Oxford.
-- Miller, K. 1916. *Itineraria Romana: Römische Reisewege an der Hand der Tabula Peutingeriana*, Stuttgart 1916.
-- Saint-Genis 1820-30. *Description des Antiquités d’Alexandrie et de ses environs, in Description de l’Égypte: Antiquités*, 24 vols, Paris. V.
-- Thiersch, H. 1909. *Pharos, Antike, Islam und Occident: ein Beitrag zur Architekturgeschichte*, Leipzig.
-- Vörös, G. 2001. *Taposiris Magna I. Port of Isis: Hungarian excavations at Alexandria (1998-2001)*, Budapest.
-- Vörös, G. 2004. *Taposiris Magna II. A Temple, Fortress and Monastery of Egypt. Alexandriai Magyar Ásatások (1998-2004)*, Budapest.
-- Vörös, G. 2007. “1998-2004: Taposiris Magna”, in *Egyptian temple architecture: 100 years of hungarian excavations in Egypt, 1907 - 2007* edited by G. Vörös, 96-115. Budapest.
-- Ward Perkins, J.B. 1946. “The Monastery of Taposiris Magna”, in *Bulletin de la Société royale d’archéologie d’Alexandrie*, 36: 48-53.
+- Adriani, A. 1938. “Abousir (Mareotide)”, in _Chronique d’Égypte_, 25: 74-77.
+- Adriani, A. 1952. “Adriani, Travaux de Fouilles et de restaurations dans la région d’Abousir (Maréotis)”, in _Annuaire du Musée Grèco-Romain III_, 1940-50, 129-159. Alexandrie.
+- Andriolo, D., and D. Curto. 1998. “Catalogo delle chiese dell’Egitto”, in _Memorie della Accademia delle Scienze di Torino. 2. Classe di Scienze morali storiche e filologiche_ 5, 22: 42-412.
+- Talbert R.J.A. (ed.). 2000. _The Barrington Atlas of the Greek and Roman World, with Map-by-Map Directory_, Princeton and Oxford.
+- Boussac, M.-F. 2001. “Deux villes de Maréotide: Taposiris et Plinthine”, in _BSFE_ 150: 42-72.
+- Boussac, M.-F. 2009. “Recherches récentes à Taposiris Magna et Plinthine, Égypte (1998-2006)”, in _CRAI_ 2007: 445-447.
+- Boussac: M.-F. 2009b. “Taposiris Magna: la création du port fermé”, in _Archéologie et Environnement dans la Méditerranée Antique_ edited by F. Dumasy, and F. Queyrel, 123–142. Paris.
+- Boussac, M.-F. 2010. “À propos des divinités de Taposiris Magna à l’époque hellénistique”, in _Paysage et religion en Grece antique: melanges offerts à Madeleine Jost_ edited by P. Carlier, and C. Lerouge-Cohen, 69-74. Paris.
+- Boussac, M.-F. 2015. “Recent Works at Taposiris and Plinthine”, in _BSAA_ 49: 189-217.
+- Boussac, M.-F, and M. El-Amouri. 2010. “The lake structures at Taposiris”, in _Lake Mareotis: Reconstructing the Past (Proceedings of the International Conference on the Archaeology of the Mareotic Region Held at Alexandria University, Egypt, 5th–6th April 2008)_ edited by L. Blue, and E. Khalil, 87-105. BAR International Series 2113, Oxford.
+- Breccia, E. 1906. “Note epigrafiche”, in _Annales du Service des antiquités de l’Égypte_ 7: 145-149.
+- Breccia E. 1911. _Catalogue général des antiquités égyptiennes du Musée d'Alexandrie. Nos. 1 - 568. Iscrizioni greche e latine_, Le Caire.
+- Breccia E. 1922. _Alexandrea ad Aegyptum. A guide to the ancient and modern town, and to its Graeco-Roman Museum_, Bergamo.
+- Abdel Fattah, A. et alii (eds.). 2003. _Annibale Evaristo Breccia in Egitto: Mostra documentaria_, Biblioteca archeologica, 1. Il Cairo
+- Bricault, L. 1996. _Myrionymi. Les épiclèses grecques et latines d'Isis, de Sarapis et d'Anubis_, Beiträge zur Altertumskunde 82, Stuttgart.
+- Bricault, L., and E. Dionysopoulou. 2016: _Myrionimy 2016. Épithètes et épiclèses grecques et latines de la tétrade isiaque_. Toulouse.
+- Bricault, L., and R. Veymiers. 2014. (eds.). _Bibliotheca Isiaca III_, Bordeaux.
+- de Cosson, A. 1935. _Mareotis being a short account of the history and ancient monuments of the North-Western desert of Egypt and of Lake Mareotis_, London.
+- Fournet, T. 2011-12. “Trois curiosités architecturales des bains de Taposiris Magna (Égypte): voûte à crossettes, radiateur et dalle clavée”, in _RA_: 323-347.
+- Fournet, T. and B. Redon. 2009. “Les bains de Taposiris Magna et les bains de tradition hellénique en Égypte”, in _Le bain collectif en Égypte_ edirted by M.-F. Boussac, Th. Fournet, and B. Redon, 113-137. EtudUrb 7.
+- Grossmann, P. 1982. “Die Kirche extra muros von Taposiris Magna”, in _MDAIK_, 38: 152-154.
+- Grossmann, P. 1992. “A New Church At Taposiris Magna-Abusîr”, in _Bulletin De La Société D'archéologie Copte_, 31: 25-30.
+- Grossmann, P. 1994. “Tempel als ort des konflikts in Christlicher Zeit”, in _Le Temple Lieu De Conflit. Actes du Colloque De Cartigny, 1991_, 181-195. Les cahiers du CEPOA 7, Leuven.
+- Grossmann, P. 2002. _Christliche Architektur in Ägypten_, Leiden.
+- Grossmann, P. 2005. “Zu Dem Spätrömischen Militärlager Im Tempelareal Von Taposiris Magna”, in _Bulletin de la société d'archéologie copte_ 44: 11-27.
+- Hawass, Z. 2008. “In search of Cleopatra and Mark Anthony”, in _Horus_, august-september: 26-29.
+- Hawass, Z. and K. Martinez. 2013 “Preliminary Report on the Excavations at Taposiris Magna: 2005-2006”, in _Kleine Götter-Grosse Götter, Festchrift für D. Kessler zum 65. Geburtstag (Tuna el-Gebel 4)_ edited by M.C. Flossmann et al., 235-251. Vaterstetten.
+- Hawass, Z. F. Goddio. 2010. _Cleopatra: The Search for the last Queen of Egypt_, Washington.
+- Khalil, E. 2010. “Waterfront Installations and Maritime Activitiesin the Mareotic Region”, in _Lake Mareotis: Reconstructing the Past (Proceedings of the International Conference on the Archaeology of the Mareotic Region Held at Alexandria University, Egypt, 5th–6th April 2008)_ edited by L. Blue, and E. Khalil, 135-145. BAR International Series 2113, Oxford.
+- Miller, K. 1916. _Itineraria Romana: Römische Reisewege an der Hand der Tabula Peutingeriana_, Stuttgart 1916.
+- Saint-Genis 1820-30. _Description des Antiquités d’Alexandrie et de ses environs, in Description de l’Égypte: Antiquités_, 24 vols, Paris. V.
+- Thiersch, H. 1909. _Pharos, Antike, Islam und Occident: ein Beitrag zur Architekturgeschichte_, Leipzig.
+- Vörös, G. 2001. _Taposiris Magna I. Port of Isis: Hungarian excavations at Alexandria (1998-2001)_, Budapest.
+- Vörös, G. 2004. _Taposiris Magna II. A Temple, Fortress and Monastery of Egypt. Alexandriai Magyar Ásatások (1998-2004)_, Budapest.
+- Vörös, G. 2007. “1998-2004: Taposiris Magna”, in _Egyptian temple architecture: 100 years of hungarian excavations in Egypt, 1907 - 2007_ edited by G. Vörös, 96-115. Budapest.
+- Ward Perkins, J.B. 1946. “The Monastery of Taposiris Magna”, in _Bulletin de la Société royale d’archéologie d’Alexandrie_, 36: 48-53.

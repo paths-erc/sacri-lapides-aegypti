@@ -2,6 +2,7 @@
 id: 3
 title: Marea
 img: marea.jpg
+path: /marea/
 coptic_name: ⲛⲓⲫⲁⲓⲁⲧ
 greek_name: Μαρεώτης, Μαρεώτος
 arabic_name: مريوط
@@ -53,17 +54,17 @@ Marble column shafts of different diameter (c. 60, 30, 35, 24, 22, 8,4 cm); Atti
 
 ## Bibliography
 
-- Barbraj, K., J.P. Kogut.  2015. “Late Roman and Early-Bizantyne analogues of structures in Marea/Philoxenite”, in *Materialy and archeologiczne*, XL: 87-90.
--De Cosson A. 1935. *Mareotis being an short account of the history and the ancient monument on the north western desert of Egypt and of Lake Mareotis*, London.
-- Grossmann, P.  1993. “Die Querschiffbasilika von Hauwariya und die übrigen Bauten dieses Typus’ in Ägypten als repräsentantern Der Verlorenen frühchristlichen Architektur Alexandreias”, in *In Memoriam Daoud, BSAA*, 45: 107-121.
-- Grossmann, P.  2003. “Nochmals Zu Marea und Philoxenite”, *BSAC*, XLII: 13-20.
-- El Fakharani, F. 1983. “Recent excavation at Marea in Egypt”, in *Das Römisch-Byzantinische Ägypten, Akten des intermationalen Symposios (26-30 September 1978)*, 175-186. Maiz.
-- el-Falaki, Mahmoud Bey. 1872. *Mémoire sur l’antique Alexandrie, ses faubourgs et environs découvert par les fouilles, sondages, nivellement et autres recherches*, Copenhagen.
-- Majewska, A. (ed.)  2007. *Seventy years of Polish Archaeology in Egypt. Exhibition catalogue (Egyptian Museum in Cairo, 21 October-21 November 2007)*, Warsaw.
-- Szymanska H., L. Babraj. 2007. “Marea on Lake Maryut”, in *Seventy years of Polish Archaeology in Egypt. Exhibition catalogue (Egyptian Museum in Cairo, 21 October-21 November 2007)* edited by A. Majewska,160-165. Warsaw 2007.
-- Szymanska H., and K. Babraj. 2008. *Marea Vol. 1. Bytantine Marea. Excavation in 2000-2003 and 2006*. Krakόw.
-- Szymanska H., and K. Babraj. 2008b. “Excavation 2008”, in *Polish archaeology in the Mediterranean*, 20: 81-96.
-- Szymanska H., and K. Babraj. 2010. “Architectural décor of the basilica in Marea (Egypt). Preliminary report”, in *Non solum villae*, 301-315. Wroclaw.
-- Rodziewicz, M. 1993. “Alexandria and the district of Mateotis”, in *Greco-Arabica 2. First International Congress on Greek and Arabic studies*, 202-204. Athens.
-- Rodziewicz, M. 2003. “Philoxenité – pilgrimage harbor of Abu Mina”, *BSAA*, 47:27-47.
-- Rodziewicz, M.  2010. “On interpretation of archaeological evidence concerning Marea and Philoxenite”, in *Lake Mareotis: Reconstructing the Past*, edited  by L. Blue, 67-72. BAR International Series 2113, Series in Archaeology, No.2.
+- Barbraj, K., J.P. Kogut. 2015. “Late Roman and Early-Bizantyne analogues of structures in Marea/Philoxenite”, in _Materialy and archeologiczne_, XL: 87-90.
+  -De Cosson A. 1935. _Mareotis being an short account of the history and the ancient monument on the north western desert of Egypt and of Lake Mareotis_, London.
+- Grossmann, P. 1993. “Die Querschiffbasilika von Hauwariya und die übrigen Bauten dieses Typus’ in Ägypten als repräsentantern Der Verlorenen frühchristlichen Architektur Alexandreias”, in _In Memoriam Daoud, BSAA_, 45: 107-121.
+- Grossmann, P. 2003. “Nochmals Zu Marea und Philoxenite”, _BSAC_, XLII: 13-20.
+- El Fakharani, F. 1983. “Recent excavation at Marea in Egypt”, in _Das Römisch-Byzantinische Ägypten, Akten des intermationalen Symposios (26-30 September 1978)_, 175-186. Maiz.
+- el-Falaki, Mahmoud Bey. 1872. _Mémoire sur l’antique Alexandrie, ses faubourgs et environs découvert par les fouilles, sondages, nivellement et autres recherches_, Copenhagen.
+- Majewska, A. (ed.) 2007. _Seventy years of Polish Archaeology in Egypt. Exhibition catalogue (Egyptian Museum in Cairo, 21 October-21 November 2007)_, Warsaw.
+- Szymanska H., L. Babraj. 2007. “Marea on Lake Maryut”, in _Seventy years of Polish Archaeology in Egypt. Exhibition catalogue (Egyptian Museum in Cairo, 21 October-21 November 2007)_ edited by A. Majewska,160-165. Warsaw 2007.
+- Szymanska H., and K. Babraj. 2008. _Marea Vol. 1. Bytantine Marea. Excavation in 2000-2003 and 2006_. Krakόw.
+- Szymanska H., and K. Babraj. 2008b. “Excavation 2008”, in _Polish archaeology in the Mediterranean_, 20: 81-96.
+- Szymanska H., and K. Babraj. 2010. “Architectural décor of the basilica in Marea (Egypt). Preliminary report”, in _Non solum villae_, 301-315. Wroclaw.
+- Rodziewicz, M. 1993. “Alexandria and the district of Mateotis”, in _Greco-Arabica 2. First International Congress on Greek and Arabic studies_, 202-204. Athens.
+- Rodziewicz, M. 2003. “Philoxenité – pilgrimage harbor of Abu Mina”, _BSAA_, 47:27-47.
+- Rodziewicz, M. 2010. “On interpretation of archaeological evidence concerning Marea and Philoxenite”, in _Lake Mareotis: Reconstructing the Past_, edited by L. Blue, 67-72. BAR International Series 2113, Series in Archaeology, No.2.

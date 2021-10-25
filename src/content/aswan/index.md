@@ -2,6 +2,7 @@
 id: 2
 title: Aswan
 img: aswan.jpg
+path: /aswan/
 other_names: Syene; Aswan
 coptic_name: ⲥⲟⲩⲁⲛ
 greek_name: Συήνη Σήννη Σύνη Σηύνη Συίνη

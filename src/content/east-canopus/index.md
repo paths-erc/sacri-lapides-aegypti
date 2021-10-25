@@ -2,6 +2,7 @@
 id: 4
 title: East Canopus
 img: canopus.jpg
+path: /east-canopus/
 coptic_name:
 greek_name:
 arabic_name:
@@ -92,13 +93,13 @@ Two red granite column bases with hexagonal pedestal and cylindrical upper secti
 
 ### Artifacts
 
-- Gold ring with shaped oil lamp (Goddio, Fabre 2006, n. cat. 70, p. 172); 
-- gold cross pendants (Goddio, Fabre 2006, nn. cat. 41, 91, p. 182); 
-- lead cross pendants (Goddio, Fabre 2006, nn. cat. 42-44, pp. 182-183); 
+- Gold ring with shaped oil lamp (Goddio, Fabre 2006, n. cat. 70, p. 172);
+- gold cross pendants (Goddio, Fabre 2006, nn. cat. 41, 91, p. 182);
+- lead cross pendants (Goddio, Fabre 2006, nn. cat. 42-44, pp. 182-183);
 - gold earrings (Goddio, Fabre 2006, nn. cat. 46, 7, p. 183; nn. 75-77, p. 246);
 - gold ring with Christian inscription (Goddio, Fabre 2006, n. cat. 45, p. 185);
 - gold necklace fragments (Goddio, Fabre 2006, nn. cat. 83-85, p. 185; n. 79, p. 246);
-- gold coins (Goddio, Fabre 2006, nn. cat. 54-62, pp. 185-186); 
+- gold coins (Goddio, Fabre 2006, nn. cat. 54-62, pp. 185-186);
 - lead seals (Goddio, Fabre 2006, nn. cat. 47-53, p. 191);
 - gold ring (Goddio, Fabre 2006, n. cat. 66, p. 243);
 - gold and stones pendants (Goddio, Fabre 2006, nn. cat. 86-88, p. 245);

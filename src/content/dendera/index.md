@@ -2,6 +2,7 @@
 id: 3
 title: Dendera
 img: dendera.jpg
+path: /dendera/
 coptic_name: ⲧⲉⲛⲧⲱⲣⲓ; (reinserire_vedi PAth)
 greek_name:
 arabic_name: دندرة
@@ -95,9 +96,9 @@ Two lateral doors, located to the north and south of the church, allow to access
 
 ## Bibliography
 
-- Aimé-Giron, N. 1926. “Réfection du mur d’enceinte du grande temple de Dendérah sous Tibère”, *ASAE*, 26: 109-112.
-- Bernard, A. 1984. *Le porte du désert. Recueil des inscription greques d’Antinooupulis, Tentyris, Koptos, Apollonopolis Parva et Apollonopolis Magna*, Paris.
-- Cauville, S. 1990. *Cauville, Le Temple de Dendera. Guide archéologique*, Le Caire.
-- Cauville, S. 2007. *Dendara. Le temple d’Isis*, Le Caire.
-- Leclant, J. 1954. “Enquetes sur les sacerdoces et les sanctuaires égyptiens à l’époque dite ethiopienne (XXV dynastie)”, *BdE* 17, Le Caire: 31-42.
-- Marchand, S. 2004. “Fouilles récentes dans la zone urbaine de Dendera: la céramique de la fin de l’ancien Empire au début de la XIIe dynastie”, *CCE*, 7: 211-238.
+- Aimé-Giron, N. 1926. “Réfection du mur d’enceinte du grande temple de Dendérah sous Tibère”, _ASAE_, 26: 109-112.
+- Bernard, A. 1984. _Le porte du désert. Recueil des inscription greques d’Antinooupulis, Tentyris, Koptos, Apollonopolis Parva et Apollonopolis Magna_, Paris.
+- Cauville, S. 1990. _Cauville, Le Temple de Dendera. Guide archéologique_, Le Caire.
+- Cauville, S. 2007. _Dendara. Le temple d’Isis_, Le Caire.
+- Leclant, J. 1954. “Enquetes sur les sacerdoces et les sanctuaires égyptiens à l’époque dite ethiopienne (XXV dynastie)”, _BdE_ 17, Le Caire: 31-42.
+- Marchand, S. 2004. “Fouilles récentes dans la zone urbaine de Dendera: la céramique de la fin de l’ancien Empire au début de la XIIe dynastie”, _CCE_, 7: 211-238.

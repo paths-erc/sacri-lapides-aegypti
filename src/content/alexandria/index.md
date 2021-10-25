@@ -2,6 +2,7 @@
 id: 1
 title: Alexandria
 img: alexandria.jpg
+path: /alexandria/
 coptic_name: Ἀλεξάνδρεια
 greek_name: Συήνη Σήννη Σύνη Σηύνη Συίνη
 arabic_name: الإسكندرية
@@ -83,13 +84,13 @@ Final destruction in 912 AD: Eutychius, Annales 501-503; Epiphane, Pan., 69, 2, 
 
 ### Bibliography
 
-- Arnaud, J.L. 2001. “Sources and méthodes de restitution. Les obélisques et le Césaréum d’Alexandrie”, in *Alexandrina 2* edited by J.Y. Empereur, 177-189. Études alexandrines 6.
-- Empereur, J.Y. 2017. *Alexandrie, Césaréum: les fouilles du cinéma Majestic. La consummation céramique en milieu urbsain à la fin de l’époque hellènistique*, Centre d’Études alexandrines, 38.
-- Kayser, F. 1994. *Recueil des inscriptions greques et latin non funéraires d’Alexandrie impériale. Ier-IIIe siècle ap. J. C.* Le Caire.
-- Martin, A. 1984. “Les premiers siècle du christianisme à Alexandria. Essai de topographie religieuse”, in *Revuè des Études Augustinniennes*, 30: 211-225.
-- Neroutsos, T. 1888. *L’ancienne Alexandrie*, Alexandrie.
-- Saint-Genis, A. 1818. *Description de l’Egypte, Antiquites II*, Paris 1818.
-- Tkackzow, B. 1993. *The topography of ancient Alexandria. An archaeological map*, Varsovie 1993.
+- Arnaud, J.L. 2001. “Sources and méthodes de restitution. Les obélisques et le Césaréum d’Alexandrie”, in _Alexandrina 2_ edited by J.Y. Empereur, 177-189. Études alexandrines 6.
+- Empereur, J.Y. 2017. _Alexandrie, Césaréum: les fouilles du cinéma Majestic. La consummation céramique en milieu urbsain à la fin de l’époque hellènistique_, Centre d’Études alexandrines, 38.
+- Kayser, F. 1994. _Recueil des inscriptions greques et latin non funéraires d’Alexandrie impériale. Ier-IIIe siècle ap. J. C._ Le Caire.
+- Martin, A. 1984. “Les premiers siècle du christianisme à Alexandria. Essai de topographie religieuse”, in _Revuè des Études Augustinniennes_, 30: 211-225.
+- Neroutsos, T. 1888. _L’ancienne Alexandrie_, Alexandrie.
+- Saint-Genis, A. 1818. _Description de l’Egypte, Antiquites II_, Paris 1818.
+- Tkackzow, B. 1993. _The topography of ancient Alexandria. An archaeological map_, Varsovie 1993.
 
 ## Serapeum
 
@@ -222,25 +223,25 @@ Archaeological excavation brought to light very poor remains of Late Antique bui
 
 ## Bibliography
 
-- Adriani, A. 1963. *Repertorio d’Arte dell’Egitto Greco-Romano, serie C., Vol. I-II*, Palermo 1963.
-- Atiya, A.S. 1991. “Alexandria, Historic church”, in *Coptic Encyclopedia* vol. 1, edited by A.S. Atiya, 92- 95. New York.
-- Botti, G. 1985. *L’acropole d’Alexandrie et le Serapeum d’apres Aphtonius et les fouilles*, Alexandrie..
-- Botti, G. 1897 *Fouilles a la colonne Theodosienne (1986)*, Alexandrie.
-- Botti, G. 1900. *Calatogue des Monuments exposes au Musée Gréco-Romain d’Alexandrie*, Alexandrie.
-- Breccia, E. 1911. *Catalogue Général des Antiquités Egyptienne du Musée D’Alexandrie. Iscrizioni greche e latine*, Le Caire.
-- De Lacy, O’Leary. 1938. “The destruction of temples in Egypt”, in *Bullettin de la societé d’archeologie copte*: 51-57.
-- Ebd el-Fattah, A. 2001. *Une fouille récente au Serapéoin de Alexandrie*, in *Alexandrina 2*, edited by J.Y. Empereur, 25-97. Études alexandrines 6.
-- Fraser, M.P. 1973. *Ptolemaic Alexandria*, Oxford.
-- Fraser, M.P. 1991. “Alexandria Christian and medieval”, in *Coptic Encyclopedia*, vol. 1,edited by Atiya A. S., 88-92. New York.
-- Grimm, G. 1993. *Alexandria. Die erste Konigsstadt der hellenistischen Welt*, Mainz Am Rhein.
-- Haas, C. 1997. *Alexandria in Late Antiquity*, Baltimore.
-- Hairy, I. 2001. “Analysis de pièces architecturales de un colonnade sur le site du Serapeum”, in *Alexandrina 2* edited by J.Y. Empereur, 85-92. Études alexandrines 6.
-- Handler, S. 1971. “Architecture on the Roman coins of Alexandria”, in *AJA*, 75: 57-74.
-- Heinen, H. 1991. “Alexandria in Late Antiquity”, in *Coptic Encyclopedia*, vol. 1, edited by A.S. Atiya, 95-103. New York.
-- McKenzie, J.S., S. Gibson, and T. Reyes. 2004. “Reconstructing the Serapeum in Alexandria from the Archaeological Evidence”, in *JRS*, 94: 73-121.
-- McKenzie, J. 2007. *The architecture of Alexandria and Egypt. 300 BC-AD 700*, Yale University Press.
-- Pensabene, P. 1993. *Elementi architettonici di Alessandria e di altri siti egizi*, Roma..
-- Rowe, A. 1946. *Discovery of the famous temple and enclosure of Serapis at Alexandria*, Suppl. Annales du Service des Antiquites de l’Egypte, II, Le Caire.
-- Tkackzow, B. 1984. “Remarques sur la topographie et l’architecture de l’ancienne Alexandrie dans le textes antiques”, in *Archeologia*, XXXV: 1-25.
-- Tkackzow, B. 1990. “Archaeological source from the earliest churches in Alexandria”, in *Coptic Studies (Act of the Third International Congress of Coptic Studies (Warsaw, 20-25 August 1984)*, 431-435. Varsowe.
-- Tkackzow, B. 1993.*, The topography of ancient Alexandria. An archaeological map*, Varsovie.
+- Adriani, A. 1963. _Repertorio d’Arte dell’Egitto Greco-Romano, serie C., Vol. I-II_, Palermo 1963.
+- Atiya, A.S. 1991. “Alexandria, Historic church”, in _Coptic Encyclopedia_ vol. 1, edited by A.S. Atiya, 92- 95. New York.
+- Botti, G. 1985. _L’acropole d’Alexandrie et le Serapeum d’apres Aphtonius et les fouilles_, Alexandrie..
+- Botti, G. 1897 _Fouilles a la colonne Theodosienne (1986)_, Alexandrie.
+- Botti, G. 1900. _Calatogue des Monuments exposes au Musée Gréco-Romain d’Alexandrie_, Alexandrie.
+- Breccia, E. 1911. _Catalogue Général des Antiquités Egyptienne du Musée D’Alexandrie. Iscrizioni greche e latine_, Le Caire.
+- De Lacy, O’Leary. 1938. “The destruction of temples in Egypt”, in _Bullettin de la societé d’archeologie copte_: 51-57.
+- Ebd el-Fattah, A. 2001. _Une fouille récente au Serapéoin de Alexandrie_, in _Alexandrina 2_, edited by J.Y. Empereur, 25-97. Études alexandrines 6.
+- Fraser, M.P. 1973. _Ptolemaic Alexandria_, Oxford.
+- Fraser, M.P. 1991. “Alexandria Christian and medieval”, in _Coptic Encyclopedia_, vol. 1,edited by Atiya A. S., 88-92. New York.
+- Grimm, G. 1993. _Alexandria. Die erste Konigsstadt der hellenistischen Welt_, Mainz Am Rhein.
+- Haas, C. 1997. _Alexandria in Late Antiquity_, Baltimore.
+- Hairy, I. 2001. “Analysis de pièces architecturales de un colonnade sur le site du Serapeum”, in _Alexandrina 2_ edited by J.Y. Empereur, 85-92. Études alexandrines 6.
+- Handler, S. 1971. “Architecture on the Roman coins of Alexandria”, in _AJA_, 75: 57-74.
+- Heinen, H. 1991. “Alexandria in Late Antiquity”, in _Coptic Encyclopedia_, vol. 1, edited by A.S. Atiya, 95-103. New York.
+- McKenzie, J.S., S. Gibson, and T. Reyes. 2004. “Reconstructing the Serapeum in Alexandria from the Archaeological Evidence”, in _JRS_, 94: 73-121.
+- McKenzie, J. 2007. _The architecture of Alexandria and Egypt. 300 BC-AD 700_, Yale University Press.
+- Pensabene, P. 1993. _Elementi architettonici di Alessandria e di altri siti egizi_, Roma..
+- Rowe, A. 1946. _Discovery of the famous temple and enclosure of Serapis at Alexandria_, Suppl. Annales du Service des Antiquites de l’Egypte, II, Le Caire.
+- Tkackzow, B. 1984. “Remarques sur la topographie et l’architecture de l’ancienne Alexandrie dans le textes antiques”, in _Archeologia_, XXXV: 1-25.
+- Tkackzow, B. 1990. “Archaeological source from the earliest churches in Alexandria”, in _Coptic Studies (Act of the Third International Congress of Coptic Studies (Warsaw, 20-25 August 1984)_, 431-435. Varsowe.
+- Tkackzow, B. 1993._, The topography of ancient Alexandria. An archaeological map_, Varsovie.

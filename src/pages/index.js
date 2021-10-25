@@ -32,6 +32,7 @@ const Index = ({ data }) => {
                   <Places
                     img={node.frontmatter.img}
                     title={node.frontmatter.title}
+                    path={node.frontmatter.path}
                     typology={node.frontmatter.typology}
                     excerpt={node.excerpt}
                     readMore={node.fields.slug}
@@ -87,6 +88,7 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
+          path
           typology
           id
           paths_id
