@@ -149,7 +149,7 @@ const Wrapper = styled.section`
     margin-top: 300px;
     margin-bottom: 200px;
   }
-  .ul-indice{
+  .ul-indice {
     list-style: none;
   }
   .indice-1,
@@ -289,7 +289,7 @@ export const query = graphql`
         node {
           base
           childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH, quality: 80, width: 300)
+            gatsbyImageData(layout: CONSTRAINED, quality: 80, width: 1500)
           }
         }
       }
