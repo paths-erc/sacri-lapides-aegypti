@@ -21,11 +21,13 @@ const Methods = () => {
           <Row xs={1} md={3}>
             <Col>
               <Card>
-                <StaticImage
-                  src="../../../static/images/other/1-card.jpg"
-                  width={500}
-                  objectFit="scale-down"
-                />
+                <Link to="https://docs.paths-erc.eu/data/">
+                  <StaticImage
+                    src="../../../static/images/other/1-card.jpg"
+                    width={500}
+                    objectFit="scale-down"
+                  />
+                </Link>
                 <Card.Body>
                   <Card.Title>First Step</Card.Title>
                   <Link to="https://docs.paths-erc.eu/data/">
@@ -42,11 +44,13 @@ const Methods = () => {
             </Col>
             <Col>
               <Card>
-                <StaticImage
-                  src="../../../static/images/other/2-card.jpg"
-                  width={500}
-                  objectFit="scale-down"
-                />
+                <Link to="https://docs.paths-erc.eu/data/svp">
+                  <StaticImage
+                    src="../../../static/images/other/2-card.jpg"
+                    width={500}
+                    objectFit="scale-down"
+                  />
+                </Link>
                 <Card.Body>
                   <Card.Title>Second Step</Card.Title>
                   <Link to="https://docs.paths-erc.eu/data/svp">
@@ -61,11 +65,13 @@ const Methods = () => {
             </Col>
             <Col>
               <Card>
-                <StaticImage
-                  src="../../../static/images/other/3-card.jpg"
-                  width={500}
-                  objectFit="scale-down"
-                />
+                <Link to="https://docs.paths-erc.eu/data/demo/">
+                  <StaticImage
+                    src="../../../static/images/other/3-card.jpg"
+                    width={500}
+                    objectFit="scale-down"
+                  />
+                </Link>
                 <Card.Body>
                   <Card.Title>Third Step</Card.Title>
                   <Link to="https://docs.paths-erc.eu/data/demo/">

@@ -21,6 +21,8 @@ const About = () => {
                 src="../../static/images/logos/sla.svg"
                 width={500}
                 objectFit="scale-down"
+                title="Sacri Lapides Aegypti"
+                alt="Sacri Lapides Aegypti"
               />
             </Col>
             <Col>
