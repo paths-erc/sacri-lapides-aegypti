@@ -13,7 +13,11 @@ const Places = (props) => {
     <Wrapper>
       <Container>
         <Card>
-          <Link to={withPrefix(`${props.path}`)}>
+          <Link
+            to={withPrefix(`${props.path}`)}
+            title={props.title}
+            alt={props.title}
+          >
             <Card.Img variant="top" src={withPrefix(`/images/${props.img}`)} />
           </Link>
           <Card.Body>
