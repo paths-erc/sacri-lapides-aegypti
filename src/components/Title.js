@@ -10,7 +10,7 @@ const Title = (props) => {
   return (
     <Wrapper>
       <div className={`section-title ${align}`}>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
       </div>
     </Wrapper>
   );
@@ -22,11 +22,11 @@ const Wrapper = styled.section`
     font-family: "Open Sans", sans-serif;
     font-size: 2rem;
     font-weight: bolder;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding-bottom: 2%;
-    color: #777777;
+    color: #822433;
     text-decoration: underline;
-    text-decoration-color: rgb(130, 36, 51, 0.6);
+    text-decoration-color: rgb(0, 103, 120);
     text-decoration-thickness: 0.1em;
   }
   .section-title.right {

@@ -145,6 +145,10 @@ const Wrapper = styled.section`
     display: swap;
     color: #822433;
   }
+  .about {
+    margin-top: 300px;
+    margin-bottom: 200px;
+  }
   .indice-1,
   .indice-2,
   .indice-3,
@@ -183,7 +187,7 @@ const Wrapper = styled.section`
 
   li {
     padding-bottom: 2%;
-    list-style-type: decimal;
+    /* list-style-type: decimal; */
   }
   .row {
     padding-bottom: 10px;
@@ -261,9 +265,10 @@ const Wrapper = styled.section`
     padding-top: 5%;
     color: #777777;
   }
-  .about {
-    margin-top: 300px;
-    margin-bottom: 200px;
+  .text h2,
+  .text h3,
+  .text h4 {
+    color: rgb(0, 103, 120);
   }
 `;
 
@@ -282,7 +287,7 @@ export const query = graphql`
         node {
           base
           childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            gatsbyImageData(layout: FULL_WIDTH, quality: 80, width: 300)
           }
         }
       }

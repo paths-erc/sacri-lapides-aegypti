@@ -22,13 +22,16 @@ const Places = (props) => {
             <p className="typology">{props.typology}</p>
             <Card.Text>{props.excerpt}</Card.Text>
           </Card.Body>
-          <Button
+          <Link className="go-to" to={withPrefix(props.readMore)}>
+            Read More...
+          </Link>
+          {/* <Button
             className="go-to"
             variant="primary"
             href={withPrefix(props.readMore)}
           >
             Read More...
-          </Button>
+          </Button> */}
         </Card>
       </Container>
     </Wrapper>
@@ -49,7 +52,6 @@ const Wrapper = styled.section`
   }
   a:hover {
     color: rgb(130, 36, 51);
-
     font-weight: bolder;
     font-size: 0.8rem;
     line-height: 1rem;
@@ -58,12 +60,18 @@ const Wrapper = styled.section`
     text-decoration: none;
   }
   .go-to {
+    font-size: 1rem;
     text-align: center;
     margin: 3% 0 3% 0;
-    background: rgb(130, 36, 51, 0.2) !important;
-    border-color: rgb(130, 36, 51, 0.3) !important;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    text-align: left;
+    /* background: rgb(130, 36, 51, 0.2) !important;
+    border-color: rgb(130, 36, 51, 0.3) !important; */
   }
   .go-to:hover {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
     background: none;
     border-color: transparent;
   }
@@ -81,13 +89,14 @@ const Wrapper = styled.section`
     font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
-    text-align: right;
+    text-align: left;
     color: #777777;
   }
   .card-title {
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 1.5rem;
+    color: rgb(0, 103, 120);
   }
   .container {
     padding-bottom: 5%;
@@ -115,7 +124,7 @@ const Wrapper = styled.section`
     font-size: 1rem;
     line-height: 1.7rem;
     display: swap;
-    text-align: right;
+    text-align: left;
     color: #777777;
     font-style: italic;
   }

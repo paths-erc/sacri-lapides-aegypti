@@ -20,51 +20,33 @@ const Info = (props) => {
         <Row className="info" xs={1} md={4}>
           <Col>
             <h5>PLACE NAMES</h5>
-            <h6>OTHER NAMES</h6>
-            <p>{props.other_names}</p>
-            <h6>EGYPTIAN NAMES</h6>
-            <p>{props.egyptian_name}</p>
-            <h6>COPTIC NAMES</h6>
-            <p>{props.coptic_name}</p>
-            <h6>GREEK NAMES</h6>
-            <p>{props.greek_name}</p>
-            <h6> ARABIC NAMES</h6>
-            <p>{props.arabic_name}</p>
-            <h6> ARABIC TRANSLATION</h6>
-            <p>{props.arabic_transl}</p>
+            <h6>OTHER NAMES: {props.other_names}</h6>
+            <h6>EGYPTIAN NAMES: {props.egyptian_name}</h6>
+            <h6>COPTIC NAMES: {props.coptic_name}</h6>
+            <h6>GREEK NAMES: {props.greek_name}</h6>
+            <h6> ARABIC NAMES: {props.arabic_name}</h6>
+            <h6> ARABIC TRANSLATION: {props.arabic_transl}</h6>
           </Col>
           <Col>
             <h5>GEO INFO</h5>
-            <h6>AREA</h6>
-            <p>{props.area}</p>
-            <h6>PAThs ID</h6>
-            <p>{props.paths_id}</p>
-            <h6>PLEIADES ID</h6>
-            <p>{props.pleiades_id}</p>
-            <h6>TRISMEGISTOS GeoID</h6>
-            <p>{props.tm_id}</p>
+            <h6>AREA: {props.area}</h6>
+            <h6>PAThs ID: {props.paths_id}</h6>
+            <h6>PLEIADES ID: {props.pleiades_id}</h6>
+            <h6>TRISMEGISTOS GeoID: {props.tm_id}</h6>
           </Col>
           <Col>
             <h5>SITE INFO</h5>
-            <h6>TYPOLOGY</h6>
-            <p>{props.typology}</p>
-            <h6>DATE FROM</h6>
-            <p>{props.year_from}</p>
-            <h6>DATE TO</h6>
-            <p>{props.year_to}</p>
-            <h6>DATING CRITERIA</h6>
-            <p>{props.dating_criteria}</p>
-            <h6>EPISCOPAL SEE FROM</h6>
-            <p>{props.episcopal_see_from_year}</p>
+            <h6>TYPOLOGY: {props.typology}</h6>
+            <h6>DATE FROM: {props.year_from}</h6>
+            <h6>DATE TO: {props.year_to}</h6>
+            <h6>DATING CRITERIA: {props.dating_criteria}</h6>
+            <h6>EPISCOPAL SEE FROM: {props.episcopal_see_from_year}</h6>
           </Col>
           <Col>
             <h5>ABOUT</h5>
-            <h6>STATUS</h6>
-            <p>{props.status}</p>
-            <h6>EDITOR</h6>
-            <p>{props.editors}</p>
-            <h6>LAST MODIFIED</h6>
-            <p>{props.date}</p>
+            <h6>STATUS: {props.status}</h6>
+            <h6>EDITOR: {props.editors}</h6>
+            <h6>LAST MODIFIED: {props.date}</h6>
           </Col>
         </Row>
       </Container>
@@ -80,8 +62,8 @@ const Wrapper = styled.section`
     font-size: 0.9rem;
     line-height: 1.2rem;
     display: swap;
-    text-align: right;
-    color: #777777;
+    text-align: left;
+    color: rgb(0, 103, 120);
   }
   h6 {
     font-family: "Montserrat", sans-serif;
@@ -89,7 +71,7 @@ const Wrapper = styled.section`
     font-size: 0.7rem;
     line-height: 1rem;
     display: swap;
-    text-align: right;
+    text-align: left;
     color: #777777;
   }
   p {
@@ -98,7 +80,7 @@ const Wrapper = styled.section`
     font-size: 0.7rem;
     line-height: 1rem;
     display: swap;
-    text-align: right;
+    text-align: left;
     color: #777777;
   }
   .row {
