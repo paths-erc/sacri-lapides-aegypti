@@ -2,11 +2,11 @@
 import React from "react";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 //Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 
 //Component
 import Title from "../Title";
@@ -28,11 +28,9 @@ const Methods = () => {
                 />
                 <Card.Body>
                   <Card.Title>First Step</Card.Title>
-                  <Button variant="primary">
-                    <a href="https://docs.paths-erc.eu/data/">
-                      PAThs data repository
-                    </a>
-                  </Button>
+                  <Link to="https://docs.paths-erc.eu/data/">
+                    PAThs data repository
+                  </Link>
                   <Card.Text>
                     Collection and georeferencing on GIS platform of many
                     historical cartographical sources of Egypt and stle-level
@@ -51,11 +49,9 @@ const Methods = () => {
                 />
                 <Card.Body>
                   <Card.Title>Second Step</Card.Title>
-                  <Button variant="primary">
-                    <a href="https://docs.paths-erc.eu/data/svp">
-                      SVP protocol specifications
-                    </a>
-                  </Button>
+                  <Link to="https://docs.paths-erc.eu/data/svp">
+                    SVP protocol specifications
+                  </Link>
                   <Card.Text>
                     Vectorization of geo-referenced plants on GIS platform using
                     a protocol (SPV) developed by PAThs team members.
@@ -72,9 +68,9 @@ const Methods = () => {
                 />
                 <Card.Body>
                   <Card.Title>Third Step</Card.Title>
-                  <Button variant="primary">
-                    <a href="https://docs.paths-erc.eu/data/demo/">Live demo</a>
-                  </Button>
+                  <Link to="https://docs.paths-erc.eu/data/demo/">
+                    Live demo
+                  </Link>
                   <Card.Text>
                     Chronological phases, reconstruction hypothesis, etc., can
                     be easily encoded with the help of minimal and higly
@@ -103,30 +99,13 @@ const Wrapper = styled.section`
   }
   a:hover {
     color: rgb(130, 36, 51);
-
     font-weight: bolder;
     font-size: 0.8rem;
     line-height: 1rem;
     text-transform: uppercase;
     display: swap;
     text-decoration: none;
-  }
-  button {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.7rem;
-    display: swap;
-    text-align: right;
-    color: #777777;
-    text-align: left;
-    margin: 3% 0 3% 0;
-    background: rgb(130, 36, 51, 0.2);
-    border-color: rgb(130, 36, 51, 0.3);
-  }
-  button:hover {
-    background: none;
-    border-color: transparent;
+    letter-spacing: 0.1rem;
   }
   .section {
     position: relative;
@@ -171,6 +150,7 @@ const Wrapper = styled.section`
     color: #777777;
     font-weight: bolder;
     text-transform: uppercase;
+    color: rgb(0, 103, 120);
   }
   .container {
     padding-top: 240px;

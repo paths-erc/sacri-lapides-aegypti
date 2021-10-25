@@ -6,7 +6,6 @@ import styled from "styled-components";
 //Bootstrap
 import Card from "react-bootstrap/Card";
 import { Container } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 
 //markup
 const Places = (props) => {
@@ -25,13 +24,6 @@ const Places = (props) => {
           <Link className="go-to" to={withPrefix(props.readMore)}>
             Read More...
           </Link>
-          {/* <Button
-            className="go-to"
-            variant="primary"
-            href={withPrefix(props.readMore)}
-          >
-            Read More...
-          </Button> */}
         </Card>
       </Container>
     </Wrapper>
@@ -42,7 +34,6 @@ const Places = (props) => {
 const Wrapper = styled.section`
   a {
     color: rgb(130, 36, 51);
-
     font-weight: bolder;
     font-size: 0.8rem;
     line-height: 1rem;
@@ -58,6 +49,7 @@ const Wrapper = styled.section`
     text-transform: uppercase;
     display: swap;
     text-decoration: none;
+    letter-spacing: 0.1rem;
   }
   .go-to {
     font-size: 1rem;
@@ -66,8 +58,6 @@ const Wrapper = styled.section`
     padding-bottom: 2rem;
     padding-left: 1rem;
     text-align: left;
-    /* background: rgb(130, 36, 51, 0.2) !important;
-    border-color: rgb(130, 36, 51, 0.3) !important; */
   }
   .go-to:hover {
     font-size: 1rem;
