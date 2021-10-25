@@ -88,7 +88,6 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
-          path
           typology
           id
           paths_id
