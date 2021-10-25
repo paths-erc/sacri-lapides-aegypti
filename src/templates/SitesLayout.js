@@ -2,7 +2,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import styled from "styled-components";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 //Bootstrap
 import { Container, Col, Row } from "react-bootstrap";
@@ -97,9 +97,9 @@ const SitesLayout = ({ data }) => {
                 <Row>
                   {images.map((image, key) => (
                     <Col xs={6} md={4} key={key}>
-                      <a href={image.node.childImageSharp.fluid.src}>
-                        <Img
-                          fluid={image.node.childImageSharp.fluid}
+                      <a href={image.node.childImageSharp.gatsbyImageData.src}>
+                        <GatsbyImage
+                          image={image.node.childImageSharp.gatsbyImageData}
                           style={{ margin: "3rem 0", height: "300px" }}
                           imgStyle={{ objectFit: "scale-down" }}
                           alt={image.node.base
@@ -282,9 +282,7 @@ export const query = graphql`
         node {
           base
           childImageSharp {
-            fluid(maxWidth: 2000, quality: 100) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
       }
