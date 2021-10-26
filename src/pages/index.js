@@ -1,5 +1,7 @@
-//Gatsby
+//React
 import * as React from "react";
+
+//Gatsby
 import { graphql } from "gatsby";
 import styled from "styled-components";
 

@@ -1,5 +1,7 @@
-//Gatsby
+//React
 import React from "react";
+
+//Gatsby
 import { Link, withPrefix } from "gatsby";
 import styled from "styled-components";
 
@@ -51,20 +53,6 @@ const Wrapper = styled.section`
     text-decoration: none;
     letter-spacing: 0.1rem;
   }
-  .go-to {
-    font-size: 1rem;
-    text-align: center;
-    margin: 3% 0 3% 0;
-    padding-bottom: 2rem;
-    padding-left: 1rem;
-    text-align: left;
-  }
-  .go-to:hover {
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    background: none;
-    border-color: transparent;
-  }
   section {
     padding: 2em 5;
     position: relative;
@@ -91,22 +79,19 @@ const Wrapper = styled.section`
   .container {
     padding-bottom: 5%;
   }
-  .sites-img {
-    border-top-left-radius: var(--radius);
-    border-top-right-radius: var(--radius);
-    height: 19rem;
-    z-index: 1;
+  .go-to {
+    font-size: 1rem;
+    text-align: center;
+    margin: 3% 0 3% 0;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    text-align: left;
   }
-  .sites-img::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom right, var(--clr-primary-5), #222);
-    opacity: 0.85;
-    transition: var(--transition);
+  .go-to:hover {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    background: none;
+    border-color: transparent;
   }
   .typology {
     font-family: "Montserrat", sans-serif;

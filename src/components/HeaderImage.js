@@ -1,5 +1,7 @@
-//Gatsby
+//React
 import React from "react";
+
+//Gatsby
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -23,6 +25,19 @@ const HeaderImage = (props) => {
 
 //styles
 const Wrapper = styled.section`
+  h1 {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 200;
+    font-size: 3.5rem;
+    @media (min-width: 576px) {
+      font-size: 5.5rem;
+    }
+  }
   img {
     filter: brightness(75%);
     height: calc(50vh);
@@ -51,19 +66,5 @@ const Wrapper = styled.section`
     transform-origin: top left;
     background-color: #f8f9fa;
   }
-  h1 {
-    font-family: "Open Sans", sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-weight: 200;
-    font-size: 3.5rem;
-    @media (min-width: 576px) {
-      font-size: 5.5rem;
-    }
-  }
-  /* TO DO: media query schermi piccoli: 4rem */
 `;
 export default HeaderImage;

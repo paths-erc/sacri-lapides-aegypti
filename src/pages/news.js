@@ -1,5 +1,7 @@
-//Gatsby
+//React
 import React from "react";
+
+//Gatsby
 import { Helmet } from "react-helmet";
 
 //Component

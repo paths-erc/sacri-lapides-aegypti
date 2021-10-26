@@ -1,5 +1,7 @@
-//Gatsby
+//React
 import React from "react";
+
+//Gatsby
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import { StaticImage } from "gatsby-plugin-image";
@@ -68,23 +70,6 @@ const Slider = () => {
 
 //styles
 const Wrapper = styled.section`
-  .carousel-caption {
-    transform: translateY(-50%);
-    bottom: initial;
-    top: 50%;
-    @media (min-width: 576px) {
-      top: 40%;
-    }
-  }
-  .carousel-indicators {
-    margin-bottom: 10%;
-    visibility: hidden;
-  }
-  .carousel-item {
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
   h3 {
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
@@ -105,16 +90,33 @@ const Wrapper = styled.section`
     min-height: 1000px;
     position: relative;
   }
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    display: swap;
+  }
+  .carousel-caption {
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+    @media (min-width: 576px) {
+      top: 40%;
+    }
+  }
+  .carousel-indicators {
+    margin-bottom: 10%;
+    visibility: hidden;
+  }
+  .carousel-item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
   .logo {
     max-width: 500px;
     width: 50%;
     margin: auto;
     filter: invert(1);
-  }
-  p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
-    display: swap;
   }
   .slider-wrap {
     position: relative;

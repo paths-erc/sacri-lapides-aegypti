@@ -1,5 +1,7 @@
-//Gatsby
+//React
 import React from "react";
+
+//Gatsby
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 import Helmet from "react-helmet";

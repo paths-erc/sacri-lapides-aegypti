@@ -1,5 +1,7 @@
-//Gatsby
+//React
 import React from "react";
+
+//Gatsby
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
 
