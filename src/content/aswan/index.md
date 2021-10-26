@@ -26,7 +26,7 @@ lat: 32.89804
 zoom: 13
 ---
 
-## About
+## Introduction
 
 Aswan (Syene) is located on the east bank of the Nile, at the First Cataract, so it can be considered a frontier town that nowadays, as in antiquity, marks the southern border of Egypt. The history of the site, the southernmost city of the Roman Empire, is strictly linked to that of Elephantine, the small isle in the Nile in front of Aswan, that was a military, religious and economic centre. Aswan, on the other hand, famous in antiquity for its granite deposits, functioned mainly as a trading centre, a garrison town and an important episcopal see, from the IVth c. CE.
 

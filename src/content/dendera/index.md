@@ -26,6 +26,8 @@ lat: 32.6700972222
 zoom: 13
 ---
 
+## Introduction
+
 The site of Dendera is located 4 km south of the provincial capital at Qena, at the great bend in the Nile, and about 70 km north of Luxor, on the west side of the river. The site is known, above all, for the presence of a temple dedicated to the goddess Hathor located there since the Old Kingdom and a group of subsidiary temples stands within its enclosure wall. From several years the site is the subject of research by the IFAO (Institut Francaise d’Archéologie Orientale), which led to a better knowledge of the funerary and urban areas. Moreover, it aims to the integral architectural analysis of the monumental complex, together with the publication of the texts and depictions on the walls of the main temple and of the other buildings.
 
 The monumental complex roses up in the immediate vicinity of a town that has been the capital of the sixth Upper Egyptian nome.

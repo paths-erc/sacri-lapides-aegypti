@@ -26,6 +26,8 @@ lat: 24.09
 zoom: 8
 ---
 
+## Introduction
+
 Elephantine is an island in the Nile, with a small land extension (1.5 km north-south, 0.5 km east-west), which over the centuries has played an important strategic role, thanks to its location at the northern end of the first cataract, facing Aswan (Syene). Its name, both in Egyptian and in Greek translation, probably indicates the importance of the ivory trade amongst the different commercial goods managed by the island. During pharaonic era it was the capital of the Elephant nome, while during Ptolemaic and Roman periods it was reduced to a temple town and the administrative center was transferred to Syene/Aswan, on the eastern river bank. From an archaeological point of view, the site enjoys a particularly privileged condition: it has been occupied from Prehistoric times to Early Islamic period. There has been no overlap between the ancient site and the modern one, and the ancient remains, being located on a high ground, have been protected from the rise of Nile’s water.
 
 The first excavations in the site were carried out by German (1906-1908) and French (1906-1909) missions. Then, after several excavations not well documented, from 1969 began the systematic research project led by the German Archaeological Institute in Cairo and the Swiss Institute for Architectural and Archaeological Research on Ancient Egypt in Cairo, still ongoing.

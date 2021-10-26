@@ -26,7 +26,7 @@ lat: 29.9079146667
 zoom: 13
 ---
 
-## About
+## Introduction
 
 The site is located at the western edge of Nile River delta, along the coast of the Mediterranean sea, extending about 32 km. It was connected to the Lake Mareotis (Maryut Lake) though a navigable canal that debouched at the city's western harbor. According to written sources, the city has been founded in 332-331 BCE by Alexander the Great, built on an existing settlement with the Egyptian name of Rakothis (Strabo, Geogr. XVII, 1, 6; Pliny the Elder, Nat. Hist., 5, 11, 62). The Greek city developed along the coastline with two natural harbors: the Great Harbor to the east and the Eunostus to the west, connected with a smaller port artificially excavated to its rear (Kibotos). The two main harbors were divided in Hellenistic period by a dyke (the Heptastadion) which linked the mainland to the Island of Pharos.
 
