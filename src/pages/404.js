@@ -22,7 +22,7 @@ const NotFoundPage = () => {
           <Container>
             <Row>
               <Col md={{ span: 6, offset: 3 }}>
-                <h1>404</h1>
+                <h1>Error</h1>
                 <h2>Sorry, this page does not exist</h2>
                 <a href={withPrefix(`/`)}>
                   <h3>Go to Home</h3>
@@ -54,7 +54,7 @@ const Wrapper = styled.section`
     font-family: "Montserrat", sans-serif;
     text-align: center;
     color: rgb(130, 36, 51);
-    font-size: 8rem;
+    font-size: 6rem;
   }
   h2 {
     font-family: "Montserrat", sans-serif;
