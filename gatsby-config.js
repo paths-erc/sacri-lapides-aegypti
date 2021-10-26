@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/sacri-lapides-aegypti",
   siteMetadata: {
     siteUrl: "https://paths-erc.eu",
-    title: "Sacri Lapides Aegypti",
+    title: "Sacri lapides Aegypti",
     menuLinks: [
       { link: "/", title: "home", subMenu: null },
       {

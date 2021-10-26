@@ -23,8 +23,8 @@ const About = () => {
                 src="../../../static/images/logos/sla.svg"
                 width={500}
                 objectFit="scale-down"
-                title="Sacri Lapides Aegypti"
-                alt="Sacri Lapides Aegypti"
+                title="Sacri lapides Aegypti"
+                alt="Sacri lapides Aegypti"
               />
             </Col>
             <Col>
@@ -68,28 +68,29 @@ const About = () => {
                 the actors and the institutions involved. Concurrently, it aims
                 to define the connections among the different scriptoria and to
                 analyze the distribution of the bibliological typologies. On the
-                other hand, <em>Sacri lapides</em> is aimed at complementing the
-                outcomes of “PAThs”, shedding light on the background, on the
-                material preconditions, as well as on the transitional contexts,
-                through the creation of a hitherto unattempted topography of
-                Pharaonic shrines, chapels as well as graves whence the
-                aforesaid manuscripts were recovered, since they were converted
-                to basilicas, churches and monasteries housing scriptoria and
-                libraries. If the archaeological côté is already in part
-                represented in the ERC project “PAThs”, it is not so fully
-                examined in a structural and widely diachronic perspective as by
-                “ <em>Sacri lapides</em>”. “ <em>Sacri lapides</em>” means to
-                weld the history of the Coptic literary production to the
-                Pharaonic and Ptolemaic-Roman past, lending practical substance
-                to the understanding of the spread of new Christian cultural
-                centres, which, similarly to the Pharaonic ones, are never
-                severed from their places of worship. In the light of such
-                awareness – the intimate connection between place of worship and
-                place of production and storage of the culture – we mean to
-                create a fully original research tool, which will serve
-                Egyptologists as well as archaeologists and Late Antique
-                scholars, namely an exhaustive digital catalogue of the heathen
-                shrines converted into Christian religious and cultural centers.
+                other hand, <em>Sacri lapides Aegypti</em> is aimed at
+                complementing the outcomes of “PAThs”, shedding light on the
+                background, on the material preconditions, as well as on the
+                transitional contexts, through the creation of a hitherto
+                unattempted topography of Pharaonic shrines, chapels as well as
+                graves whence the aforesaid manuscripts were recovered, since
+                they were converted to basilicas, churches and monasteries
+                housing scriptoria and libraries. If the archaeological côté is
+                already in part represented in the ERC project “PAThs”, it is
+                not so fully examined in a structural and widely diachronic
+                perspective as by “ <em>Sacri lapides Aegypti</em>”. “{" "}
+                <em>Sacri lapides Aegypti</em>” means to weld the history of the
+                Coptic literary production to the Pharaonic and Ptolemaic-Roman
+                past, lending practical substance to the understanding of the
+                spread of new Christian cultural centres, which, similarly to
+                the Pharaonic ones, are never severed from their places of
+                worship. In the light of such awareness – the intimate
+                connection between place of worship and place of production and
+                storage of the culture – we mean to create a fully original
+                research tool, which will serve Egyptologists as well as
+                archaeologists and Late Antique scholars, namely an exhaustive
+                digital catalogue of the heathen shrines converted into
+                Christian religious and cultural centers.
               </p>
             </Col>
           </Row>

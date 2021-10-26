@@ -34,7 +34,7 @@ const Header = () => {
             style={ImgLogo}
             src={SlaLogo}
             className="d-md-inline-block align-top d-none"
-            alt="Sacri Lapides Aegypti"
+            alt="Sacri lapides Aegypti"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

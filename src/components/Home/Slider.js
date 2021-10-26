@@ -17,7 +17,7 @@ const Slider = () => {
   return (
     <Wrapper>
       <Helmet>
-        <title>Sacri Lapides Aegypti</title>
+        <title>Sacri lapides Aegypti</title>
         <meta
           name="description"
           content="The Sacri lapides Aegypti project aims to study and
@@ -41,7 +41,7 @@ const Slider = () => {
               />
               <Carousel.Caption>
                 <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
-                <h3>Sacri Lapides Aegypti</h3>
+                <h3>Sacri lapides Aegypti</h3>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
                 <div
                   data-sal="slide-up"
@@ -57,7 +57,7 @@ const Slider = () => {
               />
               <Carousel.Caption>
                 <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
-                <h3>Sacri Lapides Aegypti</h3>
+                <h3>Sacri lapides Aegypti</h3>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
               </Carousel.Caption>
             </Carousel.Item>
