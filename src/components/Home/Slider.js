@@ -40,8 +40,17 @@ const Slider = () => {
                 objectFit="contain"
               />
               <Carousel.Caption>
-                <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
+                <img
+                  className="logo d-none d-md-inline-block"
+                  src={SlaLogo}
+                  alt="sacri-lapides"
+                ></img>
                 <h3>Sacri lapides Aegypti</h3>
+                <h5>
+                  From the scribes of temples to the copyists of scriptoria. The
+                  transformation of spaces of cult, identity and memory from
+                  pharaonic and Graeco-Roman Egypt to Christian Egypt
+                </h5>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
                 <a href="https://saras.uniroma1.it/">
                   <p>
@@ -62,8 +71,17 @@ const Slider = () => {
                 objectFit="scale-down"
               />
               <Carousel.Caption>
-                <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
+                <img
+                  className="logo d-none d-md-inline-block"
+                  src={SlaLogo}
+                  alt="sacri-lapides"
+                ></img>
                 <h3>Sacri lapides Aegypti</h3>
+                <h5>
+                  From the scribes of temples to the copyists of scriptoria. The
+                  transformation of spaces of cult, identity and memory from
+                  pharaonic and Graeco-Roman Egypt to Christian Egypt
+                </h5>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
                 <a href="https://saras.uniroma1.it/">
                   <p>
@@ -110,9 +128,21 @@ const Wrapper = styled.section`
     display: swap;
     font-size: 1.5rem;
     @media (min-width: 576px) {
-      font-size: 4rem;
+      font-size: 3rem;
     }
+    margin-bottom: 0.3;
   }
+  h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    display: swap;
+    font-size: 0.6rem;
+    @media (min-width: 576px) {
+      font-size: 1.3rem;
+    }
+    margin-bottom: 0.5rem;
+  }
+
   img {
     filter: brightness(75%);
   }
@@ -128,7 +158,7 @@ const Wrapper = styled.section`
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
     display: swap;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     margin-bottom: 0;
     @media (min-width: 576px) {
       font-size: 1rem;
