@@ -18,7 +18,7 @@ const About = () => {
           <Row xs={1} md={2}>
             <Col>
               <StaticImage
-                src="../../static/images/logos/sla.svg"
+                src="../../../static/images/logos/sla.svg"
                 width={500}
                 objectFit="scale-down"
                 title="Sacri Lapides Aegypti"
@@ -27,7 +27,7 @@ const About = () => {
             </Col>
             <Col>
               <Title title="About" align="right" />
-              <p>
+              <p className="about">
                 The <em>Sacri lapides Aegypti</em> project aims to study and
                 document the processes of transformation of sacred spaces for
                 worship, identity and memory from Pharaonic and Ptolemaic-Roman
@@ -41,6 +41,53 @@ const About = () => {
                 PAThs, whose aim is to define a geography of Coptic manuscript
                 production through the creation of a digital atlas, searchable
                 thematically and chronologically.
+              </p>
+            </Col>
+          </Row>
+          <Row xs={1} md={2}>
+            <Col>
+              <StaticImage
+                src="../../../static/images/other/cooperation.png"
+                width={800}
+                objectFit="scale-down"
+                title="Sla and Paths"
+                alt="Sla and Paths"
+              />
+            </Col>
+            <Col>
+              <Title title="Objective" align="right" />
+              <p>
+                The ERC project “PAThs” aims to provide a geography of Coptic
+                literary production through the realization of a chronologically
+                and thematically searchable digital atlas, which will allow an
+                effective representation of the places where Coptic manuscripts
+                were found, produced, copied, transferred, used and stored, as
+                well as of the relationships between the places themselves and
+                the actors and the institutions involved. Concurrently, it aims
+                to define the connections among the different scriptoria and to
+                analyze the distribution of the bibliological typologies. On the
+                other hand, <em>Sacri lapides</em> is aimed at complementing the
+                outcomes of “PAThs”, shedding light on the background, on the
+                material preconditions, as well as on the transitional contexts,
+                through the creation of a hitherto unattempted topography of
+                Pharaonic shrines, chapels as well as graves whence the
+                aforesaid manuscripts were recovered, since they were converted
+                to basilicas, churches and monasteries housing scriptoria and
+                libraries. If the archaeological côté is already in part
+                represented in the ERC project “PAThs”, it is not so fully
+                examined in a structural and widely diachronic perspective as by
+                “ <em>Sacri lapides</em>”. “ <em>Sacri lapides</em>” means to
+                weld the history of the Coptic literary production to the
+                Pharaonic and Ptolemaic-Roman past, lending practical substance
+                to the understanding of the spread of new Christian cultural
+                centres, which, similarly to the Pharaonic ones, are never
+                severed from their places of worship. In the light of such
+                awareness – the intimate connection between place of worship and
+                place of production and storage of the culture – we mean to
+                create a fully original research tool, which will serve
+                Egyptologists as well as archaeologists and Late Antique
+                scholars, namely an exhaustive digital catalogue of the heathen
+                shrines converted into Christian religious and cultural centers.
               </p>
             </Col>
           </Row>
@@ -70,12 +117,8 @@ const Wrapper = styled.section`
   .col {
     margin-bottom: 3rem;
   }
-  .about-img {
-    max-width: 400px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
+  .about {
+    padding-bottom: 3rem;
   }
   .bottom-slant-gray {
     position: relative;
