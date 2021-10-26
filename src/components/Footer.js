@@ -39,7 +39,7 @@ const Footer = () => {
             </Col>
             <Col md={3} sm={6} xs={6}>
               <p>
-                <em>Sacri Lapides Aegypti</em>: from the scribes of temples to
+                <em>Sacri lapides Aegypti</em>: from the scribes of temples to
                 the copyists of scriptoria. The transformation of spaces of
                 cult, identity and memory from pharaonic and Graeco-Roman Egypt
                 to Christian Egypt
@@ -49,8 +49,14 @@ const Footer = () => {
               <p>
                 FARE MIUR Project hosted at<br></br>
                 Sapienza University of Rome<br></br>
-                Chair of Egyptology and Coptic civilization<br></br>©{" "}
-                {new Date().getFullYear()} Sacri Lapides Aegypti Team
+                Chair of Egyptology and Coptic civilization<br></br>
+                <a href="https://saras.uniroma1.it/">
+                  <p>
+                    Dept. of History, Anthropology, Religions, Arts and
+                    Perfoming Arts
+                  </p>
+                </a>
+                <br></br>© {new Date().getFullYear()} Sacri lapides Aegypti Team
                 <br></br>
                 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                   CC BY-NC-SA 4.0

@@ -43,6 +43,12 @@ const Slider = () => {
                 <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
                 <h3>Sacri lapides Aegypti</h3>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
+                <a href="https://saras.uniroma1.it/">
+                  <p>
+                    Dept. of History, Anthropology, Religions, Arts and
+                    Perfoming Arts
+                  </p>
+                </a>
                 <div
                   data-sal="slide-up"
                   data-sal-delay="300"
@@ -59,6 +65,12 @@ const Slider = () => {
                 <img className="logo" src={SlaLogo} alt="sacri-lapides"></img>
                 <h3>Sacri lapides Aegypti</h3>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
+                <a href="https://saras.uniroma1.it/">
+                  <p>
+                    Dept. of History, Anthropology, Religions, Arts and
+                    Perfoming Arts
+                  </p>
+                </a>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -70,6 +82,28 @@ const Slider = () => {
 
 //styles
 const Wrapper = styled.section`
+  a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    display: swap;
+    text-decoration: none;
+    color: white !important;
+    font-size: 0.7rem;
+    @media (min-width: 576px) {
+      font-size: 1rem;
+    }
+  }
+  a:hover {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    display: swap;
+    text-decoration: underline;
+    color: white !important;
+    font-size: 0.7rem;
+    @media (min-width: 576px) {
+      font-size: 1rem;
+    }
+  }
   h3 {
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
@@ -94,6 +128,11 @@ const Wrapper = styled.section`
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
     display: swap;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+    @media (min-width: 576px) {
+      font-size: 1rem;
+    }
   }
   .carousel-caption {
     transform: translateY(-50%);
