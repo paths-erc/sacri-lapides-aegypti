@@ -11,10 +11,20 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 //Images
 import SlaLogo from "../../static/images/logos/sla.svg";
+import SapienzaLogo from "../../static/images/logos/sapienza_logo.png";
+import CattedraLogo from "../../static/images/logos/logo_cattedra.png";
 
 //styles
-const ImgLogo = {
+const ImgLogoSLA = {
   width: "100px",
+  marginLeft: 50,
+};
+const ImgLogoSapienza = {
+  width: "200px",
+  marginLeft: 50,
+};
+const ImgLogoCattedra = {
+  width: "80px",
   marginLeft: 50,
 };
 
@@ -31,8 +41,20 @@ const Header = () => {
       <Navbar fixed="top" expand="lg">
         <Navbar.Brand href={withPrefix(`/`)}>
           <img
-            style={ImgLogo}
+            style={ImgLogoSLA}
             src={SlaLogo}
+            className="d-md-inline-block align-top d-none"
+            alt="Sacri lapides Aegypti"
+          />
+          <img
+            style={ImgLogoSapienza}
+            src={SapienzaLogo}
+            className="d-md-inline-block align-top d-none"
+            alt="Sacri lapides Aegypti"
+          />
+          <img
+            style={ImgLogoCattedra}
+            src={CattedraLogo}
             className="d-md-inline-block align-top d-none"
             alt="Sacri lapides Aegypti"
           />
