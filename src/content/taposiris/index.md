@@ -22,6 +22,8 @@ lat: 29.518675804138184
 zoom: 13
 ---
 
+## Introduction
+
 Located 45 km west of Alexandria, the settlement of Taposiris Magna is situated on the northern shore of Lake Mareotide (known today as Mallahet Maryut), on the slopes of the narrow limestone ridge (so called “taenia”), which starts at Canopus and runs along the Mediterranean coast through Alexandria and beyond the lake. Thanks to its strategic position Taposiris – called “Magna” to distinguish it from “Parva” at Montazah – was founded in the Early Hellenistic era and flourished until VII c. CE.
 
 After its abandonment the site was not reoccupied, so that archaeological evidences has been well preserved. Its key role throughout the centuries is confirmed, among others literary sources, in the _Letter to the Alexandrians_ by emperor Claudius (41 CE), who defines Taposiris the “eisbolè” (gate) of Egypt. Along with that of Alexandria, Taposiris’ harbour is the only in Mareotis region with a closed basins, which allowed to monitor and manage maritime traffic.
