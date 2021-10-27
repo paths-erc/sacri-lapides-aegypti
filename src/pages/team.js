@@ -118,6 +118,52 @@ const Team = () => {
           <Container className="container-two">
             <Row>
               <Col sm={8}>
+                <Title title="Marta Addessi" align="right" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
+                  ornare varius velit, sit amet mattis orci eleifend at. Duis
+                  sollicitudin mattis blandit. Pellentesque ultrices nisi augue,
+                  interdum blandit tellus dapibus et. Nulla in augue urna. Nulla
+                  interdum tristique massa, ut tristique purus bibendum sit
+                  amet. In hac habitasse platea dictumst. Donec congue suscipit
+                  tincidunt. Vivamus nec efficitur odio.
+                </p>
+              </Col>
+              <Col sm={4}></Col>
+            </Row>
+          </Container>
+          <section className="section bottom-slant-gray">
+            <Container className="container-three">
+              <Row>
+                <Col sm={4}>
+                  {/* <StaticImage
+                    src="../../static/images/other/valeria-parisi.jpg"
+                    width={300}
+                    objectFit="scale-down"
+                  /> */}
+                </Col>
+                <Col sm={8}>
+                  <Title title="Elisabetta Falduto" />
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
+                    ornare varius velit, sit amet mattis orci eleifend at. Duis
+                    sollicitudin mattis blandit. Pellentesque ultrices nisi
+                    augue, interdum blandit tellus dapibus et. Nulla in augue
+                    urna. Nulla interdum tristique massa, ut tristique purus
+                    bibendum sit amet. In hac habitasse platea dictumst. Donec
+                    congue suscipit tincidunt. Vivamus nec efficitur odio.
+                  </p>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+        </section>
+        <section className="section methods">
+          <Container className="container-two">
+            <Row>
+              <Col sm={8}>
                 <Title title="Serena Guidone" align="right" />
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
