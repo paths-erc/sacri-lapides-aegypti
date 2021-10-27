@@ -27,7 +27,17 @@ const Index = ({ data }) => {
         <section className="section bottom-slant-gray">
           <Container>
             <Title title="Archaeological sites" align="right" />
-
+            <Container>
+              <p className="places-intro">
+                The archaeological sites analysed and described by “Sacri
+                lapides” have been selected on the basis of rigorous criteria,
+                such as the reliability of literary and documentary sources and
+                of scientific archaeological reports. Particular attention has
+                been dedicated to collecting maps and images of the relevant
+                monuments, in order to “map” topographical, functional and
+                religious changes.
+              </p>
+            </Container>
             <Row xs={1} md={2}>
               {data.allMarkdownRemark.nodes.map((node, i) => (
                 <Col key={i}>
@@ -78,6 +88,15 @@ const Wrapper = styled.section`
     -webkit-transform-origin: top left;
     -ms-transform-origin: top left;
     transform-origin: top left;
+  }
+  .places-intro {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    display: swap;
+    text-align: right;
+    color: #777777;
   }
   .row {
     padding-top: 30px;
