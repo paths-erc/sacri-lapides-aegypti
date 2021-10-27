@@ -33,13 +33,13 @@ const Methods = () => {
                 <Card.Body>
                   <Card.Title>First Step</Card.Title>
                   <Link to="https://docs.paths-erc.eu/data/">
-                    PAThs data repository
+                    PAThs DATA REPOSITORY
                   </Link>
                   <Card.Text>
-                    Collection and georeferencing on GIS platform of many
-                    historical cartographical sources of Egypt and stle-level
-                    topographical surveys of the main temples, churches,
-                    basilicas and other religious complexes.
+                    Collection and georeferencing on GIS platform of several and
+                    diverse historical historical cartographical sources of
+                    Egypt and site-level topographical surveys of the main
+                    temples, churches, basilicas and other religious complexes.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -56,7 +56,7 @@ const Methods = () => {
                 <Card.Body>
                   <Card.Title>Second Step</Card.Title>
                   <Link to="https://docs.paths-erc.eu/data/svp">
-                    SVP protocol specifications
+                    SVP PROTOCOL SPECIFICATIONS
                   </Link>
                   <Card.Text>
                     Vectorization of geo-referenced plants on GIS platform using
@@ -77,12 +77,12 @@ const Methods = () => {
                 <Card.Body>
                   <Card.Title>Third Step</Card.Title>
                   <Link to="https://docs.paths-erc.eu/data/demo/">
-                    Live demo
+                    LIVE DEMO
                   </Link>
                   <Card.Text>
-                    Chronological phases, reconstruction hypothesis, etc., can
-                    be easily encoded with the help of minimal and higly
-                    intuitive vocabularies and visualised on the Web.
+                    Proposal of chronological phases, reconstruction hypothesis,
+                    etc., which can be easily encoded with the help of minimal
+                    and highly intuitive vocabularies and visualised on the Web.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -101,7 +101,7 @@ const Wrapper = styled.section`
     font-weight: bolder;
     font-size: 0.8rem;
     line-height: 1rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: swap;
     text-decoration: none;
   }
@@ -110,7 +110,7 @@ const Wrapper = styled.section`
     font-weight: bolder;
     font-size: 0.8rem;
     line-height: 1rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: swap;
     text-decoration: none;
     letter-spacing: 0.1rem;
