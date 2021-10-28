@@ -29,13 +29,13 @@ const Index = ({ data }) => {
             <Title title="Archaeological sites" align="right" />
             <Container>
               <p className="places-intro">
-                The archaeological sites analysed and described by “Sacri
-                lapides” have been selected on the basis of rigorous criteria,
-                such as the reliability of literary and documentary sources and
-                of scientific archaeological reports. Particular attention has
-                been dedicated to collecting maps and images of the relevant
-                monuments, in order to “map” topographical, functional and
-                religious changes.
+                The archaeological sites analysed and described by “
+                <em>Sacri lapides</em> ” have been selected on the basis of
+                rigorous criteria, such as the reliability of literary and
+                documentary sources and of scientific archaeological reports.
+                Particular attention has been dedicated to collecting maps and
+                images of the relevant monuments, in order to “map”
+                topographical, functional and religious changes.
               </p>
             </Container>
             <Row xs={1} md={2}>
