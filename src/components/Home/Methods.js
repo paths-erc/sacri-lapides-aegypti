@@ -33,7 +33,7 @@ const Methods = () => {
                 <Card.Body>
                   <Card.Title>First Step</Card.Title>
                   <Link to="https://docs.paths-erc.eu/data/">
-                    PAThs DATA REPOSITORY
+                    “PAThs” DATA REPOSITORY
                   </Link>
                   <Card.Text>
                     Collection and georeferencing on GIS platform of several and
@@ -60,7 +60,7 @@ const Methods = () => {
                   </Link>
                   <Card.Text>
                     Vectorization of geo-referenced plants on GIS platform using
-                    a protocol (SPV) developed by PAThs team members.
+                    a protocol (SPV) developed by “PAThs” team members.
                   </Card.Text>
                 </Card.Body>
               </Card>

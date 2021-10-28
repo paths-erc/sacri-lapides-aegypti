@@ -39,8 +39,8 @@ const Footer = () => {
             </Col>
             <Col md={3} sm={6} xs={6}>
               <p>
-                <em>Sacri lapides Aegypti</em>: from the scribes of temples to
-                the copyists of scriptoria. The transformation of spaces of
+                “ <em>Sacri lapides Aegypti</em> ”: from the scribes of temples
+                to the copyists of scriptoria. The transformation of spaces of
                 cult, identity and memory from pharaonic and Graeco-Roman Egypt
                 to Christian Egypt
               </p>
@@ -56,7 +56,8 @@ const Footer = () => {
                     Perfoming Arts
                   </p>
                 </a>
-                <br></br>© {new Date().getFullYear()} Sacri lapides Aegypti Team
+                <br></br>© {new Date().getFullYear()} “{" "}
+                <em>Sacri lapides Aegypti</em> ” Team
                 <br></br>
                 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                   CC BY-NC-SA 4.0
