@@ -46,18 +46,22 @@ const Header = () => {
             className="d-md-inline-block align-top d-none"
             alt="Sacri lapides Aegypti"
           />
-          <img
-            style={ImgLogoSapienza}
-            src={SapienzaLogo}
-            className="d-md-inline-block align-top d-none"
-            alt="Sacri lapides Aegypti"
-          />
-          <img
-            style={ImgLogoCattedra}
-            src={CattedraLogo}
-            className="d-md-inline-block align-top d-none"
-            alt="Sacri lapides Aegypti"
-          />
+          <a href="https://www.uniroma1.it/it/pagina-strutturale/home">
+            <img
+              style={ImgLogoSapienza}
+              src={SapienzaLogo}
+              className="d-md-inline-block align-top d-none"
+              alt="Sapienza Università di Roma"
+            />
+          </a>
+          <a href="https://sites.google.com/uniroma1.it/cattedra-egittologia-sapienza">
+            <img
+              style={ImgLogoCattedra}
+              src={CattedraLogo}
+              className="d-md-inline-block align-top d-none"
+              alt="Cattedra di Egittologia e Civiltà Copta Sapienza"
+            />
+          </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
