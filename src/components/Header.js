@@ -24,7 +24,7 @@ const ImgLogoSapienza = {
   marginLeft: 50,
 };
 const ImgLogoCattedra = {
-  width: "80px",
+  width: "66px",
   marginLeft: 50,
 };
 
