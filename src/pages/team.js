@@ -92,7 +92,7 @@ const Team = () => {
                       project
                     </li>
                     <li>
-                      She i is the Director of the joint archaeological mission
+                      She is the Director of the joint archaeological mission
                       (Sapienza University of Rome - Sudanese Ministry of
                       Antiquities ) at the temple of Hugair Gubli, Sudan
                     </li>
