@@ -43,33 +43,30 @@ const Team = () => {
               <Col sm={8}>
                 <Title title="Paola Buzi" />
                 <p>
-                  Since 1 February 2017, Paola Buzi is Full Professor of
-                  Egyptology and Coptic Studies. She graduated from La Sapienza
-                  University in 1995 with a thesis on Coptic Language and
-                  Literature. In 2002 she obtained a PhD in Egyptology from the
-                  same university, with a dissertation entitled “
+                  Paola Buzi is Full Professor of Egyptology and Coptic Studies
+                  and Honorary Professor of the same disciplines at Hamburg
+                  University (since 2017). She has studied at Sapienza under the
+                  supervision of Alessandro Roccati and Tito Orlandi. In 2002
+                  she obtained a PhD in Egyptology from the same university,
+                  with a dissertation entitled “
                   <em>Titles and Authors in the Coptic Literature</em>”. She has
                   worked as a fixed term lecturer (“assegnista di ricerca”) in
                   the Department of Archaeology of Bologna for five years and
                   from January 2010 she works on behalf of the Akademie der
                   Wissenschfaten zu Göttingen at Hamburg University cataloguing
                   the Coptic manuscripts preserved in the German collections.
-                  From 1 November 2010 to 31 January 2017 she was Assistant
-                  Professor of Egyptology and Coptic Studies at Sapienza
-                  University. She sits on the Board of the International
-                  Association of Coptic Studies (IACS) and is a member of both
-                  International Associations of Egyptologists and the Academia
-                  Ambrosiana. She combines historical, literary and
-                  codicological interests with archaeological activities. She
-                  has taken part in several excavation campaigns in Italy and in
-                  Egypt. Since 2002 she has been a member of the Archaeological
-                  Mission in Bakchias (Fayyum) and co-director of the same
-                  mission since 2008. She is also vice-director of the
-                  Italo-Egyptian Conservation Mission at the Coptic monastery of
-                  Abba Nefer (Manqabad, Asyut). She is scientific collaborator
-                  of the Corpus dei Manoscritti Copti Letterati (Rome, Hamburg)
-                  and a member of the Italian Institute for Egyptian Culture
-                  (IICE).
+                  She sits on the Board of the International Association of
+                  Coptic Studies (IACS) and is a member of both International
+                  Associations of Egyptologists and the Academia Ambrosiana. She
+                  combines historical, literary and codicological interests with
+                  archaeological activities. Among her recent publications:
+                  <em>
+                    La letteratura egiziana antica. Opere, generi, contesti,
+                    Roma 2020 (Carocci) and (with Enrico Giorgi) The Urban
+                    Landscape of Bakchias. A Town of the Fayyūm from the
+                    Ptolemaic-Roman Period to Late Antiquity
+                  </em>
+                  , Oxford 2020 (Archaeopress).
                   <ul>
                     <li>
                       She is the Principal Investigator of the ERC Advanced
