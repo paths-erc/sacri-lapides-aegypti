@@ -33,19 +33,76 @@ const Team = () => {
             <Row>
               <Col sm={4}>
                 <StaticImage
-                  src="../../static/images/other/paola-buzi.jpeg"
+                  src="../../static/images/other/paola-buzi.png"
                   width={300}
                   objectFit="scale-down"
+                  alt="Paola Buzi"
+                  title="Paola Buzi"
                 />
               </Col>
               <Col sm={8}>
                 <Title title="Paola Buzi" />
                 <p>
-                  Paola Buzi is full professor of Egyptology and Coptic
-                  Civilization at the Sapienza University of Rome and honorary
-                  professor of the same disciplines at the Universität Hamburg.
-                  She graduated in Egyptology at the University of Rome, where
-                  she also obtained her PhD in Egyptology
+                  Since 1 February 2017, Paola Buzi is Full Professor of
+                  Egyptology and Coptic Studies. She graduated from La Sapienza
+                  University in 1995 with a thesis on Coptic Language and
+                  Literature. In 2002 she obtained a PhD in Egyptology from the
+                  same university, with a dissertation entitled “
+                  <em>Titles and Authors in the Coptic Literature</em>”. She has
+                  worked as a fixed term lecturer (“assegnista di ricerca”) in
+                  the Department of Archaeology of Bologna for five years and
+                  from January 2010 she works on behalf of the Akademie der
+                  Wissenschfaten zu Göttingen at Hamburg University cataloguing
+                  the Coptic manuscripts preserved in the German collections.
+                  From 1 November 2010 to 31 January 2017 she was Assistant
+                  Professor of Egyptology and Coptic Studies at Sapienza
+                  University. She sits on the Board of the International
+                  Association of Coptic Studies (IACS) and is a member of both
+                  International Associations of Egyptologists and the Academia
+                  Ambrosiana. She combines historical, literary and
+                  codicological interests with archaeological activities. She
+                  has taken part in several excavation campaigns in Italy and in
+                  Egypt. Since 2002 she has been a member of the Archaeological
+                  Mission in Bakchias (Fayyum) and co-director of the same
+                  mission since 2008. She is also vice-director of the
+                  Italo-Egyptian Conservation Mission at the Coptic monastery of
+                  Abba Nefer (Manqabad, Asyut). She is scientific collaborator
+                  of the Corpus dei Manoscritti Copti Letterati (Rome, Hamburg)
+                  and a member of the Italian Institute for Egyptian Culture
+                  (IICE).
+                  <ul>
+                    <li>
+                      She is the Principal Investigator of the ERC Advanced
+                      Grant
+                      <a href="https://atlas.paths-erc.eu/">
+                        “PAThs - Tracking Papyrus and Parchment “PAThs”: an
+                        Archaeological Atlas of Coptic Literature”
+                      </a>
+                      project
+                    </li>
+                    <li>
+                      She is the Principal Investigator of the FARE MIUR
+                      <a href="https://paths-erc.eu/sacri-lapides-aegypti/">
+                        “<em>Sacri lapides Aegypti</em>: from the scribes of
+                        temples to the copyists of scriptoria. The
+                        transformation of spaces of cult, identity and memory
+                        from pharaonic and Graeco-Roman Egypt to Christian
+                        Egypt”
+                      </a>
+                      project
+                    </li>
+                    <li>
+                      She i is the Director of the joint archaeological mission
+                      (Sapienza University of Rome - Sudanese Ministry of
+                      Antiquities ) at the temple of Hugair Gubli, Sudan
+                    </li>
+                    <li>
+                      She is the Director of the{" "}
+                      <a href="https://digilab.uniroma1.it/">
+                        DigiLab research centre
+                      </a>
+                    </li>
+                  </ul>
                 </p>
               </Col>
             </Row>
@@ -74,9 +131,11 @@ const Team = () => {
               </Col>
               <Col sm={4}>
                 <StaticImage
-                  src="../../static/images/other/jbogdani.jpg"
+                  src="../../static/images/other/julian-bogdani.png"
                   width={300}
                   objectFit="scale-down"
+                  alt="Julian Bogdani"
+                  title="Julian Bogdani"
                 />
               </Col>
             </Row>
@@ -87,9 +146,11 @@ const Team = () => {
             <Row>
               <Col sm={4}>
                 <StaticImage
-                  src="../../static/images/other/domizia-d_erasmo.jpg"
+                  src="../../static/images/other/domizia-derasmo.png"
                   width={300}
                   objectFit="scale-down"
+                  alt="Domizia D'Erasmo"
+                  title="Domizia D'Erasmo"
                 />
               </Col>
               <Col sm={8}>
@@ -118,63 +179,8 @@ const Team = () => {
           <Container className="container-two">
             <Row>
               <Col sm={8}>
-                <Title title="Marta Addessi" align="right" />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
-                  ornare varius velit, sit amet mattis orci eleifend at. Duis
-                  sollicitudin mattis blandit. Pellentesque ultrices nisi augue,
-                  interdum blandit tellus dapibus et. Nulla in augue urna. Nulla
-                  interdum tristique massa, ut tristique purus bibendum sit
-                  amet. In hac habitasse platea dictumst. Donec congue suscipit
-                  tincidunt. Vivamus nec efficitur odio.
-                </p>
-              </Col>
-              <Col sm={4}></Col>
-            </Row>
-          </Container>
-          <section className="section bottom-slant-gray">
-            <Container className="container-three">
-              <Row>
-                <Col sm={4}>
-                  {/* <StaticImage
-                    src="../../static/images/other/valeria-parisi.jpg"
-                    width={300}
-                    objectFit="scale-down"
-                  /> */}
-                </Col>
-                <Col sm={8}>
-                  <Title title="Elisabetta Falduto" />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
-                    ornare varius velit, sit amet mattis orci eleifend at. Duis
-                    sollicitudin mattis blandit. Pellentesque ultrices nisi
-                    augue, interdum blandit tellus dapibus et. Nulla in augue
-                    urna. Nulla interdum tristique massa, ut tristique purus
-                    bibendum sit amet. In hac habitasse platea dictumst. Donec
-                    congue suscipit tincidunt. Vivamus nec efficitur odio.
-                  </p>
-                </Col>
-              </Row>
-            </Container>
-          </section>
-        </section>
-        <section className="section methods">
-          <Container className="container-two">
-            <Row>
-              <Col sm={8}>
                 <Title title="Serena Guidone" align="right" />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
-                  ornare varius velit, sit amet mattis orci eleifend at. Duis
-                  sollicitudin mattis blandit. Pellentesque ultrices nisi augue,
-                  interdum blandit tellus dapibus et. Nulla in augue urna. Nulla
-                  interdum tristique massa, ut tristique purus bibendum sit
-                  amet. In hac habitasse platea dictumst. Donec congue suscipit
-                  tincidunt. Vivamus nec efficitur odio.
-                </p>
+                <p></p>
               </Col>
               <Col sm={4}></Col>
             </Row>
@@ -184,26 +190,66 @@ const Team = () => {
               <Row>
                 <Col sm={4}>
                   <StaticImage
-                    src="../../static/images/other/valeria-parisi.jpg"
+                    src="../../static/images/other/valeria-parisi.png"
                     width={300}
                     objectFit="scale-down"
+                    alt="Valeria Parisi"
+                    title="Valeria Parisi"
                   />
                 </Col>
                 <Col sm={8}>
                   <Title title="Valeria Parisi" />
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum pulvinar velit a lorem bibendum venenatis. Sed
-                    ornare varius velit, sit amet mattis orci eleifend at. Duis
-                    sollicitudin mattis blandit. Pellentesque ultrices nisi
-                    augue, interdum blandit tellus dapibus et. Nulla in augue
-                    urna. Nulla interdum tristique massa, ut tristique purus
-                    bibendum sit amet. In hac habitasse platea dictumst. Donec
-                    congue suscipit tincidunt. Vivamus nec efficitur odio.
+                    Valeria Parisi is a Research Fellow (Tipo A) - Classical
+                    Archaeology (SSD L-ANT/07) - at the University of Campania
+                    "Luigi Vanvitelli"
                   </p>
                 </Col>
               </Row>
             </Container>
+          </section>
+          <section className="section methods">
+            <Container className="container-two">
+              <Row>
+                <Col sm={8}>
+                  <Title title="Marta Addessi" align="right" />
+                  <p>
+                    Marta Addessi is a research fellow in Egyptology and Coptic
+                    Civilization (L-OR/02) at Sapienza University of Rome. Her
+                    research interests mainly concern the study of Coptic
+                    philology and literature
+                  </p>
+                </Col>
+                <Col sm={4}>
+                  <StaticImage
+                    src="../../static/images/other/marta-addessi.png"
+                    width={300}
+                    objectFit="scale-down"
+                    alt="Marta Addessi"
+                    title="Marta Addessi"
+                  />
+                </Col>
+              </Row>
+            </Container>
+            <section className="section bottom-slant-gray">
+              <Container className="container-three">
+                <Row>
+                  <Col sm={4}>
+                    {/* <StaticImage
+                      src="../../static/images/other/"
+                      width={300}
+                      objectFit="scale-down"
+                      atl=""
+                      title=""
+                    /> */}
+                  </Col>
+                  <Col sm={8}>
+                    <Title title="Elisabetta Falduto" />
+                    <p></p>
+                  </Col>
+                </Row>
+              </Container>
+            </section>
           </section>
         </section>
       </Wrapper>
@@ -213,9 +259,26 @@ const Team = () => {
 
 //styles
 const Wrapper = styled.section`
+  a {
+    color: #777777;
+  }
+  a:hover {
+    color: #822433;
+    font-weight: bold;
+    margin: 0;
+  }
   section {
     position: relative;
     z-index: 2;
+  }
+  ul {
+    padding-top: 2rem;
+  }
+  li {
+    padding-top: 1rem;
+  }
+  p {
+    line-height: 1.8rem;
   }
   .bottom-slant-gray {
     position: relative;
