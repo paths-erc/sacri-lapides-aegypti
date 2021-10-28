@@ -212,7 +212,7 @@ Archaeological excavation brought to light very poor remains of Late Antique bui
 
 - Church: A papyrus codex of The Alexandrian World Chronical mention the erection of a church.
 
-#### Architectonical Elements non _in situ_
+#### Architectonical Elements not _in situ_
 
 - Chancel screen: Some fragments of Byzantine buildings discovered at the site include part of a white marble chancel screen or related structure. They have been found c. 50 m south-west of Diocletian's Column. They were carved from a re-used block which had a dedication of the period of Septimius Severus or Caracalla, mentioning Serapis
 - Capital: A small Byzantine capital, such as used on chancel screens, was found in the excavations of the Serapeum in c. 1900 (Pensabene 1997, cat. n. 483; McKenzie 2004, p. 120).
