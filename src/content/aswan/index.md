@@ -47,7 +47,7 @@ Of great importance are the documents collected in the "Patermouthis archive" (3
 
 The only testimonies relating to the Pharaonic period, however uncertain, concern the discovery during the excavations of the Italian mission of 1970-1971 of some erratic blocks with decorations and hieroglyphic inscriptions. They seem to be pertinent to the structure of a monumental gate in which King Nectanebo II of the XXX dynasty appears in the act of making offerings to divinities of the Egyptian pantheon. It could therefore be an attestation of the construction of a place of worship, or of an existing building, located around the Ptolemaic temple of Isis (Bresciani, Pernigotti 1978, p. 305). However, it is not excluded that the blocks bearing the name of Nectanebo II may have come from Elephantina, and that they were transferred to Aswan by the Turkish authorities to build military warehouses. Finally, accepting the hypothesis of their coming from Elephantina, it can also be assumed that they were found in various places of the city during the excavations conducted by the Director of the Museum of Upper Egypt el-Hetta in 1961-1963 and that they were then collected in the Isis temple area (Bresciani, Pernigotti 1978, p. 308-309).
 
-#### Architectural elements non in situ
+#### Architectural elements not _in situ_
 
 Blocks with hieroglyphic inscriptions and decoration (XXX Dynasty) (Bresciani, Pernigotti 1978, pp. 159-163, nn. 1-6).
 
