@@ -69,7 +69,7 @@ const About = () => {
                 the actors and the institutions involved. Concurrently, it aims
                 to define the connections among the different
                 <em>scriptoria</em>
-                and to analyze the distribution of the bibliological typologies.
+                and to analyse the distribution of the bibliological typologies.
                 <br></br>“ <em>Sacri lapides</em> ”, on the other hand, is aimed
                 at complementing the outcomes of “PAThs”, shedding light on the
                 background, on the material preconditions, as well as on the
