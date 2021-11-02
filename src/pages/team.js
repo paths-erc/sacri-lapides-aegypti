@@ -62,11 +62,15 @@ const Team = () => {
                   archaeological activities. Among her recent publications:
                   <em>
                     La letteratura egiziana antica. Opere, generi, contesti,
-                    Roma 2020 (Carocci) and (with Enrico Giorgi) The Urban
-                    Landscape of Bakchias. A Town of the Fayyūm from the
-                    Ptolemaic-Roman Period to Late Antiquity
+                    Roma 2020 (Carocci)
+                  </em>{" "}
+                  and (with Enrico Giorgi){" "}
+                  <em>
+                    The Urban Landscape of Bakchias. A Town of the Fayyūm from
+                    the Ptolemaic-Roman Period to Late Antiquity , Oxford 2020
+                    (Archaeopress)
                   </em>
-                  , Oxford 2020 (Archaeopress).
+                  .
                   <ul>
                     <li>
                       She is the Principal Investigator of the ERC Advanced
