@@ -51,7 +51,7 @@ const Wrapper = styled.section`
     top: 0;
     height: 100%;
     width: 75%;
-    float: left;
+    float: right;
     z-index: -1;
   }
 `;

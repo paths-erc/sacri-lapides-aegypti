@@ -8,9 +8,9 @@ greek_name: Τέντυρον; Τεντύρα; Τεντυρίς
 arabic_name: دندرة
 arabic_transl: Dandarah
 egyptian_name: Ỉwn.t-n-Ptḥ; Ỉwn.t; Ỉwn; Ỉwn.t-tȝ-nṯr.t; Ỉwn.t-n-pȝ-nṯr; Ỉwn.t-n-Nw.t; Tȝ-bẖn-n-Ḥw.t-Ḥr?- Pȝ-sbt-n-Ỉrgsndrs
-paths_id: 21
-tm_id: 2312
-pleiades_id: 786127
+paths_id: "21"
+tm_id: "2312"
+pleiades_id: "786127"
 area: Upper Egypt
 episcopal_see_from_year:
 typology: Settlement

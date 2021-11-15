@@ -8,9 +8,9 @@ greek_name: Ἀντίφραι
 arabic_name: مارينا العلمين
 arabic_transl: Marina al-'Alamayn
 egyptian_name:
-paths_id: 117
-tm_id: 8554
-pleiades_id: 716524
+paths_id: "117"
+tm_id: "8554"
+pleiades_id: "716524"
 area: Western Delta
 episcopal_see_from_year:
 typology: Harbour; settlement

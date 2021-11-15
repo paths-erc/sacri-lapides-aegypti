@@ -8,9 +8,9 @@ greek_name: Νῆσος Ἐλεφαντίνης; Ἰηβ
 arabic_name: جزيرة الفنتين
 arabic_transl: Ǧazīrat Alfantīn
 egyptian_name: Ybȝ; ȝbw; Ỉȝbw; Ỉb
-paths_id: 16
-tm_id: 621
-pleiades_id: 786021
+paths_id: "16"
+tm_id: "621"
+pleiades_id: "786021"
 area: Southern Upper Egypt
 episcopal_see_from_year:
 typology: Settlement

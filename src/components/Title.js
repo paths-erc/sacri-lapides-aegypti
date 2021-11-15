@@ -22,14 +22,14 @@ const Title = (props) => {
 const Wrapper = styled.section`
   .section-title {
     font-family: "Open Sans", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bolder;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-bottom: 2%;
     color: #822433;
-    text-decoration: underline;
+    /* text-decoration: underline;
     text-decoration-color: rgb(0, 103, 120);
-    text-decoration-thickness: 0.1em;
+    text-decoration-thickness: 0.1em; */
   }
   .section-title.right {
     text-align: right;

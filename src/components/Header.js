@@ -94,6 +94,9 @@ const Header = () => {
               <NavDropdown.Item href={withPrefix(`/taposiris/`)}>
                 Taposiris
               </NavDropdown.Item>
+              <NavDropdown.Item href={withPrefix(`/thebes/`)}>
+                Thebes
+              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link style={navLink} href={withPrefix(`/team/`)}>

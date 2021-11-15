@@ -8,9 +8,9 @@ greek_name: Κάνωπος; Κάνωβος
 arabic_name:
 arabic_transl:
 egyptian_name: pr-gwt; (pa-gwt); gnp
-paths_id:
-tm_id: 1001
-pleiades_id: 727097
+paths_id: 
+tm_id: "1001"
+pleiades_id: "727097"
 area: Western Delta
 episcopal_see_from_year:
 typology: Settlement

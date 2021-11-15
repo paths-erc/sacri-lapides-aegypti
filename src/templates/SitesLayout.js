@@ -38,34 +38,50 @@ const SitesLayout = ({ data }) => {
       <HeaderImage title={content.frontmatter.title} />
       <Wrapper>
         <section className="section map">
-          <Info
-            other_names={content.frontmatter.other_names}
-            egyptian_name={content.frontmatter.egyptian_name}
-            greek_name={content.frontmatter.greek_name}
-            coptic_name={content.frontmatter.coptic_name}
-            arabic_name={content.frontmatter.arabic_name}
-            arabic_transl={content.frontmatter.arabic_transl}
-            area={content.frontmatter.area}
-            paths_id={content.frontmatter.paths_id}
-            pleiades_id={content.frontmatter.pleiades_id}
-            tm_id={content.frontmatter.tm_id}
-            typology={content.frontmatter.typology}
-            dating_criteria={content.frontmatter.dating_criteria}
-            year_from={content.frontmatter.year_from}
-            year_to={content.frontmatter.year_to}
-            episcopal_see_from_year={
-              content.frontmatter.episcopal_see_from_year
-            }
-            status={content.frontmatter.status}
-            editors={content.frontmatter.editors}
-            date={content.frontmatter.date}
-          />
-          <Map
-            lng={content.frontmatter.lng}
-            lat={content.frontmatter.lat}
-            zoom={content.frontmatter.zoom}
-            popupHtml={content.frontmatter.title}
-          />
+          <Container>
+            <Title title="general information" align="right" />
+          </Container>
+          <Container>
+            <Row xs={1} md={2}>
+              <Col>
+                <Info
+                  other_names={content.frontmatter.other_names}
+                  egyptian_name={content.frontmatter.egyptian_name}
+                  greek_name={content.frontmatter.greek_name}
+                  coptic_name={content.frontmatter.coptic_name}
+                  latin_name={content.frontmatter.latin_name}
+                  arabic_name={content.frontmatter.arabic_name}
+                  arabic_transl={content.frontmatter.arabic_transl}
+                  area={content.frontmatter.area}
+                  paths_id={content.frontmatter.paths_id}
+                  pleiades_id={content.frontmatter.pleiades_id}
+                  tm_id={content.frontmatter.tm_id}
+                  typology={content.frontmatter.typology}
+                  dating_criteria={content.frontmatter.dating_criteria}
+                  year_from={content.frontmatter.year_from}
+                  year_to={content.frontmatter.year_to}
+                  episcopal_see_from_year={
+                    content.frontmatter.episcopal_see_from_year
+                  }
+                  notes_on_episcopal_see={
+                    content.frontmatter.notes_on_episcopal_see
+                  }
+                  status={content.frontmatter.status}
+                  editors={content.frontmatter.editors}
+                  date={content.frontmatter.date}
+                />
+              </Col>
+              <Col>
+                <Map
+                  className="map"
+                  lng={content.frontmatter.lng}
+                  lat={content.frontmatter.lat}
+                  zoom={content.frontmatter.zoom}
+                  popupHtml={content.frontmatter.title}
+                />
+              </Col>
+            </Row>
+          </Container>
         </section>
 
         <section className="section methods">

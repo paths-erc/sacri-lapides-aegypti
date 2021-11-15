@@ -6,9 +6,9 @@ path: /taposiris/
 other_names: Abusir; Abousir; Abu Sir; Busiris, Busir; Taposiris; Taposiris Magna; Taposiris Megale; Taposeiris; Taphosiris
 greek_name: Ταποσιρις
 arabic_transl: Abūṣīr
-paths_id: 338
-tm_id: 2260
-pleiades_id: 272741
+paths_id: "338"
+tm_id: "2260"
+pleiades_id: "272741"
 area: Western Coast
 typology: Settlement, Harbour
 year_from: Early Hellenistic period
