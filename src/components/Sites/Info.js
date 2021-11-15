@@ -26,6 +26,7 @@ const Info = (props) => {
             <h6>EGYPTIAN NAMES: {props.egyptian_name}</h6>
             <h6>COPTIC NAMES: {props.coptic_name}</h6>
             <h6>GREEK NAMES: {props.greek_name}</h6>
+            <h6>LATIN NAMES: {props.latin_name}</h6>
             <h6> ARABIC NAMES: {props.arabic_name}</h6>
             <h6> ARABIC TRANSLATION: {props.arabic_transl}</h6>
           </Col>
@@ -43,6 +44,7 @@ const Info = (props) => {
             <h6>DATE TO: {props.year_to}</h6>
             <h6>DATING CRITERIA: {props.dating_criteria}</h6>
             <h6>EPISCOPAL SEE FROM: {props.episcopal_see_from_year}</h6>
+            <h6>NOTES ON EPISCOPAL SEE: {props.notes_on_episcopal_see}</h6>
           </Col>
           <Col>
             <h5>ABOUT</h5>

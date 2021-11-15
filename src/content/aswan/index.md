@@ -111,7 +111,7 @@ An emergency excavation in area 6 (Kasr el-Hagar Street), in a site north of the
 - Dijkstra, J. F.H. 2009 “Structuring Graffiti: The case of the temple of Isis at Aswan”, in _Ägyptologische Tempeltagung: Structuring Religion (Leuven 28 Sept. – 1 Okt. 2005)_ edited by H. von Renè Preys, 77-93.Wiesbaden: Harrassowitz Verlag.
 - Dijkstra, J.F.H. 2011. “The Fate of the temple in Late Antique Egypt”, in _The Archaeology of Late Antique Paganism_ edite by L. Lavan and M. Mulryan, 389-436. Leiden.
 - Dijkstra, J.F.H. 2012. _Syene I: The Figural and Textual Graffiti from the Temple of Isis at Aswan_. Mainz am Rhein.
-- Dijkstra, J.F.H. 2013. Dijkstra, “The Christian Wall Paintings from the Temple of Isis at Aswan Revisited”, in _Christianity and Monasticism in Aswan and Nubia_ e,dired by G. Gabra and H. Tekla, 137-156. Cairo.
+- Dijkstra, J.F.H. 2013. Dijkstra, “The Christian Wall Paintings from the Temple of Isis at Aswan Revisited”, in _Christianity and Monasticism in Aswan and Nubia_ edited by G. Gabra and H. Tekla, 137-156. Cairo.
 - Dijkstra, J.F.H., and G.J.M. Van Loon. 2010. “A Church dedicated to the Virgin Mary in the Temple of Isis at Aswan?”, in _ECA_, 7, 10: 1-16.
 - Grossmann, P. 1994. ‘Tempel als ort des konflikts in christlicher zeit”, in _Le temple, lieu de conflict_ edited by P. Borgeaud _et alii_, 184-201. Leuven.
 - Jaritz, H. 1985. _Die Kirche des Heiligen Psoti vor der Stadtmauer von Assuan_, Le Caire.

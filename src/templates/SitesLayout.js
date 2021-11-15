@@ -321,7 +321,9 @@ export const query = graphql`
         editors
         egyptian_name
         episcopal_see_from_year
+        notes_on_episcopal_see
         greek_name
+        latin_name
         id
         img
         last_modified
