@@ -330,7 +330,7 @@ export const query = graphql`
         absolutePath: { regex: $absolutePathRegex }
         extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
       }
-      sort: { fields: name, order: ASC }
+      sort: { fields: base, order: ASC }
     ) {
       edges {
         node {
