@@ -3,11 +3,13 @@ id: 5
 title: Elephantine
 img: elephantine.jpg
 path: /elephantine/
-coptic_name: (ⲧⲙⲟⲩ(ⲉ)ⲓ(ⲛ)) (ⲉ)ⲓⲏⲃ
+other_names: Elephantine (Elephantis) - Ieb - Geziret Assuan
+coptic_name: (ⲧⲙⲟⲩ(ⲉ)ⲓ(ⲛ)); (ⲉ)ⲓⲏⲃ
 greek_name: Νῆσος Ἐλεφαντίνης; Ἰηβ
 arabic_name: جزيرة الفنتين
 arabic_transl: Ǧazīrat Alfantīn
 egyptian_name: Ybȝ; ȝbw; Ỉȝbw; Ỉb
+latin_name: Elephantine - Elephantis
 paths_id: "16"
 tm_id: "621"
 pleiades_id: "786021"

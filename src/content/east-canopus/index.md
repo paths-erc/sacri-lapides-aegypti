@@ -3,10 +3,12 @@ id: 4
 title: East Canopus
 img: canopus.jpg
 path: /east-canopus/
-coptic_name:
+other_names: Kanopos (Kanobos - Canopus); Abuqir (Abukir)
+coptic_name: Ⲕⲁⲛⲱⲡⲟⲥ
 greek_name: Κάνωπος; Κάνωβος
-arabic_name:
-arabic_transl:
+latin_name: Canopus
+arabic_name: Abu Qīr
+arabic_transl: ابو قير‎
 egyptian_name: pr-gwt; (pa-gwt); gnp
 paths_id: ","
 tm_id: "1001"

@@ -365,7 +365,6 @@ export const query = graphql`
         latin_name
         id
         img
-        last_modified
         lat
         lng
         other_names

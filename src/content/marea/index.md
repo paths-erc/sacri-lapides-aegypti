@@ -3,11 +3,13 @@ id: 3
 title: Marea
 img: marea.jpg
 path: /marea/
+other_names: Mareia (Marea) - Mareotis - Palaimareia - Khastemehi - Kom el-Idris
 coptic_name: ⲛⲉⲓⲡⲁⲉⲓⲁⲧ, ⲛⲓⲫⲁⲓⲁⲧ, ⲛⲉⲡⲁⲓⲉⲧ, ⲛⲓⲡⲁⲓⲁⲧ, ⲛⲏⲡⲁⲓⲁⲧ, ⲛⲫⲁⲓⲁⲧ
 greek_name: Μαρεώτης, Μαρεώτος
+latin_name: Mareotis
 arabic_name: مريوط
 arabic_transl: Maryūṭ
-egyptian_name:
+egyptian_name: Mr
 paths_id: "143"
 tm_id: "2718"
 pleiades_id: "727153"

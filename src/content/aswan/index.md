@@ -6,6 +6,7 @@ path: /aswan/
 other_names: Syene; Aswan
 coptic_name: ⲥⲟⲩⲁⲛ
 greek_name: Συήνη Σήννη Σύνη Σηύνη Συίνη
+arabic_name: أسوان‎
 arabic_transl: Aswān
 egyptian_name: snw; swnw
 latin_name: Syene - Siene

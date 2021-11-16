@@ -4,8 +4,10 @@ title: Taposiris
 img: taposiris.jpg
 path: /taposiris/
 other_names: Abusir; Abousir; Abu Sir; Busiris, Busir; Taposiris; Taposiris Magna; Taposiris Megale; Taposeiris; Taphosiris
-greek_name: Ταποσιρις
+greek_name: Ταποσιρις; Ταποσιρις Μαγνὰ
+arabic_name: أبو صير‎
 arabic_transl: Abūṣīr
+latin_name: Tapostri
 paths_id: "338"
 tm_id: "2260"
 pleiades_id: "272741"
@@ -15,9 +17,9 @@ typology: Settlement, Harbour
 year_from: Early Hellenistic period
 year_to: VII c. CE (601-700 CE)
 editors: Valeria Parisi
-last_modified: 21/01/2019
+date: 21/01/2019
 status: completed
-
+dating_criteria: Archaeology; Epigraphy, Literary sources; Modern reports
 lng: 30.946236829182347
 lat: 29.518675804138184
 zoom: 13

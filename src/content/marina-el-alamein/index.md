@@ -3,7 +3,9 @@ id: 6
 title: Marina el-Alamein
 img: marina-el-alamein.jpg
 path: /marina-el-alamein/
+other_names: Antiphrai (Antiphra - Antiphro) - Marina el-Alamein
 coptic_name:
+latin_name: Antifrus - Antiphra
 greek_name: Ἀντίφραι (?)
 arabic_name: مارينا العلمين
 arabic_transl: Marina al-'Alamayn

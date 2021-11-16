@@ -3,6 +3,7 @@ id: 1
 title: Alexandria
 img: alexandria.jpg
 path: /alexandria/
+other_names: Alexandrea ad Aegyptum; Alexandreia; Alexandreia ad Aegyptum 
 coptic_name: Ἀλεξάνδρεια
 greek_name: Συήνη Σήννη Σύνη Σηύνη Συίνη
 arabic_name: الإسكندرية

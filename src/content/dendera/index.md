@@ -3,8 +3,10 @@ id: 3
 title: Dendera
 img: dendera.jpg
 path: /dendera/
+other_names: Tentyris (Tentyra - Tantere) - Iounet - Iounet-t-netjeret ('Iounet (of) the goddess (sc. Hathor)') - T-bechen-n-Hathor ('The tower / pylon of Hathor') (?) - Dendera (Dendara)
 coptic_name: ⲧⲉⲛⲧⲱⲣⲓ; ⲛⲓⲧⲛⲧⲱⲣⲉ; ⲛⲓⲧⲉⲛⲧⲱⲣⲓ; ⲕⲉⲛⲧⲱⲣ -ⲉ -ⲓ; ⲕⲩⲛⲧⲩⲣⲟⲛ; ⲕⲉⲣⲧⲱⲣⲓ; ⲛⲓⲕⲉⲛⲧⲱⲣⲉ(ⲓ)
 greek_name: Τέντυρον; Τεντύρα; Τεντυρίς
+latin_name: Tentura 
 arabic_name: دندرة
 arabic_transl: Dandarah
 egyptian_name: Ỉwn.t-n-Ptḥ; Ỉwn.t; Ỉwn; Ỉwn.t-tȝ-nṯr.t; Ỉwn.t-n-pȝ-nṯr; Ỉwn.t-n-Nw.t; Tȝ-bẖn-n-Ḥw.t-Ḥr?- Pȝ-sbt-n-Ỉrgsndrs
@@ -13,10 +15,11 @@ tm_id: "2312"
 pleiades_id: "786127"
 topotext_id: ","
 area: Upper Egypt
-episcopal_see_from_year:
+episcopal_see_from_year: "325"
+notes_on_episcopal_see: "List of bishops recorded for Boubastis (Worp 1994, 307): Pachumis (325); Sarapion (>339); Andronikos (339)"
 typology: Settlement
 year_from: 2575 BCE (IV dynasty)
-year_to:
+year_to: "1300"
 dating_criteria: Archaeological and epigraphic data
 editors: Serena Guidone
 date: 10/06/2019
