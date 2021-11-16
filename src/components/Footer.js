@@ -201,11 +201,11 @@ const Wrapper = styled.section`
   }
   p {
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   p.project-name {
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #822433;
   }
   .row {

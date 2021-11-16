@@ -277,7 +277,7 @@ const Wrapper = styled.section`
     padding-top: 1rem;
   }
   p {
-    line-height: 1.8rem;
+    line-height: 1.5rem;
   }
   .bottom-slant-gray {
     position: relative;
@@ -341,7 +341,7 @@ const Wrapper = styled.section`
   .container-three {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.2rem;
     display: swap;
     text-align: right;

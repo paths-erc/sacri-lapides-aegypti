@@ -14,7 +14,7 @@ const Places = (props) => {
   return (
     <Wrapper>
       <Container>
-        <Card>
+        <Card className="card-animation">
           <Link to={props.readMore} title={props.title} alt={props.title}>
             <Card.Img variant="top" src={withPrefix(`/images/${props.img}`)} />
           </Link>
@@ -36,22 +36,18 @@ const Places = (props) => {
 const Wrapper = styled.section`
   a {
     color: rgb(130, 36, 51);
-    font-weight: bolder;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1rem;
-    text-transform: uppercase;
     display: swap;
     text-decoration: none;
   }
   a:hover {
     color: rgb(130, 36, 51);
-    font-weight: bolder;
-    font-size: 0.8rem;
+    font-weight: 500;
+    font-size: 0.9rem;
     line-height: 1rem;
-    text-transform: uppercase;
     display: swap;
     text-decoration: none;
-    letter-spacing: 0.1rem;
   }
   section {
     padding: 2em 5;
@@ -61,11 +57,15 @@ const Wrapper = styled.section`
   .card {
     border: none;
   }
+  .card-animation:hover {
+    opacity: 0.8;
+    background-color: rgb(130, 36, 51, 0.05);
+  }
   .card-body {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.7rem;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
     display: swap;
     text-align: left;
     color: #777777;
@@ -80,10 +80,10 @@ const Wrapper = styled.section`
     padding-bottom: 5%;
   }
   .go-to {
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
-    margin: 3% 0 3% 0;
-    padding-bottom: 2rem;
+    margin: 1% 0 3% 0;
+    padding-bottom: 1rem;
     padding-left: 1rem;
     text-align: left;
   }
@@ -96,8 +96,8 @@ const Wrapper = styled.section`
   .typology {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.7rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     display: swap;
     text-align: left;
     color: #777777;

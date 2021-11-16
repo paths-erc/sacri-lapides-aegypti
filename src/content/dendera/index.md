@@ -11,6 +11,7 @@ egyptian_name: Ỉwn.t-n-Ptḥ; Ỉwn.t; Ỉwn; Ỉwn.t-tȝ-nṯr.t; Ỉwn.t-n-p
 paths_id: "21"
 tm_id: "2312"
 pleiades_id: "786127"
+topotext_id:
 area: Upper Egypt
 episcopal_see_from_year:
 typology: Settlement

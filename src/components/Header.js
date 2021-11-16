@@ -67,9 +67,9 @@ const Header = () => {
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav>
             <Nav.Link style={navLink} href={withPrefix(`/`)}>
-              HOME
+              Home
             </Nav.Link>
-            <NavDropdown style={navLink} title="PLACES" id="basic-nav-dropdown">
+            <NavDropdown style={navLink} title="Places" id="basic-nav-dropdown">
               <NavDropdown.Item href={withPrefix(`/alexandria/`)}>
                 Alexandria
               </NavDropdown.Item>
@@ -100,10 +100,10 @@ const Header = () => {
             </NavDropdown>
 
             <Nav.Link style={navLink} href={withPrefix(`/team/`)}>
-              TEAM
+              Team
             </Nav.Link>
             <Nav.Link style={navLink} href={withPrefix(`/info/`)}>
-              INFO
+              Info
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

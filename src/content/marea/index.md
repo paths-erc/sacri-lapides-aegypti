@@ -3,7 +3,7 @@ id: 3
 title: Marea
 img: marea.jpg
 path: /marea/
-coptic_name: ⲛⲓⲫⲁⲓⲁⲧ
+coptic_name: ⲛⲉⲓⲡⲁⲉⲓⲁⲧ, ⲛⲓⲫⲁⲓⲁⲧ, ⲛⲉⲡⲁⲓⲉⲧ, ⲛⲓⲡⲁⲓⲁⲧ, ⲛⲏⲡⲁⲓⲁⲧ, ⲛⲫⲁⲓⲁⲧ
 greek_name: Μαρεώτης, Μαρεώτος
 arabic_name: مريوط
 arabic_transl: Maryūṭ
@@ -11,6 +11,7 @@ egyptian_name:
 paths_id: "143"
 tm_id: "2718"
 pleiades_id: "727153"
+topotext_name: "309296UMar"
 area: Western Delta
 episcopal_see_from_year:
 typology: Settlement

@@ -160,7 +160,7 @@ const Wrapper = styled.section`
     display: swap;
     font-size: 0.6rem;
     @media (min-width: 576px) {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
     margin-bottom: 0.5rem;
   }
@@ -183,7 +183,7 @@ const Wrapper = styled.section`
     font-size: 0.5rem;
     margin-bottom: 0;
     @media (min-width: 576px) {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
   .carousel-caption {

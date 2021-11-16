@@ -7,9 +7,6 @@ import styled from "styled-components";
 //Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
-//Component
-import Title from "../Title";
-
 //markup
 const Info = (props) => {
   return (
@@ -90,6 +87,22 @@ const Info = (props) => {
                       href={`https://www.trismegistos.org/geo/detail.php?quick=${tm_id}`}
                     >
                       {tm_id}
+                    </a>{" "}
+                  </>
+                );
+              })}
+            </h6>
+            <h6>
+              <strong>TOPOSTEXT ID</strong>:{" "}
+              {props.topotext_id.split(",").map((topotext_id) => {
+                return (
+                  <>
+                    {" "}
+                    <a
+                      className="link"
+                      href={`https://topostext.org/place/${topotext_id}`}
+                    >
+                      {topotext_id}
                     </a>{" "}
                   </>
                 );

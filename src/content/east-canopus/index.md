@@ -11,6 +11,7 @@ egyptian_name: pr-gwt; (pa-gwt); gnp
 paths_id: 
 tm_id: "1001"
 pleiades_id: "727097"
+topotext_id: "313300UCan"
 area: Western Delta
 episcopal_see_from_year:
 typology: Settlement

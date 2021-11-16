@@ -21,14 +21,14 @@ const About = () => {
             <Col>
               <StaticImage
                 src="../../../static/images/logos/sla.svg"
-                width={500}
+                width={800}
                 objectFit="scale-down"
                 title="Sacri lapides Aegypti"
                 alt="Sacri lapides Aegypti"
               />
             </Col>
             <Col>
-              <Title title="About" align="right" />
+              <Title title="About" align="left" />
               <p className="about">
                 The “ <em>Sacri lapides Aegypti</em> ” project aims to study and
                 document the processes of transformation of sacred spaces for
@@ -46,17 +46,17 @@ const About = () => {
             </Col>
           </Row>
           <Row xs={1} md={2}>
-            <Col>
+            <Col className="image">
               <StaticImage
-                src="../../../static/images/other/cooperation.png"
+                src="../../../static/images/other/paths-atlas.png"
                 width={800}
                 objectFit="scale-down"
-                title="Sla and Paths"
-                alt="Sla and Paths"
+                title="PAThs"
+                alt="PAThs"
               />
             </Col>
             <Col>
-              <Title title="Objective" align="right" />
+              <Title title="Objective" align="left" />
               <p>
                 As already stated, “ <em>Sacri lapides</em> ” project sinks its
                 roots in the experience and scientific results of the ERC
@@ -67,10 +67,8 @@ const About = () => {
                 were found, produced, copied, transferred, used and stored, as
                 well as of the relationships between the places themselves and
                 the actors and the institutions involved. Concurrently, it aims
-                to define the connections among the different
-                <em>scriptoria</em>
-                and to analyse the distribution of the bibliological typologies.
-                <br></br>“ <em>Sacri lapides</em> ”, on the other hand, is aimed
+                to define the connections among the different <em>scriptoria</em> and to analyse the distribution of the bibliological typologies.
+                “ <em>Sacri lapides</em> ”, on the other hand, is aimed
                 at complementing the outcomes of “PAThs”, shedding light on the
                 background, on the material preconditions, as well as on the
                 transitional contexts, through the creation of a hitherto
@@ -112,12 +110,12 @@ const Wrapper = styled.section`
   p {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.7rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     display: swap;
-    text-align: right;
+    text-align: left;
     color: #777777;
-    padding-top: 3rem;
+    /* padding-top: 2rem; */
   }
   .col {
     margin-bottom: 3rem;
@@ -147,6 +145,9 @@ const Wrapper = styled.section`
     -webkit-transform-origin: top left;
     -ms-transform-origin: top left;
     transform-origin: top left;
+  }
+  .image {
+    padding-top: 5rem;
   }
 `;
 export default About;

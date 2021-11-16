@@ -4,13 +4,14 @@ title: Marina el-Alamein
 img: marina-el-alamein.jpg
 path: /marina-el-alamein/
 coptic_name:
-greek_name: Ἀντίφραι
+greek_name: Ἀντίφραι (?)
 arabic_name: مارينا العلمين
 arabic_transl: Marina al-'Alamayn
 egyptian_name:
 paths_id: "117"
 tm_id: "8554"
 pleiades_id: "716524"
+topotext_name:
 area: Western Delta
 episcopal_see_from_year:
 typology: Harbour; settlement

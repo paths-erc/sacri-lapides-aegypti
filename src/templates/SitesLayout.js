@@ -56,6 +56,7 @@ const SitesLayout = ({ data }) => {
                   paths_id={content.frontmatter.paths_id}
                   pleiades_id={content.frontmatter.pleiades_id}
                   tm_id={content.frontmatter.tm_id}
+                  topotext_id={content.frontmatter.topotext_id}
                   typology={content.frontmatter.typology}
                   dating_criteria={content.frontmatter.dating_criteria}
                   year_from={content.frontmatter.year_from}
@@ -181,7 +182,7 @@ const Wrapper = styled.section`
   .indice-2,
   .indice-3,
   .indice-4 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 1rem;
     line-height: 1;
@@ -193,6 +194,7 @@ const Wrapper = styled.section`
   .indice-2:hover,
   .indice-3:hover,
   .indice-4:hover {
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
     display: swap;
@@ -200,20 +202,38 @@ const Wrapper = styled.section`
     color: #822433;
   }
   .indice-h2 {
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 1em;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    display: swap;
+    color: #777777;
   }
   .indice-h3 {
-    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    display: swap;
+    color: #777777;
     margin-left: 1rem;
   }
   .indice-h4 {
-    margin-left: 2rem;
-    font-style: italic;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    display: swap;
+    color: #777777;
+    margin-left: 1.5rem;
   }
 
   li {
+    font-family: "Montserrat", sans-serif;
     padding-bottom: 2%;
   }
   .row {
@@ -287,14 +307,16 @@ const Wrapper = styled.section`
   .text {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
     padding-top: 5%;
     color: #777777;
   }
   .text h2,
   .text h3,
   .text h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     color: rgb(0, 103, 120);
   }
 `;
@@ -348,6 +370,7 @@ export const query = graphql`
         other_names
         paths_id
         pleiades_id
+        topotext_id
         year_from
         year_to
         status

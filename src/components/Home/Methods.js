@@ -107,13 +107,12 @@ const Wrapper = styled.section`
   }
   a:hover {
     color: rgb(130, 36, 51);
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 0.8rem;
     line-height: 1rem;
     /* text-transform: uppercase; */
     display: swap;
     text-decoration: none;
-    letter-spacing: 0.1rem;
   }
   .section {
     position: relative;
@@ -143,8 +142,8 @@ const Wrapper = styled.section`
   .card-body {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.7rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     display: swap;
     text-align: right;
     color: #777777;

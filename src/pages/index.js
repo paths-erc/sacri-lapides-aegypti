@@ -38,7 +38,7 @@ const Index = ({ data }) => {
                 topographical, functional and religious changes.
               </p>
             </Container>
-            <Row xs={1} md={2}>
+            <Row xs={1} md={3}>
               {data.allMarkdownRemark.nodes.map((node, i) => (
                 <Col key={i}>
                   <Places
@@ -92,8 +92,8 @@ const Wrapper = styled.section`
   .places-intro {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.7rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     display: swap;
     text-align: right;
     color: #777777;

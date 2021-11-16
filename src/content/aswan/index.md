@@ -8,10 +8,12 @@ coptic_name: ⲥⲟⲩⲁⲛ
 greek_name: Συήνη Σήννη Σύνη Σηύνη Συίνη
 arabic_transl: Aswān
 egyptian_name: snw; swnw
+latin_name: Syene - Siene
 paths_id: "128"
 tm_id: "2207"
 pleiades_id: "786123"
-area:
+topotext_id:
+area: Upper Egypt
 episcopal_see_from_year: 325 CE (cf. Timm 1984, p. 222)
 typology: Settlement
 year_from: Old-Middle Kingdom

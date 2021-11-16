@@ -26,7 +26,8 @@ const HeaderImage = (props) => {
 //styles
 const Wrapper = styled.section`
   h1 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,7 +36,7 @@ const Wrapper = styled.section`
     font-weight: 200;
     font-size: 3.5rem;
     @media (min-width: 576px) {
-      font-size: 5.5rem;
+      font-size: 5rem;
     }
   }
   img {
