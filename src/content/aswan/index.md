@@ -12,7 +12,7 @@ latin_name: Syene - Siene
 paths_id: "128"
 tm_id: "2207"
 pleiades_id: "786123"
-topotext_id: ","
+topotext_id: 241329USye
 area: Upper Egypt
 episcopal_see_from_year: 325 CE (cf. Timm 1984, p. 222)
 typology: Settlement

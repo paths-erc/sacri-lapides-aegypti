@@ -14,7 +14,7 @@ pleiades_id: "716524"
 topotext_id: ","
 area: Western Delta
 episcopal_see_from_year:
-typology: Harbour; settlement
+typology: Settlement; Harbour
 year_from: II c. BCE (199-100 BCE)
 year_to: VI c. (500-599 CE), beginning of VII c. CE.
 dating_criteria: Archaeology; Literary sources; Epigraphic sources

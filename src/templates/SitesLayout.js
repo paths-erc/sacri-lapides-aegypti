@@ -121,8 +121,8 @@ const SitesLayout = ({ data }) => {
             <SRLWrapper>
               <Container>
                 <Row>
-                  {images.map((image, node) => (
-                    <Col xs={6} md={4} key={node.id}>
+                  {images.map((image, key) => (
+                    <Col xs={6} md={4} key={key}>
                       <a href={image.node.childImageSharp.gatsbyImageData.src}>
                         <GatsbyImage
                           image={image.node.childImageSharp.gatsbyImageData}
