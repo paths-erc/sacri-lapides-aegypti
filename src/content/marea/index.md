@@ -11,7 +11,7 @@ egyptian_name:
 paths_id: "143"
 tm_id: "2718"
 pleiades_id: "727153"
-topotext_name: "309296UMar"
+topotext_id: 309296UMar
 area: Western Delta
 episcopal_see_from_year:
 typology: Settlement

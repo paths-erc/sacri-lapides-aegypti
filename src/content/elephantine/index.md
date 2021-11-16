@@ -11,7 +11,7 @@ egyptian_name: Ybȝ; ȝbw; Ỉȝbw; Ỉb
 paths_id: "16"
 tm_id: "621"
 pleiades_id: "786021"
-topotext_id: "241329UEle"
+topotext_id: 241329UEle
 area: Southern Upper Egypt
 episcopal_see_from_year:
 typology: Settlement

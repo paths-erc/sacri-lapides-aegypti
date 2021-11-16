@@ -50,9 +50,18 @@ const Wrapper = styled.section`
     bottom: 0;
     top: 0;
     height: 100%;
-    width: 75%;
+    width: 100%;
     float: right;
     z-index: -1;
+  }
+  .leaflet-control-attribution.leaflet-control a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+    display: swap;
+    text-align: left;
+    color: rgb(0, 103, 120);
   }
 `;
 export default Map;

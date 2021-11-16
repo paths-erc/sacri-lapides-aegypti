@@ -121,8 +121,8 @@ const SitesLayout = ({ data }) => {
             <SRLWrapper>
               <Container>
                 <Row>
-                  {images.map((image, key) => (
-                    <Col xs={6} md={4} key={key}>
+                  {images.map((image, node) => (
+                    <Col xs={6} md={4} key={node.id}>
                       <a href={image.node.childImageSharp.gatsbyImageData.src}>
                         <GatsbyImage
                           image={image.node.childImageSharp.gatsbyImageData}
@@ -335,6 +335,7 @@ export const query = graphql`
       edges {
         node {
           base
+          name
           childImageSharp {
             gatsbyImageData(layout: CONSTRAINED, quality: 80, width: 1500)
           }

@@ -9,7 +9,7 @@ arabic_transl: Abūṣīr
 paths_id: "338"
 tm_id: "2260"
 pleiades_id: "272741"
-topotext_name: "309295UTap"
+topotext_id: 309295UTap
 area: Western Coast
 typology: Settlement, Harbour
 year_from: Early Hellenistic period

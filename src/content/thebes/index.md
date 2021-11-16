@@ -13,7 +13,7 @@ egyptian_name: Nw.t; Nw.t-rsy.t; Nw.t-n-Ỉmn; Pȝ-dmỉ-Ỉmn; Ỉwnw-Šmʿ
 paths_id: 19, 182, 191
 tm_id: 576, 13524, 13525, 1341
 pleiades_id: 786017,786017,786050
-topotext_id: "257326PThe"
+topotext_id: 257326PThe
 area: Eastern Thebes and Western Thebes
 episcopal_see_from_year: "1000"
 notes_on_episcopal_see: Attendance of Bishop Marqurah of al-Uqṣurēn at a synod in 1078 (Munier 1943, 29; Stewart 1991m, 1484)

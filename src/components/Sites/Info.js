@@ -189,7 +189,7 @@ const Wrapper = styled.section`
     line-height: 1rem;
     display: swap;
     text-align: left;
-    color: rgb(0, 103, 120);
+    color: #822433;
   }
   p {
     font-family: "Montserrat", sans-serif;
