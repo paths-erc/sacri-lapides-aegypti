@@ -39,7 +39,7 @@ const Footer = () => {
             </Col>
             <Col md={3} sm={6} xs={6}>
               <p className="project-name">
-                “ <em>Sacri lapides Aegypti</em> ”: from the scribes of temples
+                “<em>Sacri lapides Aegypti</em>”: from the scribes of temples
                 to the copyists of scriptoria. The transformation of spaces of
                 cult, identity and memory from pharaonic and Graeco-Roman Egypt
                 to Christian Egypt
