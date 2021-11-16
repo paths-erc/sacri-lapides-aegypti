@@ -123,7 +123,7 @@ const SitesLayout = ({ data }) => {
                 <Row>
                   {images.map((image, key) => (
                     <Col xs={6} md={4} key={key}>
-                      <a href={image.node.childImageSharp.gatsbyImageData.src}>
+                      <a className="pointer" href={image.node.childImageSharp.gatsbyImageData.src}>
                         <GatsbyImage
                           image={image.node.childImageSharp.gatsbyImageData}
                           style={{ margin: "3rem 0", height: "300px" }}
@@ -303,6 +303,9 @@ const Wrapper = styled.section`
     -webkit-transform-origin: top left;
     -ms-transform-origin: top left;
     transform-origin: top left;
+  }
+  .pointer {
+    cursor: pointer;
   }
   .text {
     font-family: "Montserrat", sans-serif;
