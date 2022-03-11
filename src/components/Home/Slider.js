@@ -11,8 +11,6 @@ import Carousel from "react-bootstrap/Carousel";
 
 //Images
 import SlaLogo from "../../../static/images/logos/sla-animal.svg";
-import SapienzaLogo from ".././../../static/images/logos/sapienza_logo.png";
-import CattedraLogo from ".././../../static/images/logos/logo_cattedra.png";
 
 //markup
 const Slider = () => {
@@ -47,16 +45,6 @@ const Slider = () => {
                   src={SlaLogo}
                   alt="sacri-lapides"
                 ></img>
-                {/* <img
-                  className="logo-2 d-none d-md-inline-block"
-                  src={SapienzaLogo}
-                  alt="sacri-lapides"
-                ></img>
-                <img
-                  className="logo-3 d-none d-md-inline-block"
-                  src={CattedraLogo}
-                  alt="sacri-lapides"
-                ></img> */}
                 <h3>Sacri lapides Aegypti</h3>
                 <h5>
                   From the scribes of temples to the copyists of scriptoria. The
