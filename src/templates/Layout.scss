@@ -13,26 +13,9 @@ $SerifSLA: "Lora", serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.6rem;
-  /* a {
-    color: $redSLA;
-    font-weight: bolder;
-
-    &:hover {
-      color: $redSLA;
-      font-weight: 600;
-      text-decoration: none;
-    }
-  } */
-  .first-about-container {
-    p {
-      text-align: left;
-    }
-  }
-
-  .second-about-container {
-    p {
-      text-align: left;
-    }
+  img {
+    margin: auto;
+    display: block;
   }
 }
 

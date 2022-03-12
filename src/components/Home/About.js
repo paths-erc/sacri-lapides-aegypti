@@ -11,15 +11,17 @@ const About = () => {
   return (
     <Wrapper>
       <section className="section bottom-slant-gray">
-        <Container className="about mx-5 row justify-content-center">
-          <Row xs={1} md={2}>
-            <Col className="col-4 second-about-container">
-              <StaticImage
-                src="../../static/images/logos/sla.svg"
+        <Container className="about">
+          <Row xs={1} md={2} className="mx-5 ">
+            <Col>
+              <img
+                src="/images/logos/sla.svg"
                 objectFit="cover"
+                width={350}
+                className="my-5"
               />
             </Col>
-            <Col className="col-4 first-about-container">
+            <Col>
               <Title title="About" align="left" />
               <p>
                 The “<em>Sacri lapides Aegypti</em>” project aims to study and
@@ -37,9 +39,16 @@ const About = () => {
               </p>
             </Col>
           </Row>
-          <Row xs={1} md={2}>
-            <Col className="col-4 second-about-container"></Col>
-            <Col className="col-4 second-about-container">
+          <Row xs={1} md={2} className="mx-5">
+            <Col>
+              <img
+                src="/images/logos/sla.svg"
+                objectFit="cover"
+                width={350}
+                className="my-5"
+              />
+            </Col>
+            <Col>
               <Title title="goals" align="left" />
               <p>
                 “<em>Sacri lapides</em>” means to weld the history of the Coptic
