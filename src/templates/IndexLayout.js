@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Scroll from "../components/Scroll";
 
+import "./Layout.scss";
+
 //markup
 const Layout = ({ children }) => {
   return (

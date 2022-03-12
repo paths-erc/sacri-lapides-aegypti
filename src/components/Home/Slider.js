@@ -1,15 +1,11 @@
-//React
 import React from "react";
 
-//Gatsby
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import { StaticImage } from "gatsby-plugin-image";
 
-//Bootstrap
 import Carousel from "react-bootstrap/Carousel";
 
-//Images
 import SlaLogo from "../../../static/images/logos/sla-animal.svg";
 
 //markup
@@ -31,6 +27,7 @@ const Slider = () => {
         ></meta>
         <meta name="robots" description="index" />
       </Helmet>
+
       <div className="slider-wrap">
         <section>
           <Carousel>
@@ -44,7 +41,7 @@ const Slider = () => {
                   className="logo d-none d-md-inline-block"
                   src={SlaLogo}
                   alt="sacri-lapides"
-                ></img>
+                />
                 <h3>Sacri lapides Aegypti</h3>
                 <h5>
                   From the scribes of temples to the copyists of scriptoria. The
@@ -58,11 +55,6 @@ const Slider = () => {
                     Perfoming Arts
                   </p>
                 </a>
-                <div
-                  data-sal="slide-up"
-                  data-sal-delay="300"
-                  data-sal-easing="ease"
-                ></div>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={9000}>
@@ -75,17 +67,7 @@ const Slider = () => {
                   className="logo d-none d-md-inline-block"
                   src={SlaLogo}
                   alt="sacri-lapides"
-                ></img>
-                {/* <img
-                  className="logo-2 d-none d-md-inline-block"
-                  src={SapienzaLogo}
-                  alt="sacri-lapides"
-                ></img>
-                <img
-                  className="logo-3 d-none d-md-inline-block"
-                  src={CattedraLogo}
-                  alt="sacri-lapides"
-                ></img> */}
+                />
                 <h3>Sacri lapides Aegypti</h3>
                 <h5>
                   From the scribes of temples to the copyists of scriptoria. The

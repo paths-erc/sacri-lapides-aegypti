@@ -1,0 +1,119 @@
+$textSLA: #777777;
+$redSLA: rgb(130, 36, 51);
+$bluSLA: rgb(0, 103, 120);
+$cardHoverSLA: rgb(130, 36, 51, 0.05);
+$sansSerifSLA: "Roboto Condensed", sans-serif;
+$SerifSLA: "Lora", serif;
+
+.about {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-family: $sansSerifSLA;
+  color: $textSLA;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  /* a {
+    color: $redSLA;
+    font-weight: bolder;
+
+    &:hover {
+      color: $redSLA;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  } */
+  .first-about-container {
+    p {
+      text-align: left;
+    }
+  }
+
+  .second-about-container {
+    p {
+      text-align: left;
+    }
+  }
+}
+
+.methods {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  .card {
+    border: none;
+    padding-top: 1rem;
+  }
+
+  .card-body {
+    font-family: $sansSerifSLA;
+    color: $textSLA;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: right;
+  }
+
+  .card-text {
+    padding-top: 1rem;
+  }
+
+  .card-title {
+    font-family: $SerifSLA;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: right;
+    color: $bluSLA;
+  }
+}
+
+.places {
+  a {
+    color: $redSLA;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    &:hover {
+      color: $redSLA;
+      font-weight: bolder;
+      font-size: 1rem;
+      background: none;
+      border-color: trasparent;
+    }
+  }
+  section {
+    padding: 2em 5;
+    position: relative;
+    z-index: 2;
+  }
+  .card {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 1rem;
+    font-family: $sansSerifSLA;
+    &:hover {
+      opacity: 0.8;
+      background-color: $cardHoverSLA;
+    }
+  }
+  .card-body {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    display: swap;
+    text-align: left;
+    color: $textSLA;
+  }
+  .card-info {
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    display: swap;
+    text-align: left;
+  }
+  .card-title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: $bluSLA;
+  }
+}

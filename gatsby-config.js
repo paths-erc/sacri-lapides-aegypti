@@ -26,6 +26,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-styled-components",
@@ -76,7 +77,9 @@ module.exports = {
         fonts: [
           `montserrat\:0,300;0,400;0,500;0,600;1,400;1,500`,
           `open sans\:0,300;0,400;0,500;1,300;1,400`,
-          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+          `source sans pro\:300,400,400i,700`,
+          `lora\:400,400i,600,600i,700,700i`,
+          `roboto condensed\:0,300;0,400;0,700;1,300;1,400;1,700`,
         ],
         display: "swap",
       },

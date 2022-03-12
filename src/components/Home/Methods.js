@@ -1,16 +1,12 @@
-//React
 import React from "react";
 
-//Gatsby
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
-//Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
-//Component
 import Title from "../Title";
 
 //markup
@@ -18,7 +14,7 @@ const Methods = () => {
   return (
     <Wrapper>
       <section className="section methods">
-        <Container>
+        <Container className="methods mx-auto">
           <Title title="Methodology" />
           <Row xs={1} md={3}>
             <Col>
@@ -96,24 +92,6 @@ const Methods = () => {
 
 //styles
 const Wrapper = styled.section`
-  a {
-    color: rgb(130, 36, 51);
-    font-weight: bolder;
-    font-size: 0.8rem;
-    line-height: 1rem;
-    /* text-transform: uppercase; */
-    display: swap;
-    text-decoration: none;
-  }
-  a:hover {
-    color: rgb(130, 36, 51);
-    font-weight: 600;
-    font-size: 0.8rem;
-    line-height: 1rem;
-    /* text-transform: uppercase; */
-    display: swap;
-    text-decoration: none;
-  }
   .section {
     position: relative;
     z-index: 2;
@@ -134,34 +112,6 @@ const Wrapper = styled.section`
     -webkit-transform-origin: top left;
     -ms-transform-origin: top left;
     transform-origin: top left;
-  }
-  .card {
-    border: none;
-    padding-top: 10%;
-  }
-  .card-body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    display: swap;
-    text-align: right;
-    color: #777777;
-  }
-  .card-title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.3rem;
-    line-height: 1.7rem;
-    display: swap;
-    text-align: right;
-    color: #777777;
-    font-weight: bolder;
-    text-transform: uppercase;
-    color: rgb(0, 103, 120);
-  }
-  .container {
-    padding-top: 240px;
-    padding-bottom: 240px;
   }
 `;
 
