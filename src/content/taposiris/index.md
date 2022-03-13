@@ -20,9 +20,10 @@ editors: Valeria Parisi
 date: 21/01/2019
 status: completed
 dating_criteria: Archaeology; Epigraphy, Literary sources; Modern reports
-lng: 30.946236829182347
-lat: 29.518675804138184
-zoom: 13
+
+lat: 30.946236829182347
+lng: 29.518675804138184
+zoom: 10
 ---
 
 ## Introduction

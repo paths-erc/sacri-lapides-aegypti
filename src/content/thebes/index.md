@@ -25,8 +25,8 @@ editors: Marta Addessi
 date: 15/11/2021
 status: completed
 
-lng: 25.684000
-lat: 32.641000
+lat: 25.684000
+lng: 32.641000
 zoom: 12
 ---
 

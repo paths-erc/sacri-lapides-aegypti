@@ -24,8 +24,8 @@ editors: Valeria Parisi
 date: 21/01/2019
 status: completed
 
-lng: 30.823446
-lat: 29.012034
+lat: 30.823446
+lng: 29.012034
 zoom: 13
 ---
 

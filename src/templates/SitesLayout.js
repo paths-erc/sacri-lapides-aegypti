@@ -13,7 +13,7 @@ import HeaderImage from "../components/HeaderImage";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Sites/Info";
-import Map from "../components/Map";
+import Map from "../components/Sites/MapGl";
 import Title from "../components/Title";
 import Scroll from "../components/Scroll";
 

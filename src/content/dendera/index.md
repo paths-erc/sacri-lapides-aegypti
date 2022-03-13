@@ -25,9 +25,9 @@ editors: Serena Guidone
 date: 10/06/2019
 status: completed
 
-lng: 26.141775
-lat: 32.6700972222
-zoom: 13
+lat: 26.141775
+lng: 32.6700972222
+zoom: 11
 ---
 
 ## Introduction

@@ -24,9 +24,9 @@ editors: Serena Guidone
 date: 10/06/2019
 status: completed
 
-lng: 30.99482
-lat: 29.656394
-zoom: 13
+lat: 30.99482
+lng: 29.656394
+zoom: 10
 ---
 
 ## Intoduction
