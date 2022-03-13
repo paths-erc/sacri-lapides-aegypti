@@ -1,7 +1,6 @@
 import React from "react";
 
 import styled from "styled-components";
-import { StaticImage } from "gatsby-plugin-image";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Title from "../Title";
@@ -19,6 +18,7 @@ const About = () => {
                 objectFit="cover"
                 width={350}
                 className="my-5"
+                alt="logo-sacri-lapides-aegypti"
               />
             </Col>
             <Col>
@@ -31,11 +31,12 @@ const About = () => {
                 analysis and the creation of a general catalogue, in digital
                 form, of the temple structures transformed into Christian places
                 used for the production and preservation of books, as well as
-                their cultic function.<br/> “<em>Sacri lapides Aegypti</em>”
-                is therefore the conceptual premise and the archaeological
-                deepening of the ERC project “PAThs”, whose aim is to define a
-                geography of Coptic manuscript production through the creation
-                of a digital atlas, searchable thematically and chronologically.
+                their cultic function.
+                <br /> “<em>Sacri lapides Aegypti</em>” is therefore the
+                conceptual premise and the archaeological deepening of the ERC
+                project “PAThs”, whose aim is to define a geography of Coptic
+                manuscript production through the creation of a digital atlas,
+                searchable thematically and chronologically.
               </p>
             </Col>
           </Row>
@@ -46,6 +47,7 @@ const About = () => {
                 objectFit="cover"
                 width={350}
                 className="my-5"
+                alt="logo-sacri-lapides-aegypti"
               />
             </Col>
             <Col>
@@ -56,13 +58,14 @@ const About = () => {
                 lending practical substance to the understanding of the spread
                 of new Christian cultural centres, which, similarly to the
                 Pharaonic ones, are never severed from their places of worship.{" "}
-                <br/>In the light of such awareness – the intimate
-                connection between place of worship and place of production and
-                storage of the culture – we mean to create a fully original
-                research tool, which will serve Egyptologists as well as
-                archaeologists and Late Antique scholars, namely an exhaustive
-                digital catalogue of selection of the heathen shrines converted
-                into Christian religious and cultural centers.
+                <br />
+                In the light of such awareness – the intimate connection between
+                place of worship and place of production and storage of the
+                culture – we mean to create a fully original research tool,
+                which will serve Egyptologists as well as archaeologists and
+                Late Antique scholars, namely an exhaustive digital catalogue of
+                selection of the heathen shrines converted into Christian
+                religious and cultural centers.
               </p>
             </Col>
           </Row>
