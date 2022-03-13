@@ -30,8 +30,8 @@ const Footer = () => {
               <Link to="https://paths-erc.eu/sacri-lapides-aegypti/">
                 <StaticImage
                   src="../../static/images/logos/sla.svg"
-                  width={500}
-                  objectFit="scale-down"
+                  width={300}
+                  objectFit="cover"
                   title="Sacri Lapides Aegypti"
                   alt="Sacri Lapides Aegypti"
                 />
@@ -39,8 +39,8 @@ const Footer = () => {
             </Col>
             <Col md={3} sm={6} xs={6}>
               <p className="project-name">
-                “<em>Sacri lapides Aegypti</em>”: from the scribes of temples
-                to the copyists of scriptoria. The transformation of spaces of
+                “<em>Sacri lapides Aegypti</em>”: from the scribes of temples to
+                the copyists of scriptoria. The transformation of spaces of
                 cult, identity and memory from pharaonic and Graeco-Roman Egypt
                 to Christian Egypt
               </p>
@@ -101,13 +101,13 @@ const Footer = () => {
               </p>
             </Col>
           </Row>
-          <Row className="partners"></Row>
+          <Row className="my-5"></Row>
           <Row className="logos">
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
               <Link to="https://fare.miur.it/app.php">
                 <StaticImage
                   src="../../static/images/logos/fare.jpeg"
-                  width={400}
+                  width={200}
                   objectFit="scale-down"
                   alt="FARE Miur"
                   title="FARE MIUR"
@@ -118,7 +118,7 @@ const Footer = () => {
               <Link to="https://www.uniroma1.it/it/pagina-strutturale/home">
                 <StaticImage
                   src="../../static/images/logos/sapienza.jpg"
-                  width={400}
+                  width={200}
                   objectFit="scale-down"
                   alt="Sapienza Università di Roma"
                   title="Sapienza Università di Roma"
@@ -129,7 +129,7 @@ const Footer = () => {
               <Link to="https://sites.google.com/uniroma1.it/lad/">
                 <StaticImage
                   src="../../static/images/logos/lad-blue.png"
-                  width={400}
+                  width={200}
                   objectFit="scale-down"
                   alt="Laboratorio di Archeologia Digitale"
                   title="Laboratorio di Archeologia Digitale (LAD)"
@@ -140,7 +140,7 @@ const Footer = () => {
               <Link to="https://atlas.paths-erc.eu/">
                 <StaticImage
                   src="../../static/images/logos/paths.png"
-                  width={400}
+                  width={200}
                   objectFit="scale-down"
                   alt="ERC PAThs project"
                   title="ERC PAThs project"
@@ -179,6 +179,7 @@ const Wrapper = styled.section`
   }
   a {
     color: #777777;
+    font-weight: 300;
   }
   a:hover {
     color: #822433;
@@ -190,26 +191,17 @@ const Wrapper = styled.section`
     grid-template-columns: repeat(5, auto);
     grid-gap: 5px;
   }
-  img {
-    width: 75%;
-    height: 75%;
-  }
-  .logos img {
-    padding-top: 3%;
-    width: 75%;
-    height: 75%;
-  }
   p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.9rem;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #777777;
+    font-size: 1rem;
+    font-weight: 300;
   }
-  p.project-name {
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.9rem;
+  .project-name {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
     color: #822433;
-  }
-  .row {
-    margin-top: 1rem;
   }
 `;
 export default Footer;
