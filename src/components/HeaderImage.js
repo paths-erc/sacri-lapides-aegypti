@@ -11,7 +11,7 @@ const HeaderImage = (props) => {
 
   return (
     <Wrapper>
-      <div className="section-one">
+      <div className="header-image section-one">
         <StaticImage
           src="../../static/images/other/home-slider-1.jpg"
           objectFit="cover"
@@ -26,21 +26,24 @@ const HeaderImage = (props) => {
 //styles
 const Wrapper = styled.section`
   h1 {
-    font-family: "Montserrat", sans-serif;
+   /*  transform: rotate(-6deg) !important; */
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
+    
+    
     transform: translate(-50%, -50%);
     color: white;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 3.5rem;
     @media (min-width: 576px) {
-      font-size: 5rem;
+      font-size: 6rem;
     }
   }
   img {
-    filter: brightness(75%);
+    filter: brightness(65%);
     height: calc(50vh);
     width: calc(300vh);
     object-fit: cover;
