@@ -19,8 +19,8 @@ const NotFoundPage = () => {
       <HeaderImage></HeaderImage>
       <Wrapper>
         <section className="section bottom-slant-gray">
-          <Container>
-            <Row>
+          <Container >
+            <Row className="mx-5 my-5">
               <Col md={{ span: 6, offset: 3 }}>
                 <h1>Error</h1>
                 <h2>Sorry, this page does not exist</h2>
@@ -39,30 +39,36 @@ const NotFoundPage = () => {
 //styles
 const Wrapper = styled.section`
   a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: rgb(130, 36, 51, 0.5) !important;
     text-decoration: none;
     text-align: center !important;
   }
   a:hover {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: rgb(130, 36, 51) !important;
     text-decoration: underline;
     text-align: center !important;
   }
   h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     color: rgb(130, 36, 51);
     font-size: 6rem;
   }
   h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     color: #777777;
   }
   h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 3rem;
   }
   section {

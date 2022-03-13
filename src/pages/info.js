@@ -13,12 +13,15 @@ const Info = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Info</title>
-        <meta
-          name="keywords"
-          content="egypt, egyptology, archaeology, late antique egypt, egyptian topography"
-        ></meta>
-        <meta name="robots" description="index" />
+        <React.Fragment>
+          <Helmet>
+            <title>Sacri lapides Aegypti | Info</title>
+            <meta
+              name="description"
+              content="The “Sacri lapides Aegypti” project aims to study and document the processes of transformation of sacred spaces for worship, identity and memory from Pharaonic and Ptolemaic-Roman Egypt to Christian Egypt through topographical-functional analysis and the creation of a general catalogue, in digital form, of the temple structures transformed into Christian places used for the production and preservation of books, as well as their cultic function."
+            />
+          </Helmet>
+        </React.Fragment>
       </Helmet>
       <HeaderImage title="Info" />
     </Layout>

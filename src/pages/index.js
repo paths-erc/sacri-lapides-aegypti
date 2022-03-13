@@ -3,6 +3,7 @@ import * as React from "react";
 
 //Gatsby
 import { graphql } from "gatsby";
+import {Helmet} from "react-helmet";
 import styled from "styled-components";
 
 //Bootstap
@@ -20,6 +21,16 @@ import Title from "../components/Title";
 const Index = ({ data }) => {
   return (
     <Layout>
+      <React.Fragment>
+        <Helmet>
+          <title>Sacri lapides Aegypti</title>
+          <meta
+            name="description"
+            content="The “Sacri lapides Aegypti” project aims to study and document the processes of transformation of sacred spaces for worship, identity and memory from Pharaonic and Ptolemaic-Roman Egypt to Christian Egypt through topographical-functional analysis and the creation of a general catalogue, in digital form, of the temple structures transformed into Christian places used for the production and preservation of books, as well as their cultic function."
+          />
+        </Helmet>
+      </React.Fragment>
+
       <Slider />
       <About />
       <Methods />
