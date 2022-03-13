@@ -51,7 +51,7 @@ const Wrapper = styled.section`
     height: 100%;
   }
   .maplibregl-popup {
-    width: 10px;
+    width: 150px;
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
