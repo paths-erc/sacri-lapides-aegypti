@@ -115,8 +115,9 @@ const Header = () => {
 //styles
 const Wrapper = styled.section`
   .navbar {
+    font-family: "Roboto Condensed", sans-serif;
     background-color: rgb(255, 255, 255, 0.4) !important;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     color: #777777;
   }
