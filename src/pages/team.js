@@ -16,9 +16,9 @@ import Title from "../components/Title";
 const Team = () => {
   const teamData = [
     {
-      name: "Paola Buzi",
+      name: "Paola Buzi - Principal Investigator",
       image: "/images/other/pbuzi.jpeg",
-      position: "Principal Investigator",
+      position: "Full Professor",
       affiliation:
         " Full Professor of Egyptology and Coptic Studies, Honorary Professor at the University of Hamburg and Director of DigiLab Sapienza",
       uni: "Sapienza University of Rome",

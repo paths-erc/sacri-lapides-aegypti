@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 
 import { Container, Col, Row } from "react-bootstrap";
 
@@ -41,7 +41,7 @@ const SitesLayout = ({ data }) => {
               <Title title="general information" align="right" />
             </Row>
             <Row xs={1} md={2} className="mx-5">
-              <Col >
+              <Col>
                 <Info
                   other_names={content.frontmatter.other_names}
                   egyptian_name={content.frontmatter.egyptian_name}
@@ -121,9 +121,9 @@ const SitesLayout = ({ data }) => {
             <SimpleReactLightbox>
               <SRLWrapper>
                 <Container>
-                  <Row>
+                  <Row xs={1} md={3}>
                     {images.map((image, key) => (
-                      <Col xs={6} md={4} key={key}>
+                      <Col key={key}>
                         <a
                           className="pointer"
                           href={image.node.childImageSharp.gatsbyImageData.src}
