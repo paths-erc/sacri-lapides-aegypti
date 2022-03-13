@@ -4,14 +4,13 @@ import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookSquare,
-  faInstagramSquare,
-  faTwitterSquare,
-  faGoogle,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+  FaInstagram,
+  FaFacebook,
+  FaTwitter,
+  FaGoogle,
+  FaGithub,
+} from "react-icons/fa";
 
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -43,53 +42,58 @@ const Footer = () => {
             </Col>
             <Col md={3} sm={6} xs={6}>
               <p>
-                FARE MIUR Project hosted at<br/>
-                Sapienza University of Rome<br/>
-                Chair of Egyptology and Coptic civilization<br/>
+                FARE MIUR Project hosted at
+                <br />
+                Sapienza University of Rome
+                <br />
+                Chair of Egyptology and Coptic civilization
+                <br />
                 <a href="https://saras.uniroma1.it/">
                   <p>
                     Dept. of History, Anthropology, Religions, Arts and
                     Perfoming Arts
                   </p>
                 </a>
-                <br/>© {new Date().getFullYear()} “{" "}
+                <br />© {new Date().getFullYear()} “{" "}
                 <em>Sacri lapides Aegypti</em> ” Team
-                <br/>
+                <br />
                 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                   CC BY-NC-SA 4.0
                 </a>
-                <br/>
+                <br />
               </p>
               <div className="icon">
                 <a href="https://www.facebook.com/cattedraegittologiasapienza">
-                  <FontAwesomeIcon icon={faFacebookSquare} fixedWidth />
+                  <FaFacebook />
                 </a>
                 <a href="https://www.instagram.com/egittologiasapienza/">
-                  <FontAwesomeIcon icon={faInstagramSquare} fixedWidth />
+                  <FaInstagram />
                 </a>
                 <a href="https://twitter.com/SapientiAegypti">
-                  <FontAwesomeIcon icon={faTwitterSquare} fixedWidth />
+                  <FaTwitter />
                 </a>
                 <a href="https://sites.google.com/uniroma1.it/cattedra-egittologia-sapienza">
-                  <FontAwesomeIcon icon={faGoogle} fixedWidth />
+                  <FaGoogle />
                 </a>
                 <a href="https://github.com/paths-erc">
-                  <FontAwesomeIcon icon={faGithub} fixedWidth />
+                  <FaGithub />
                 </a>
               </div>
             </Col>
             <Col md={3} sm={6} xs={6}>
               <p>
-                Sapienza University of Rome<br/>
-                Piazzale Aldo Moro 5 - 00185 Rome Italy<br/>
+                Sapienza University of Rome
+                <br />
+                Piazzale Aldo Moro 5 - 00185 Rome Italy
+                <br />
               </p>
               <p>
                 <strong>Contact:</strong>
-                <br/>
+                <br />
                 <a href="mailto:paola.buzi@uniroma1.it">Paola Buzi (PI)</a>
-                <br/>
+                <br />
                 <a href="mailto:julian.bogdani@uniroma1.it">Julian Bogdani</a>
-                <br/>
+                <br />
                 <a href="mailto:domizia.derasmo@uniroma1.it">
                   Domizia D'Erasmo
                 </a>
