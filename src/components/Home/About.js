@@ -41,7 +41,7 @@ const About = () => {
             </Col>
           </Row>
           <Row xs={1} md={2} className="mx-5">
-            <Col>
+            {/* <Col>
               <img
                 src="/images/logos/sla.svg"
                 objectFit="cover"
@@ -49,8 +49,8 @@ const About = () => {
                 className="my-5"
                 alt="logo-sacri-lapides-aegypti"
               />
-            </Col>
-            <Col>
+            </Col> */}
+            <Col md={{ offset: 6 }}>
               <Title title="goals" align="left" />
               <p>
                 “<em>Sacri lapides</em>” means to weld the history of the Coptic
