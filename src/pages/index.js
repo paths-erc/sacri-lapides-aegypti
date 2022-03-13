@@ -25,9 +25,12 @@ const Index = ({ data }) => {
       <Methods />
       <Wrapper>
         <section className="section bottom-slant-gray">
-          <Container>
-            <Title title="Archaeological sites" align="right" />
-              <p className="intro-places">
+          <Container className="places-intro">
+            <Row className="mx-5">
+              <Title title="Archaeological sites" align="right" />
+            </Row>
+            <Row className="mx-5 my-3">
+              <p>
                 The archaeological sites analysed and described by “
                 <em>Sacri lapides</em> ” have been selected on the basis of
                 rigorous criteria, such as the reliability of literary and
@@ -36,7 +39,9 @@ const Index = ({ data }) => {
                 images of the relevant monuments, in order to “map”
                 topographical, functional and religious changes.
               </p>
-            <Row xs={1} md={3}>
+            </Row>
+
+            <Row xs={1} md={3} className="mx-5">
               {data.allMarkdownRemark.nodes.map((node, i) => (
                 <Col key={i}>
                   <Places
@@ -88,11 +93,13 @@ const Wrapper = styled.section`
     -ms-transform-origin: top left;
     transform-origin: top left;
   }
-  .intro-places {
+  .places-intro {
     font-family: "Roboto Condensed", sans-serif;
     color: #777777;
-    font-weight: 200;
-    text-align: right;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: right; ;
   }
 `;
 
