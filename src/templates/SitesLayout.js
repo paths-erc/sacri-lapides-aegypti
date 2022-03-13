@@ -17,6 +17,8 @@ import Map from "../components/Map";
 import Title from "../components/Title";
 import Scroll from "../components/Scroll";
 
+import "./Layout.scss";
+
 //Lightbox
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 
@@ -39,10 +41,10 @@ const SitesLayout = ({ data }) => {
       <Wrapper>
         <section className="section map">
           <Container>
-            <Title title="general information" align="right" />
-          </Container>
-          <Container>
-            <Row xs={1} md={2}>
+            <Row className="mx-5">
+              <Title title="general information" align="right" />
+            </Row>
+            <Row xs={1} md={2} className="mx-5">
               <Col>
                 <Info
                   other_names={content.frontmatter.other_names}
@@ -86,10 +88,11 @@ const SitesLayout = ({ data }) => {
         </section>
 
         <section className="section methods">
-          <Container className="about">
-            <Title title={content.frontmatter.title} />
-
-            <Row xs={1}>
+          <Container className="indice">
+            <Row className="mx-5">
+              <Title title={content.frontmatter.title} />
+            </Row>
+            <Row xs={1} className="mx-5">
               <Col sm={4}>
                 <ul className="ul-indice">
                   {content.headings.map((h, i) => {
@@ -114,35 +117,41 @@ const SitesLayout = ({ data }) => {
         </section>
 
         <section className="section bottom-slant-gray">
-          <Container>
-            <Title title="Gallery" align="right" />
+          <Container className="gallery">
+            <Row className="mx-5">
+              <Title title="Gallery" align="right" />
+            </Row>
+
+            <SimpleReactLightbox>
+              <SRLWrapper>
+                <Container>
+                  <Row>
+                    {images.map((image, key) => (
+                      <Col xs={6} md={4} key={key}>
+                        <a
+                          className="pointer"
+                          href={image.node.childImageSharp.gatsbyImageData.src}
+                        >
+                          <GatsbyImage
+                            image={image.node.childImageSharp.gatsbyImageData}
+                            style={{ margin: "3rem 0", height: "300px" }}
+                            imgStyle={{ objectFit: "scale-down" }}
+                            alt={image.node.base
+                              .split(".")
+                              .slice(0, -1)
+                              .join(".")}
+                          />
+                          <p className="caption">
+                            {image.node.base.split(".").slice(0, -1).join(".")}
+                          </p>
+                        </a>
+                      </Col>
+                    ))}
+                  </Row>
+                </Container>
+              </SRLWrapper>
+            </SimpleReactLightbox>
           </Container>
-          <SimpleReactLightbox>
-            <SRLWrapper>
-              <Container>
-                <Row>
-                  {images.map((image, key) => (
-                    <Col xs={6} md={4} key={key}>
-                      <a className="pointer" href={image.node.childImageSharp.gatsbyImageData.src}>
-                        <GatsbyImage
-                          image={image.node.childImageSharp.gatsbyImageData}
-                          style={{ margin: "3rem 0", height: "300px" }}
-                          imgStyle={{ objectFit: "scale-down" }}
-                          alt={image.node.base
-                            .split(".")
-                            .slice(0, -1)
-                            .join(".")}
-                        />
-                        <p className="caption">
-                          {image.node.base.split(".").slice(0, -1).join(".")}
-                        </p>
-                      </a>
-                    </Col>
-                  ))}
-                </Row>
-              </Container>
-            </SRLWrapper>
-          </SimpleReactLightbox>
         </section>
         <Scroll showBelow={250} />
         <Footer />
@@ -153,92 +162,6 @@ const SitesLayout = ({ data }) => {
 
 //styles
 const Wrapper = styled.section`
-  a {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.7rem;
-    display: swap;
-    color: #777777;
-  }
-  a:hover {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.7rem;
-    display: swap;
-    color: #822433;
-  }
-  .about {
-    margin-top: 300px;
-    margin-bottom: 200px;
-  }
-  .ul-indice {
-    list-style: none;
-  }
-  .indice-1,
-  .indice-2,
-  .indice-3,
-  .indice-4 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-    font-size: 1rem;
-    line-height: 1;
-    display: swap;
-    text-decoration: none;
-    color: #777777;
-  }
-  .indice-1:hover,
-  .indice-2:hover,
-  .indice-3:hover,
-  .indice-4:hover {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    display: swap;
-    text-decoration: none;
-    color: #822433;
-  }
-  .indice-h2 {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-    display: swap;
-    color: #777777;
-  }
-  .indice-h3 {
-    text-decoration: none;
-    font-style: italic;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-    display: swap;
-    color: #777777;
-    margin-left: 1rem;
-  }
-  .indice-h4 {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-    display: swap;
-    color: #777777;
-    margin-left: 1.5rem;
-  }
-
-  li {
-    font-family: "Montserrat", sans-serif;
-    padding-bottom: 2%;
-  }
-  .row {
-    padding-bottom: 10px;
-  }
   section {
     position: relative;
     z-index: 2;
@@ -254,7 +177,7 @@ const Wrapper = styled.section`
     height: 240px;
     background: #fff;
     z-index: -1;
-    bottom: -240px;
+    bottom: -220px;
     background-color: #f8f9fa;
     left: 0;
     position: absolute;
@@ -304,24 +227,7 @@ const Wrapper = styled.section`
     -ms-transform-origin: top left;
     transform-origin: top left;
   }
-  .pointer {
-    cursor: pointer;
-  }
-  .text {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 0.9rem;
-    line-height: 1.4rem;
-    padding-top: 5%;
-    color: #777777;
-  }
-  .text h2,
-  .text h3,
-  .text h4 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    color: rgb(0, 103, 120);
-  }
+  
 `;
 
 export default SitesLayout;

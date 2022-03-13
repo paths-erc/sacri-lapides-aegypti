@@ -1,22 +1,15 @@
-//React
 import React from "react";
 
-//Gatsby
 import styled from "styled-components";
 
-//Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
 //markup
 const Info = (props) => {
   return (
     <Wrapper>
-      {/* <Container>
-        <Title title="general information" align="right" />
-      </Container> */}
-
-      <Container>
-        <Row xs={1} md={2} className="info">
+      <Container className=" info">
+        <Row xs={1} md={2}>
           <Col>
             <h5>PLACE NAMES</h5>
             <h6>
@@ -47,16 +40,15 @@ const Info = (props) => {
               <strong>AREA</strong>: {props.area}
             </h6>
             <h6>
-              <strong>PAThs ID</strong>:{" "}
+              <strong>PAThs ID</strong>:
               {props.paths_id.split(",").map((paths_id) => {
                 return (
                   <>
                     <a
-                      className="link"
                       href={`https://atlas.paths-erc.eu/places/${paths_id}`}
                     >
                       {paths_id}
-                    </a>{" "}
+                    </a>
                   </>
                 );
               })}
@@ -67,7 +59,6 @@ const Info = (props) => {
                 return (
                   <>
                     <a
-                      className="link"
                       href={`https://pleiades.stoa.org/places/${pleiades_id}`}
                     >
                       {pleiades_id}
@@ -83,7 +74,6 @@ const Info = (props) => {
                   <>
                     {" "}
                     <a
-                      className="link"
                       href={`https://www.trismegistos.org/geo/detail.php?quick=${tm_id}`}
                     >
                       {tm_id}
@@ -93,24 +83,22 @@ const Info = (props) => {
               })}
             </h6>
             <h6>
-              <strong>TOPOSTEXT ID</strong>:{" "}
+              <strong>TOPOSTEXT ID</strong>:
               {props.topotext_id.split(",").map((topotext_id) => {
                 return (
                   <>
-                    {" "}
                     <a
-                      className="link"
                       href={`https://topostext.org/place/${topotext_id}`}
                     >
                       {topotext_id}
-                    </a>{" "}
+                    </a>
                   </>
                 );
               })}
             </h6>
           </Col>
         </Row>
-        <Row xs={1} md={2} className="info">
+        <Row xs={1} md={2}>
           <Col>
             <h5>SITE INFO</h5>
             <h6>
@@ -154,54 +142,6 @@ const Info = (props) => {
 
 //styled
 const Wrapper = styled.section`
-  h5 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-    display: swap;
-    text-align: left;
-    color: rgb(0, 103, 120);
-  }
-  h6 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: normal;
-    font-size: 0.7rem;
-    line-height: 0.9rem;
-    display: swap;
-    text-align: left;
-    color: #777777;
-  }
-  h6 .link {
-    font-family: "Montserrat", sans-serif;
-    font-weight: normal;
-    font-size: 0.7rem;
-    line-height: 1rem;
-    display: swap;
-    text-align: left;
-    color: #777777;
-    /* text-decoration: underline; */
-  }
-  h6 .link:hover {
-    font-family: "Montserrat", sans-serif;
-    font-weight: normal;
-    font-size: 0.7rem;
-    line-height: 1rem;
-    display: swap;
-    text-align: left;
-    color: #822433;
-  }
-  p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 0.7rem;
-    line-height: 1rem;
-    display: swap;
-    text-align: left;
-    color: #777777;
-  }
-  .row {
-    padding-top: 10px;
-  }
+  
 `;
 export default Info;
