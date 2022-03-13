@@ -31,7 +31,6 @@ module.exports = {
     "gatsby-plugin-styled-components",
     "gatsby-transformer-remark",
     `gatsby-plugin-emotion`,
-    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-transition-link`,
@@ -81,14 +80,6 @@ module.exports = {
           `roboto condensed\:0,300;0,400;0,700;1,300;1,400;1,700`,
         ],
         display: "swap",
-      },
-    },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        typekit: {
-          id: process.env.TYPEKIT_ID,
-        },
       },
     },
   ],
