@@ -50,6 +50,7 @@
     "gatsby-transformer-remark": "^4.11.0",
     "gatsby-transformer-sharp": "^3.14.0",
     "leaflet": "^1.7.1",
+    "maplibre-gl": "^2.1.7",
     "npm": "^8.5.4",
     "react": "^16.14.0",
     "react-bootstrap": "^2.2.0",
