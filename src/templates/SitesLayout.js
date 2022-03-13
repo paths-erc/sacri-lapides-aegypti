@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage} from "gatsby-plugin-image";
 
 import { Container, Col, Row } from "react-bootstrap";
 
