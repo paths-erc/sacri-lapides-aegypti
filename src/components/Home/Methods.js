@@ -14,9 +14,11 @@ const Methods = () => {
   return (
     <Wrapper>
       <section className="section methods">
-        <Container className="methods mx-auto">
-          <Title title="Methodology" />
-          <Row xs={1} md={3}>
+        <Container className="methods">
+          <Row xs={1} md={3} className="mx-5">
+            <Title title="Methodology" />
+          </Row>
+          <Row xs={1} md={3} className="mx-5">
             <Col>
               <Card>
                 <Link to="https://docs.paths-erc.eu/data/">

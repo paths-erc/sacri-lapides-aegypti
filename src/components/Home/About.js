@@ -31,7 +31,7 @@ const About = () => {
                 analysis and the creation of a general catalogue, in digital
                 form, of the temple structures transformed into Christian places
                 used for the production and preservation of books, as well as
-                their cultic function.<br></br> “<em>Sacri lapides Aegypti</em>”
+                their cultic function.<br/> “<em>Sacri lapides Aegypti</em>”
                 is therefore the conceptual premise and the archaeological
                 deepening of the ERC project “PAThs”, whose aim is to define a
                 geography of Coptic manuscript production through the creation
@@ -56,7 +56,7 @@ const About = () => {
                 lending practical substance to the understanding of the spread
                 of new Christian cultural centres, which, similarly to the
                 Pharaonic ones, are never severed from their places of worship.{" "}
-                <br></br>In the light of such awareness – the intimate
+                <br/>In the light of such awareness – the intimate
                 connection between place of worship and place of production and
                 storage of the culture – we mean to create a fully original
                 research tool, which will serve Egyptologists as well as

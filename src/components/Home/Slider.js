@@ -36,7 +36,7 @@ const Slider = () => {
                 src="../../../static/images/other/home-slider-1.jpg"
                 objectFit="contain"
               />
-              <Carousel.Caption>
+              <Carousel.Caption className="mx-5">
                 <img
                   className="logo d-none d-md-inline-block"
                   src={SlaLogo}
@@ -62,7 +62,7 @@ const Slider = () => {
                 src="../../../static/images/other/home-slider-2.jpg"
                 objectFit="scale-down"
               />
-              <Carousel.Caption>
+              <Carousel.Caption className="mx-5">
                 <img
                   className="logo d-none d-md-inline-block"
                   src={SlaLogo}
@@ -93,9 +93,8 @@ const Slider = () => {
 //styles
 const Wrapper = styled.section`
   a {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
-    display: swap;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
     text-decoration: none;
     color: white !important;
     font-size: 0.7rem;
@@ -104,9 +103,8 @@ const Wrapper = styled.section`
     }
   }
   a:hover {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
-    display: swap;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
     text-decoration: underline;
     color: white !important;
     font-size: 0.7rem;
@@ -115,28 +113,35 @@ const Wrapper = styled.section`
     }
   }
   h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
-    display: swap;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
     font-size: 1.5rem;
     @media (min-width: 576px) {
-      font-size: 3rem;
+      font-size: 3.2rem;
     }
     margin-bottom: 0.3;
   }
   h5 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
-    display: swap;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
     font-size: 0.6rem;
     @media (min-width: 576px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
     margin-bottom: 0.5rem;
   }
+  p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 0.5rem;
+    margin-bottom: 0;
+    @media (min-width: 576px) {
+      font-size: 0.9rem;
+    }
+  }
 
   img {
-    filter: brightness(75%);
+    filter: brightness(65%);
   }
   img .d-block {
     background-position: center top !important;
@@ -146,16 +151,12 @@ const Wrapper = styled.section`
     min-height: 1000px;
     position: relative;
   }
-  p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
-    display: swap;
-    font-size: 0.5rem;
-    margin-bottom: 0;
-    @media (min-width: 576px) {
-      font-size: 0.8rem;
-    }
+  .logo {
+    max-width: 380px;
+    margin: auto;
+    filter: invert(1);
   }
+
   .carousel-caption {
     transform: translateY(-50%);
     bottom: initial;
@@ -173,25 +174,7 @@ const Wrapper = styled.section`
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
-  .logo {
-    max-width: 500px;
-    width: 50%;
-    margin: auto;
-    filter: invert(1);
-  }
-  .logo-2 {
-    max-width: 300px;
-    width: 50%;
-    margin: auto;
-    background: rgba(255, 255, 255, 0.6);
-    border-bottom-left-radius: 50px 50px;
-  }
-  .logo-3 {
-    max-width: 100px;
-    width: 40%;
-    margin: auto;
-    background: rgba(255, 255, 255, 0.6);
-  }
+  
   .slider-wrap {
     position: relative;
     background-color: #f8f9fa;

@@ -4,7 +4,7 @@ import { Link, withPrefix } from "gatsby";
 import styled from "styled-components";
 
 import Card from "react-bootstrap/Card";
-import { Container } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 
 //markup
 const Places = (props) => {
