@@ -9,8 +9,8 @@ const Info = (props) => {
   return (
     <Wrapper>
       <Container className=" info">
-        <Row xs={1} md={2}>
-          <Col>
+        <Row xs={2} md={2}>
+          <Col className="my-3">
             <h5>PLACE NAMES</h5>
             <h6>
               <strong>OTHER NAMES</strong>: {props.other_names}
@@ -34,7 +34,7 @@ const Info = (props) => {
               <strong>ARABIC TRANSLATION</strong>: {props.arabic_transl}
             </h6>
           </Col>
-          <Col>
+          <Col className="my-3">
             <h5>GEO INFO</h5>
             <h6>
               <strong>AREA</strong>: {props.area}
@@ -44,9 +44,7 @@ const Info = (props) => {
               {props.paths_id.split(",").map((paths_id) => {
                 return (
                   <>
-                    <a
-                      href={`https://atlas.paths-erc.eu/places/${paths_id}`}
-                    >
+                    <a href={`https://atlas.paths-erc.eu/places/${paths_id}`}>
                       {paths_id}
                     </a>
                   </>
@@ -58,9 +56,7 @@ const Info = (props) => {
               {props.pleiades_id.split(",").map((pleiades_id) => {
                 return (
                   <>
-                    <a
-                      href={`https://pleiades.stoa.org/places/${pleiades_id}`}
-                    >
+                    <a href={`https://pleiades.stoa.org/places/${pleiades_id}`}>
                       {pleiades_id}
                     </a>{" "}
                   </>
@@ -87,9 +83,7 @@ const Info = (props) => {
               {props.topotext_id.split(",").map((topotext_id) => {
                 return (
                   <>
-                    <a
-                      href={`https://topostext.org/place/${topotext_id}`}
-                    >
+                    <a href={`https://topostext.org/place/${topotext_id}`}>
                       {topotext_id}
                     </a>
                   </>
@@ -98,7 +92,7 @@ const Info = (props) => {
             </h6>
           </Col>
         </Row>
-        <Row xs={1} md={2}>
+        <Row xs={2} md={2}>
           <Col>
             <h5>SITE INFO</h5>
             <h6>

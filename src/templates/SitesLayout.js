@@ -1,14 +1,11 @@
-//Gatsby
 import React from "react";
 import { graphql } from "gatsby";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import { GatsbyImage } from "gatsby-plugin-image";
 
-//Bootstrap
 import { Container, Col, Row } from "react-bootstrap";
 
-//Components
 import HeaderImage from "../components/HeaderImage";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -19,7 +16,6 @@ import Scroll from "../components/Scroll";
 
 import "./Layout.scss";
 
-//Lightbox
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 
 //markup
@@ -45,7 +41,7 @@ const SitesLayout = ({ data }) => {
               <Title title="general information" align="right" />
             </Row>
             <Row xs={1} md={2} className="mx-5">
-              <Col>
+              <Col >
                 <Info
                   other_names={content.frontmatter.other_names}
                   egyptian_name={content.frontmatter.egyptian_name}
@@ -74,7 +70,7 @@ const SitesLayout = ({ data }) => {
                   date={content.frontmatter.date}
                 />
               </Col>
-              <Col>
+              <Col className="my-5">
                 <Map
                   className="map"
                   lng={content.frontmatter.lng}
@@ -110,7 +106,7 @@ const SitesLayout = ({ data }) => {
                 <div
                   className="text"
                   dangerouslySetInnerHTML={{ __html: content.html }}
-                ></div>
+                />
               </Col>
             </Row>
           </Container>
@@ -227,7 +223,6 @@ const Wrapper = styled.section`
     -ms-transform-origin: top left;
     transform-origin: top left;
   }
-  
 `;
 
 export default SitesLayout;
