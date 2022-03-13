@@ -20,29 +20,39 @@ $SerifSLA: "Lora", serif;
 }
 
 .methods {
+  font-family: $sansSerifSLA;
+  color: $textSLA;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6rem;
   padding-top: 6rem;
   padding-bottom: 6rem;
+  a {
+    color: $redSLA;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    &:hover {
+      color: $redSLA;
+      font-weight: bolder;
+      font-size: 1rem;
+      background: none;
+      border-color: trasparent;
+    }
+  }
   .card {
     border: none;
     padding-top: 1rem;
   }
-
   .card-body {
-    font-family: $sansSerifSLA;
-    color: $textSLA;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.4rem;
     text-align: right;
   }
-
   .card-text {
     padding-top: 1rem;
   }
-
   .card-title {
     font-family: $SerifSLA;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     text-align: right;
     color: $bluSLA;
@@ -63,16 +73,11 @@ $SerifSLA: "Lora", serif;
       border-color: trasparent;
     }
   }
-  section {
-    padding: 2em 5;
-    position: relative;
-    z-index: 2;
-  }
   .card {
+    font-family: $sansSerifSLA;
     border: none;
     background-color: transparent;
     margin-bottom: 1rem;
-    font-family: $sansSerifSLA;
     &:hover {
       opacity: 0.8;
       background-color: $cardHoverSLA;
@@ -99,4 +104,139 @@ $SerifSLA: "Lora", serif;
     font-size: 1.5rem;
     color: $bluSLA;
   }
+}
+
+.info {
+  font-family: $sansSerifSLA;
+  color: $textSLA;
+  font-weight: 300;
+  font-size: 1rem;
+  a {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  h5 {
+    font-weight: bolder;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(0, 103, 120);
+  }
+  h6 {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: left;
+    color: #777777;
+  }
+  h6 a {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: left;
+    color: #777777;
+    text-decoration: none;
+  }
+  h6 a:hover {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: left;
+    color: #822433;
+  }
+  p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-align: left;
+    color: #777777;
+  }
+}
+.indice {
+  margin-top: 13rem;
+  margin-bottom: 10rem;
+  font-family: $sansSerifSLA;
+  .ul-indice {
+    list-style: none;
+  }
+  .indice-1,
+  .indice-2,
+  .indice-3,
+  .indice-4 { 
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1;
+    text-decoration: none;
+    color: #777777;
+  }
+  .indice-1:hover,
+  .indice-2:hover,
+  .indice-3:hover,
+  .indice-4:hover {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    color: #822433;
+  }
+  .indice-h2 {
+    text-decoration: none;
+    
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #777777;
+  }
+  .indice-h3 {
+    text-decoration: none;
+    font-style: italic;
+   
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #777777;
+    margin-left: 1rem;
+  }
+  .indice-h4 {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #777777;
+    margin-left: 1.5rem;
+  }
+  li { 
+    padding-bottom: 0.3rem;
+  }
+  .row {
+    padding-bottom: 10px;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  .text {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #777777;
+  }
+  .text h2,
+  .text h3,
+  .text h4 {
+    font-weight: 500;
+    color: rgb(0, 103, 120);
+  }
+}
+.gallery {
+  a {
+    text-decoration: none!important;
+  }
+.caption {
+  font-family: $sansSerifSLA;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #777777;
+}
+.caption:hover {
+    font-family: $sansSerifSLA;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #822433;
+}
 }
