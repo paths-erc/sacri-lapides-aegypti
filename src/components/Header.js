@@ -102,9 +102,6 @@ const Header = () => {
             <Nav.Link style={navLink} href={withPrefix(`/team/`)}>
               Team
             </Nav.Link>
-            <Nav.Link style={navLink} href={withPrefix(`/info/`)}>
-              Info
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

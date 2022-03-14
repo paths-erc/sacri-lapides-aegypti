@@ -118,7 +118,6 @@ const Team = () => {
 
   return (
     <Layout>
-       <Helmet>
         <React.Fragment>
           <Helmet>
             <title>Sacri lapides Aegypti | Team</title>
@@ -128,8 +127,7 @@ const Team = () => {
             />
           </Helmet>
         </React.Fragment>
-      </Helmet>
-
+ 
       <HeaderImage title="Team" />
 
       <Wrapper>
