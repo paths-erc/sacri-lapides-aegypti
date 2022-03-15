@@ -12,7 +12,72 @@ import Layout from "../templates/IndexLayout";
 import HeaderImage from "../components/HeaderImage";
 import Title from "../components/Title";
 
-//markup
+const Person = (d) => {
+  const persData = d.persData;
+  const iconList = [
+    {
+      id: "unisite",
+      label: "Sito istituzionale",
+      icon: <FaUniversity />,
+    },
+    {
+      id: "github",
+      label: "GitHub",
+      icon: <FaGithub />,
+    },
+    {
+      id: "academia",
+      label: "Academia.edu",
+      icon: <SiAcademia />,
+    },
+    {
+      id: "iris",
+      label: "Repository IRIS",
+      icon: <GiIceIris />,
+    },
+    {
+      id: "researchgate",
+      label: "Research Gate",
+      icon: <SiResearchgate />,
+    },
+    {
+      id: "twitter",
+      label: "Twitter",
+      icon: <FaTwitter />,
+    },
+  ];
+  
+  return (
+    <Col>
+      <Card className="g-4">
+        <Card.Img variant="top" src={persData.image}/>
+        <Card.Body>
+          <Card.Title>{persData.name}</Card.Title>
+          <Card.Text className="position">
+            {persData.position} | {persData.uni}
+          </Card.Text>
+          <Card.Text className="affiliation">
+            {persData.affiliation}
+          </Card.Text>
+          <Card.Text className="icon">
+            {iconList.map((i, ik) => {
+              if (persData[i.id]) {
+                return (
+                  <a href={persData[i.id]} title={i.label} key={ik}>
+                    {i.icon}
+                  </a>
+                );
+              } else {
+                return "";
+              }
+            })}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+  );
+};
+
 const Team = () => {
   const teamData = [
     {
@@ -28,7 +93,7 @@ const Team = () => {
     },
     {
       name: "Julian Bogdani",
-      image: "/images/other/jbogdani.jpeg",
+      image: "/images/other/jbogdani.jpg",
       position: "Assistant Professor",
       affiliation:
         "Assistant Professor of Metodologie della Ricerca Archeologica (L-ANT/10), Director of the Archaeological Mission at Çuka e Ajtoit (Albania) and Director of the Laboratorio di Archeologia Digitale at Sapienza University of Rome",
@@ -84,39 +149,7 @@ const Team = () => {
     },
   ];
 
-  const iconList = [
-    {
-      id: "unisite",
-      label: "Sito istituzionale",
-      icon: <FaUniversity />,
-    },
-    {
-      id: "github",
-      label: "GitHub",
-      icon: <FaGithub />,
-    },
-    {
-      id: "academia",
-      label: "Academia.edu",
-      icon: <SiAcademia />,
-    },
-    {
-      id: "iris",
-      label: "Repository IRIS",
-      icon: <GiIceIris />,
-    },
-    {
-      id: "researchgate",
-      label: "Research Gate",
-      icon: <SiResearchgate />,
-    },
-    {
-      id: "twitter",
-      label: "Twitter",
-      icon: <FaTwitter />,
-    },
-  ];
-
+  
   return (
     <Layout>
         <React.Fragment>
@@ -138,35 +171,12 @@ const Team = () => {
               <Title title="Who we are" align="right" />
             </Row>
             <Row xs={1} md={3} className="mx-5">
-              {teamData.map((m, mk) => {
+              <Person persData={teamData[0]} />
+            </Row>
+            <Row xs={1} md={3} className="mx-5">
+              {teamData.slice(1).map((m, mk) => {
                 return (
-                  <Col key={mk}>
-                    <Card key={mk} className="g-4">
-                      <Card.Img variant="top" src={m.image}/>
-                      <Card.Body>
-                        <Card.Title>{m.name}</Card.Title>
-                        <Card.Text className="position">
-                          {m.position} | {m.uni}
-                        </Card.Text>
-                        <Card.Text className="affiliation">
-                          {m.affiliation}
-                        </Card.Text>
-                        <Card.Text className="icon">
-                          {iconList.map((i, ik) => {
-                            if (m[i.id]) {
-                              return (
-                                <a href={m[i.id]} title={i.label} key={ik}>
-                                  {i.icon}
-                                </a>
-                              );
-                            } else {
-                              return "";
-                            }
-                          })}
-                        </Card.Text>
-                      </Card.Body>
-                    </Card>
-                  </Col>
+                  <Person key={mk} persData={m} />
                 );
               })}
             </Row>
