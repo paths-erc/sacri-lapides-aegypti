@@ -11,12 +11,12 @@ import Slider from "../components/Home/Slider";
 import About from "../components/home/About";
 import Methods from "../components/home/Methods";
 import Places from "../components/home/Places";
-import Map from "../components/Home/Map";
+// import Map from "../components/Home/Map";
 import Title from "../components/Title";
 
 // markup
 const Index = ({ data }) => {
-  const content = data.allMarkdownRemark;
+  // const content = data.allMarkdownRemark;
 
   return (
     <Layout>
