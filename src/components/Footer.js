@@ -54,8 +54,8 @@ const Footer = () => {
                     Perfoming Arts
                   </p>
                 </a>
-                <br />© {new Date().getFullYear()} “{" "}
-                <em>Sacri lapides Aegypti</em> ” Team
+                <br />© {new Date().getFullYear()} {" "}
+                <em>Sacri lapides Aegypti</em> Team
                 <br />
                 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                   CC BY-NC-SA 4.0
