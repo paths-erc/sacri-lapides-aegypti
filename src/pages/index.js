@@ -1,24 +1,23 @@
-//React
 import * as React from "react";
 
-//Gatsby
 import { graphql } from "gatsby";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
-//Bootstap
 import { Container, Row, Col } from "react-bootstrap";
 
-//Components
 import Layout from "../templates/IndexLayout";
 import Slider from "../components/Home/Slider";
 import About from "../components/home/About";
 import Methods from "../components/home/Methods";
 import Places from "../components/home/Places";
+import Map from "../components/Home/Map";
 import Title from "../components/Title";
 
 // markup
 const Index = ({ data }) => {
+  const content = data.allMarkdownRemark;
+
   return (
     <Layout>
       <React.Fragment>
@@ -51,6 +50,19 @@ const Index = ({ data }) => {
                 topographical, functional and religious changes.
               </p>
             </Row>
+
+           {/*  <Row className="mx-5 my-3">
+              {data.allMarkdownRemark.nodes.map((node, i) => (
+                <Map
+                  key={i}
+                  className="map"
+                  lng={node.frontmatter.lng}
+                  lat={node.frontmatter.lat}
+                  zoom={node.frontmatter.zoom}
+                  popupHtml={node.frontmatter.title}
+                />
+              ))}
+            </Row> */}
 
             <Row xs={1} md={3} className="mx-5">
               {data.allMarkdownRemark.nodes.map((node, i) => (
@@ -110,7 +122,7 @@ const Wrapper = styled.section`
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.6rem;
-    text-align: right; ;
+    text-align: right;
   }
 `;
 
@@ -125,6 +137,9 @@ export const query = graphql`
           area
           typology
           img
+          lat
+          lng
+          zoom
         }
         excerpt(pruneLength: 200)
         fields {

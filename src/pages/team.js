@@ -57,7 +57,8 @@ const Team = () => {
       name: "Valeria Parisi",
       image: "/images/other/vparisi.jpg",
       position: "Research Fellow",
-      affiliation: "Researcher (Tipo A) of Classical Archaeology (L-ANT/07) at University of Campania Luigi Vanvitelli",
+      affiliation:
+        "Researcher (Tipo A) of Classical Archaeology (L-ANT/07) at University of Campania Luigi Vanvitelli",
       uni: "University of Campania Luigi Vanvitelli",
     },
     {
@@ -67,7 +68,7 @@ const Team = () => {
     },
     {
       name: "Elisabetta Falduto",
-      image: "",
+      image: "/images/other/efalduto.jpeg",
       position: "Research Fellow",
       affiliation:
         "Research Fellow in Egyptology and Coptic Studies (L-OR/02) for the project Sacri lapides Aegypti and PhD student in Philology and History of the Ancient World, Oriental Curriculum at Sapienza University of Rome",
