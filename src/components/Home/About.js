@@ -1,4 +1,5 @@
 import React from "react";
+import { withPrefix } from "gatsby";
 
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
@@ -14,7 +15,7 @@ const About = () => {
           <Row xs={1} md={2} className="mx-5 ">
             <Col>
               <img
-                src="/images/logos/sla.svg"
+                src={withPrefix(`/images/logos/sla.svg`)}
                 objectFit="cover"
                 width={350}
                 className="my-5"
