@@ -11,12 +11,11 @@ import Slider from "../components/Home/Slider";
 import About from "../components/home/About";
 import Methods from "../components/home/Methods";
 import Places from "../components/home/Places";
-// import Map from "../components/Home/Map";
+import Map from "../components/Home/Map";
 import Title from "../components/Title";
 
 // markup
 const Index = ({ data }) => {
-  // const content = data.allMarkdownRemark;
 
   return (
     <Layout>
@@ -39,6 +38,9 @@ const Index = ({ data }) => {
             <Row className="mx-5">
               <Title title="Archaeological sites" align="right" />
             </Row>
+           {/*  <Row className="mx-5">
+              <Map />
+            </Row> */}
             <Row className="mx-5 my-3">
               <p>
                 The archaeological sites analysed and described by “
@@ -50,19 +52,6 @@ const Index = ({ data }) => {
                 topographical, functional and religious changes.
               </p>
             </Row>
-
-           {/*  <Row className="mx-5 my-3">
-              {data.allMarkdownRemark.nodes.map((node, i) => (
-                <Map
-                  key={i}
-                  className="map"
-                  lng={node.frontmatter.lng}
-                  lat={node.frontmatter.lat}
-                  zoom={node.frontmatter.zoom}
-                  popupHtml={node.frontmatter.title}
-                />
-              ))}
-            </Row> */}
 
             <Row xs={1} md={3} className="mx-5">
               {data.allMarkdownRemark.nodes.map((node, i) => (
