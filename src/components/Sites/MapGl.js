@@ -10,7 +10,7 @@ export default function Map(props) {
   const [lat] = useState(props.lat);
   const [popupHtml] = useState(props.popupHtml);
   const [zoom] = useState(props.zoom);
-  const [API_KEY] = useState("NpaEYD1cCEf6bmrpKKm9");
+  const [API_KEY] = useState("xwCiDuVHYc2DK17DxWps");
   
 
   useEffect(() => {
