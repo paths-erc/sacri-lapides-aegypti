@@ -1,4 +1,5 @@
 import React from "react";
+import { withPrefix } from "gatsby";
 
 import styled from "styled-components";
 import Helmet from "react-helmet";
@@ -50,7 +51,7 @@ const Person = (d) => {
   return (
     <Col>
       <Card className="g-4">
-        <Card.Img variant="top" src={persData.image}/>
+        <Card.Img variant="top" src={withPrefix(`/images/${persData.image}`)}/>
         <Card.Body>
           <Card.Title>{persData.name}</Card.Title>
           <Card.Text className="position">
@@ -82,7 +83,7 @@ const Team = () => {
   const teamData = [
     {
       name: "Paola Buzi - Principal Investigator",
-      image: "/images/other/pbuzi.jpeg",
+      image: "/other/pbuzi.jpeg",
       position: "Full Professor",
       affiliation:
         " Full Professor of Egyptology and Coptic Studies, Honorary Professor at the University of Hamburg and Director of DigiLab Sapienza",
@@ -93,7 +94,7 @@ const Team = () => {
     },
     {
       name: "Julian Bogdani",
-      image: "/images/other/jbogdani.jpg",
+      image: "/other/jbogdani.jpg",
       position: "Assistant Professor",
       affiliation:
         "Assistant Professor of Metodologie della Ricerca Archeologica (L-ANT/10), Director of the Archaeological Mission at Çuka e Ajtoit (Albania) and Director of the Laboratorio di Archeologia Digitale at Sapienza University of Rome",
@@ -107,7 +108,7 @@ const Team = () => {
     },
     {
       name: "Domizia D'Erasmo",
-      image: "/images/other/dderasmo.jpg",
+      image: "/other/dderasmo.jpg",
       position: "Research Fellow",
       affiliation:
         "Researcher of Metodologie della Ricerca Archeologica (L-ANT/10) and member of the Laboratorio di Archeologia Digitale at Sapienza University of Rome",
@@ -120,7 +121,7 @@ const Team = () => {
     },
     {
       name: "Valeria Parisi",
-      image: "/images/other/vparisi.jpg",
+      image: "/other/vparisi.jpg",
       position: "Research Fellow",
       affiliation:
         "Researcher (Tipo A) of Classical Archaeology (L-ANT/07) at University of Campania Luigi Vanvitelli",
@@ -133,7 +134,7 @@ const Team = () => {
     },
     {
       name: "Elisabetta Falduto",
-      image: "/images/other/efalduto.jpeg",
+      image: "/other/efalduto.jpeg",
       position: "Research Fellow",
       affiliation:
         "Research Fellow in Egyptology and Coptic Studies (L-OR/02) for the project Sacri lapides Aegypti and PhD student in Philology and History of the Ancient World, Oriental Curriculum at Sapienza University of Rome",
@@ -141,7 +142,7 @@ const Team = () => {
     },
     {
       name: "Marta Addessi",
-      image: "/images/other/maddessi.jpeg",
+      image: "/other/maddessi.jpeg",
       position: "Research Fellow",
       affiliation:
         "Research Fellow in Egyptology and Coptic Studies (L-OR/02) for the project Sacri lapides Aegypti",
