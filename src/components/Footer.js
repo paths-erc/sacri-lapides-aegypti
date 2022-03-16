@@ -22,7 +22,7 @@ const Footer = () => {
         <Container>
           <Row className="d-flex justify-content-center">
             <Col className="d-flex justify-content-center" md={3} sm={6} xs={6}>
-              <Link to="https://paths-erc.eu/sacri-lapides-aegypti/">
+              <Link to="/">
                 <StaticImage
                   src="../../static/images/logos/sla.svg"
                   width={300}
@@ -102,7 +102,7 @@ const Footer = () => {
           </Row>
           <Row className="my-5 logos">
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
-              <Link to="https://fare.miur.it/app.php">
+              <a href="https://fare.miur.it/app.php" title="Progetto FARE -  MIUR">
                 <StaticImage
                   src="../../static/images/logos/fare.jpeg"
                   width={200}
@@ -110,10 +110,10 @@ const Footer = () => {
                   alt="FARE Miur"
                   title="FARE MIUR"
                 />
-              </Link>
+              </a>
             </Col>
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
-              <Link to="https://www.uniroma1.it/it/pagina-strutturale/home">
+              <a href="https://www.uniroma1.it/" title="Sapienza Università di Roma">
                 <StaticImage
                   src="../../static/images/logos/sapienza.jpg"
                   width={200}
@@ -121,10 +121,10 @@ const Footer = () => {
                   alt="Sapienza Università di Roma"
                   title="Sapienza Università di Roma"
                 />
-              </Link>
+              </a>
             </Col>
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
-              <Link to="https://sites.google.com/uniroma1.it/lad/">
+              <a href="https://lad.saras.uniroma1.it" title="LAD: Laboratorio di Archeologia Digitale alla Sapienza">
                 <StaticImage
                   src="../../static/images/logos/lad-blue.png"
                   width={200}
@@ -132,10 +132,10 @@ const Footer = () => {
                   alt="Laboratorio di Archeologia Digitale"
                   title="Laboratorio di Archeologia Digitale (LAD)"
                 />
-              </Link>
+              </a>
             </Col>
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
-              <Link to="https://atlas.paths-erc.eu/">
+              <a href="https://atlas.paths-erc.eu/" title="PAThs: Archaeological Atlas of Coptic Literature">
                 <StaticImage
                   src="../../static/images/logos/paths.png"
                   width={200}
@@ -143,7 +143,7 @@ const Footer = () => {
                   alt="ERC PAThs project"
                   title="ERC PAThs project"
                 />
-              </Link>
+              </a>
             </Col>
           </Row>
         </Container>
