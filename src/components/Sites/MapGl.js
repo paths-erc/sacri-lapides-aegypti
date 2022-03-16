@@ -17,7 +17,7 @@ export default function Map(props) {
     if (map.current) return;
     map.current = new maplibregl.Map({
       container: mapContainer.current,
-      style: `https://api.maptiler.com/maps/topo/style.json?key=${API_KEY}`,
+      style: `https://api.maptiler.com/maps/topo/?key=${API_KEY}#1.0/0.00000/0.00000`,
       center: [lng, lat],
       zoom: zoom,
       scrollZoom: false,
