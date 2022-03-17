@@ -13,9 +13,9 @@ const About = () => {
       <section className="section bottom-slant-gray">
         <Container className="about">
           <Row xs={1} md={2} className="mx-5 ">
-            <Col>
+            <Col className="my-5">
               <StaticImage
-                src="../../static/images/logos/sla.svg"
+                src="../../../static/images/logos/sla.png"
                 width={300}
                 objectFit="cover"
                 title="Sacri Lapides Aegypti"
