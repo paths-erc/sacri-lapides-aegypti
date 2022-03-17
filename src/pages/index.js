@@ -16,7 +16,6 @@ import Title from "../components/Title";
 
 // markup
 const Index = ({ data }) => {
-
   return (
     <Layout>
       <React.Fragment>
@@ -56,11 +55,7 @@ const Index = ({ data }) => {
                       key={i}
                       position={[node.frontmatter.lat, node.frontmatter.lng]}
                     >
-                      {node.frontmatter.title ? (
-                        <Popup>{node.frontmatter.title}</Popup>
-                      ) : (
-                        ""
-                      )}
+                      <Popup>{node.frontmatter.title}</Popup>
                     </Marker>
                   ))}
                 </MapContainer>
