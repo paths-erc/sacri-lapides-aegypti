@@ -29,7 +29,7 @@ const Map = (props) => {
           >
             <TileLayer
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=NpaEYD1cCEf6bmrpKKm9"
             />
             <Marker position={[lat, lng]}>
               {popupHtml ? <Popup>{popupHtml}</Popup> : ""}
