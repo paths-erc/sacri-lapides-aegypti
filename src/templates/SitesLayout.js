@@ -243,7 +243,7 @@ export const query = graphql`
           base
           name
           childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, quality: 80, width: 1500)
+            gatsbyImageData(layout: CONSTRAINED, quality: 50, width: 500)
           }
         }
       }
