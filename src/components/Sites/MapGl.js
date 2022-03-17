@@ -10,14 +10,14 @@ export default function Map(props) {
   const [lat] = useState(props.lat);
   const [popupHtml] = useState(props.popupHtml);
   const [zoom] = useState(props.zoom);
-  const [API_KEY] = useState("NpaEYD1cCEf6bmrpKKm9");
+  const [API_KEY] = useState("xwCiDuVHYc2DK17DxWps");
   
 
   useEffect(() => {
     if (map.current) return;
     map.current = new maplibregl.Map({
       container: mapContainer.current,
-      style: `https://api.maptiler.com/maps/topo/style.json?key=${API_KEY}`,
+      style: `https://api.maptiler.com/maps/streets/style.json?key=${API_KEY}`,
       center: [lng, lat],
       zoom: zoom,
       scrollZoom: false,

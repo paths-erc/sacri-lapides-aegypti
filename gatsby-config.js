@@ -35,6 +35,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-transition-link`,
     `babel-plugin-styled-components`,
+    'gatsby-plugin-react-leaflet',
     {
       resolve: `gatsby-transformer-remark`,
       options: {

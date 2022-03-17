@@ -53,13 +53,13 @@ const Info = (props) => {
             </h6>
             <h6>
               <strong>PLEIADES ID</strong>:{" "}
-              {props.pleiades_id.split(",").map((pleiades_id) => {
+              {props.pleiades_id.split(",").map((pleiades_id, key) => {
                 return (
-                  <>
+                  <React.Fragment key={key}>
                     <a href={`https://pleiades.stoa.org/places/${pleiades_id}`}>
                       {pleiades_id}
                     </a>{" "}
-                  </>
+                  </React.Fragment>
                 );
               })}
             </h6>
