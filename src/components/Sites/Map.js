@@ -21,7 +21,7 @@ const Map = (props) => {
             style={{ height: "400px", width: "100%" }}
           >
             <TileLayer
-              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+              attribution='&copy; <a href="https://www.maptiler.com/copyright/?_gl=1*1ousa2x*_ga*ODI5MDQzOTQwLjE2NDczNzQ2ODE.*_ga_K4SXYBF4HT*MTY0NzUyMzAzMi43LjEuMTY0NzUyMzMzNy41Ng..&_ga=2.37582754.36180314.1647514901-829043940.1647374681">Map Tiler</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
               url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=NpaEYD1cCEf6bmrpKKm9"
             />
             <Marker position={[lat, lng]}>
