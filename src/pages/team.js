@@ -51,15 +51,20 @@ const Person = (d) => {
   return (
     <Col>
       <Card className="g-4">
-        <Card.Img variant="top" src={withPrefix(`/images/${persData.image}`)}/>
+        {persData.image ? (
+          <Card.Img
+            variant="top"
+            src={withPrefix(`/images/${persData.image}`)}
+          />
+        ) : (
+          ""
+        )}
         <Card.Body>
           <Card.Title>{persData.name}</Card.Title>
           <Card.Text className="position">
             {persData.position} | {persData.uni}
           </Card.Text>
-          <Card.Text className="affiliation">
-            {persData.affiliation}
-          </Card.Text>
+          <Card.Text className="affiliation">{persData.affiliation}</Card.Text>
           <Card.Text className="icon">
             {iconList.map((i, ik) => {
               if (persData[i.id]) {
@@ -131,6 +136,7 @@ const Team = () => {
       name: "Serena Guidone",
       image: "",
       position: "Research Fellow",
+      uni: "Sapienza University of Rome"
     },
     {
       name: "Elisabetta Falduto",
