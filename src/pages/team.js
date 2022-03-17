@@ -167,7 +167,7 @@ const Team = () => {
 
       <Wrapper>
         <section className="section bottom-slant-gray">
-          <Container className="team">
+          <Container className="team my-5">
             <Row className="mx-5">
               <Title title="Who we are" align="right" />
             </Row>
