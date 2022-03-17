@@ -5,13 +5,13 @@ import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
 import { Container, Row, Col } from "react-bootstrap";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 import Layout from "../templates/IndexLayout";
 import Slider from "../components/Home/Slider";
 import About from "../components/home/About";
 import Methods from "../components/home/Methods";
 import Places from "../components/home/Places";
-import Map from "../components/Home/Map";
 import Title from "../components/Title";
 
 // markup
@@ -38,9 +38,35 @@ const Index = ({ data }) => {
             <Row className="mx-5">
               <Title title="Archaeological sites" align="right" />
             </Row>
-           {/*  <Row className="mx-5">
-              <Map />
-            </Row> */}
+
+            <Row className="mx-5">
+              <Container>
+                <MapContainer
+                  center={[28.820553, 30.802498]}
+                  zoom={6}
+                  scrollWheelZoom={false}
+                  style={{ height: "400px", width: "100%" }}
+                >
+                  <TileLayer
+                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=NpaEYD1cCEf6bmrpKKm9"
+                  />
+                  {/* {data.allMarkdownRemark.nodes.map((node, i) => (
+                    <Marker
+                      key={i}
+                      position={(node.frontmatter.lat, node.frontmatter.lng)}
+                    >
+                      {node.frontmatter.title ? (
+                        <Popup>{node.frontmatter.title}</Popup>
+                      ) : (
+                        ""
+                      )}
+                    </Marker>
+                  ))} */}
+                </MapContainer>
+              </Container>
+            </Row>
+
             <Row className="mx-5 my-3">
               <p>
                 The archaeological sites analysed and described by “
