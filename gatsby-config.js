@@ -33,7 +33,6 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-transition-link`,
     `babel-plugin-styled-components`,
     'gatsby-plugin-react-leaflet',
     {

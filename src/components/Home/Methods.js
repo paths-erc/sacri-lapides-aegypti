@@ -2,7 +2,6 @@ import React from "react";
 
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
-import { Link } from "gatsby";
 
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
