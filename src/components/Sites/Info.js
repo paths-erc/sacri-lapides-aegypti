@@ -6,8 +6,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const Info = (props) => {
   return (
     <Wrapper>
-      <Container className=" info">
-        <Row xs={2} md={2}>
+      <Container className="info">
+        <Row xs={1} md={2}>
           <Col className="my-3">
             <h5>PLACE NAMES</h5>
             <h6>
@@ -89,7 +89,7 @@ const Info = (props) => {
             </h6>
           </Col>
         </Row>
-        <Row xs={2} md={2}>
+        <Row xs={1} md={2}>
           <Col>
             <h5>SITE INFO</h5>
             <h6>
