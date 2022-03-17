@@ -1,13 +1,6 @@
-//React
 import React from "react";
-
-//Gatsby
 import styled from "styled-components";
-
-//Leaflet
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-
-//Bootstrap
 import { Container } from "react-bootstrap";
 
 const Map = (props) => {

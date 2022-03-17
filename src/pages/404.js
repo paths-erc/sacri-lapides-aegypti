@@ -1,14 +1,10 @@
-//React
 import * as React from "react";
 
-//Gatsby
 import { withPrefix } from "gatsby";
 import styled from "styled-components";
 
-//Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
-//Components
 import Layout from "../templates/IndexLayout";
 import HeaderImage from "../components/HeaderImage";
 

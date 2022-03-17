@@ -35,7 +35,7 @@ const SitesLayout = ({ data }) => {
 
       <Header />
       <HeaderImage title={content.frontmatter.title} />
-      
+
       <Wrapper>
         <section className="section map">
           <Container>
@@ -285,7 +285,6 @@ export const query = graphql`
         typology
         zoom
       }
-      excerpt
     }
   }
 `;
