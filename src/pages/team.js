@@ -136,7 +136,7 @@ const Team = () => {
       name: "Serena Guidone",
       image: "",
       position: "Research Fellow",
-      uni: "Sapienza University of Rome"
+      uni: ""
     },
     {
       name: "Elisabetta Falduto",
