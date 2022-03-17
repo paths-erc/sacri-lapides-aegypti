@@ -148,6 +148,19 @@ $SerifSLA: "Lora", serif;
     color: $textSLA;
   }
 }
+.indice a {
+  text-transform:lowercase;
+  color: $redSLA;
+  text-decoration: none;
+  text-align: left;
+  &:hover {
+    color: $redSLA;
+    font-weight: bolder;
+    font-size: 1rem;
+    background: none;
+    border-color: trasparent;
+  }
+}
 .indice {
   margin-top: 13rem;
   margin-bottom: 10rem;
@@ -231,7 +244,7 @@ $SerifSLA: "Lora", serif;
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.6rem;
-    color:$textSLA;
+    color: $textSLA;
   }
   .caption:hover {
     font-family: $sansSerifSLA;
@@ -265,7 +278,7 @@ $SerifSLA: "Lora", serif;
     }
   }
   .card {
-    font-family:  $sansSerifSLA;
+    font-family: $sansSerifSLA;
     color: $textSLA;
     font-weight: 300;
     font-size: 1rem;
@@ -274,10 +287,10 @@ $SerifSLA: "Lora", serif;
   }
   .affiliation {
     font-family: $sansSerifSLA;
-    color:  $textSLA;
+    color: $textSLA;
   }
   .position {
-    color:  $bluSLA;
+    color: $bluSLA;
     font-weight: 400;
   }
   .row {
