@@ -68,12 +68,11 @@ const Info = (props) => {
               {props.tm_id.split(",").map((tm_id) => {
                 return (
                   <>
-                    {" "}
                     <a
                       href={`https://www.trismegistos.org/geo/detail.php?quick=${tm_id}`}
                     >
                       {tm_id}
-                    </a>{" "}
+                    </a>
                   </>
                 );
               })}

@@ -32,8 +32,10 @@ const SitesLayout = ({ data }) => {
         ></meta>
         <meta name="robots" description="index" />
       </Helmet>
+
       <Header />
       <HeaderImage title={content.frontmatter.title} />
+      
       <Wrapper>
         <section className="section map">
           <Container>

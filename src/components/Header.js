@@ -1,15 +1,11 @@
-//React
 import React from "react";
 
-//Gatsby
 import styled from "styled-components";
 import { withPrefix } from "gatsby";
 
-//Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
-//Images
 import SlaLogo from "../../static/images/logos/sla.svg";
 import SapienzaLogo from "../../static/images/logos/sapienza_logo.png";
 import CattedraLogo from "../../static/images/logos/logo_cattedra.png";

@@ -49,7 +49,11 @@ const Slider = () => {
                   pharaonic and Graeco-Roman Egypt to Christian Egypt
                 </h5>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
-                <a href="https://saras.uniroma1.it/">
+                <a
+                  href="https://saras.uniroma1.it/"
+                  alt="saras-uniroma1"
+                  title="saras-uniroma1"
+                >
                   <p>
                     Dept. of History, Anthropology, Religions, Arts and
                     Perfoming Arts
@@ -75,7 +79,11 @@ const Slider = () => {
                   pharaonic and Graeco-Roman Egypt to Christian Egypt
                 </h5>
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
-                <a href="https://saras.uniroma1.it/">
+                <a
+                  href="https://saras.uniroma1.it/"
+                  alt="saras-uniroma1"
+                  title="saras-uniroma1"
+                >
                   <p>
                     Dept. of History, Anthropology, Religions, Arts and
                     Perfoming Arts

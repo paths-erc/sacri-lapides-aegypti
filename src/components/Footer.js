@@ -48,34 +48,62 @@ const Footer = () => {
                 <br />
                 Chair of Egyptology and Coptic civilization
                 <br />
-                <a href="https://saras.uniroma1.it/">
+                <a
+                  href="https://saras.uniroma1.it/"
+                  alt="saras-uniroma1"
+                  title="saras-uniroma1"
+                >
                   <p>
                     Dept. of History, Anthropology, Religions, Arts and
                     Perfoming Arts
                   </p>
                 </a>
-                <br />© {new Date().getFullYear()} {" "}
+                <br />© {new Date().getFullYear()}{" "}
                 <em>Sacri lapides Aegypti</em> Team
                 <br />
-                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <a
+                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  alt="by-nc-sa-4.0"
+                  title="by-nc-sa-4.0"
+                >
                   CC BY-NC-SA 4.0
                 </a>
                 <br />
               </p>
               <div className="icon">
-                <a href="https://www.facebook.com/cattedraegittologiasapienza">
+                <a
+                  href="https://www.facebook.com/cattedraegittologiasapienza"
+                  alt="fb-egittologia-sapienza"
+                  title="fb-egittologia-sapienza"
+                >
                   <FaFacebook />
                 </a>
-                <a href="https://www.instagram.com/egittologiasapienza/">
+                <a
+                  href="https://www.instagram.com/egittologiasapienza/"
+                  alt="ig-egittologia-sapienza"
+                  title="ig-egittologia-sapienza"
+                >
                   <FaInstagram />
                 </a>
-                <a href="https://twitter.com/SapientiAegypti">
+                <a
+                  href="https://twitter.com/SapientiAegypti"
+                  alt="tw-egittologia-sapienza"
+                  title="tw-egittologia-sapienza"
+                >
                   <FaTwitter />
                 </a>
-                <a href="https://sites.google.com/uniroma1.it/cattedra-egittologia-sapienza">
+                <a
+                  href="https://sites.google.com/uniroma1.it/cattedra-egittologia-sapienza"
+                  alt="google-egittologia-sapienza"
+                  title="google-egittologia-sapienza"
+                >
                   <FaGoogle />
                 </a>
-                <a href="https://github.com/paths-erc">
+                <a
+                  href="https://github.com/paths-erc"
+                  alt="github-egittologia-sapienza"
+                  title="github-egittologia-sapienza"
+                >
                   <FaGithub />
                 </a>
               </div>
@@ -102,7 +130,10 @@ const Footer = () => {
           </Row>
           <Row className="my-5 logos">
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
-              <a href="https://fare.miur.it/app.php" title="Progetto FARE -  MIUR">
+              <a
+                href="https://fare.miur.it/app.php"
+                title="Progetto FARE -  MIUR"
+              >
                 <StaticImage
                   src="../../static/images/logos/fare.jpeg"
                   width={200}
@@ -113,7 +144,10 @@ const Footer = () => {
               </a>
             </Col>
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
-              <a href="https://www.uniroma1.it/" title="Sapienza Università di Roma">
+              <a
+                href="https://www.uniroma1.it/"
+                title="Sapienza Università di Roma"
+              >
                 <StaticImage
                   src="../../static/images/logos/sapienza.jpg"
                   width={200}
@@ -124,7 +158,11 @@ const Footer = () => {
               </a>
             </Col>
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
-              <a href="https://lad.saras.uniroma1.it" title="LAD: Laboratorio di Archeologia Digitale alla Sapienza">
+              <a
+                href="https://lad.saras.uniroma1.it"
+                title="LAD: Laboratorio di Archeologia Digitale alla Sapienza"
+                alt="lad-sapienza"
+              >
                 <StaticImage
                   src="../../static/images/logos/lad-blue.png"
                   width={200}
@@ -135,7 +173,11 @@ const Footer = () => {
               </a>
             </Col>
             <Col md={3} sm={6} xs={6} className="d-flex justify-content-center">
-              <a href="https://atlas.paths-erc.eu/" title="PAThs: Archaeological Atlas of Coptic Literature">
+              <a
+                href="https://atlas.paths-erc.eu/"
+                alt="paths-erc"
+                title="PAThs: Archaeological Atlas of Coptic Literature"
+              >
                 <StaticImage
                   src="../../static/images/logos/paths.png"
                   width={200}

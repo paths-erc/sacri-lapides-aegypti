@@ -26,7 +26,6 @@ const Wrapper = styled.section`
     font-weight: bolder;
     text-transform: capitalize;
     color: #822433;
-    /* text-decoration-color: rgb(0, 103, 120); */
   }
   .section-title.right {
     text-align: right;
