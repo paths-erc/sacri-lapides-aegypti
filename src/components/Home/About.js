@@ -1,5 +1,4 @@
 import React from "react";
-import { withPrefix } from "gatsby";
 
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
