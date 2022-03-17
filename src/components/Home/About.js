@@ -42,15 +42,6 @@ const About = () => {
             </Col>
           </Row>
           <Row xs={1} md={2} className="mx-5">
-            {/* <Col>
-              <img
-                src="/images/logos/sla.svg"
-                objectFit="cover"
-                width={350}
-                className="my-5"
-                alt="logo-sacri-lapides-aegypti"
-              />
-            </Col> */}
             <Col md={{ offset: 6 }}>
               <Title title="goals" align="left" />
               <p>
