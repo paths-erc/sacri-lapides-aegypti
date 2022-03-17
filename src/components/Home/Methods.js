@@ -21,18 +21,26 @@ const Methods = () => {
           <Row xs={1} md={3} className="mx-5">
             <Col>
               <Card>
-                <Link to="https://docs.paths-erc.eu/data/">
+                <a
+                  href="https://docs.paths-erc.eu/data/"
+                  alt="paths-erc"
+                  title="paths-erc"
+                >
                   <StaticImage
                     src="../../../static/images/other/1-card.jpg"
                     width={500}
                     objectFit="scale-down"
                   />
-                </Link>
+                </a>
                 <Card.Body>
                   <Card.Title>First Step</Card.Title>
-                  <Link to="https://docs.paths-erc.eu/data/">
+                  <a
+                    href="https://docs.paths-erc.eu/data/"
+                    alt="paths-erc"
+                    title="paths-erc"
+                  >
                     “PAThs” DATA REPOSITORY
-                  </Link>
+                  </a>
                   <Card.Text>
                     Collection and georeferencing on GIS platform of several and
                     diverse historical historical cartographical sources of
@@ -44,18 +52,26 @@ const Methods = () => {
             </Col>
             <Col>
               <Card>
-                <Link to="https://docs.paths-erc.eu/data/svp">
+                <a
+                  href="https://docs.paths-erc.eu/data/svp"
+                  alt="paths-erc"
+                  title="paths-erc"
+                >
                   <StaticImage
                     src="../../../static/images/other/2-card.jpg"
                     width={500}
                     objectFit="scale-down"
                   />
-                </Link>
+                </a>
                 <Card.Body>
                   <Card.Title>Second Step</Card.Title>
-                  <Link to="https://docs.paths-erc.eu/data/svp">
+                  <a
+                    href="https://docs.paths-erc.eu/data/svp"
+                    alt="paths-erc"
+                    title="paths-erc"
+                  >
                     SVP PROTOCOL SPECIFICATIONS
-                  </Link>
+                  </a>
                   <Card.Text>
                     Vectorization of geo-referenced plants on GIS platform using
                     a protocol (SPV) developed by “PAThs” team members.
@@ -65,18 +81,26 @@ const Methods = () => {
             </Col>
             <Col>
               <Card>
-                <Link to="https://docs.paths-erc.eu/data/demo/">
+                <a
+                  href="https://docs.paths-erc.eu/data/demo/"
+                  alt="paths-erc"
+                  title="paths-erc"
+                >
                   <StaticImage
                     src="../../../static/images/other/3-card.jpg"
                     width={500}
                     objectFit="scale-down"
                   />
-                </Link>
+                </a>
                 <Card.Body>
                   <Card.Title>Third Step</Card.Title>
-                  <Link to="https://docs.paths-erc.eu/data/demo/">
+                  <a
+                    href="https://docs.paths-erc.eu/data/demo/"
+                    alt="paths-erc"
+                    title="paths-erc"
+                  >
                     LIVE DEMO
-                  </Link>
+                  </a>
                   <Card.Text>
                     Proposal of chronological phases, reconstruction hypothesis,
                     etc., which can be easily encoded with the help of minimal
