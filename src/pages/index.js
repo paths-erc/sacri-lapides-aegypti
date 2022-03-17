@@ -51,10 +51,10 @@ const Index = ({ data }) => {
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=NpaEYD1cCEf6bmrpKKm9"
                   />
-                  {/* {data.allMarkdownRemark.nodes.map((node, i) => (
+                  {data.allMarkdownRemark.nodes.map((node, i) => (
                     <Marker
                       key={i}
-                      position={(node.frontmatter.lat, node.frontmatter.lng)}
+                      position={[node.frontmatter.lat, node.frontmatter.lng]}
                     >
                       {node.frontmatter.title ? (
                         <Popup>{node.frontmatter.title}</Popup>
@@ -62,7 +62,7 @@ const Index = ({ data }) => {
                         ""
                       )}
                     </Marker>
-                  ))} */}
+                  ))}
                 </MapContainer>
               </Container>
             </Row>
