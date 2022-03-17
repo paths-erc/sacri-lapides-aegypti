@@ -1,6 +1,7 @@
 import React from "react";
 import { withPrefix } from "gatsby";
 
+import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -14,12 +15,12 @@ const About = () => {
         <Container className="about">
           <Row xs={1} md={2} className="mx-5 ">
             <Col>
-              <img
-                src={withPrefix(`/images/logos/sla.svg`)}
+              <StaticImage
+                src="../../static/images/logos/sla.svg"
+                width={300}
                 objectFit="cover"
-                width={350}
-                className="my-5"
-                alt="logo-sacri-lapides-aegypti"
+                title="Sacri Lapides Aegypti"
+                alt="Sacri Lapides Aegypti"
               />
             </Col>
             <Col>
