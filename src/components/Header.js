@@ -6,7 +6,7 @@ import { withPrefix } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
-import SlaLogo from "../../static/images/logos/sla.svg";
+import SlaLogo from "../../static/images/logos/sla.png";
 import SapienzaLogo from "../../static/images/logos/sapienza_logo.png";
 import CattedraLogo from "../../static/images/logos/logo_cattedra.png";
 
