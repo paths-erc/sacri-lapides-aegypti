@@ -108,4 +108,8 @@ Two red granite column bases with hexagonal pedestal and cylindrical upper secti
 - lead seals (Goddio, Fabre 2006, nn. cat. 47-53, p. 191);
 - gold ring (Goddio, Fabre 2006, n. cat. 66, p. 243);
 - gold and stones pendants (Goddio, Fabre 2006, nn. cat. 86-88, p. 245);
-- fragment of gold jewellery (Goddio, Fabre 2006, p. 246);
+- fragment of gold jewellery (Goddio, Fabre 2006, p. 246).
+
+## Textual documentation
+
+To see/download the list of epigraphic inscriptions related to East Canopus [click here](east-canopus-inscription.pdf)

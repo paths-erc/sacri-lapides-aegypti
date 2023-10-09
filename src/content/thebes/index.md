@@ -237,3 +237,7 @@ To the east of the Monastery of Phoibammon, in the north-eastern corner of the T
 - Wipszycka, Ewa, 1997. Le istituzioni ecclesiastiche in Egitto dalla fine del III all’inizio dell’VIII secolo, in _L’Egitto cristiano: aspetti e problemi in età tardo-antica (Studia Ephemeridis Augustinianum 56)_ edited by A. Camplani, 219-271. Roma.
 - Wipszycka, Ewa, 2001. Resources and Economic Activities of the Egyptian Monastic Communities (4th -8 th Century), in _Journal of Juristic Papyrology_, 41, 2001, 159-263.
 - Wipszycka, Ewa, 2009. _Moines et communautés monastiques en Égypte (IVe-VIII esiècles) (Journal of Juristic Papyrology Supplement 11)_, Warsaw.
+
+## Textual documentation
+
+To see/download the list of epigraphic inscriptions related to Thebes [click here](thebes_inscription.pdf)
