@@ -65,6 +65,8 @@ const Person = (d) => {
             {persData.position} | {persData.uni}
           </Card.Text>
           <Card.Text className="affiliation">{persData.affiliation}</Card.Text>
+          <hr></hr>
+          <Card.Text className="job">{persData.job}</Card.Text>
           <Card.Text className="icon">
             {iconList.map((i, ik) => {
               if (persData[i.id]) {
@@ -93,6 +95,7 @@ const Team = () => {
       affiliation:
         " Full Professor of Egyptology and Coptic Studies, Honorary Professor at the University of Hamburg and Director of DigiLab Sapienza",
       uni: "Sapienza University of Rome",
+      job: "Principal Investigator of the Sacri lapides Aegypti project",
       unisite: "https://www.lettere.uniroma1.it/users/paola-buzi",
       academia: "https://uniroma1.academia.edu/PaolaBuzi",
       iris: "https://iris.uniroma1.it/simple-search?filter_field_1=author&filter_type_1=contains&filter_value_1=paola+buzi&query=&main-query-submit=Cerca",
@@ -118,6 +121,7 @@ const Team = () => {
       affiliation:
         "Researcher of Metodologie della Ricerca Archeologica (L-ANT/10) and member of the Laboratorio di Archeologia Digitale at Sapienza University of Rome",
       uni: "Sapienza University of Rome",
+      job: "Web Designer of the Sacri lapides Aegypti web site",
       github: "https://github.com/ddomizia",
       academia: "https://uniroma1.academia.edu/domiziaderasmo",
       iris: "https://iris.uniroma1.it/simple-search?query=Domizia+D%27Erasmo&needescape=1",
@@ -131,12 +135,14 @@ const Team = () => {
       affiliation:
         "Researcher (Tipo A) of Classical Archaeology (L-ANT/07) at University of Campania Luigi Vanvitelli",
       uni: "University of Campania Luigi Vanvitelli",
+      job: "Creator of the Aswan, Elephantine, Marina el-Alamein and Taposiris records",
     },
     {
       name: "Serena Guidone",
       image: "",
       position: "Research Fellow",
-      uni: "Sapienza University of Rome"
+      uni: "Sapienza University of Rome",
+      job: "Creator of the Alexandria, Dendera, East Canopus and Marea records",
     },
     {
       name: "Elisabetta Falduto",
@@ -153,6 +159,25 @@ const Team = () => {
       affiliation:
         "Research Fellow in Egyptology and Coptic Studies (L-OR/02) for the project Sacri lapides Aegypti",
       uni: "Sapienza University of Rome",
+      job: "Creator of the Thebes record",
+    },
+    {
+      name: "Federica Pancin",
+      image: "/other/fpancin.jpg",
+      position: "Research Fellow",
+      affiliation:
+        "Research Fellow for the project Sacri lapides Aegypti",
+      uni: "Sapienza University of Rome",
+      job: "Creator of the catalogue of inscriptions from Thebes",
+    },
+    {
+      name: "Alessandro Piccolo",
+      image: "",
+      position: "Research Fellow",
+      affiliation:
+        "Research Fellow for the project Sacri lapides Aegypti",
+      uni: "Sapienza University of Rome",
+      job: "Creator of the catalogue of inscriptions from Alexandria, East Canopus and Taposirs",
     },
   ];
 
@@ -237,6 +262,9 @@ const Wrapper = styled.section`
     -webkit-transform-origin: top left;
     -ms-transform-origin: top left;
     transform-origin: top left;
+  }
+  .job {
+    font-weight: 400;
   }
 `;
 
