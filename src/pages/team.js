@@ -103,7 +103,7 @@ const Team = () => {
     {
       name: "Julian Bogdani",
       image: "/other/jbogdani.jpg",
-      position: "Assistant Professor",
+      position: "Associate Professor",
       affiliation:
         "Assistant Professor of Metodologie della Ricerca Archeologica (L-ANT/10), Director of the Archaeological Mission at Çuka e Ajtoit (Albania) and Director of the Laboratorio di Archeologia Digitale at Sapienza University of Rome",
       uni: "Sapienza University of Rome",
