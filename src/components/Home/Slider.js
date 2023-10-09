@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import Carousel from "react-bootstrap/Carousel";
 
-import SlaLogo from "../../../static/images/logos/sla.svg";
+import SlaLogo from "../../../static/images/logos/sla-animal.svg";
 
 //markup
 const Slider = () => {
