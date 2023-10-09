@@ -244,6 +244,6 @@ Archaeological excavation brought to light very poor remains of Late Antique bui
 - Tkackzow, B. 1990. “Archaeological source from the earliest churches in Alexandria”, in _Coptic Studies (Act of the Third International Congress of Coptic Studies (Warsaw, 20-25 August 1984)_, 431-435. Varsowe.
 - Tkackzow, B. 1993._, The topography of ancient Alexandria. An archaeological map_, Varsovie.
 
-## Textual documentation
+## Epigraphic documentation
 
-To see/download the list of epigraphic inscriptions related to Alexandria [click here](alexandria_inscription.pdf)
+To see/download the list of epigraphic documentation related to Alexandria [click here](alexandria_inscription.pdf)

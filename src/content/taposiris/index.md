@@ -198,6 +198,6 @@ A fragment of a small Corinthian crystalline marble capital (height 32 cm; lower
 - Vörös, G. 2007. “1998-2004: Taposiris Magna”, in _Egyptian temple architecture: 100 years of hungarian excavations in Egypt, 1907 - 2007_ edited by G. Vörös, 96-115. Budapest.
 - Ward Perkins, J.B. 1946. “The Monastery of Taposiris Magna”, in _Bulletin de la Société royale d’archéologie d’Alexandrie_, 36: 48-53.
 
-## Textual documentation
+## Epigraphic documentation
 
-To see/download the list of epigraphic inscriptions related to Taposiris [click here](taposiris_inscription.pdf)
+To see/download the list of epigraphic documentation related to Taposiris [click here](taposiris_inscription.pdf)
