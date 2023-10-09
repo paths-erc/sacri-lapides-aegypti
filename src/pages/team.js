@@ -172,7 +172,7 @@ const Team = () => {
     },
     {
       name: "Alessandro Piccolo",
-      image: "",
+      image: "/other/apiccolo.jpg",
       position: "Research Fellow",
       affiliation:
         "Research Fellow for the project Sacri lapides Aegypti",
