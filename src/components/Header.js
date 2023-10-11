@@ -6,23 +6,8 @@ import { withPrefix } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
-import SlaLogo from "../../static/images/logos/sla.svg";
-import SapienzaLogo from "../../static/images/logos/sapienza_logo.png";
-import CattedraLogo from "../../static/images/logos/logo_cattedra.png";
+import { StaticImage } from "gatsby-plugin-image";
 
-//styles
-const ImgLogoSLA = {
-  width: "100px",
-  marginLeft: 50,
-};
-const ImgLogoSapienza = {
-  width: "200px",
-  marginLeft: 50,
-};
-const ImgLogoCattedra = {
-  width: "66px",
-  marginLeft: 50,
-};
 
 const navLink = {
   marginLeft: "1rem",
@@ -36,28 +21,31 @@ const Header = () => {
     <Wrapper>
       <Navbar fixed="top" expand="lg">
         <Navbar.Brand href={withPrefix(`/`)}>
-          <img
-            style={ImgLogoSLA}
-            src={SlaLogo}
-            className="d-md-inline-block align-top d-none"
-            alt="Sacri lapides Aegypti"
-          />
-          <a href="https://www.uniroma1.it/it/pagina-strutturale/home">
-            <img
-              style={ImgLogoSapienza}
-              src={SapienzaLogo}
-              className="d-md-inline-block align-top d-none"
-              alt="Sapienza Università di Roma"
+          <StaticImage
+              src="../../static/images/logos/sla.svg"
+              width={100}
+              title="Sacri Lapides Aegypti"
+              alt="Sacri Lapides Aegypti"
+              className="ms-3"
             />
-          </a>
-          <a href="https://sites.google.com/uniroma1.it/cattedra-egittologia-sapienza">
-            <img
-              style={ImgLogoCattedra}
-              src={CattedraLogo}
-              className="d-md-inline-block align-top d-none"
-              alt="Cattedra di Egittologia e Civiltà Copta Sapienza"
+        </Navbar.Brand>
+        <Navbar.Brand href="https://www.uniroma1.it/">
+          <StaticImage
+              src="../../static/images/logos/sapienza_logo.png"
+              width={200}
+              title="Sacri Lapides Aegypti"
+              alt="Sacri Lapides Aegypti"
+              className="ms-3"
             />
-          </a>
+        </Navbar.Brand>
+        <Navbar.Brand href="https://sites.google.com/uniroma1.it/cattedra-egittologia-sapienza">
+          <StaticImage
+              src="../../static/images/logos/logo_cattedra.png"
+              width={66}
+              title="Sacri Lapides Aegypti"
+              alt="Sacri Lapides Aegypti"
+              className="ms-3"
+            />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">

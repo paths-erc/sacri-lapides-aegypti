@@ -2,11 +2,14 @@ import React from "react";
 
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
+
 import { StaticImage } from "gatsby-plugin-image";
 
 import Carousel from "react-bootstrap/Carousel";
 
 import SlaLogo from "../../../static/images/logos/sla-animal.svg";
+import carImg1 from "../../../static/images/other/home-slider-1.jpg";
+import carImg2 from "../../../static/images/other/home-slider-2.jpg";
 
 //markup
 const Slider = () => {
@@ -32,16 +35,13 @@ const Slider = () => {
         <section>
           <Carousel>
             <Carousel.Item interval={9000}>
-              <StaticImage
-                src="../../../static/images/other/home-slider-1.jpg"
-                objectFit="contain"
-              />
+              <img className="d-block w-100" src={carImg1} alt="Sacri Lapides Aegypti map 1" />
+
               <Carousel.Caption className="mx-5">
-                <img
-                  className="logo d-none d-md-inline-block"
-                  src={SlaLogo}
-                  alt="sacri-lapides"
-                />
+                <StaticImage 
+                  src="../../../static/images/logos/sla-animal.svg" 
+                  className="logo"
+                  alt="Sacri lapides Aegypti"/>
                 <h3>Sacri lapides Aegypti</h3>
                 <h5>
                   From the scribes of temples to the copyists of scriptoria. The
@@ -51,8 +51,7 @@ const Slider = () => {
                 <p>A FARE MIUR Project hosted at Sapienza University of Rome</p>
                 <a
                   href="https://saras.uniroma1.it/"
-                  alt="saras-uniroma1"
-                  title="saras-uniroma1"
+                  title="Dept. of History, Anthropology, Religions, Arts and Perfoming Arts Sapienza University of Rome"
                 >
                   <p>
                     Dept. of History, Anthropology, Religions, Arts and
@@ -62,10 +61,7 @@ const Slider = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={9000}>
-              <StaticImage
-                src="../../../static/images/other/home-slider-2.jpg"
-                objectFit="scale-down"
-              />
+              <img className="d-block w-100" src={carImg2} alt="Sacri Lapides Aegypti map 2" />
               <Carousel.Caption className="mx-5">
                 <img
                   className="logo d-none d-md-inline-block"
