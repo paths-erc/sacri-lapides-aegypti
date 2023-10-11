@@ -21,6 +21,7 @@ const Footer = () => {
       <footer className="footer">
         <Container>
           <Row className="d-flex justify-content-center">
+
             <Col className="d-flex justify-content-center" md={3} sm={6} xs={6}>
               <Link to="/">
                 <StaticImage
@@ -32,6 +33,7 @@ const Footer = () => {
                 />
               </Link>
             </Col>
+
             <Col md={3} sm={6} xs={6}>
               <p className="project-name">
                 “<em>Sacri lapides Aegypti</em>”: from the scribes of temples to
@@ -40,25 +42,26 @@ const Footer = () => {
                 to Christian Egypt
               </p>
             </Col>
+
             <Col md={3} sm={6} xs={6}>
               <p>
                 FARE MIUR Project hosted at
-                <br />
                 Sapienza University of Rome
-                <br />
-                Chair of Egyptology and Coptic civilization
-                <br />
+                Chair of Egyptology and Coptic civilization                
+              </p>
+              <p>
                 <a
                   href="https://saras.uniroma1.it/"
                   alt="saras-uniroma1"
                   title="saras-uniroma1"
                 >
-                  <p>
-                    Dept. of History, Anthropology, Religions, Arts and
-                    Perfoming Arts
-                  </p>
+                  Dept. of History, Anthropology, Religions, Arts and
+                  Perfoming Arts
                 </a>
-                <br />© {new Date().getFullYear()}{" "}
+              </p>
+
+              <p>
+                &copy; {new Date().getFullYear()}{" "}
                 <em>Sacri lapides Aegypti</em> Team
                 <br />
                 <a
@@ -68,7 +71,6 @@ const Footer = () => {
                 >
                   CC BY-NC-SA 4.0
                 </a>
-                <br />
               </p>
               <div className="icon">
                 <a
