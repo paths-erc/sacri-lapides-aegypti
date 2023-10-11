@@ -8,7 +8,6 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 import { StaticImage } from "gatsby-plugin-image";
 
-
 const navLink = {
   marginLeft: "1rem",
   marginRight: "1rem",

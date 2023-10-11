@@ -7,10 +7,6 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import Carousel from "react-bootstrap/Carousel";
 
-import SlaLogo from "../../../static/images/logos/sla-animal.svg";
-import carImg1 from "../../../static/images/other/home-slider-1.jpg";
-import carImg2 from "../../../static/images/other/home-slider-2.jpg";
-
 //markup
 const Slider = () => {
   return (
@@ -23,11 +19,11 @@ const Slider = () => {
                 document the processes of transformation of sacred spaces for
                 worship, identity and memory from Pharaonic and Ptolemaic-Roman
                 Egypt to Christian Egypt"
-        />
+          />
         <meta
           name="keywords"
           content="egypt, egyptology, archaeology, late antique egypt, egyptian topography"
-        ></meta>
+          />
         <meta name="robots" description="index" />
       </Helmet>
 
@@ -35,7 +31,10 @@ const Slider = () => {
         <section>
           <Carousel>
             <Carousel.Item interval={9000}>
-              <img className="d-block w-100" src={carImg1} alt="Sacri Lapides Aegypti map 1" />
+            <StaticImage 
+                className="d-block w-100" 
+                src="../../../static/images/other/home-slider-1.jpg" 
+                alt="Sacri Lapides Aegypti map 1" />
 
               <Carousel.Caption className="mx-5">
                 <StaticImage 
@@ -61,13 +60,15 @@ const Slider = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={9000}>
-              <img className="d-block w-100" src={carImg2} alt="Sacri Lapides Aegypti map 2" />
+              <StaticImage 
+                className="d-block w-100" 
+                src="../../../static/images/other/home-slider-2.jpg" 
+                alt="Sacri Lapides Aegypti map 2" />
               <Carousel.Caption className="mx-5">
-                <img
-                  className="logo d-none d-md-inline-block"
-                  src={SlaLogo}
-                  alt="sacri-lapides"
-                />
+                <StaticImage 
+                  src="../../../static/images/logos/sla-animal.svg"
+                  className="d-block w-100" 
+                  alt="Sacri Lapides Aegypti map 1" />
                 <h3>Sacri lapides Aegypti</h3>
                 <h5>
                   From the scribes of temples to the copyists of scriptoria. The
