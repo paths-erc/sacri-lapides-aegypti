@@ -67,7 +67,7 @@ const Slider = () => {
               <Carousel.Caption className="mx-5">
                 <StaticImage 
                   src="../../../static/images/logos/sla-animal.svg"
-                  className="d-block w-100" 
+                  className="logo" 
                   alt="Sacri Lapides Aegypti map 1" />
                 <h3>Sacri lapides Aegypti</h3>
                 <h5>
