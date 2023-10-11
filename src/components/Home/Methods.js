@@ -29,6 +29,7 @@ const Methods = () => {
                     src="../../../static/images/other/1-card.jpg"
                     width={500}
                     objectFit="scale-down"
+                    alt=""
                   />
                 </a>
                 <Card.Body>
@@ -60,6 +61,7 @@ const Methods = () => {
                     src="../../../static/images/other/2-card.jpg"
                     width={500}
                     objectFit="scale-down"
+                    alt=""
                   />
                 </a>
                 <Card.Body>
@@ -89,6 +91,7 @@ const Methods = () => {
                     src="../../../static/images/other/3-card.jpg"
                     width={500}
                     objectFit="scale-down"
+                    alt=""
                   />
                 </a>
                 <Card.Body>
